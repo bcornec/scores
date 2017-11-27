@@ -14,124 +14,124 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-global={\key fa \major \time 2/2  \skip 1*29 \bar "||"
+global={\key fa \major \time 2/1  \skip 1*29 \bar "||"
 }
 
 cantus={
 	\relative do' {
-	  r4 re4 fa4. sol8 |
-	  la4 la sib4. la16 sol16 |
-	  fa4 sol sib la~|
-	  la8 sol sol4~ sol fad4 |
+	  r2 re2 fa2. sol4 |
+	  la2 la sib2. la8 sol8 |
+	  fa2 sol sib la~ |
+	  la4 sol sol2~ sol fad2 |
 %5
-	  sol2 r4 sib |
-	  sib4 sib sib4. la8|
-	  sol4 fa4~ fa8 mib8 re do |
-	  sib4 sib' la do~ |
-	  do8[ sib] la sol16 fa sol4 do~|
+	  sol1 r2 sib |
+	  sib2 sib sib2. la4 |
+	  sol2 fa2~ fa4 mib4 re do |
+	  sib2 sib' la do~ |
+	  do4[ sib] la sol8 fa sol2 do~ |
 %10
-	  do8 sib sib4~ sib la4 |
-	  sib2 r4 re4 |
-	  re4 re re4. do16 sib |
-	  la4 sib do8[ sib] do16 sib la sol |
-	  fa8 sol la4~ la sib4~ |
+	  do4 sib sib2~ sib la2 |
+	  sib1 r2 re2 |
+	  re2 re re2. do8 sib |
+	  la2 sib do4[ sib] do8 sib la sol |
+	  fa4 sol la2~ la sib2~ |
 %15
-	  sib8 la sol fa sol2 |
-	  fa2 r4 la |
+	  sib4 la sol fa sol1 |
+	  fa1 r2 la |
 % split
-	  la4 la la la |
-	  sib4. la16 sol fa8 sol la sib|
-	  do4 re4~ re8 do8 re4~ |
+	  la2 la la la |
+	  sib2. la8 sol fa4 sol la sib |
+	  do2 re2~ re4 do4 re2~ |
 %20
-	  re8 do re4 mib re4~ |
-	  re8 do do4~ do si4 |
-	  do2 r2 |
-	  do4 do do do |
-	  re4. do8 sib la sol4 |
+	  re4 do re2 mib re2~ |
+	  re4 do do2~ do si2 |
+	  do1 r1 |
+	  do2 do do do |
+	  re2. do4 sib la sol2 |
 %25
-	  fa4 sol la8 sol fa mi |
-	  re4. mi8 fa[ sol] la sol16 la|
-	  sib4 la4~ la8 sol8 fa mi |
-	  re4 sol4~ sol fad4 |
-	  sol1 |
+	  fa2 sol la4 sol fa mi |
+	  re2. mi4 fa[ sol] la sol8 la |
+	  sib2 la2~ la4 sol4 fa mi |
+	  re2 sol2~ sol fad2 |
+	  sol\breve |
 	}
 }
 tenor={
 	\relative do' {
-	r4 re4 re re |
-	do4. sib16 la sol8 la sib do |
-	re4 mib re do~|
-	do8 sib la sol la2|
+	r2 re2 re re |
+	do2. sib8 la sol4 la sib do |
+	re2 mib re do~ |
+	do4 sib la sol la1 |
 %5
-	sol1 |
-	r4 re'4 re re |
-	mib4 re sib2 |
-	re2 do |
-	fa4. mi16 re mi4 fa |
+	sol\breve |
+	r2 re'2 re re |
+	mib2 re sib1 |
+	re1 do |
+	fa2. mi8 re mi2 fa |
 %10
-	re4 mib do2 |
-	sib1 |
-	r4 sib sib sib |
-	do4 re mib2 |
-	re4. do16 sib do4 re |
+	re2 mib do1 |
+	sib\breve |
+	r2 sib sib sib |
+	do2 re mib1 |
+	re2. do8 sib do2 re |
 %15
-	mi4 fa4~ fa8 mi16 re mi4 |
-	fa1 |
+	mi2 fa2~ fa4 mi8 re mi2 |
+	fa\breve |
 % split
-	r4 fa4 fa fa |
-	sol4. fa8 re4 re |
-	do4 fa4~ fa8 mi8 re do |
+	r2 fa2 fa fa |
+	sol2. fa4 re2 re |
+	do2 fa2~ fa4 mi4 re do |
 %20
-	sib2 do4 re |
-	mi4 fa re2 |
-	do1 |
-	r4 la4 la la |
-	sib4. do8 re4 mib |
+	sib1 do2 re |
+	mi2 fa re1 |
+	do\breve |
+	r2 la2 la la |
+	sib2. do4 re2 mib |
 %25
-	re4 sib4 do2 |
-	sib2 la4 fa |
-	sol4 do4~ do re4 |
-	sib4 sol la2 |
-	sol1 |
+	re2 sib2 do1 |
+	sib1 la2 fa |
+	sol2 do2~ do re2 |
+	sib2 sol la1 |
+	sol\breve |
   }
 }
 bassus={
 	\relative do' {
-	r4 re4 sib4. la8 |
-	fa4 fa sol4. fa16 mi |
-	re4 do re fa~ |
-	fa4 sol4 re2 |
+	r2 re2 sib2. la4 |
+	fa2 fa sol2. fa8 mi |
+	re2 do re fa~ |
+	fa2 sol2 re1 |
 %5
-	r4 re' re re |
-	mib4 re sol,4. fa8 |
-	mib4 sib'4~ sib8 do8 re4~ |
-	re4 sib fa2 |
-	r4 fa do' la |
+	r2 re' re re |
+	mib2 re sol,2. fa4 |
+	mib2 sib'2~ sib4 do4 re2~ |
+	re2 sib fa1 |
+	r2 fa do' la |
 %10
-	sib8.[ la16] sol8 fa16 mi fa2 |
-	sib,2 r4 sib' |
-	sib4. la8 sol4 sol |
-	fa4. mib16 re do2 |
-	sib'4. la16 sol fa8 la sol4~ |
+	sib4. la8 sol4 fa8 mi fa1 |
+	sib,1 r2 sib' |
+	sib2. la4 sol2 sol |
+	fa2. mib8 re do1 |
+	sib'2. la8 sol fa4 la sol2~ |
 %15
-	sol8 fa fa4 do'2 |
-	fa,2 r4 re |
+	sol4 fa fa2 do'1 |
+	fa,1 r2 re |
 % split
-	re4 re re fa |
-	mib2 sib'4 fa8 sol |
-	la4 sib8 do re mi fa4~ |
+	re2 re re fa |
+	mib1 sib'2 fa4 sol |
+	la2 sib4 do re mi fa2~ |
 %20
-	fa8 mi re4 do8[ sib16 la] sib8 la16 sib |
-	do4 fa, sol2 |
-	r4 do, fa2 |
-	fa4 fa4~ fa8 mib8 re do |
-	sib8 sib'4 la8 sol fa mib4 |
+	fa4 mi re2 do4 sib8 la sib4 la8 sib |
+	do2 fa, sol1 |
+	r2 do, fa1 |
+	fa2 fa2~ fa4 mib4 re do |
+	sib4 sib'2 la4 sol fa mib2 |
 %25
-	sib'4. la16 sol fa2 |
-	sol4. fa8 re2 |
-	sol4 fa4~ fa8 mi8 re4 |
-	sol4 mib re2 |
-	sol1 |
+	sib'2. la8 sol fa1 |
+	sol2. fa4 re1 |
+	sol2 fa2~ fa4 mi4 re2 |
+	sol2 mib re1 |
+	sol\breve |
   }
 }
 textAcantus=\lyricmode {
