@@ -2,19 +2,17 @@
 \include "italiano.ly"
 #(set-global-staff-size 16)
 
-\header{
+\header {
 	composer="Guillaume Dufay (1397-1470)"
 	title="Agnus Dei I (missa Ave Regina Caelorum)"
-	footer="Edité avec LilyPond"
-	tagline="(c) Bruno Cornec - CC-BY-SA 4.0 - Edited with LilyPond"
-	poet = ""
+	%tagline="(c) Bruno Cornec - CC-BY-SA 4.0 - Edited with LilyPond"
+	tagline=""
+	poet = "                (c) Bruno Cornec & Lilypond - CC-BY-SA 4.0"
 }
-
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-global={\key do \major \time 3/2  \skip 1*48 \bar "||"
+global={\key do \major \time 3/2  \skip 1*48 \bar "|"
 }
 
 cantus={
@@ -57,6 +55,10 @@ cantus={
 	  si2. do4 re2 |
 	  sol,2 la4 do2 si4 |
 	  la2 sol r
+	  \time 3/1
+	  do1 si sol |
+	  la2 si do1 re |
+	  mi2. do4 do\breve | \bar "||"
 	}
 }
 alto={
@@ -99,6 +101,10 @@ alto={
 	sol2. fa4 re2 |
 	r4 do2. la4 si |
 	do2 si r|
+	\time 3/1
+	  sol'1 sol do, |
+	  re1 sol,2 sol'2. fa2 sol4 |
+	  mi4 fa sol2 ~ sol\breve
 	}
 }
 tenor={
@@ -141,6 +147,10 @@ tenor={
 	  re1. |
 	  mi1. |
 	  mi1 r2|
+	\time 3/1
+	  mi1 re mi|
+	  fa1 mi re |
+	  do\breve.
   }
 }
 bassus={
@@ -158,8 +168,8 @@ bassus={
 %10
 	  fa,2 la1 |
 	  sol1.
-	  do1. |
-	  mi,4. fa8 sol4 la sol mi |
+	  do,1. |
+	  mi4. fa8 sol4 la sol mi |
 	  sol4 fa sol2 re |
 %15
 	  do2 re si |
@@ -183,10 +193,14 @@ bassus={
 	  sol'2. la4 si2 |
 	  do2 la2. sol4 |
 	  la2 mi r2 |
+	\time 3/1
+	  do1 sol'2. fa4 mi1|
+	  re1 do si |
+	  do\breve.
   }
 }
 textAcantus=\lyricmode {
-  A -- _ _ gnus _ _ _ _ De -- _ _ i
+  A -- _ _ gnus _ _ _ _ _ De -- _ i
   A -- _ _ _ _ _ _ gnus _ _ De -- _ _ _ _ _ _ i
   A -- _ _ _ gnus _ De -- _ _ _ _ _ _ _ i
   Qui tol -- _ _ _ lis _ pe -- _ ca -- _ ta
@@ -195,6 +209,7 @@ textAcantus=\lyricmode {
   mun -- _ _ _ _ _ _ _ _ di
   Qui _ _ _ tol -- _ lis pe -- ca -- _ _ _ _ _ _ _ _ _ _ _ _ ta
   mun -- _ _ _ _ _ _ _ _ di
+  Mi -- se -- re -- _ _ _ re no -- _ bis
 }
 textAalto=\lyricmode {
   A -- _ gnus _ _ De -- i
@@ -206,64 +221,121 @@ textAalto=\lyricmode {
   mun -- _ _ _ _ di
   Qui tol -- _ _ _ _ _ _ _ _ _ _ _ lis pe -- _ _ _ _ _ _ ca -- _ _ ta
   mun -- _ _ _ _ _ _ di
+  Mi -- se -- re -- _ re no -- _ _ _ _ bis
 }
 textAtenor=\lyricmode {
+  A -- _ _ _ _ _ _ _ _ _ _ _ ve
+  Re -- gi -- _ na cae -- _ _ lo -- _ _ rum
+  A -- _ _ _ _ _ _ _ _ _ ve
+  Do -- mi -- _ na
+  An -- ge -- _ lo -- _ _ rum
 }
 textAbassus=\lyricmode {
+  A -- _ gnus _ _ _ De -- _ i
+  A -- _ _ gnus De -- _ _  _ _ i
+  A -- _ _ _ gnus _ De -- _ i
+  Qui _ _ _ tol -- _ _ _ lis pe -- _ ca -- _ ta
+  mun -- di
+  Qui tol -- _ lis pe -- _ ca -- ta
+  mun -- _ _ _ _ _ di
+  Qui _ tol -- _ lis pe -- _ _ ca -- _ _ ta
+  mun -- _ _ _ _ _ _ di
+  Mi -- se -- _ re -- _ re no -- bis
 }
 
+%#(set-global-staff-size 14.5)
+
 \score{
-	\context ChoirStaff <<
-		\context Staff = "v1"<<
+  {
+	\new ChoirStaff 
+%% espacer les portées les unes des autres
+	\with {
+	  \override ChoirStaff.staffgroup-staff-spacing.basic-distance = #100 
+	%\override VerticalAxisGroup.default-staff-staff-spacing.basic-distance = #100
+  }
+	  <<
+		\new Staff = "v1"<<
 			\set Staff.instrumentName = "Cantus   "
 			\global
-			\context Voice = "soprano" {
+			\new Voice = "soprano" {
 			  \clef	treble
 			  \cantus
 			}
-		\context Lyrics="l1A" \lyricmode { \lyricsto "soprano" \textAcantus }
+		\new Lyrics="l1A" \lyricmode { \lyricsto "soprano" \textAcantus }
 		>>
 
-
-		\context Staff = "v2"<<
-			\override Staff.VerticalAxisGroup.Y-extent = #'(0 . 0)
+		\new Staff = "v2"<<
 			\set Staff.instrumentName = "Alto  "
 			\global
-			\context Voice = "alto" {
+			\new Voice = "alto" {
 			  \clef "G_8"	
 			  \alto
 		  }
-		\context Lyrics="l2A"  \lyricmode { \lyricsto "alto" \textAalto }
+		\new Lyrics="l2A"  \lyricmode { \lyricsto "alto" \textAalto }
 		>>
 
-		\context Staff = "v3"<<
-			\override Staff.VerticalAxisGroup.Y-extent = #'(0 . 0)
+		\new Staff = "v3"<<
 			\set Staff.instrumentName = "Tenor  "
 			\global
-			\context Voice = "tenor" {
+			\new Voice = "tenor" {
 			  \clef "G_8"	
 			  \tenor
 		  }
-		\context Lyrics="l3A"  \lyricmode { \lyricsto "tenor" \textAtenor }
+		\new Lyrics="l3A"  \lyricmode { \lyricsto "tenor" \textAtenor }
 		>>
 
-		\context Staff ="v4"<<
+		\new Staff ="v4"<<
 			\set Staff.instrumentName = "Bassus  "
 			\global
-			\context Voice = "basse" {
+			\new Voice = "basse" {
 			\clef bass
 			\bassus
 		  }
 		>>
-		\context Lyrics="l4A" \lyricmode { \lyricsto "basse" \textAbassus }
+		\new Lyrics="l4A" \lyricmode { \lyricsto "basse" \textAbassus }
 	>>
+  }
+  \layout {
+    #(layout-set-staff-size 14)
+%	\context {\Lyrics \override LyricText #'font-size = #1.5 }
+	\context {
+       \ChoirStaff
+% ceci fonctionne pour l'espacement entre portées, pas entre systèmes
+    \override StaffGrouper.staff-staff-spacing.basic-distance = #8
+     }
+  }
+  \midi {
+    \tempo 4 = 120
+    }
 }
+
+\paper {
+	linewidth=19.6 \cm
+	interscoreline= 0.0 \cm
+	interscorelinefill= 1.0 \cm
+	textheight= 26.7 \cm
+% ceci fonctionne pour l'espacement entrée portée, pas entre systèmes
+	system-system-spacing.basic-distance = 14
+	min-systems-per-page = #4
+	%bottom-margin = 10\mm
+	last-bottom-spacing = 100\mm
+	% Espace après le titre
+	after-title-spacing = #'(
+                (space . 0) 
+                (padding . 19.5)
+                % (stretchability . 4) 
+                % (minimum-distance . 0)
+                )
+%	pagenumber=no
+%	\translator { \LyricsContext LyricText \override #'font-relative-size = #1 }
+%	\translator { \HaraKiriStaffContext }
+%	\translator { \ScoreContext BarNumber \override #'padding = #2 }
+
+}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %
-  \midi {
-    \tempo 4 = 120
-    }
 
 
