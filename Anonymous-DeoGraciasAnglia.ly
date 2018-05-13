@@ -201,17 +201,13 @@ wordsTwoEmpty = \lyricmode {
   _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 }
 textebasaltus = \lyricmode {
-   De -- o __ _ gra -- ci -- as An -- gli -- _ _ _ a Red -- _ _ de pro vi -- cto -- _ ri -- a.
+   De -- o gra -- ci -- as An -- gli -- _ _ _ _ a Red -- _ _ de pro vi -- cto -- _ ri -- a.
 }
 textebastenor = \lyricmode {
    De -- o __ _ gra -- ci -- as An -- gli -- _ _ _ _ a Red -- _ _ de pro vi -- _ cto -- _ ri -- a.
 }
 textebasbasse = \lyricmode {
-   De -- o gra -- ci -- as An -- gli -- _ _ _ a Red -- _ de pro _ vi -- _ cto -- ri -- a.
-}
-
-bcWordsThreeA = \lyricmode{
-  De -- o gra -- ci -- as An -- gli -- _ _ _ a Red -- _ de pro __ _ vi -- cto -- _ ri -- a.
+   De -- o gra -- ci -- as An -- gli -- _ _ _ a Red -- _ de pro _ vi -- cto -- _ ri -- a.
 }
 
 bcLayout = \layout {
