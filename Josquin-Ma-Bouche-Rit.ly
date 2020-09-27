@@ -90,8 +90,8 @@ PartPOneVoiceOne =  \relative a' {
     e4. c8 c2 | % 68
     e4 f4 g2 | % 69
     e4 f2 d4 | \barNumberCheck #70
-    e2 a,2 \pageBreak | % 71
-    r2 c'2 ~ | % 72
+    e2 a2 \pageBreak | % 71
+    r2 c2 ~ | % 72
     c2 c2 | % 73
     c2 b2 | % 74
     c4 d4. c8 b8 [ a8 ] | % 75
@@ -119,6 +119,7 @@ PartPOneVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Ma
     bou --\skip1 \skip1 che rit et mon "cueur " __\skip1 \skip1 pleu
     --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
     \skip1 \skip1 \skip1 \skip1 \skip1 "re. " __\skip1 \skip1 \skip1
+% Residuum
     \skip1 \skip1 \skip1 Mon cueur pleu -- re et ma bou -- che "rit, "
     __\skip1 \skip1 mon cueur pleu -- "re " __\skip1 \skip1 \skip1 et ma
     bou --\skip1 \skip1 \skip1 \skip1 che "rit, " __\skip1 \skip1 \skip1
@@ -225,15 +226,16 @@ PartPTwoVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Ma
     che "rit, " __\skip1 \skip1 \skip1 \skip1 ma bou -- che rit -- et
     mon cueur pleu --\skip1 \skip1 "re," ma bou -- che "rit " __\skip1
     \skip1 \skip1 \skip1 et mon cueur pleu --\skip1 \skip1 "re, "
-    __\skip1 "et" mon "cueur " __\skip1 \skip1 \skip1 pleu --\skip1
+    __\skip1 "et" mon "cueur " \skip1 pleu __\skip1 \skip1 \skip1
     "re," et mon cueur pleu --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1
     \skip1 "re," ma bou -- che rit et mon cueur pleu -- "re," et mon
-    cueur pleu -- "re," ma bou -- che rit et mon cueur pleu -- "re." Ma
-    bou -- che rit et mon cueur pleu --\skip1 \skip1 "re," ma bou -- che
+    cueur pleu -- "re," ma bou -- che rit et mon cueur pleu -- "re."
+% Residuum
+    Ma bou -- che rit et mon __\skip1 cueur pleu --\skip1 "re," ma bou -- che
     rit et "mon " __\skip1 \skip1 cueur pleu -- "re," ma bou -- che
-    "rit," ma bou -- che "rit," ma bou -- che rit et mon cueur pleu
-    --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "re,"
+    "rit," ma bou -- che "rit," ma bou -- che rit ma bou --che rit
+    __\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
+    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
     et "mon " __\skip1 \skip1 cueur pleu -- "re," et mon cueur pleu --
     "re," ma bou -- che rit et mon cueur pleu -- "re."
     }
@@ -339,17 +341,18 @@ PartPThreeVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Ma
     \skip1 "re," ma bou -- che "rit, " __\skip1 \skip1 \skip1 \skip1 ma
     bou -- che "rit," et mon "cueur " __\skip1 \skip1 pleu --\skip1
     "re," ma bou -- che rit et mon cueur pleu -- "re," ma bou -- che rit
-    et mon -- "cueur " __\skip1 \skip1 \skip1 pleu -- "re," et mon
+    et mon -- "cueur " __\skip1 pleu --\skip1 \skip1 "re," et mon
     "cueur " __\skip1 \skip1 \skip1 pleu -- "re," ma bou -- che "rit "
     __\skip1 \skip1 \skip1 \skip1 et mon cueur pleu -- "re," et mon
-    cueur pleu -- "re," ma bou -- che "rit," et mon cueur pleu -- "re. "
-    __\skip1 Ma bou -- che "rit," ma bou -- che rit et mon cueur pleu --
-    "re," et mon cueur pleu -- "re," et mon cueur pleu --\skip1 "re," ma
+    cueur pleu -- "re," ma bou -- che "rit," et mon cueur pleu -- "re. " __\skip1 
+% Residuum
+    Ma bou -- che "rit," ma bou -- che rit et mon cueur pleu --
+    "re," et mon cueur pleu -- "re," et mon cueur __\skip1 pleu --"re," ma
     bou -- che "rit, " __\skip1 \skip1 \skip1 ma bou -- che "rit "
     __\skip1 \skip1 \skip1 \skip1 et mon cueur pleu -- "re," ma bou --
     che rit et mon cueur pleu -- "re," ma bou -- che "rit," ma bou --
     che "rit," et mon cueur pleu --\skip1 \skip1 "re," ma bou -- che rit
-    et mon cueur pleu --\skip1 \skip1 "re. " __\skip1 \skip1 \skip1
+    __\skip1 \skip1 et mon cueur pleu --"re. " __\skip1 \skip1 \skip1
     \skip1 \skip1
     }
 
@@ -448,13 +451,15 @@ PartPFourVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Ma
     -- "re," ma bou -- che rit et "mon " __\skip1 \skip1 \skip1 \skip1
     cueur pleu -- "re," ma bou -- che "rit, " __\skip1 \skip1 et mon
     cueur pleu -- "re," ma bou -- che "rit, " __\skip1 \skip1 \skip1
-    \skip1 ma bou -- che rit et mon cueur pleu --\skip1 "re, " __\skip1
+    \skip1 ma bou -- che rit et mon --\skip1 cueur pleu "re, " __\skip1
     et "mon " __\skip1 \skip1 cueur pleu -- "re," ma bou -- che rit et
     "mon " __\skip1 \skip1 cueur pleu -- "re," et mon cueur pleu --
-    "re," et mon cueur pleu -- "re," "[et" mon cueur pleu -- "re,]" et
-    mon -- cueur pleu --\skip1 "re." Ma bou -- che "rit," ma bou -- che
-    rit et mon cueur pleu -- "re," ma bou -- che "rit," ma bou -- che
-    rit et mon cueur pleu --\skip1 \skip1 \skip1 "re," ma bou -- che rit
+    "re," et mon cueur pleu -- "re," "et" mon cueur pleu -- "re," et
+    mon -- cueur pleu --\skip1 "re."
+% Residuum
+    Ma bou -- che "rit," ma bou -- che rit et mon cueur pleu -- "re," 
+    ma bou -- che "rit," ma bou -- che rit 
+    et mon cueur pleu --\skip1 \skip1 \skip1 "re," ma bou -- che rit
     et mon cueur pleu -- "re, " __\skip1 et mon cueur pleu --\skip1
     "re," ma bou -- che "rit," ma bou -- che rit et mon cueur pleu --
     "re. " __\skip1
@@ -552,8 +557,10 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Ma
     \skip1 \skip1 et mon cueur pleu -- "re," ma bou -- che rit et mon
     cueur pleu -- "re," ma bou -- che rit et mon cueur pleu -- "re," ma
     bou -- che "rit," ma bou -- che rit et mon cueur pleu -- "re," et
-    mon cueur pleu -- "re," ma bou -- che "rit." Ma bou -- che rit et
-    mon cueur pleu -- "re," ma bou -- che rit et mon cueur pleu -- "re,"
+    mon cueur pleu -- "re," ma bou -- che "rit."
+% Residuum
+    Ma bou -- che rit et mon cueur pleu -- "re," 
+    ma bou -- che rit et mon cueur pleu -- "re,"
     ma bou -- che "rit," ma bou -- che "rit," ma bou -- che rit et mon
     cueur pleu --\skip1 "re," et mon cueur pleu -- "re," et mon cueur
     pleu --\skip1 "re," et mon cueur pleu --\skip1 "re."
@@ -630,7 +637,7 @@ PartPSixVoiceOne =  \relative a {
     R1*2 | \barNumberCheck #70
     r2 a'2 \pageBreak | % 71
     a2 a2 | % 72
-    c2. - "#" b4 | % 73
+    c2. b4 | % 73
     a2 g2 | % 74
     f4. e8 f2 | % 75
     e1 | % 76
@@ -645,18 +652,17 @@ PartPSixVoiceOne =  \relative a {
     }
 
 PartPSixVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t 
-    ma bou -- che rit et "mon " __\skip1 \skip1 \skip1 cueur __\skip1 pleu "re," \skip1
+    ma bou -- che rit et "mon " __\skip1 \skip1 cueur pleu --\skip1 \skip1 "re," __\skip1
     "ma " bou -- che rit et mon __\skip1 "cueur " pleu
     -- "re," et mon "cueur " __\skip1 \skip1 pleu -- "re," 
-    ma bou -- che "rit," ma bou -- che "rit," et mon cueur pleu -- "re," \skip1 
+    ma bou -- che "rit," ma bou -- che "rit," et mon cueur pleu -- "re," __\skip1 
     "ma " bou -- che rit ma bou -- che rit et mon cueur pleu -- "re,"
-    et mon "cueur " __\skip1 \skip1 pleu -- "re," ma bou -- che "rit,"
+    et mon \skip1 "cueur " __\skip1 pleu -- "re," ma bou -- che "rit,"
     ma bou -- che rit et mon cueur pleu -- "re," et mon cueur pleu --
-    "re," et mon cueur pleu -- "re." \skip1 
+    "re," et mon cueur pleu -- "re." __\skip1 
 % Residuum
     "Ma " bou -- che "rit," ma bou -- che "rit," ma bou -- che "rit," 
-    ma bou -- che rit et mon
-    cueur pleu - - - "re," 
+    ma bou -- che rit et mon __\skip1 cueur pleu - - "re," 
 %71
     ma bou -- che rit et mon cueur pleu - - "re," "et" mon - "cueur" - 
     pleu -- "re," et mon cueur pleu -- "re," et mon cueur pleu -- "re."
