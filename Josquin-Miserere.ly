@@ -8,7 +8,7 @@
     title =  "Miserere mei Deus"
     encodingdate =  "2020-10-06"
     poet =  "Psaume 50"
-    composer =  "Josquin des Pres (1450-1521)"
+    composer =  "Josquin Desprez (1450-1521)"
     }
 
 #(set-global-staff-size 14.5142857143)
@@ -189,7 +189,7 @@ PartPOneVoiceOne =  \relative b' {
     b1 g1 | % 168
     g\breve ~ | % 169
     g\breve \bar "||"
-    \break R1*14 \break | % 176
+    \break R1 ^\markup{ \bold\tiny {Secunda pars} } R1*13 \break | % 176
     R1*12 \break | % 182
     r2 \stemUp e2 \stemUp g2 \stemUp e2 | % 183
     \stemUp g2. \stemUp a4 \stemDown b2 \stemDown c2 | % 184
@@ -289,7 +289,7 @@ PartPOneVoiceOne =  \relative b' {
     \stemDown c2 \stemDown b2 a1 | % 287
     g\breve ~ | % 288
     g\breve \bar "||"
-    \pageBreak R1*2 | % 289
+    \pageBreak R1 ^\markup{ \bold\tiny {Tertia pars} } R1 | % 289
     g1 \stemUp g2 \stemUp g2 | \barNumberCheck #290
     \stemUp g2 \stemUp g2 \stemUp g2 \stemUp g2 | % 291
     g1 g1 | % 292
@@ -1299,10 +1299,10 @@ PartPFourVoiceOne =  \relative b {
     g\breve ~ -\markup { \sharp } | % 168
     g\breve ~ | % 169
     g\breve \bar "||"
-    \break e1 ^\markup{ \bold\tiny {Tenor 2} } ^ "1" e1 | \barNumberCheck #170
+    \break e1 e1 | \barNumberCheck #170
     R1*2 | % 171
     e1 e1 | % 172
-    \stemUp f2 -\markup{ \bold\small {Secunda pars} } \stemUp e2 a1 | % 173
+    \stemUp f2 \stemUp e2 a1 | % 173
     \stemUp g2 a1 \stemUp a2 | % 174
     \stemUp a2 \stemUp a2 \stemDown b2 \stemUp a2 | % 175
     \stemDown d4 \stemDown c4 \stemDown b4 \stemUp a4 \stemUp g2 \stemUp
@@ -1744,7 +1744,7 @@ PartPFiveVoiceOne =  \relative e {
     a\breve | % 167
     e'\breve ~ | % 168
     e\breve ~ | % 169
-    e\breve \bar "||"
+    e\breve \bar "||" 
     \break R1*2 | \barNumberCheck #170
     a,1 a1 | % 171
     R1*2 | % 172
@@ -2056,7 +2056,7 @@ PartPFiveVoiceOneLyricsFive =  \lyricmode {\set ignoreMelismata = ##t Mi
                 \context Staff << 
                     \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
                     \context Voice = "PartPOneVoiceOne" {  \PartPOneVoiceOne }
-                    \new Lyrics \lyricsto "PartPOneVoiceOne" { \set stanza = "1." \PartPOneVoiceOneLyricsOne }
+                    \new Lyrics \lyricsto "PartPOneVoiceOne" { \set stanza = "" \PartPOneVoiceOneLyricsOne }
                     >>
                 >>
             \new Staff
@@ -2066,7 +2066,7 @@ PartPFiveVoiceOneLyricsFive =  \lyricmode {\set ignoreMelismata = ##t Mi
                 \context Staff << 
                     \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
                     \context Voice = "PartPTwoVoiceOne" {  \PartPTwoVoiceOne }
-                    \new Lyrics \lyricsto "PartPTwoVoiceOne" { \set stanza = "1." \PartPTwoVoiceOneLyricsTwo }
+                    \new Lyrics \lyricsto "PartPTwoVoiceOne" { \set stanza = "" \PartPTwoVoiceOneLyricsTwo }
                     >>
                 >>
             \new Staff
@@ -2076,7 +2076,7 @@ PartPFiveVoiceOneLyricsFive =  \lyricmode {\set ignoreMelismata = ##t Mi
                 \context Staff << 
                     \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
                     \context Voice = "PartPThreeVoiceOne" {  \PartPThreeVoiceOne }
-                    \new Lyrics \lyricsto "PartPThreeVoiceOne" { \set stanza = "1." \PartPThreeVoiceOneLyricsThree }
+                    \new Lyrics \lyricsto "PartPThreeVoiceOne" { \set stanza = "" \PartPThreeVoiceOneLyricsThree }
                     >>
                 >>
             \new Staff
@@ -2086,7 +2086,7 @@ PartPFiveVoiceOneLyricsFive =  \lyricmode {\set ignoreMelismata = ##t Mi
                 \context Staff << 
                     \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
                     \context Voice = "PartPFourVoiceOne" {  \PartPFourVoiceOne }
-                    \new Lyrics \lyricsto "PartPFourVoiceOne" { \set stanza = "1." \PartPFourVoiceOneLyricsFour }
+                    \new Lyrics \lyricsto "PartPFourVoiceOne" { \set stanza = "" \PartPFourVoiceOneLyricsFour }
                     >>
                 >>
             \new Staff
@@ -2096,7 +2096,7 @@ PartPFiveVoiceOneLyricsFive =  \lyricmode {\set ignoreMelismata = ##t Mi
                 \context Staff << 
                     \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
                     \context Voice = "PartPFiveVoiceOne" {  \PartPFiveVoiceOne }
-                    \new Lyrics \lyricsto "PartPFiveVoiceOne" { \set stanza = "1." \PartPFiveVoiceOneLyricsFive }
+                    \new Lyrics \lyricsto "PartPFiveVoiceOne" { \set stanza = "" \PartPFiveVoiceOneLyricsFive }
                     >>
                 >>
             
