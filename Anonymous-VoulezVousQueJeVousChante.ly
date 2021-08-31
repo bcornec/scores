@@ -1,5 +1,5 @@
 % vim:set encoding=utf-8:
-\version "2.6.3"
+\version "2.20.0"
 \include "italiano.ly"
 
 #(define pieceArranger (string-append "Edition: Bruno Cornec (Lilypond " (lilypond-version) ")"))
@@ -39,12 +39,12 @@ notesrefrain = {
 \score {
      <<
         % force offset of colliding notes in chords:
-        \override Score.NoteColumn #'force-hshift = #1.0
+        \override Score.NoteColumn.force-hshift = #1.0
         \time 3/4
 		\relative do''
 
         \context Staff = "Ritournelle" << 
-            \set Staff.instrument = "Flute Sop." 
+            \set Staff.instrumentName = "Flute Sop." 
 			\context Voice = "Ritournelle" {
 
 				\key re \minor
@@ -60,7 +60,7 @@ notesrefrain = {
         \time 3/4
 		\relative do''
         \context Staff = "Voix" << 
-            \set Staff.instrument = "Voix"
+            \set Staff.instrumentName = "Voix"
 			\context Voice = "Voix" {
 				\key re \minor
 				\noteschant
@@ -74,7 +74,7 @@ notesrefrain = {
 } % score
 
 \paper  {
-  %betweensystemspace = 32\mm
+%  %obsolete-between-system-space = 32\mm  system-system-spacing #'basic-distance = #(/ obsolete-between-system-space staff-space)  score-system-spacing #'basic-distance = #(/ obsolete-between-system-space staff-space)
 }
 
 

@@ -1,4 +1,4 @@
-\version "2.6.3"
+\version "2.20.0"
 \include "italiano.ly"
 
 #(define pieceArranger (string-append "Edition: Bruno Cornec (Lilypond " (lilypond-version) ")"))
@@ -75,26 +75,26 @@ notesalt = {
 			re fa mi 1. re 1.
 		  }
 
-sup = {\entry \relative do'' \notessopun \bar ":|" }
-sec = {\entry \relative do'' \notessopdeux \bar ":|" }
-alt = {\entry \relative do' \notesalt \bar ":|" }
+sup = {\entry \relative do'' \notessopun \bar ":|." }
+sec = {\entry \relative do'' \notessopdeux \bar ":|." }
+alt = {\entry \relative do' \notesalt \bar ":|." }
 
 tutstaff = \new Staff {
-        \set Staff.instrument = "Sop 1&2"
+        \set Staff.instrumentName = "Sop 1&2"
         \context Voice = "tutti" { \sup }
 }
 supstaff = \new Staff {
-        \set Staff.instrument = "Sop 1"
+        \set Staff.instrumentName = "Sop 1"
         \context Voice = "superius" { \sup }
 }
 
 secstaff = \new Staff {
-        \set Staff.instrument = "Sop 2"
+        \set Staff.instrumentName = "Sop 2"
         \context Voice = "secundus" { \sec }
 }
 
 altstaff = \new Staff {
-        \set Staff.instrument = "Alto"
+        \set Staff.instrumentName = "Alto"
 		\context Voice = "altus" { \alt }
 }
 
@@ -121,9 +121,9 @@ altstaff = \new Staff {
 } % score
 
 \paper {
-  betweensystempadding = #1
-  raggedbottom=##f
-  raggedlastbottom=##f
+  % obsolete-between-system-padding = #1  system-system-spacing #'padding = #(/ obsolete-between-system-padding staff-space)  score-system-spacing #'padding = #(/ obsolete-between-system-padding staff-space)
+  ragged-bottom=##f
+  ragged-last-bottom=##f
 }
 
 
@@ -135,7 +135,10 @@ altstaff = \new Staff {
         \context Staff=alt \sec
         \context Staff=alt \alt
         >>
-        \midi {
-                \tempo 2=60
-        }
+        
+  \midi {
+    \tempo 2 = 60
+    }
+
+
 } % score MIDI

@@ -1,12 +1,13 @@
-PDF=$(shell ls *.ly | sed 's/\.ly/.pdf/g' | grep -v "o-virgo\.ly")
+PDF=$(shell ls *.ly | sed 's/\.ly/.pdf/g')
 
 all: $(PDF) Morton-L-Omme-armé.mp3 Morton-L-Omme-armé2.mp3
 
 %.pdf : %.ly
-	lilypond $<
+	@lilypond -s $<
+	@echo "$@"
 
 Morton-L-Omme-armé.mp3 : Morton-L-Omme-armé.midi
-	timidity -Ov -o Morton-L-Omme-armé.mp3 Morton-L-Omme-armé.midi
+	@timidity -Ov -o Morton-L-Omme-armé.mp3 Morton-L-Omme-armé.midi
 
 Morton-L-Omme-armé2.mp3 : Morton-L-Omme-armé2.midi
-	timidity -Ov -o Morton-L-Omme-armé2.mp3 Morton-L-Omme-armé2.midi
+	@timidity -Ov -o Morton-L-Omme-armé2.mp3 Morton-L-Omme-armé2.midi
