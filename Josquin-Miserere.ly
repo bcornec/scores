@@ -1,12 +1,14 @@
-\version "2.19.83"
+\version "2.20.0"
 % automatically converted by musicxml2ly from Josquin-Miserere_a_5.mxl
 \pointAndClickOff
 
+#(define pieceArranger (string-append "Edition: Bruno Cornec (Lilypond " (lilypond-version) ")"))
+
 \header {
     subtitle =  "à cinq voix"
-    copyright =  "Bruno Cornec based on Sabine Cassola's work"
+    copyright =  "(C) B. Cornec based on Sabine Cassola's work and 3 other editions"
     title =  "Miserere mei Deus"
-    encodingdate =  "2020-10-06"
+    encodingdate =  "2021-08-29"
     poet =  "Psaume 50"
     composer =  "Josquin Desprez (1450-1521)"
     }
@@ -14,13 +16,13 @@
 #(set-global-staff-size 14.5142857143)
 \paper {
     
-    paper-width = 20.99\cm
-    paper-height = 29.71\cm
+    paper-width = 21\cm
+    paper-height = 29.7\cm
     top-margin = 1.27\cm
     bottom-margin = 1.27\cm
     left-margin = 1.27\cm
     right-margin = 1.27\cm
-    between-system-space = 0.83\cm
+    between-system-space = 0.8\cm
     page-top-space = 0.28\cm
     indent = 1.61461538462\cm
     }
@@ -76,9 +78,8 @@ PartPOneVoiceOne =  \relative b' {
     b1 c1 | % 47
     d1 b1 | % 48
     c1 \stemDown d2 \stemUp a2 \break | % 49
-    \stemDown c2 \stemDown c2 \stemUp a2 \stemDown c2 ~ |
-    \barNumberCheck #50
-    \stemDown c4 \stemDown b4 a1 \stemUp g2 | % 51
+    \stemDown c2 \stemDown c2 \stemUp a2 \stemDown c2 ~ | \barNumberCheck #50
+    \stemDown c4 \stemDown b4 a2. \stemUp g4 g4 f4 | % 51
     a\breve | % 52
     R1*4 | % 54
     r1 r2 \stemUp a2 \pageBreak | % 55
@@ -127,7 +128,7 @@ PartPOneVoiceOne =  \relative b' {
     \stemUp e2 \stemDown c'2 \stemDown b2 \stemUp g2 | % 108
     a1 g1 | % 109
     r1 r2 \stemUp c,2 | \barNumberCheck #110
-    \stemUp d2 e1 \stemUp d2 | % 111
+    \stemUp d2 e2. \stemUp d4 d4 c4 | % 111
     e\breve | % 112
     r1 b'1 ~ \break | % 113
     \stemDown b2 \stemDown b2 b1 | % 114
@@ -155,7 +156,7 @@ PartPOneVoiceOne =  \relative b' {
     d1 r1 | % 136
     a'1. \stemUp a2 \pageBreak | % 137
     a1 a1 | % 138
-    b1 -\markup { \flat } b1 -\markup { \flat } | % 139
+    bes1 bes1 | % 139
     a\breve | \barNumberCheck #140
     a\breve | % 141
     r1 d,1 | % 142
@@ -412,73 +413,72 @@ PartPOneVoiceOne =  \relative b' {
 
 PartPOneVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Mi
     -- se -- re -- re me -- i De -- us se -- cun -- dum ma -- gnam mi --
-    se -- ri -- cor -- di -- am\skip1 \skip1 tu --\skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 am\skip1 \skip1 et se -- cun
-    --\skip1 dum mul -- ti -- tu -- di -- nem mi -- se -- ra -- ti -- o
-    -- num tu --\skip1 \skip1 a --\skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 rum de -- le de -- le i -- ni -- qui --
-    ta -- tem me --\skip1 \skip1 am Mi --\skip1 se -- re -- re me -- i
-    De --\skip1 \skip1 \skip1 \skip1 us\skip1 am -- pli -- us la -- va
-    me ab i -- ni -- qui -- ta --\skip1 te me --\skip1 a et a pec -- ca
-    -- to me -- o\skip1 mun -- da me quo --\skip1 ni -- am i -- ni --
-    qui -- ta --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    tem\skip1 me --\skip1 \skip1 \skip1 \skip1 \skip1 am e -- go co --
-    gno --\skip1 \skip1 \skip1 sco et pec -- ca -- tum me -- um con
-    --\skip1 tra\skip1 me\skip1 est sem --\skip1 \skip1 per Mi --\skip1
-    se -- re -- re me -- i De -- us Mi -- se -- re -- re me -- i\skip1
-    De --\skip1 us ec --\skip1 ce e -- nim in in -- i --\skip1 qui -- ta
-    -- ti -- bus con -- ce -- ptus sum et in pec -- ca -- tis con -- ce
-    -- pit me\skip1 ma -- ter me --\skip1 a Mi --\skip1 se -- re -- re
-    me --\skip1 i De --\skip1 \skip1 us ec -- ce e -- nim ve --\skip1 ri
-    -- tat -- em di --\skip1 le -- xi -- sti in -- cer -- ta et oc --
-    cul -- ta sa -- pi -- en -- ti -- ae tu -- ae ma -- ni --\skip1 fe
-    -- sta -- sti mi --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 hi Mi -- se -- re -- re me -- i De -- us a -- sper -- ges
-    me\skip1 \skip1 \skip1 Do --\skip1 \skip1 \skip1 mi -- ne\skip1 hy
-    -- so -- po et\skip1 \skip1 \skip1 mun -- da --\skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 bor la -- va -- bis
-    me et su -- per ni -- vem de --\skip1 \skip1 \skip1 \skip1 al
-    --\skip1 ba --\skip1 \skip1 \skip1 bor Mi -- se -- re -- re me -- i
-    De --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 "us." \skip1 Mi -- se --\skip1 re -- re
-    me -- i De --\skip1 \skip1 \skip1 us a -- ver -- te fa -- ci -- em
+    se -- ri -- cor -- di -- am _ _ tu -- _ _  _
+    _  _ _  _ _ am _ _ et se -- cun
+    -- _ dum mul -- ti -- tu -- di -- nem mi -- se -- ra -- ti -- o
+    -- num tu -- _ _ a -- _ _  _ _  _
+    _  _ _  _ rum de -- le i -- ni -- qui --
+    ta _ _  -- tem me -- _ _ am Mi -- _ se -- re -- re me -- i
+    De -- _ _  _ _ us _ am -- pli -- us la -- va
+    me ab i -- ni -- qui -- ta -- _ te me -- _ _ _ a et a pec -- ca
+    -- to me -- o _ mun -- da me quo -- _ ni -- am i -- ni --
+    qui -- ta -- tem  _ _ _ me -- _ _ am e -- go co --
+    _ _ gno -- _ sco et pec -- ca -- tum me -- _ _ um con
+    -- tra me est _ sem -- _ _ _ _ _ _ _ _ _ _ per Mi -- _
+    se -- re -- re me -- i De -- us Mi -- se -- re -- re me -- i _
+    De -- _ us ec -- _ ce e -- nim in i -- ni -- _ qui -- ta
+    -- ti -- bus con -- cep -- tus sum et in pec -- ca -- tis con -- ce
+    _ -- pit me ma -- ter me -- _ _ _ a Mi -- _ se -- re -- re
+    me -- _ i De -- _ _ us ec -- ce e -- nim ve -- _ ri
+    -- ta -- tem di -- _ le -- xi -- sti in -- cer -- ta et oc --
+    cul -- ta sa -- pi -- en -- ti -- ae tu -- _ ae ma -- ni -- _ fe
+    -- sta -- sti _ _ _  _ _  _ _ mi -- hi 
+	Mi -- se -- re -- re me -- i De -- us a -- sper -- ges
+    me _ _  _ Do -- _ _  _ mi -- ne _ hy
+    -- so -- po et _ _  _ mun -- da -- _ _  _
+    _  _ _  _ _  _ _ bor la -- va -- bis
+    me et su -- per ni -- vem de -- _ _  _ _ al
+    -- _ ba -- _ _  _ bor Mi -- se -- re -- re me -- i
+    De -- _ _  _ _  _ _  _ _  _
+    _  _ _  _ "us." _ Mi -- se -- _ re -- re
+    me -- i De -- _ _  _ us a -- ver -- te fa -- ci -- em
     tu -- am a pec -- ca -- tis me -- is et o -- mnes i -- ni -- qui --
-    ta -- tes me -- as de --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 le\skip1 cor mun -- dum cre --\skip1 a in me De --\skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 us et spi -- ri -- tum re -- ctum
-    in -- no -- va in vi -- sce -- ri -- bus me -- is Mi --\skip1 se --
-    re -- re me -- i De --\skip1 us red -- de mi -- hi lae -- ti -- ti
+    ta -- tes me -- as de -- _ _  _ _  _  _
+    _ le _ cor mun -- dum cre -- _ a in me De -- _
+    _  _ _  _ _ us et spi -- ri -- tum re -- ctum
+    in -- no -- va in vi -- sce -- ri -- bus me -- is Mi -- _ se --
+    re -- re me -- i De -- _ us red -- de mi -- hi lae -- ti -- ti
     -- am sa -- lu -- ta -- ris tu -- i et spi -- ri -- tu prin -- ci --
-    pa -- li con -- fir -- ma me con -- fir --\skip1 ma\skip1 me\skip1
-    \skip1 \skip1 \skip1 \skip1 do -- ce -- bo i -- ni -- quos vi -- as
-    tu --\skip1 \skip1 \skip1 \skip1 as\skip1 et im -- pi -- i ad
-    te\skip1 con --\skip1 ver -- ten --\skip1 tur Mi -- se --\skip1 re
-    -- re me -- i De --\skip1 \skip1 us li --\skip1 be -- ra me de san
-    -- gui -- ni -- bus De -- us De -- us sa -- lu --\skip1 \skip1
-    tis\skip1 me -- ae et e -- xul -- ta -- bit lin -- gua me -- a iu --
-    sti -- ti -- am tu --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 am Mi -- se -- re -- re me -- i De
-    --\skip1 us Mi -- se -- re -- re me -- "i." \skip1 Do -- mi -- ne la
+    pa -- li con -- fir -- ma me con -- fir -- _ ma _ me _
+    _  _ _  _ do -- ce -- bo i -- ni -- quos vi -- as
+    tu -- _ _  _ _ as _ et im -- pi -- i ad
+    te _ con -- _ ver -- ten -- _ tur Mi -- se -- _ re
+    -- re me -- i De -- _ _ us li -- _ be -- ra me de san
+    -- gui -- ni -- bus De -- us De -- us sa -- lu -- _  _
+    tis _ me -- ae et e -- xul -- ta -- bit lin -- gua me -- a iu --
+    sti -- ti -- am tu -- _ _  _ _  _  _
+    _  _ _  _ am Mi -- se -- re -- re me -- i De
+    -- _ us Mi -- se -- re -- re me -- "i." _ Do -- mi -- ne la
     -- bi -- a me -- a a -- pe -- ri -- es et os me -- um ad -- nun --
-    ti -- a -- bit lau -- dem\skip1 \skip1 tu --\skip1 \skip1 \skip1
-    \skip1 am quo --\skip1 ni -- am si vo -- lu -- is -- ses sa --\skip1
+    ti -- a -- bit lau -- dem _ _ tu -- _ _  _
+    _ am quo -- _ ni -- am si vo -- lu -- is -- ses sa -- _
     cri -- fi -- ci -- um de -- dis -- sem u -- ti -- que ho -- lo --
-    cau --\skip1 stis non de -- lec -- ta -- be -- ris non de -- lec --
-    ta -- be -- ris Mi --\skip1 se -- re -- re me -- i De --\skip1 us sa
-    -- cri -- fi -- ci -- um De --\skip1 \skip1 \skip1 \skip1 \skip1 o
-    spi -- ri -- tus con -- tri -- bu --\skip1 la --\skip1 \skip1 \skip1
-    tus cor con -- tri -- tum et hu -- mi -- li --\skip1 \skip1 a -- tum
-    De --\skip1 us non de -- spi -- ci -- es be --\skip1 ni -- gne fac
-    Do -- mi -- ne in\skip1 bo -- na vo -- lun -- ta -- te tu -- a Si
-    --\skip1 \skip1 on ut ae -- di -- fi --\skip1 \skip1 cen --\skip1
-    \skip1 \skip1 \skip1 tur mu -- ri Hie -- ru -- sa -- lem Mi -- se --
-    re -- re me -- i De --\skip1 \skip1 \skip1 \skip1 \skip1 us tunc ac
-    -- ce --\skip1 \skip1 \skip1 \skip1 pta --\skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 bis sa --\skip1 cri -- fi -- ci
+    cau -- _ stis non de -- lec -- ta -- be -- ris non de -- lec --
+    ta -- be -- ris Mi -- _ se -- re -- re me -- i De -- _ us sa
+    -- cri -- fi -- ci -- um De -- _ _  _ _  _ o
+    spi -- ri -- tus con -- tri -- bu -- _ la -- _ _  _
+    tus cor con -- tri -- tum et hu -- mi -- li -- _ _ a -- tum
+    De -- _ us non de -- spi -- ci -- es be -- _ ni -- gne fac
+    Do -- mi -- ne in _ bo -- na vo -- lun -- ta -- te tu -- a Si
+    -- _ _ on ut ae -- di -- fi -- _ _ cen -- _
+    _  _ _ tur mu -- ri Hie -- ru -- sa -- lem Mi -- se --
+    re -- re me -- i De -- _ _  _ _  _ us tunc ac
+    -- ce -- _ _  _ _ pta -- _ _  _
+    _  _ _  _ _ bis sa -- _ cri -- fi -- ci
     -- um iu -- sti -- ti -- ae ob -- la -- ti -- o -- nes et ho -- lo
-    -- cau -- sta tunc im --\skip1 po -- nent su -- per al -- ta -- re
-    tu -- um vi -- tu -- los\skip1 Mi --\skip1 se -- re -- re me -- i De
-    -- us Mi --\skip1 se -- re -- re me -- i De -- "us." \skip1 \skip1
+    -- cau -- sta tunc im -- _ po -- nent su -- per al -- ta -- re
+    tu -- um vi -- tu -- los _ Mi -- _ se -- re -- re me -- i De
+    -- us Mi -- _ se -- re -- re me -- i De -- "us." _  _
     }
 
 PartPTwoVoiceOne =  \relative e' {
@@ -518,11 +518,11 @@ PartPTwoVoiceOne =  \relative e' {
     \stemDown e2 \stemDown e2 d1 | % 38
     \stemDown c2 \stemUp a4 \stemDown b4 \stemDown c4 \stemDown d4
     \stemDown e2 ~ | % 39
-    \stemDown e4 \stemDown d4 d1 \stemDown cis2 -\markup { \sharp } |
+    \stemDown e4 \stemDown d4 d1 \stemDown c2 |
     \barNumberCheck #40
     d1 d,1 | % 41
     a'1 g1 \break | % 42
-    a1 b1 | % 43
+    a1 bes1 | % 43
     c1 a1 ~ | % 44
     \stemUp a2 \stemUp f2 f1 | % 45
     r1 f1 | % 46
@@ -533,7 +533,7 @@ PartPTwoVoiceOne =  \relative e' {
     \stemUp a2. \stemDown c4 b1 | % 51
     a1 r2 \stemUp a2 | % 52
     \stemDown b2 \stemDown c2 d1 | % 53
-    \stemDown c2 \stemUp a2 b1 -\markup { \flat } | % 54
+    \stemDown c2 \stemUp a2 b1 | % 54
     \stemUp a2. \stemUp f4 \stemUp g2 \stemUp f2 \pageBreak | % 55
     \stemUp d2 e1 \stemUp d2 | % 56
     e1 r1 | % 57
@@ -567,8 +567,8 @@ PartPTwoVoiceOne =  \relative e' {
     \stemUp a2 \stemDown d2 \stemDown b2 \stemUp g2 | % 89
     \stemDown c2. \stemDown d4 \stemDown e2 \stemDown f2 ~ |
     \barNumberCheck #90
-    \stemDown f4 \stemDown e4 \stemDown d2. \stemDown cis4 -\markup {
-        \sharp } \stemDown cis4 \stemDown b4 \break | % 91
+    \stemDown f4 \stemDown e4 \stemDown d2. \stemDown c4
+    \stemDown c4 \stemDown b4 \break | % 91
     d1 r1 | % 92
     R1*2 | % 93
     r1 d1 ~ | % 94
@@ -637,7 +637,7 @@ PartPTwoVoiceOne =  \relative e' {
     \stemUp g2 \stemUp f2 d1 | % 159
     a'1 r1 | \barNumberCheck #160
     r1 d,1 | % 161
-    g1 \stemUp g2 \stemUp e2 | % 162
+    g1 ~ \stemUp g2 \stemUp e2 | % 162
     e1 e'1 ~ | % 163
     e1 e1 \pageBreak | % 164
     e1 e1 | % 165
@@ -879,74 +879,73 @@ PartPTwoVoiceOne =  \relative e' {
 
 PartPTwoVoiceOneLyricsTwo =  \lyricmode {\set ignoreMelismata = ##t Mi
     -- se -- re -- re me -- i De -- us se -- cun -- dum ma -- gnam mi --
-    se -- ri -- cor --\skip1 di --\skip1 am\skip1 \skip1 \skip1 tu --
-    am\skip1 et se -- cun --\skip1 dum mul -- ti -- tu -- di -- nem mi
-    -- se -- ra --\skip1 ti -- o -- num\skip1 \skip1 \skip1 tu --\skip1
-    \skip1 a --\skip1 rum de -- le i -- ni -- qui -- ta -- tem me
-    --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 am Mi --
-    se -- re -- re me -- i De --\skip1 \skip1 us am -- pli -- us lav --
-    a me ab i -- ni -- qui -- ta -- te\skip1 me -- a et a pec -- ca --
-    to me -- o mun --\skip1 \skip1 da me\skip1 \skip1 \skip1 Mi -- se --
-    re -- re me -- i De -- us et pec -- ca -- tum me --\skip1 \skip1
-    \skip1 um con -- tra me est sem -- per Mi -- se -- re -- re me -- i
-    De -- us ti --\skip1 bi so -- li pec -- ca --\skip1 vi et ma -- lum
-    co -- ram te fe --\skip1 ci ut iu -- sti -- fi -- ce -- ris in ser
-    -- mo -- ni -- bus tu --\skip1 is et vin -- cas cum\skip1 \skip1 iu
-    --\skip1 di -- ca --\skip1 \skip1 \skip1 ris Mi --\skip1 se -- re --
+    se -- ri -- cor -- _ di -- am tu -- _  _ _  _
+    am _ et se -- cun -- _ dum mul -- ti -- tu -- di -- nem mi
+    -- se -- ra -- _ ti -- o -- num tu -- a -- _ _ _ _ _ _ rum de -- le i -- ni -- qui -- ta -- tem me
+    -- _ _  _ _  _ _  _ _ am Mi --
+    se -- re -- re me -- i De -- _ _ us am -- pli -- us lav --
+    a me ab i -- ni -- qui -- ta -- te _ me -- a et a pec -- ca --
+    to _ me -- o _ _ mun -- _ _ da me
+    Mi -- se -- re -- re me -- i De -- us et pec -- ca -- tum me -- _  _
+    um con -- tra me est _ sem -- per Mi -- se -- re -- re me -- i
+    De -- us ti -- _ bi so -- li pec -- ca -- _ vi et ma -- lum
+    co -- ram te fe -- _ ci ut iu -- sti -- fi -- ce -- ris in ser
+    -- mo -- ni -- bus tu -- _ is et vin -- cas cum _ _ iu
+    -- _ di -- ca -- _ _  _ ris Mi -- _ se -- re --
     re me -- i De -- us ec -- ce e -- nim in i -- ni -- qui -- ta
-    --\skip1 ti -- bus con -- ce -- ptus sum con -- ce -- ptus sum con
-    -- ce --\skip1 ptus sum Mi -- se -- re -- re me -- i De --\skip1 us
-    ec -- ce e -- nim ve --\skip1 ri -- tat -- em di --\skip1 le -- xi
+    -- _ ti -- bus con -- cep -- tus sum con -- cep -- tus sum et
+    in pec -- ca tis Mi -- se -- re -- re me -- i De -- _ us
+    ec -- ce e -- nim ve -- _ ri -- ta -- tem di -- _ le -- xi
     -- sti in -- cer -- ta et oc -- cul -- ta sa -- pi -- en -- ti -- ae
-    tu -- ae ma -- ni --\skip1 fe -- sta -- sti mi --\skip1 \skip1
-    \skip1 \skip1 \skip1 hi\skip1 \skip1 Mi --\skip1 se -- re -- re me
-    -- i De --\skip1 \skip1 \skip1 \skip1 us a -- sper -- ges me\skip1
-    \skip1 \skip1 Do --\skip1 \skip1 \skip1 mi -- ne hy -- so -- po hy
-    -- so -- po et mun --\skip1 da --\skip1 \skip1 bor\skip1 \skip1 la
-    -- va -- bis me\skip1 \skip1 la --\skip1 va --\skip1 \skip1 \skip1
-    bis me et su -- per ni -- vem de -- al -- ba --\skip1 bor Mi
-    --\skip1 se -- re -- re me -- i De -- "us." \skip1 \skip1 Mi -- se
-    --\skip1 re --\skip1 \skip1 \skip1 re me -- i De -- us a -- ver --
-    te fa -- ci -- em tu -- am a pec -- ca -- tis\skip1 me -- is et o --
-    mnes i -- ni -- qui -- ta -- tes me --\skip1 \skip1 as\skip1 \skip1
-    de -- le cor mun -- dum cre --\skip1 a in me\skip1 \skip1 \skip1
-    \skip1 De -- us et spi -- ri -- tum re -- ctum in -- no -- va in vi
-    -- sce -- ri -- bus me -- is Mi --\skip1 se -- re -- re me -- i De
-    --\skip1 us\skip1 Mi -- se -- re -- re me -- i De -- us\skip1 \skip1
-    red --\skip1 de mi -- hi lae -- ti --\skip1 ti -- am sa -- lu -- ta
-    --\skip1 \skip1 ris\skip1 tu -- i et spi --\skip1 ri -- tu prin --
-    ci -- pa --\skip1 \skip1 \skip1 \skip1 li con -- fir --\skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ma me Mi -- se --
-    re -- re me -- i De -- us Mi -- se -- re -- re me -- i De --\skip1
-    us et im -- pi -- i ad te\skip1 con -- ver -- ten -- tur Mi -- se
-    --\skip1 re -- re me -- i De --\skip1 \skip1 \skip1 us li --\skip1
+    tu -- _ ae ma -- _ ni -- fe -- sta -- sti _ _ _ _ _ mi -- _ hi
+    Mi -- _ se -- re -- re me
+    -- i De -- _ _  _ _ us a -- sper -- ges me _
+    _  _ Do -- _ _  _ _ _ _ mi -- ne hy -- so -- po 
+	et mun -- _ _ da -- _ bor _ _ la
+    -- va -- bis me _ _ et _ _ _ su -- _ per ni -- vem de -- al -- ba -- bor 
+	al -- ba -- _ _ bor Mi -- _ se -- re -- re me -- i De -- us _ _ 
+	% secunda pars
+	Mi -- se -- _ re -- _ _  _ re me -- i De -- us a -- ver --
+    te fa -- ci -- em tu -- am a pec -- ca -- tis _ me -- is et o --
+    mnes i -- ni -- qui -- ta -- tes me -- _ _ as _  _
+    de -- le cor mun -- dum cre -- _ a in me _ _  _
+    _ De -- us et spi -- ri -- tum re -- ctum in -- no -- va in vi
+    -- sce -- ri -- bus me -- is Mi -- _ se -- re -- re me -- i De
+    -- _ us _ Mi -- se -- re -- re me -- i De -- us _  _
+    red -- _ de mi -- hi lae -- ti -- _ ti -- am sa -- lu -- ta
+    -- _ _ ris _ tu -- i et spi -- _ ri -- tu prin --
+    ci -- pa -- _ _  _ _ li con -- fir -- _  _
+    _  _ _  _ _  _ _ ma me Mi -- se --
+    re -- re me -- i De -- us Mi -- se -- re -- re me -- i De -- _
+    us et im -- pi -- i ad te _ con -- ver -- ten -- tur Mi -- se
+    -- _ re -- re me -- i De -- _ _  _ us li -- _
     be -- ra me de san -- gui -- ni -- bus De -- us De -- us sa -- lu
-    --\skip1 \skip1 tis\skip1 me --\skip1 \skip1 \skip1 ae et e -- xul
-    -- ta -- bit lin -- gua me -- a iu -- sti -- ti -- am\skip1 tu
-    --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 am Mi -- se -- re -- re
-    me -- i De --\skip1 us Mi -- se -- re -- re me -- "i." \skip1 Do --
-    mi -- ne la -- bi -- a me -- a a -- pe -- ri -- es et\skip1 os me --
-    um ad -- nun -- ti -- a -- bit lau -- dem tu --\skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 am Mi --\skip1 se -- re -- re me -- i\skip1
-    \skip1 De --\skip1 \skip1 \skip1 us quo -- ni -- am si vo --\skip1
-    \skip1 lu -- is -- ses sa -- cri -- fi -- ci -- um de --\skip1
-    \skip1 dis -- sem u -- ti -- que ho -- lo -- cau --\skip1 stis non
-    de -- lec -- ta -- be -- ris\skip1 non de -- lec -- ta -- be -- ris
+    -- _ _ tis _ me -- _ _  _ ae et e -- xul
+    -- ta -- bit lin -- gua me -- a iu -- sti -- ti -- am _ tu
+    -- _ _  _ _  _ _ am Mi -- se -- re -- re
+    me -- i De -- _ us Mi -- se -- re -- re me -- "i." _ Do --
+    mi -- ne la -- bi -- a me -- a a -- pe -- ri -- es et _ os me --
+    um ad -- nun -- ti -- a -- bit lau -- dem tu -- _ _  _
+    _  _ _ am Mi -- _ se -- re -- re me -- i _
+    _ De -- _ _  _ us quo -- ni -- am si vo -- _
+    _ lu -- is -- ses sa -- cri -- fi -- ci -- um de -- _
+    _ dis -- sem u -- ti -- que ho -- lo -- cau -- _ stis non
+    de -- lec -- ta -- be -- ris _ non de -- lec -- ta -- be -- ris
     non de -- lec -- ta -- be -- ris Mi -- se -- re -- re me -- i De --
-    us sa --\skip1 cri -- fi -- ci -- um\skip1 De -- o spi --\skip1 ri
-    -- tus con -- tri -- bu -- la -- tus cor con --\skip1 tri -- tum et
-    hu -- mi -- li -- a --\skip1 tum De --\skip1 us non de --\skip1
-    \skip1 spi -- ci -- es\skip1 De --\skip1 us non de -- spi -- ci --
-    es Mi --\skip1 se -- re -- re me -- i\skip1 \skip1 De --\skip1
-    \skip1 \skip1 us be --\skip1 ni -- gne fac Do -- mi -- ne in\skip1
-    bo -- na vo -- lun -- ta -- te tu -- a Si -- on Mi --\skip1 se -- re
-    -- re me -- i\skip1 \skip1 De --\skip1 \skip1 \skip1 us\skip1 tunc
-    ac -- ce --\skip1 \skip1 \skip1 pta -- bis sa --\skip1 cri -- fi --
+    us sa -- _ cri -- fi -- ci -- um _ De -- o spi -- _ ri
+    -- tus con -- tri -- bu -- la -- tus cor con -- _ tri -- tum et
+    hu -- mi -- li -- a -- _ tum De -- _ us non de -- _
+    _ spi -- ci -- es _ De -- _ us non de -- spi -- ci --
+    es Mi -- _ se -- re -- re me -- i _ _ De -- _
+    _  _ us be -- _ ni -- gne fac Do -- mi -- ne in _
+    bo -- na vo -- lun -- ta -- te tu -- a Si -- on Mi -- _ se -- re
+    -- re me -- i _ _ De -- _ _  _ us _ tunc
+    ac -- ce -- _ _  _ pta -- bis sa -- _ cri -- fi --
     ci -- um iu -- sti -- ti -- ae ob -- la -- ti -- o -- nes et ho --
-    lo -- cau --\skip1 \skip1 sta tunc im --\skip1 po -- nent su -- per
-    al -- ta --\skip1 re tu -- um vi --\skip1 tu -- los\skip1 \skip1
-    \skip1 \skip1 \skip1 Mi -- se -- re -- re me -- i De --\skip1 us Mi
-    -- se -- re -- re me --\skip1 \skip1 i De -- "us." \skip1
+    lo -- cau -- _ _ sta tunc im -- _ po -- nent su -- per
+    al -- ta -- _ re tu -- um vi -- _ tu -- los _  _
+    _  _ _ Mi -- se -- re -- re me -- i De -- _ us Mi
+    -- se -- re -- re me -- _ _ i De -- "us."  _
     }
 
 PartPThreeVoiceOne =  \relative e' {
@@ -992,7 +991,7 @@ PartPThreeVoiceOne =  \relative e' {
     a1. \stemUp a2 | % 92
     a1 a1 | % 93
     a1 a1 | % 94
-    bes\breve -\markup { \flat } | % 95
+    bes\breve | % 95
     a\breve ~ | % 96
     a\breve | % 97
     R1*4 \break | % 99
@@ -1047,7 +1046,7 @@ PartPThreeVoiceOne =  \relative e' {
     R1*12 \break | % 224
     R1*4 | % 226
     \stemUp a2. \stemUp a4 \stemUp a2 \stemUp a2 | % 227
-    \stemUp a2 \stemUp a2 b1 -\markup { \flat } | % 228
+    \stemUp a2 \stemUp a2 b1 | % 228
     a\breve | % 229
     R1*2 \break | \barNumberCheck #230
     R1*12 \break | % 236
@@ -1130,20 +1129,20 @@ PartPThreeVoiceOne =  \relative e' {
     }
 
 PartPThreeVoiceOneLyricsThree =  \lyricmode {\set ignoreMelismata = ##t
-    Mi -- se -- re -- re me -- i De -- us\skip1 Mi -- se -- re -- re me
-    -- i De -- us\skip1 Mi -- se -- re -- re me -- i De -- us\skip1 Mi
-    -- se -- re -- re me -- i De -- us\skip1 Mi -- se -- re -- re me --
-    i De -- us\skip1 Mi -- se -- re -- re me -- i De -- us\skip1 Mi --
-    se -- re -- re me -- i De -- us\skip1 Mi -- se -- re -- re me -- i
-    De -- us\skip1 \skip1 \skip1 Mi -- se -- re -- re me -- i De -- us
+    Mi -- se -- re -- re me -- i De -- us _ Mi -- se -- re -- re me
+    -- i De -- us _ Mi -- se -- re -- re me -- i De -- us _ Mi
+    -- se -- re -- re me -- i De -- us _ Mi -- se -- re -- re me --
+    i De -- us _ Mi -- se -- re -- re me -- i De -- us _ Mi --
+    se -- re -- re me -- i De -- us _ Mi -- se -- re -- re me -- i
+    De -- us _ _  _ Mi -- se -- re -- re me -- i De -- us
     Mi -- se -- re -- re me -- i De -- us Mi -- se -- re -- re me -- i
     De -- us Mi -- se -- re -- re me -- i De -- us Mi -- se -- re -- re
     me -- i De -- us Mi -- se -- re -- re me -- i De -- us Mi -- se --
     re -- re me -- i De -- us Mi -- se -- re -- re me -- i De --
-    us\skip1 \skip1 \skip1 Mi -- se -- re -- re me -- i De -- us\skip1
-    Mi -- se -- re -- re me -- i De -- us\skip1 Mi -- se -- re -- re me
-    -- i De -- us\skip1 Mi -- se -- re -- re me -- i De -- us\skip1 Mi
-    -- se -- re -- re me -- i De -- us\skip1 \skip1 \skip1 \skip1 \skip1
+    us _ _  _ Mi -- se -- re -- re me -- i De -- us _
+    Mi -- se -- re -- re me -- i De -- us _ Mi -- se -- re -- re me
+    -- i De -- us _ Mi -- se -- re -- re me -- i De -- us _ Mi
+    -- se -- re -- re me -- i De -- us _ _  _ _  _
     }
 
 PartPFourVoiceOne =  \relative b {
@@ -1183,7 +1182,7 @@ PartPFourVoiceOne =  \relative b {
     \stemDown c2 \stemDown e2. \stemDown d4 \stemDown e2 | % 51
     c1 r2 \stemDown c2 | % 52
     \stemDown d2 \stemDown e2 f1 | % 53
-    \stemDown e2 d1 \stemDown c4 \stemDown b4 -\markup { \flat } | % 54
+    \stemDown e2 d1 \stemDown c4 \stemDown bes4 | % 54
     \stemDown c2 \stemDown d2 \stemDown c2 \stemDown d4 \stemDown c4
     \pageBreak | % 55
     \stemDown b4 \stemUp a4 a1 \stemUp g2 | % 56
@@ -1264,7 +1263,7 @@ PartPFourVoiceOne =  \relative b {
     d1. \stemDown d2 | % 132
     e1 c1 | % 133
     \stemDown d2 \stemDown f2 \stemDown e2 \stemDown f2 ~ | % 134
-    \stemDown f4 \stemDown e4 d1 \stemDown cis2 -\markup { \sharp } | % 135
+    \stemDown f4 \stemDown e4 d1 \stemDown c2 | % 135
     d\breve | % 136
     r1 d1 ~ \pageBreak | % 137
     \stemDown d2 \stemDown d2 d1 | % 138
@@ -1281,9 +1280,9 @@ PartPFourVoiceOne =  \relative b {
     R1*6 | \barNumberCheck #150
     r1 a1 \break | % 151
     g1 e1 | % 152
-    r1 a1 | % 153
-    a1 a1 | % 154
-    d,1 d1 | % 155
+    r1 a1 ~ | % 153
+    a2 a2 a1 | % 154
+    d,\breve | % 155
     R1*2 | % 156
     f1. \stemUp e2 \break | % 157
     d1 \stemUp e2 \stemUp a2 | % 158
@@ -1296,7 +1295,7 @@ PartPFourVoiceOne =  \relative b {
     \stemDown c2 \stemDown c2 \stemDown c2 \stemDown c2 | % 165
     a1 a1 | % 166
     a\breve | % 167
-    g\breve ~ -\markup { \sharp } | % 168
+    g\breve ~ | % 168
     g\breve ~ | % 169
     g\breve \bar "||"
     \break e1 e1 | \barNumberCheck #170
@@ -1386,7 +1385,7 @@ PartPFourVoiceOne =  \relative b {
     r1 r2 \stemUp g2 | % 258
     \stemDown c2. \stemDown b4 b1 | % 259
     r2 \stemDown b2 \stemDown c2 \stemDown b2 | \barNumberCheck #260
-    \stemUp a2 d1 \stemDown cis2 -\markup { \sharp } \break | % 261
+    \stemUp a2 d1 \stemDown cis2 \break | % 261
     d\breve | % 262
     R1*10 \pageBreak | % 267
     d1. \stemDown d2 | % 268
@@ -1548,79 +1547,80 @@ PartPFourVoiceOne =  \relative b {
     }
 
 PartPFourVoiceOneLyricsFour =  \lyricmode {\set ignoreMelismata = ##t Mi
-    -- se -- re -- re me -- i De --\skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 us\skip1 Mi --\skip1 se -- re -- re me -- i De -- us\skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 Mi -- se -- re
-    --\skip1 re Mi -- se -- re -- re me -- i De -- us am -- pli -- us
-    lav -- a me ab i -- ni -- qui -- ta -- te me --\skip1 \skip1 a et a
-    pec -- ca -- to me --\skip1 \skip1 \skip1 \skip1 o mun --\skip1
-    \skip1 \skip1 \skip1 da me mun --\skip1 \skip1 \skip1 \skip1 \skip1
-    da me Mi -- se -- re -- re me -- i De --\skip1 \skip1 us quo -- ni
-    -- am i -- ni -- qui -- ta -- tem\skip1 \skip1 \skip1 me --\skip1
-    \skip1 \skip1 am e -- go co -- gno -- sco e -- go co -- gno -- sco
+    -- se -- re -- re me -- i De -- _ _  _ _  _
+    _ us _ Mi -- _ se -- re -- re me -- i De --  _
+    _  _ _  _ _  _ _  _ _  _ _  _ us
+    Mi -- se -- re -- re me -- i De -- us am -- pli -- us
+    lav -- a me ab i -- ni -- qui -- ta -- te me -- _ _ a et a
+    pec -- ca -- to me -- _ _  _ _ o mun -- _
+    _  _ _ da me mun -- _ _  _ _  _
+    da me Mi -- se -- re -- re me -- i De -- _ _ us quo -- ni
+    -- am i -- ni -- qui -- ta -- tem _ _  _ me -- _
+    _  _ am e -- go co -- gno -- sco e -- go co -- gno -- sco
     Mi -- se -- re -- re me -- i De -- us ti -- bi so -- li pec -- ca
-    --\skip1 vi et ma -- lum co -- ram te fe --\skip1 ci ut iu -- sti --
-    fi -- ce -- ris in ser -- mo -- ni -- bus tu --\skip1 \skip1 is et
-    vin -- cas cum\skip1 \skip1 \skip1 iu -- di -- ca -- ris Mi -- se --
-    re -- re me -- i De --\skip1 \skip1 us ec --\skip1 ce e -- nim in i
-    -- ni --\skip1 qui -- ta -- ti -- bus con -- ce -- ptus sum et in
-    pec -- ca -- tis con -- ce -- pit me ma -- ter me -- a Mi --\skip1
-    se -- re -- re me -- i De -- us\skip1 ec -- ce e -- nim ve -- ri --
-    tat -- em di -- le -- xi -- sti in -- cer -- ta et\skip1 oc -- cul
-    -- ta sa --\skip1 pi -- en -- ti -- ae tu --\skip1 ae ma -- ni -- fe
-    -- sta -- sti mi --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    hi Mi --\skip1 se -- re -- re me -- i De -- us a -- sper -- ges
-    me\skip1 \skip1 Do --\skip1 \skip1 \skip1 \skip1 \skip1 mi --
-    ne\skip1 hy -- so -- po et mun -- da --\skip1 bor la -- va -- bis me
-    et su -- per ni -- vem de -- al --\skip1 \skip1 \skip1 ba --\skip1
-    bor Mi --\skip1 se -- re -- re me -- i De -- "us." \skip1 \skip1 Au
-    -- di au -- di -- tu -- i me -- o da -- bis gau -- di -- um et lae
-    --\skip1 \skip1 \skip1 \skip1 \skip1 ti -- ti -- am\skip1 et e --
-    xul -- ta -- bunt os --\skip1 \skip1 \skip1 sa hu --\skip1 \skip1
-    \skip1 \skip1 mi -- li -- a --\skip1 \skip1 \skip1 ta a -- ver -- te
+    -- _ vi et ma -- lum co -- ram te fe -- _ ci ut iu -- sti --
+    fi -- ce -- ris in ser -- mo -- ni -- bus tu -- _ _ is et
+    vin -- cas cum _ _  _ iu -- di -- ca -- ris Mi -- se --
+    re -- re me -- i De -- _ _ us ec -- _ ce e -- nim in i
+    -- ni -- _ qui -- ta -- ti -- bus con -- cep -- tus sum et in
+    pec -- ca -- tis con -- ce -- pit me ma -- ter me -- a Mi -- _
+    se -- re -- re me -- i De -- us _ ec -- ce e -- nim ve -- ri --
+    ta -- tem di -- le -- xi -- sti in -- cer -- ta et _ oc -- cul
+    -- ta sa -- _ pi -- en -- ti -- ae tu -- _ _ ae ma -- ni -- fe
+    -- sta -- sti _ _  mi -- _ _  _ _ hi 
+	Mi -- _ se -- re -- re me -- i De -- us a -- sper -- ges
+    me _ _ Do -- _ _  _ _  _ mi --
+    ne _ hy -- so -- po et _ mun -- da -- bor la -- va -- bis me
+    et su -- per ni -- vem de -- al -- _ _  _ ba -- _
+    bor Mi -- _ se -- re -- re me -- i De -- "us." _  _ 
+	% secunda pars
+	Au -- di au -- di -- tu -- i me -- o da -- bis gau -- di -- um et lae
+    -- _ _  _ _  _ ti -- ti -- am _ et e --
+    xul -- ta -- bunt os -- _ _  _ sa hu -- _  _
+    _  _ mi -- li -- a -- _ _  _ ta a -- ver -- te
     fa -- ci -- em tu -- am a pec -- ca -- tis me -- is et o -- mnes i
-    -- ni -- qui -- ta -- tes me --\skip1 \skip1 \skip1 \skip1 \skip1 as
-    de -- le Mi --\skip1 se -- re -- re me -- i De -- us\skip1 \skip1
-    \skip1 \skip1 Mi -- se -- re -- re me -- i De --\skip1 us ne pro --
-    i -- ci -- as me a fa -- ci -- e tu -- a et spi -- ri -- tum\skip1
-    san -- ctum tu -- um ne au -- fe --\skip1 ras\skip1 a\skip1 \skip1
-    \skip1 me Mi -- se -- re -- re me -- i De -- us red --\skip1 de mi
-    -- hi lae -- ti --\skip1 ti -- am sa -- lu -- ta --\skip1 ris\skip1
-    tu --\skip1 \skip1 i et spi -- ri -- tu prin -- ci -- pa -- li\skip1
-    \skip1 con -- fir --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 ma me Mi -- se -- re -- re me -- i De -- us do -- ce
-    -- bo i -- ni -- quos vi -- as tu --\skip1 \skip1 \skip1 \skip1 as
-    Mi -- se -- re -- re me -- i De --\skip1 us et im -- pi -- i ad te
-    con -- ver -- ten --\skip1 tur li -- be -- ra me de san -- gui -- ni
-    -- bus De --\skip1 us De -- us sa -- lu --\skip1 \skip1 tis\skip1 me
-    -- ae sa -- lu --\skip1 \skip1 tis\skip1 me --\skip1 \skip1 \skip1
+    -- ni -- qui -- ta -- tes me -- _ _  _ _  _ as
+    de -- le Mi -- _ se -- re -- re me -- i De -- us _  _
+    _  _ Mi -- se -- re -- re me -- i De -- _ us ne pro --
+    i -- ci -- as me a fa -- ci -- e tu -- a et spi -- ri -- tum _
+    san -- ctum tu -- um ne au -- fe -- _ ras _ a _  _
+    _ me Mi -- se -- re -- re me -- i De -- us red -- _ de mi
+    -- hi lae -- ti -- _ ti -- am sa -- lu -- ta -- _ ris _
+    tu -- _ _ i et spi -- ri -- tu prin -- ci -- pa -- li _
+    _ con -- fir -- _ _  _ _  _ _  _
+    _  _ ma me Mi -- se -- re -- re me -- i De -- us do -- ce
+    -- bo i -- ni -- quos vi -- as tu -- _ _  _ _ as
+    Mi -- se -- re -- re me -- i De -- _ us et im -- pi -- i ad te
+    con -- ver -- ten -- _ tur li -- be -- ra me de san -- gui -- ni
+    -- bus De -- _ us De -- us sa -- lu -- _ _ tis _ me
+    -- ae sa -- lu -- _ _ tis _ me -- _ _  _
     ae et e -- xul -- ta -- bit lin -- gua me -- a iu -- sti -- ti --
-    am\skip1 tu -- am Mi -- se -- re -- re me -- i De -- us Mi -- se --
-    re -- re me -- "i." \skip1 Do -- mi -- ne la -- bi -- a me -- a a --
+    am _ tu -- am Mi -- se -- re -- re me -- i De -- us Mi -- se --
+    re -- re me -- "i." _ Do -- mi -- ne la -- bi -- a me -- a a --
     pe -- ri -- es et os me -- um ad -- nun -- ti -- a -- bit lau --
-    dem\skip1 tu --\skip1 \skip1 am Mi -- se -- re -- re me -- i De
-    --\skip1 \skip1 us quo -- ni -- am\skip1 si vo -- lu -- is -- ses sa
-    -- cri -- fi -- ci -- um de --\skip1 dis -- sem u --\skip1 ti -- que
-    ho -- lo -- cau --\skip1 stis non de -- lec -- ta -- be -- ris non
+    dem _ tu -- _ _ am Mi -- se -- re -- re me -- i De
+    -- _ _ us quo -- ni -- am _ si vo -- lu -- is -- ses sa
+    -- cri -- fi -- ci -- um de -- _ dis -- sem u -- _ ti -- que
+    ho -- lo -- cau -- _ stis non de -- lec -- ta -- be -- ris non
     de -- lec -- ta -- be -- ris non de -- lec -- ta -- be -- ris Mi --
-    se -- re -- re me -- i De --\skip1 us\skip1 sa -- cri -- fi -- ci --
-    um De --\skip1 \skip1 \skip1 \skip1 \skip1 o spi -- ri -- tus con --
-    tri -- bu --\skip1 la --\skip1 \skip1 \skip1 tus cor con --\skip1
-    tri -- tum et hu -- mi -- li -- a --\skip1 \skip1 \skip1 tum De
-    --\skip1 us non de -- spi -- ci -- es De --\skip1 us non de --\skip1
-    \skip1 spi -- ci -- es De --\skip1 us non de --\skip1 \skip1 spi --
-    ci -- es Mi -- se -- re -- re me -- i De --\skip1 \skip1 us be -- ni
+    se -- re -- re me -- i De -- _ us _ sa -- cri -- fi -- ci --
+    um De -- _ _  _ _  _ o spi -- ri -- tus con --
+    tri -- bu -- _ la -- _ _  _ tus cor con -- _
+    tri -- tum et hu -- mi -- li -- a -- _ _  _ tum De
+    -- _ us non de -- spi -- ci -- es De -- _ us non de -- _
+    _ spi -- ci -- es De -- _ us non de -- _ _ spi --
+    ci -- es Mi -- se -- re -- re me -- i De -- _ _ us be -- ni
     -- gne fac Do -- mi -- ne in bo -- na vo -- lun -- ta -- te tu -- a
-    Si --\skip1 \skip1 \skip1 \skip1 on\skip1 ut ae -- di -- fi -- cen
-    -- tur mu -- ri Hie -- ru -- sa -- lem\skip1 \skip1 \skip1 \skip1 Mi
-    -- se -- re -- re me -- i De --\skip1 \skip1 us tunc ac -- ce
-    --\skip1 \skip1 \skip1 pta -- bis\skip1 \skip1 \skip1 \skip1 \skip1
-    tunc ac -- ce -- pta -- bis\skip1 sa --\skip1 cri -- fi -- ci -- um
+    Si -- _ _  _ _ on _ ut ae -- di -- fi -- cen
+    -- tur mu -- ri Hie -- ru -- sa -- lem _ _  _ _ Mi
+    -- se -- re -- re me -- i De -- _ _ us tunc ac -- ce
+    -- _ _  _ pta -- bis _ _  _ _  _
+    tunc ac -- ce -- pta -- bis _ sa -- _ cri -- fi -- ci -- um
     iu -- sti -- ti -- ae ob -- la -- ti -- o -- nes et ho -- lo -- cau
-    --\skip1 sta tunc im -- po --\skip1 \skip1 \skip1 nent su -- per al
-    -- ta -- re tu -- um vi -- tu -- "los." \skip1 Mi -- se -- re -- re
-    me -- i De --\skip1 us Mi -- se -- re -- re me -- i De -- "us."
-    \skip1 \skip1
+    -- _ sta tunc im -- po -- _ _  _ nent su -- per al
+    -- ta -- re tu -- um vi -- tu -- "los." _ Mi -- se -- re -- re
+    me -- i De -- _ us Mi -- se -- re -- re me -- i De -- "us."
+    _  _
     }
 
 PartPFiveVoiceOne =  \relative e {
@@ -1772,7 +1772,7 @@ PartPFiveVoiceOne =  \relative e {
     d1 \stemUp c2 \stemUp c2 \pageBreak | % 194
     d1 a1 | % 195
     d1 \stemUp c2 \stemUp a2 | % 196
-    bes1 -\markup { \flat } a1 | % 197
+    bes1 a1 | % 197
     r1 d1 ~ | % 198
     \stemDown d2 \stemDown d2 \stemDown d2 \stemDown d2 | % 199
     \stemDown d2 \stemDown d2 g,1 \break | \barNumberCheck #200
@@ -1984,60 +1984,60 @@ PartPFiveVoiceOne =  \relative e {
     }
 
 PartPFiveVoiceOneLyricsFive =  \lyricmode {\set ignoreMelismata = ##t Mi
-    -- se -- re -- re me -- i De -- us\skip1 Mi -- se -- re -- re me --
-    i De -- us\skip1 Mi -- se -- re -- re me -- i De -- us am -- pli --
+    -- se -- re -- re me -- i De -- us _ Mi -- se -- re -- re me --
+    i De -- us _ Mi -- se -- re -- re me -- i De -- us am -- pli --
     us lav -- a me ab i -- ni -- qui -- ta -- te me -- a et a pec -- ca
-    -- to me -- o\skip1 mun -- da me Mi --\skip1 se -- re -- re me -- i
-    De -- us\skip1 e -- go co -- gno --\skip1 \skip1 \skip1 sco Mi
-    --\skip1 se -- re -- re me -- i De -- us\skip1 \skip1 Mi --\skip1 se
-    -- re -- re me -- i De -- us ec --\skip1 ce e -- nim in i -- ni
-    --\skip1 qui -- ta -- ti -- bus con -- ce -- ptus sum con -- ce --
-    ptus sum et in pec -- ca -- tis con -- ce -- pit me ma -- ter me --
-    a Mi -- se -- re -- re me -- i De --\skip1 us\skip1 Mi -- se -- re
-    -- re me -- i De -- us\skip1 \skip1 a -- sper -- ges me\skip1 \skip1
-    Do --\skip1 \skip1 \skip1 \skip1 \skip1 mi -- ne hy -- so -- po
-    et\skip1 mun -- da -- bor la -- va -- bis me et su -- per ni
-    --\skip1 \skip1 vem de -- al --\skip1 ba -- bor Mi -- se -- re -- re
-    me -- i De -- "us." \skip1 \skip1 Au -- di au -- di -- tu -- i me --
-    o da -- bis gau -- di -- um et\skip1 lae --\skip1 ti -- ti -- am et
-    e -- xul -- ta -- bunt os --\skip1 \skip1 \skip1 sa hu -- mi -- li
+    -- to me -- o _ mun -- da me Mi -- _ se -- re -- re me -- i
+    De -- us _ et -- pec -- ca -- tum me --  _ _  um Mi
+    -- _ se -- re -- re me -- _ i De -- us _ Mi -- _ se
+    -- re -- re me -- i De -- us ec -- _ ce e -- nim in i -- ni
+    -- _ qui -- ta -- ti -- bus con -- cep -- tus sum con -- cep --
+    tus sum et in pec -- ca -- tis con -- ce -- pit me ma -- ter me --
+    a Mi -- se -- re -- re me -- i De -- _ us _ Mi -- se -- re
+    -- re me -- i De -- us _ _ a -- sper -- ges me _  _
+    Do -- _ _  _ _  _ mi -- ne hy -- so -- po
+    et _ mun -- da -- bor la -- va -- bis me et su -- per ni
+    -- _ _ vem de -- al -- _ ba -- bor Mi -- se -- re -- re
+    me -- i De -- "us." _  _ Au -- di au -- di -- tu -- i me --
+    o da -- bis gau -- di -- um et _ lae -- _ ti -- ti -- am et
+    e -- xul -- ta -- bunt os -- _ _  _ sa hu -- mi -- li
     -- a -- ta a -- ver -- te fa -- ci -- em tu -- am a pec -- ca -- tis
-    me -- is et o -- mnes i -- ni -- qui -- ta -- tes me -- as\skip1 de
-    -- le Mi --\skip1 se -- re -- re me -- i De -- us Mi --\skip1 se --
-    re -- re me -- i\skip1 De -- us ne\skip1 pro -- i -- ci -- as me a
+    me -- is et o -- mnes i -- ni -- qui -- ta -- tes me -- as _ de
+    -- le Mi -- _ se -- re -- re me -- i De -- us Mi -- _ se --
+    re -- re me -- i _ De -- us ne _ pro -- i -- ci -- as me a
     fa -- ci -- e tu -- a et spi -- ri -- tum san -- ctum tu -- um ne au
-    -- fe -- ras a me\skip1 Mi -- se -- re -- re me -- i De -- us red --
-    de mi -- hi lae -- ti -- ti -- am sa -- lu -- ta -- ris tu --\skip1
-    \skip1 \skip1 \skip1 i et spi --\skip1 ri -- tu prin -- ci -- pa --
-    li con -- fir --\skip1 \skip1 \skip1 \skip1 ma me\skip1 con -- fir
-    --\skip1 \skip1 \skip1 \skip1 \skip1 ma me Mi -- se -- re -- re me
-    -- i De -- us Mi --\skip1 se -- re -- re me -- i De --\skip1 us et
-    im -- pi -- i ad te con -- ver --\skip1 ten -- tur li -- be -- ra me
-    de san -- gui -- ni -- bus De --\skip1 us De -- us sa -- lu --\skip1
-    \skip1 tis\skip1 me -- ae et e -- xul -- ta -- bit lin -- gua me --
-    a iu -- sti -- ti -- am\skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 tu -- am Mi -- se -- re -- re me -- i De -- us "i."
-    \skip1 Do -- mi -- ne la -- bi -- a me -- a a -- pe -- ri -- es et
-    os me -- um ad -- nun -- ti -- a -- bit lau -- dem\skip1 tu -- am Mi
-    --\skip1 se -- re -- re me -- i De -- us quo --\skip1 ni -- am si vo
-    -- lu -- is -- ses sa --\skip1 cri -- fi -- ci -- um de -- dis --
-    sem u --\skip1 ti -- que ho -- lo -- cau --\skip1 stis non de -- lec
-    -- ta -- be -- ris\skip1 non de -- lec -- ta -- be -- ris non de --
-    lec -- ta -- be -- ris Mi --\skip1 se -- re -- re me -- i De --
-    us\skip1 sa --\skip1 cri -- fi -- ci -- um\skip1 De -- o spi
-    --\skip1 ri -- tus con -- tri -- bu -- la -- tus cor con -- tri --
-    tum et hu -- mi -- li -- a --\skip1 \skip1 tum De --\skip1 us non de
-    -- spi -- ci -- es De --\skip1 us non de -- spi -- ci -- es Mi
-    --\skip1 se -- re -- re me -- i De -- us\skip1 be -- ni -- gne fac
-    Do -- mi -- ne\skip1 \skip1 in bo -- na vo -- lun -- ta -- te tu --
-    a\skip1 Si --\skip1 on Mi --\skip1 se -- re -- re me -- i De --
-    us\skip1 tunc ac -- ce --\skip1 \skip1 \skip1 pta -- bis\skip1
-    \skip1 \skip1 \skip1 \skip1 tunc ac -- ce -- pta --\skip1 bis sa
-    --\skip1 cri -- fi -- ci -- um iu -- sti -- ti -- ae ob -- la -- ti
-    -- o -- nes et ho -- lo -- cau -- sta tunc im --\skip1 po -- nent su
-    -- per al -- ta -- re tu -- um vi -- tu -- "los." \skip1 Mi --\skip1
-    se -- re -- re me -- i De -- us Mi --\skip1 se -- re -- re me -- i
-    De -- "us." \skip1 \skip1
+    -- fe -- ras a me _ Mi -- se -- re -- re me -- i De -- us red --
+    de mi -- hi lae -- ti -- ti -- am sa -- lu -- ta -- ris tu -- _
+    _  _ _ i et spi -- _ ri -- tu prin -- ci -- pa --
+    li con -- fir -- _ _  _ _ ma me _ con -- fir
+    -- _ _  _ _  _ ma me Mi -- se -- re -- re me
+    -- i De -- us Mi -- _ se -- re -- re me -- i De -- _ us et
+    im -- pi -- i ad te con -- ver -- _ ten -- tur li -- be -- ra me
+    de san -- gui -- ni -- bus De -- _ us De -- us sa -- lu -- _
+    _ tis _ me -- ae et e -- xul -- ta -- bit lin -- gua me --
+    a iu -- sti -- ti -- am _ _  _ _  _  _
+    _  _ tu -- am Mi -- se -- re -- re me -- i De -- us "i."
+    _ Do -- mi -- ne la -- bi -- a me -- a a -- pe -- ri -- es et
+    os me -- um ad -- nun -- ti -- a -- bit lau -- dem _ tu -- am Mi
+    -- _ se -- re -- re me -- i De -- us quo -- _ ni -- am si vo
+    -- lu -- is -- ses sa -- _ cri -- fi -- ci -- um de -- dis --
+    sem u -- _ ti -- que ho -- lo -- cau -- _ stis non de -- lec
+    -- ta -- be -- ris _ non de -- lec -- ta -- be -- ris non de --
+    lec -- ta -- be -- ris Mi -- _ se -- re -- re me -- i De --
+    us _ sa -- _ cri -- fi -- ci -- um _ De -- o spi
+    -- _ ri -- tus con -- tri -- bu -- la -- tus cor con -- tri --
+    tum et hu -- mi -- li -- a -- _ _ tum De -- _ us non de
+    -- spi -- ci -- es De -- _ us non de -- spi -- ci -- es Mi
+    -- _ se -- re -- re me -- i De -- us _ be -- ni -- gne fac
+    Do -- mi -- ne _ _ in bo -- na vo -- lun -- ta -- te tu --
+    a _ Si -- _ on Mi -- _ se -- re -- re me -- i De --
+    us _ tunc ac -- ce -- _ _  _ pta -- bis _
+    _  _ _  _ tunc ac -- ce -- pta -- _ bis sa
+    -- _ cri -- fi -- ci -- um iu -- sti -- ti -- ae ob -- la -- ti
+    -- o -- nes et ho -- lo -- cau -- sta tunc im -- _ po -- nent su
+    -- per al -- ta -- re tu -- um vi -- tu -- "los." _ Mi -- _
+    se -- re -- re me -- i De -- us Mi -- _ se -- re -- re me -- i
+    De -- "us." _  _
     }
 
 
