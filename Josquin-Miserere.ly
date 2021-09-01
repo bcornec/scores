@@ -70,7 +70,7 @@ PartPOneVoiceOne =  \relative b' {
     \stemDown c2. \stemDown b4 \stemUp a2 \stemUp g2 | % 39
     \stemUp f2 \stemUp d2 e1 | \barNumberCheck #40
     d1 a'1 ~ | % 41
-    \stemUp a2 \stemUp a2 b1 \break | % 42
+    \stemUp a2 \stemUp a2 bes1 \break | % 42
     \stemUp a2 \stemDown d2 \stemDown d2 \stemDown d2 ~ | % 43
     \stemDown d2 \stemDown c4 \stemDown b4 c1 | % 44
     d\breve ~ | % 45
@@ -179,7 +179,7 @@ PartPOneVoiceOne =  \relative b' {
     d1 c1 | % 158
     \stemDown b2 a1 \stemUp g4 \stemUp f4 | % 159
     e1 \stemUp d2 \stemUp e2 | \barNumberCheck #160
-    \stemUp f2 \stemUp e2. \stemUp d4 \stemUp d2 | % 161
+    \stemUp f2 \stemUp e1 \stemUp d2 | % 161
     e1 r1 | % 162
     g1. \stemUp g2 | % 163
     g1 g1 \pageBreak | % 164
@@ -263,8 +263,8 @@ PartPOneVoiceOne =  \relative b' {
     g\breve | % 259
     R1*4 \break | % 261
     r2 \stemUp d2 \stemUp f2 \stemUp d2 | % 262
-    \stemUp f2. \stemUp g4 \stemUp a2 \stemDown b2 | % 263
-    \stemUp a2 d1 \stemDown c2 | % 264
+    \stemUp f2. \stemUp g4 \stemUp a2 \stemDown bes2 | % 263
+    \stemUp a2 \stemDown d2. c4 c4 b4 | % 264
     d\breve | % 265
     R1*4 \pageBreak | % 267
     r1 a1 ~ | % 268
@@ -426,36 +426,39 @@ PartPOneVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Mi
     _ _ gno -- _ sco et pec -- ca -- tum me -- _ _ um con
     -- tra me est _ sem -- _ _ _ _ _ _ _ _ _ _ per Mi -- _
     se -- re -- re me -- i De -- us Mi -- se -- re -- re me -- i _
-    De -- _ us ec -- _ ce e -- nim in i -- ni -- _ qui -- ta
+    De -- _ us Ec -- _ ce e -- nim in i -- ni -- _ qui -- ta
     -- ti -- bus con -- cep -- tus sum et in pec -- ca -- tis con -- ce
     _ -- pit me ma -- ter me -- _ _ _ a Mi -- _ se -- re -- re
-    me -- _ i De -- _ _ us ec -- ce e -- nim ve -- _ ri
+    me -- _ i De -- _ _ us Ec -- ce e -- nim ve -- _ ri
     -- ta -- tem di -- _ le -- xi -- sti in -- cer -- ta et oc --
     cul -- ta sa -- pi -- en -- ti -- ae tu -- _ ae ma -- ni -- _ fe
     -- sta -- sti _ _ _  _ _  _ _ mi -- hi 
-	Mi -- se -- re -- re me -- i De -- us a -- sper -- ges
+	Mi -- se -- re -- re me -- i De -- us A -- sper -- ges
     me _ _  _ Do -- _ _  _ mi -- ne _ hy
     -- so -- po et _ _  _ mun -- da -- _ _  _
     _  _ _  _ _  _ _ bor la -- va -- bis
-    me et su -- per ni -- vem de -- _ _  _ _ al
-    -- _ ba -- _ _  _ bor Mi -- se -- re -- re me -- i
+    me et su -- per ni -- vem de -- _ _  _ _ al -- _ ba -- _ _ bor 
+	Mi -- se -- re -- re me -- i
     De -- _ _  _ _  _ _  _ _  _
-    _  _ _  _ "us." _ Mi -- se -- _ re -- re
-    me -- i De -- _ _  _ us a -- ver -- te fa -- ci -- em
+    _  _ _  _ "us." _ 
+	% secunda pars
+	Mi -- se -- re -- re _ _
+    me -- i De -- _ _ us a -- ver -- te fa -- ci -- em
     tu -- am a pec -- ca -- tis me -- is et o -- mnes i -- ni -- qui --
     ta -- tes me -- as de -- _ _  _ _  _  _
-    _ le _ cor mun -- dum cre -- _ a in me De -- _
+    _ le _ Cor mun -- dum cre -- _ a in me De -- _
     _  _ _  _ _ us et spi -- ri -- tum re -- ctum
     in -- no -- va in vi -- sce -- ri -- bus me -- is Mi -- _ se --
     re -- re me -- i De -- _ us red -- de mi -- hi lae -- ti -- ti
     -- am sa -- lu -- ta -- ris tu -- i et spi -- ri -- tu prin -- ci --
-    pa -- li con -- fir -- ma me con -- fir -- _ ma _ me _
-    _  _ _  _ do -- ce -- bo i -- ni -- quos vi -- as
+    pa -- li con -- fir -- ma me con -- _ fir -- _ _ _ ma _ _ me _ 
+    do -- ce -- bo i -- ni -- quos vi -- as
     tu -- _ _  _ _ as _ et im -- pi -- i ad
-    te _ con -- _ ver -- ten -- _ tur Mi -- se -- _ re
-    -- re me -- i De -- _ _ us li -- _ be -- ra me de san
-    -- gui -- ni -- bus De -- us De -- us sa -- lu -- _  _
-    tis _ me -- ae et e -- xul -- ta -- bit lin -- gua me -- a iu --
+    te con -- ver -- _ _ ten -- _ tur 
+	Mi -- se -- re -- re _ _ me -- i De -- _ _ _ us 
+	li -- _ be -- ra me de san
+    -- gui -- ni -- bus De -- us De -- us sa -- lu -- tis _ _ _ me -- ae 
+	et e -- xul -- ta -- bit lin -- gua me -- a iu --
     sti -- ti -- am tu -- _ _  _ _  _  _
     _  _ _  _ am Mi -- se -- re -- re me -- i De
     -- _ us Mi -- se -- re -- re me -- "i." _ Do -- mi -- ne la
@@ -565,10 +568,8 @@ PartPTwoVoiceOne =  \relative e' {
     r2 \stemDown e2 \stemDown e2 \stemDown c2 | % 87
     \stemDown d2 \stemDown e2 \stemDown c2. \stemUp a4 | % 88
     \stemUp a2 \stemDown d2 \stemDown b2 \stemUp g2 | % 89
-    \stemDown c2. \stemDown d4 \stemDown e2 \stemDown f2 ~ |
-    \barNumberCheck #90
-    \stemDown f4 \stemDown e4 \stemDown d2. \stemDown c4
-    \stemDown c4 \stemDown b4 \break | % 91
+    \stemDown c2. \stemDown d4 \stemDown e2 \stemDown f2 ~ | \barNumberCheck #90
+    \stemDown f4 \stemDown e4 \stemDown d1 \stemDown c2 \break | % 91
     d1 r1 | % 92
     R1*2 | % 93
     r1 d1 ~ | % 94
@@ -636,7 +637,7 @@ PartPTwoVoiceOne =  \relative e' {
     \stemUp a2 \stemUp g2 \stemUp a2 \stemUp e2 | % 158
     \stemUp g2 \stemUp f2 d1 | % 159
     a'1 r1 | \barNumberCheck #160
-    r1 d,1 | % 161
+    r1 f1 | % 161
     g1 ~ \stemUp g2 \stemUp e2 | % 162
     e1 e'1 ~ | % 163
     e1 e1 \pageBreak | % 164
@@ -721,7 +722,7 @@ PartPTwoVoiceOne =  \relative e' {
     R1*4 \break | % 261
     \stemDown d2 \stemDown f2 \stemDown d2 \stemDown f2 | % 262
     \stemDown d2 \stemDown f2. \stemDown e4 \stemDown d2 ~ | % 263
-    \stemDown d2 \stemDown c4 \stemDown b4 a1 | % 264
+    \stemDown d2 \stemDown c4 \stemDown bes4 a1 | % 264
     r1 a1 ~ | % 265
     \stemUp a2 \stemUp a2 a1 | % 266
     c1 \stemDown b2 \stemDown c2 \pageBreak | % 267
@@ -891,37 +892,37 @@ PartPTwoVoiceOneLyricsTwo =  \lyricmode {\set ignoreMelismata = ##t Mi
     De -- us ti -- _ bi so -- li pec -- ca -- _ vi et ma -- lum
     co -- ram te fe -- _ ci ut iu -- sti -- fi -- ce -- ris in ser
     -- mo -- ni -- bus tu -- _ is et vin -- cas cum _ _ iu
-    -- _ di -- ca -- _ _  _ ris Mi -- _ se -- re --
-    re me -- i De -- us ec -- ce e -- nim in i -- ni -- qui -- ta
+    -- _ di -- ca -- _ ris Mi -- _ se -- re --
+    re me -- i De -- us Ec -- ce e -- nim in i -- ni -- qui -- ta
     -- _ ti -- bus con -- cep -- tus sum con -- cep -- tus sum et
     in pec -- ca tis Mi -- se -- re -- re me -- i De -- _ us
-    ec -- ce e -- nim ve -- _ ri -- ta -- tem di -- _ le -- xi
+    Ec -- ce e -- nim ve -- _ ri -- ta -- tem di -- _ le -- xi
     -- sti in -- cer -- ta et oc -- cul -- ta sa -- pi -- en -- ti -- ae
     tu -- _ ae ma -- _ ni -- fe -- sta -- sti _ _ _ _ _ mi -- _ hi
     Mi -- _ se -- re -- re me
-    -- i De -- _ _  _ _ us a -- sper -- ges me _
+    -- i De -- _ _  _ _ us A -- sper -- ges me _
     _  _ Do -- _ _  _ _ _ _ mi -- ne hy -- so -- po 
 	et mun -- _ _ da -- _ bor _ _ la
     -- va -- bis me _ _ et _ _ _ su -- _ per ni -- vem de -- al -- ba -- bor 
 	al -- ba -- _ _ bor Mi -- _ se -- re -- re me -- i De -- us _ _ 
 	% secunda pars
-	Mi -- se -- _ re -- _ _  _ re me -- i De -- us a -- ver --
+	Mi -- se -- re -- re _ _ _ me -- i De -- _ us a -- ver --
     te fa -- ci -- em tu -- am a pec -- ca -- tis _ me -- is et o --
-    mnes i -- ni -- qui -- ta -- tes me -- _ _ as _  _
-    de -- le cor mun -- dum cre -- _ a in me _ _  _
+    mnes i -- ni -- qui -- ta -- tes me -- _ as de -- _ _ _ le 
+	Cor mun -- dum cre -- _ a in me _ _  _
     _ De -- us et spi -- ri -- tum re -- ctum in -- no -- va in vi
     -- sce -- ri -- bus me -- is Mi -- _ se -- re -- re me -- i De
-    -- _ us _ Mi -- se -- re -- re me -- i De -- us _  _
+    -- _ us _ Mi -- se -- re -- re me -- i De -- _ _ us
     red -- _ de mi -- hi lae -- ti -- _ ti -- am sa -- lu -- ta
     -- _ _ ris _ tu -- i et spi -- _ ri -- tu prin --
     ci -- pa -- _ _  _ _ li con -- fir -- _  _
     _  _ _  _ _  _ _ ma me Mi -- se --
     re -- re me -- i De -- us Mi -- se -- re -- re me -- i De -- _
-    us et im -- pi -- i ad te _ con -- ver -- ten -- tur Mi -- se
-    -- _ re -- re me -- i De -- _ _  _ us li -- _
-    be -- ra me de san -- gui -- ni -- bus De -- us De -- us sa -- lu
-    -- _ _ tis _ me -- _ _  _ ae et e -- xul
-    -- ta -- bit lin -- gua me -- a iu -- sti -- ti -- am _ tu
+    us et im -- pi -- i ad te con -- ver _ -- ten -- tur 
+	Mi -- se -- re -- re me -- i _ De -- _ _  _ us 
+	li -- _ be -- ra me de san -- gui -- ni -- bus De -- us De -- us 
+	sa -- lu -- tis _ _ _ me -- _ _  _ ae 
+	et e -- xul -- ta -- bit lin -- gua me -- a iu -- sti -- ti -- am _ tu
     -- _ _  _ _  _ _ am Mi -- se -- re -- re
     me -- i De -- _ us Mi -- se -- re -- re me -- "i." _ Do --
     mi -- ne la -- bi -- a me -- a a -- pe -- ri -- es et _ os me --
@@ -1046,7 +1047,7 @@ PartPThreeVoiceOne =  \relative e' {
     R1*12 \break | % 224
     R1*4 | % 226
     \stemUp a2. \stemUp a4 \stemUp a2 \stemUp a2 | % 227
-    \stemUp a2 \stemUp a2 b1 | % 228
+    \stemUp a2 \stemUp a2 bes1 | % 228
     a\breve | % 229
     R1*2 \break | \barNumberCheck #230
     R1*12 \break | % 236
@@ -1182,7 +1183,7 @@ PartPFourVoiceOne =  \relative b {
     \stemDown c2 \stemDown e2. \stemDown d4 \stemDown e2 | % 51
     c1 r2 \stemDown c2 | % 52
     \stemDown d2 \stemDown e2 f1 | % 53
-    \stemDown e2 d1 \stemDown c4 \stemDown bes4 | % 54
+    \stemDown e2 d1 \stemDown c4 \stemDown b4 | % 54
     \stemDown c2 \stemDown d2 \stemDown c2 \stemDown d4 \stemDown c4
     \pageBreak | % 55
     \stemDown b4 \stemUp a4 a1 \stemUp g2 | % 56
@@ -1303,15 +1304,14 @@ PartPFourVoiceOne =  \relative b {
     e1 e1 | % 172
     \stemUp f2 \stemUp e2 a1 | % 173
     \stemUp g2 a1 \stemUp a2 | % 174
-    \stemUp a2 \stemUp a2 \stemDown b2 \stemUp a2 | % 175
+    \stemUp a2 \stemUp a2 \stemDown bes2 \stemUp a2 | % 175
     \stemDown d4 \stemDown c4 \stemDown b4 \stemUp a4 \stemUp g2 \stemUp
     a2 \break | % 176
-    \stemUp e2. ^ "8" \stemUp g4 f1 | % 177
+    \stemUp e2. \stemUp g4 f1 | % 177
     \stemUp e2 \stemDown b'2 \stemDown c2 \stemDown b2 | % 178
     e1 \stemDown d2 \stemDown e2 ~ | % 179
-    \stemDown e2 \stemDown d4 \stemDown c4 \stemDown b2 \stemDown c2 ~ |
-    \barNumberCheck #180
-    \stemDown c2 \stemDown b4 \stemUp a4 \stemUp g2 \stemDown c2 | % 181
+    \stemDown e2 \stemDown d4 \stemDown c4 \stemDown b2 \stemDown c2 | \barNumberCheck #180
+    \stemDown a2 \stemDown c1 b4 a4| % 181
     \stemDown b2 c1 \stemDown b4 \stemUp a4 \break | % 182
     c1 b1 | % 183
     R1*4 | % 185
@@ -1330,7 +1330,7 @@ PartPFourVoiceOne =  \relative b {
     d,1 e1 | % 197
     d1 a'1 ~ | % 198
     \stemUp a2 \stemUp a2 \stemUp a2 \stemUp a2 | % 199
-    \stemUp a2 \stemUp a2 b1 \break | \barNumberCheck #200
+    \stemUp a2 \stemUp a2 bes1 \break | \barNumberCheck #200
     a1. \stemUp f2 | % 201
     \stemUp g2. \stemUp f4 d1 | % 202
     R1*8 \break | % 206
@@ -1383,9 +1383,9 @@ PartPFourVoiceOne =  \relative b {
     a1 g1 | % 255
     R1*4 | % 257
     r1 r2 \stemUp g2 | % 258
-    \stemDown c2. \stemDown b4 b1 | % 259
+    \stemDown c2. \stemDown c4 b1 | % 259
     r2 \stemDown b2 \stemDown c2 \stemDown b2 | \barNumberCheck #260
-    \stemUp a2 d1 \stemDown cis2 \break | % 261
+    \stemUp a2 \stemDown d2. c4 c4 b4 \break | % 261
     d\breve | % 262
     R1*10 \pageBreak | % 267
     d1. \stemDown d2 | % 268
@@ -1561,40 +1561,41 @@ PartPFourVoiceOneLyricsFour =  \lyricmode {\set ignoreMelismata = ##t Mi
     -- _ vi et ma -- lum co -- ram te fe -- _ ci ut iu -- sti --
     fi -- ce -- ris in ser -- mo -- ni -- bus tu -- _ _ is et
     vin -- cas cum _ _  _ iu -- di -- ca -- ris Mi -- se --
-    re -- re me -- i De -- _ _ us ec -- _ ce e -- nim in i
+    re -- re me -- i De -- _ _ us Ec -- _ ce e -- nim in i
     -- ni -- _ qui -- ta -- ti -- bus con -- cep -- tus sum et in
     pec -- ca -- tis con -- ce -- pit me ma -- ter me -- a Mi -- _
-    se -- re -- re me -- i De -- us _ ec -- ce e -- nim ve -- ri --
+    se -- re -- re me -- i De -- us _ Ec -- ce e -- nim ve -- ri --
     ta -- tem di -- le -- xi -- sti in -- cer -- ta et _ oc -- cul
     -- ta sa -- _ pi -- en -- ti -- ae tu -- _ _ ae ma -- ni -- fe
     -- sta -- sti _ _  mi -- _ _  _ _ hi 
-	Mi -- _ se -- re -- re me -- i De -- us a -- sper -- ges
+	Mi -- _ se -- re -- re me -- i De -- us A -- sper -- ges
     me _ _ Do -- _ _  _ _  _ mi --
     ne _ hy -- so -- po et _ mun -- da -- bor la -- va -- bis me
     et su -- per ni -- vem de -- al -- _ _  _ ba -- _
     bor Mi -- _ se -- re -- re me -- i De -- "us." _  _ 
 	% secunda pars
 	Au -- di au -- di -- tu -- i me -- o da -- bis gau -- di -- um et lae
-    -- _ _  _ _  _ ti -- ti -- am _ et e --
-    xul -- ta -- bunt os -- _ _  _ sa hu -- _  _
-    _  _ mi -- li -- a -- _ _  _ ta a -- ver -- te
+    -- _ _  _ _  _ ti -- _ ti -- am, et e --
+    xul -- ta -- bunt os -- _ _  _ sa hu -- mi -- li -- _ _ _ a -- _ _  _ ta 
+	a -- ver -- te
     fa -- ci -- em tu -- am a pec -- ca -- tis me -- is et o -- mnes i
-    -- ni -- qui -- ta -- tes me -- _ _  _ _  _ as
-    de -- le Mi -- _ se -- re -- re me -- i De -- us _  _
-    _  _ Mi -- se -- re -- re me -- i De -- _ us ne pro --
-    i -- ci -- as me a fa -- ci -- e tu -- a et spi -- ri -- tum _
-    san -- ctum tu -- um ne au -- fe -- _ ras _ a _  _
+    -- ni -- qui -- ta -- tes me -- _ _  _ _ as
+    de -- _ le 
+	Mi -- _ se -- re -- re me -- i De _ _ _ _ -- us
+    Mi -- se -- re -- re me -- i De -- _ us Ne pro --
+    i -- ci -- as me a fa -- ci -- e tu -- a et spi -- ri -- tum
+    san -- ctum tu -- um ne au -- fe -- ras _ _ _ a _  _
     _ me Mi -- se -- re -- re me -- i De -- us red -- _ de mi
     -- hi lae -- ti -- _ ti -- am sa -- lu -- ta -- _ ris _
-    tu -- _ _ i et spi -- ri -- tu prin -- ci -- pa -- li _
-    _ con -- fir -- _ _  _ _  _ _  _
-    _  _ ma me Mi -- se -- re -- re me -- i De -- us do -- ce
+    tu -- _ _ i et spi -- ri -- tu prin -- ci -- pa -- _ _ li
+    con -- fir -- _ _  _ _  _ _  _
+    _  ma _ me Mi -- se -- re -- re me -- i De -- us do -- ce
     -- bo i -- ni -- quos vi -- as tu -- _ _  _ _ as
     Mi -- se -- re -- re me -- i De -- _ us et im -- pi -- i ad te
-    con -- ver -- ten -- _ tur li -- be -- ra me de san -- gui -- ni
-    -- bus De -- _ us De -- us sa -- lu -- _ _ tis _ me
-    -- ae sa -- lu -- _ _ tis _ me -- _ _  _
-    ae et e -- xul -- ta -- bit lin -- gua me -- a iu -- sti -- ti --
+    con -- ver -- ten -- _ _ _ tur li -- be -- ra me de san -- gui -- ni
+    -- bus De -- _ us De -- us sa -- lu -- tis _ _ _ me
+    -- ae sa -- lu -- tis _ _ _ me -- _ _  _ ae 
+	et e -- xul -- ta -- bit lin -- gua me -- a iu -- sti -- ti --
     am _ tu -- am Mi -- se -- re -- re me -- i De -- us Mi -- se --
     re -- re me -- "i." _ Do -- mi -- ne la -- bi -- a me -- a a --
     pe -- ri -- es et os me -- um ad -- nun -- ti -- a -- bit lau --
@@ -1645,7 +1646,7 @@ PartPFiveVoiceOne =  \relative e {
     R1*8 | \barNumberCheck #40
     d1. \stemDown d2 | % 41
     d1 g,1 \break | % 42
-    d'1 b1 | % 43
+    d'1 bes1 | % 43
     a\breve | % 44
     d\breve | % 45
     r1 d1 | % 46
@@ -1658,7 +1659,7 @@ PartPFiveVoiceOne =  \relative e {
     r1 r2 \stemDown d2 | % 53
     \stemDown e2 \stemDown f2 g1 | % 54
     f1 \stemDown e2 \stemDown d2 ~ \pageBreak | % 55
-    \stemDown d2 \stemUp c2 b1 | % 56
+    \stemDown d2 \stemUp c2 bes1 | % 56
     a1 r1 | % 57
     R1*4 | % 59
     r1 a'1 ~ | \barNumberCheck #60
@@ -1749,7 +1750,7 @@ PartPFiveVoiceOne =  \relative e {
     a,1 a1 | % 171
     R1*2 | % 172
     a1 a1 | % 173
-    \stemUp b2 \stemUp a2 d1 | % 174
+    \stemUp bes2 \stemUp a2 d1 | % 174
     \stemUp c2 d1 \stemDown d2 | % 175
     \stemDown d2 \stemDown d2 \stemDown e2 \stemUp a,4 \stemUp b4 \break
     | % 176
@@ -1851,7 +1852,7 @@ PartPFiveVoiceOne =  \relative e {
     \stemUp c2 \stemUp a2 d1 | % 285
     a\breve | % 286
     R1*2 | % 287
-    e'\breve ~ | % 288
+    r1 e'1 | % 288
     e\breve \bar "||"
     \pageBreak R1*4 | \barNumberCheck #290
     c1 \stemUp c2 \stemUp c2 | % 291
@@ -1990,33 +1991,36 @@ PartPFiveVoiceOneLyricsFive =  \lyricmode {\set ignoreMelismata = ##t Mi
     -- to me -- o _ mun -- da me Mi -- _ se -- re -- re me -- i
     De -- us _ et -- pec -- ca -- tum me --  _ _  um Mi
     -- _ se -- re -- re me -- _ i De -- us _ Mi -- _ se
-    -- re -- re me -- i De -- us ec -- _ ce e -- nim in i -- ni
+    -- re -- re me -- i De -- us Ec -- _ ce e -- nim in i -- ni
     -- _ qui -- ta -- ti -- bus con -- cep -- tus sum con -- cep --
     tus sum et in pec -- ca -- tis con -- ce -- pit me ma -- ter me --
     a Mi -- se -- re -- re me -- i De -- _ us _ Mi -- se -- re
-    -- re me -- i De -- us _ _ a -- sper -- ges me _  _
+    -- re me -- i De -- us _ _ A -- sper -- ges me _  _
     Do -- _ _  _ _  _ mi -- ne hy -- so -- po
     et _ mun -- da -- bor la -- va -- bis me et su -- per ni
     -- _ _ vem de -- al -- _ ba -- bor Mi -- se -- re -- re
-    me -- i De -- "us." _  _ Au -- di au -- di -- tu -- i me --
-    o da -- bis gau -- di -- um et _ lae -- _ ti -- ti -- am et
+    me -- i De -- "us." _  _ 
+	% secunda pars
+	Au -- di au -- di -- tu -- i me --
+    o da -- bis gau -- di -- um et _ lae -- _ ti -- ti -- am, et
     e -- xul -- ta -- bunt os -- _ _  _ sa hu -- mi -- li
     -- a -- ta a -- ver -- te fa -- ci -- em tu -- am a pec -- ca -- tis
-    me -- is et o -- mnes i -- ni -- qui -- ta -- tes me -- as _ de
+    me -- is et o -- mnes i -- ni -- qui -- ta -- tes me -- _ as de
     -- le Mi -- _ se -- re -- re me -- i De -- us Mi -- _ se --
-    re -- re me -- i _ De -- us ne _ pro -- i -- ci -- as me a
+    re -- re me -- i _ De -- us Ne _ pro -- i -- ci -- as me a
     fa -- ci -- e tu -- a et spi -- ri -- tum san -- ctum tu -- um ne au
-    -- fe -- ras a me _ Mi -- se -- re -- re me -- i De -- us red --
+    -- fe -- ras _ a me Mi -- se -- re -- re me -- i De -- us red --
     de mi -- hi lae -- ti -- ti -- am sa -- lu -- ta -- ris tu -- _
     _  _ _ i et spi -- _ ri -- tu prin -- ci -- pa --
-    li con -- fir -- _ _  _ _ ma me _ con -- fir
-    -- _ _  _ _  _ ma me Mi -- se -- re -- re me
+    li con -- fir -- _ _  _ _ _ ma me con -- fir -- _ _  _ _  _ ma me 
+	Mi -- se -- re -- re me
     -- i De -- us Mi -- _ se -- re -- re me -- i De -- _ us et
     im -- pi -- i ad te con -- ver -- _ ten -- tur li -- be -- ra me
-    de san -- gui -- ni -- bus De -- _ us De -- us sa -- lu -- _
-    _ tis _ me -- ae et e -- xul -- ta -- bit lin -- gua me --
-    a iu -- sti -- ti -- am _ _  _ _  _  _
-    _  _ tu -- am Mi -- se -- re -- re me -- i De -- us "i."
+    de san -- gui -- ni -- bus De -- _ us De -- us sa -- lu -- tis _ _ _ me -- ae 
+	et e -- xul -- ta -- bit lin -- gua me --
+    a iu -- sti -- ti -- am _ tu -- _  _ _  _  _ _  _ am 
+	Mi -- se -- re -- re me -- i De -- us De -- us.
+	% Tertia pars
     _ Do -- mi -- ne la -- bi -- a me -- a a -- pe -- ri -- es et
     os me -- um ad -- nun -- ti -- a -- bit lau -- dem _ tu -- am Mi
     -- _ se -- re -- re me -- i De -- us quo -- _ ni -- am si vo
@@ -2052,50 +2056,45 @@ PartPFiveVoiceOneLyricsFive =  \lyricmode {\set ignoreMelismata = ##t Mi
             \new Staff
             <<
                 \set Staff.instrumentName = "Cantus"
-                
                 \context Staff << 
                     \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
-                    \context Voice = "PartPOneVoiceOne" {  \PartPOneVoiceOne }
+                    \context Voice = "PartPOneVoiceOne" { \set Staff.midiInstrument = #"church organ" \PartPOneVoiceOne }
                     \new Lyrics \lyricsto "PartPOneVoiceOne" { \set stanza = "" \PartPOneVoiceOneLyricsOne }
                     >>
                 >>
             \new Staff
             <<
                 \set Staff.instrumentName = "Altus"
-                
                 \context Staff << 
                     \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
-                    \context Voice = "PartPTwoVoiceOne" {  \PartPTwoVoiceOne }
+                    \context Voice = "PartPTwoVoiceOne" { \set Staff.midiInstrument = #"church organ" \PartPTwoVoiceOne }
                     \new Lyrics \lyricsto "PartPTwoVoiceOne" { \set stanza = "" \PartPTwoVoiceOneLyricsTwo }
                     >>
                 >>
             \new Staff
             <<
                 \set Staff.instrumentName = "Tenor 1"
-                
                 \context Staff << 
                     \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
-                    \context Voice = "PartPThreeVoiceOne" {  \PartPThreeVoiceOne }
+                    \context Voice = "PartPThreeVoiceOne" { \set Staff.midiInstrument = #"church organ" \PartPThreeVoiceOne }
                     \new Lyrics \lyricsto "PartPThreeVoiceOne" { \set stanza = "" \PartPThreeVoiceOneLyricsThree }
                     >>
                 >>
             \new Staff
             <<
                 \set Staff.instrumentName = "Tenor 2"
-                
                 \context Staff << 
                     \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
-                    \context Voice = "PartPFourVoiceOne" {  \PartPFourVoiceOne }
+                    \context Voice = "PartPFourVoiceOne" { \set Staff.midiInstrument = #"church organ" \PartPFourVoiceOne }
                     \new Lyrics \lyricsto "PartPFourVoiceOne" { \set stanza = "" \PartPFourVoiceOneLyricsFour }
                     >>
                 >>
             \new Staff
             <<
                 \set Staff.instrumentName = "Bassus"
-                
                 \context Staff << 
                     \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
-                    \context Voice = "PartPFiveVoiceOne" {  \PartPFiveVoiceOne }
+                    \context Voice = "PartPFiveVoiceOne" { \set Staff.midiInstrument = #"church organ" \PartPFiveVoiceOne }
                     \new Lyrics \lyricsto "PartPFiveVoiceOne" { \set stanza = "" \PartPFiveVoiceOneLyricsFive }
                     >>
                 >>
@@ -2105,6 +2104,8 @@ PartPFiveVoiceOneLyricsFive =  \lyricmode {\set ignoreMelismata = ##t Mi
         >>
     \layout {}
     % To create MIDI output, uncomment the following line:
-    %  \midi {\tempo 4 = 240 }
+    \midi {
+	  \tempo 2 = 165 
+  		}
     }
 

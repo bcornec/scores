@@ -1,13 +1,12 @@
 PDF=$(shell ls *.ly | sed 's/\.ly/.pdf/g')
+MP3=Morton-L-Omme-armé.mp3 Morton-L-Omme-armé2.mp3 Josquin-Miserere.mp3
 
-all: $(PDF) Morton-L-Omme-armé.mp3 Morton-L-Omme-armé2.mp3
+all: $(PDF) $(MP3)
 
 %.pdf : %.ly
 	@lilypond -s $<
 	@echo "$@"
 
-Morton-L-Omme-armé.mp3 : Morton-L-Omme-armé.midi
-	@timidity -Ov -o Morton-L-Omme-armé.mp3 Morton-L-Omme-armé.midi
+%.mp3 : %.midi
+	@timidity -Ov -o $@ $< 2>&1 >/dev/null
 
-Morton-L-Omme-armé2.mp3 : Morton-L-Omme-armé2.midi
-	@timidity -Ov -o Morton-L-Omme-armé2.mp3 Morton-L-Omme-armé2.midi
