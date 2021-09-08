@@ -58,8 +58,10 @@ tenorII={
 bassusI={
 	\relative fa {
 	  fa2. fa4 la2 la la2. re,4 fa1 r2 sol~ sol4 fa8 mi fa2 sol mi mi4 mi mi2 fa1~ fa
+	  # 11
 	  do2 mi re re fa1 mi2 do do'2. do4 do1 do,2 mi mi do fa2. fa4 fa2 re
-	  r2 re mi mi mi1 fa2 fa~ fa4 fa fa2 mi mi mi4 mi fa2 do sol' do, do'~ do4 do do2 la1
+	  # 21
+	  r2 re mi mi mi1 fa2 fa~ fa4 fa fa2 mi mi mi fa do sol' do, do'~ do4 do do2 la1
 	  la2 sib sol4 sol2 mi4 mi2 mi re1 fa2 fa do1
 	  r2 re fa fa mi4 mi do2 do' do4 do la2 la4 la fa1 do1 r do\breve
 	\bar "||"
@@ -113,7 +115,7 @@ textbassusI=\lyricmode {
   Chri- stus mor- tu- us est pro pec- ca- tis pro pec- ca- tis no- -- _ _ stris
   Et re- sur- re- xit Et re- sur- re- xit
   Et re- sur- re- xit Et re- sur- re- xit
-  Ab _ ju- sti- fi- ca- ti- o- nem no- stram
+  Ab ju- sti- fi- ca- ti- o- nem no- stram
   Ab _ ju- sti- fi- ca- -- _ ti- o- nem no- -- _ stram
   no- stram
 }
