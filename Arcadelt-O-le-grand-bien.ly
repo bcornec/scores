@@ -6,7 +6,7 @@
 \header {
     encodingsoftware =  "Lilypond"
     encodingdate =  "2022-07-24"
-    composer =  "Jacob Arcadelt (1450-1521)"
+    composer =  "Jacob Arcadelt (1507-1568)"
 	footer="Edité avec LilyPond"
 	tagline="(c) Bruno Cornec - CC-BY-SA 4.0 - Edited with LilyPond"
 	poet = ""
