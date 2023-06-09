@@ -107,9 +107,35 @@ cantus={
 	re1 do2 r sol' la |
 	si do re mi fa mi4 do |
 %75
-	re1 mi2 do1 si2 do\breve.
+	re1 mi2 do1 si2 | 
+	do\breve. |
 	\bar "||"
-	}
+	\time 2/1
+	do,1. re2 |
+	mi1 fa |
+	sol1. do2~ |
+%80
+	do si la1 |
+	sol r2 si |
+	do la2. sol4 sol2~ |
+	sol do si re |
+	mi do2. si2 la4 |
+%85
+	do1 r |
+	mib re |
+	do si |
+	do re |
+	sol, fa |
+%90 
+	sib la |
+	sol2 sol1 fad2 |
+	sol1  sib |
+	la2 sol1 fa2 |
+	mi1 re~ |
+%95
+	re mi~ |
+	mi2 do do1 |
+      }
 }
 alto={
 	\relative do' {
@@ -206,6 +232,32 @@ alto={
 %75
 	r1 sol' sol |
 	sol\breve. |
+	\bar "||"
+	\time 2/1
+	r\breve |
+	r\breve |
+	r\breve |
+%80
+	r\breve |
+	r\breve |
+	r\breve |
+	r\breve |
+	r\breve |
+%85
+	r\breve |
+	r\breve |
+	mib1 re |
+	do si |
+	do re |
+%90
+	sol, fa |
+	sib la |
+	sol r2 re'~ |
+	re mib1 re2 |
+	do1 si~
+%95
+	si do2. si4 
+	sol\breve
 	}
 }
 tenor={
@@ -302,6 +354,32 @@ tenor={
 %75
 	fa sol2. fa4 mi2 re1 |
 	do\breve. |
+	\bar "||"
+	\time 2/1
+	r\breve |
+	r\breve |
+%80
+	do |
+	mi1 fa |
+	sol\breve |
+	fa1 mi~ |
+	mi re |
+%85
+	do2 mi re1 |
+	do\breve |
+	r\breve |
+	r\breve |
+	r\breve |
+%90
+	r\breve |
+	r\breve |
+	r\breve |
+	r\breve |
+	r\breve |
+%95
+	r\breve |
+	r\breve |
+	r\breve |
   }
 }
 bassus={
@@ -398,6 +476,32 @@ bassus={
 %75
 	si sol do1 sol |
 	do,\breve. |
+	\bar "||"
+	\time 2/1
+	do2. re4 mi2 fa |
+	mi4 sol2 fa4 re1 |
+	do\breve |
+%80
+	do'1 re |
+	sol,\breve
+	la2. si4 do2 do,|
+	mi2. fa4 sol2 si |
+	la do sol1 |
+%85
+	do,\breve |
+	do'1 si |
+	do1 sol |
+	lab sol |
+	mib re |
+%90
+	\tuplet 3/2 { mib2. fa4 sol2 } re1 |
+	sol re |
+	r2 sol1 sol2 |
+	fa4 mib do2. si |
+	do2 mi4. fa8 sol1~ |
+%95
+	sol do, |
+	do\breve |
   }
 }
 textAcantus=\lyricmode {
@@ -416,6 +520,10 @@ textAcantus=\lyricmode {
   por -- _ _ _ _ _ _ _ _ _ ta
   coe -- _ _ _ _ _ _ _ _ _ _ _ li
   de -- _ _ _ _ _ _ _ _ _ _ _ bi -- li.
+  Gau -- _ de _ _ glo -- ri -- o -- sa 
+  su -- _ per _ om -- nes spe -- ci -- o -- _ _ _ sa.
+  Mi -- se -- re -- re, mi -- se -- re -- re sup -- pli -- can -- _ _ _ _ _ _ _ ti
+  Du -- fa -- _ y.
 }
 textAalto=\lyricmode {
   A -- _ _ _ _ _ _ _ _ ve A -- _ _ _ ve
@@ -436,6 +544,8 @@ textAalto=\lyricmode {
   coe -- _ _ _ _ _ _ _ _ _ _ _ _ li
   de -- bi -- li _
   de -- bi -- li.
+  Mi -- se -- re -- re, mi -- se -- re -- re sup -- pli -- can -- _ _ _ ti
+  Du -- fa -- _ y.
 
 }
 textAtenor=\lyricmode {
@@ -447,7 +557,8 @@ textAtenor=\lyricmode {
   Sal -- _ _ _ _ _ ve ra -- dix sanc -- _ ta Ex _ qua _ mun -- do
   Ex qua _ _ _ _ _
   mun -- _ _ _ _ _ _ _ do
-  lux est _ _ _ _ _ or -- _ _ _ _ _ _ _ 
+  lux est _ _ _ _ _ or -- _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ ta
+  Gau -- de _ _ glo -- _ ri -- o -- _ _ sa
 }
 textAbassus=\lyricmode {
   A -- _ _ _ _ _ _ ve A -- _ ve
@@ -463,6 +574,10 @@ textAbassus=\lyricmode {
   Ut pa -- te -- at _ _ _ _ _ por -- ta _ 
   coe -- _ _ _ _ _ _ _ _ _ _ li
   de -- _ bi -- li _ de -- _ _ _ bi -- li
+  Gau -- _ _ _ de _ _ _ glo -- ri -- o -- sa
+  su -- _ _ per om -- _ _ nes spe -- ci -- o -- sa,
+  Mi -- se -- re -- re, mi -- se -- re -- re sup -- _ _ pli -- can -- _ _ _ _ _ _ _ ti _ _ 
+  Du -- fa -- y.
 }
 
 %#(set-global-staff-size 14.5)
@@ -521,11 +636,16 @@ textAbassus=\lyricmode {
    % #(layout-set-staff-size 14)
 %	\context {\Lyrics \override LyricText.font-size = #1.5 }
 	\context {
+	\Score
+		barNumberVisibility = #first-bar-number-invisible-save-broken-bars
+    		\override BarNumber.break-visibility = ##(#f #t #t)
+	      }
+	\context {
        	\ChoirStaff
 % ceci fonctionne pour l'espacement entre portées, pas entre systèmes
     		\override StaffGrouper.staff-staff-spacing.basic-distance = #8
 	      }
-	    }
+	}
   \midi {
     \tempo 4 = 120
     }
@@ -554,10 +674,4 @@ textAbassus=\lyricmode {
 %	\translator { \ScoreContext BarNumber \override #'padding = #2 }
 
 }
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%
-
-
