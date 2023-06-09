@@ -135,6 +135,52 @@ cantus={
 %95
 	re mi~ |
 	mi2 do do1 |
+	r2 do'2. si4 la2 |
+	sol1 fa |
+	sol2 mi1 sol2 |
+%100
+	fa1 mi |
+	r\breve |
+	r1 mi2. fa4 |
+	sol2 do1 si2 |
+	do1 si~
+%105
+	si la|
+	sol fa2 la~ |
+	la4 si do2 si4 la4. sol8 fa4 |
+	mi\breve |
+	\bar "||"
+	do1 re |
+%110
+	mi1. fa2~ |
+	fa4 mi mi2 re2. do4 |
+	mi1 r2 la |
+	sol do si la~ |
+	la4 sol sol2 fa2. mi8 re |
+%115
+	do2 r mi re |
+	mi fa mi re~ |
+	re4 do do1 si2 |
+	do'1 r2 do |
+	do4 si do2 re mi |
+%120
+	mi4 do do2 r re |
+	do la4 si2 do4 la2 |
+	sol do r re |
+	mi fa mi re~ |
+	re4 do do1 si2 |
+%125
+	do1 r |
+	do1. do2 |
+	si1 si |
+	la2 la re2. do4 |
+	la1. la2 |
+%130
+	sol1 fa |
+	mi2 fa sol4 fa re2 |
+	r2 la \tuplet 3/2 { sol4 fa2 }  \tuplet 3/2 { mi4 re2 } |
+	do\breve |
+	\bar "||"
       }
 }
 alto={
@@ -258,6 +304,51 @@ alto={
 %95
 	si do2. si4 
 	sol\breve
+	la2. si4 do2 re~ |
+	re mi do1~ |
+	do si2 do |
+%100
+	re1 sol,~ |
+	sol2 la si sol~ |
+	sol fa sol1 |
+	r2 sol' la sol |
+	mi fa sol1~ |
+%105
+	sol do,~ |
+	do la~ |
+	la\breve |
+	sol\breve |
+	r\breve |
+%110
+	r\breve |
+	r\breve |
+	r\breve |
+	r\breve |
+	r\breve |
+%115
+	r\breve |
+	r\breve |
+	r\breve |
+	r1 do |
+	mi fa2 sol |
+%120
+	do1 si |
+	do2 re mi fa4 re | |
+	mi do2 si4 la2 sol |
+	do re mi fa~ |
+	fa mi re1 |
+%125
+	do\breve |
+	mi1 mi |
+	re re |
+	re re2 re~ |
+	re4 do la2 r do~ |
+%130
+	do1 la2 si |
+	la1 sol2 sol |
+	la do2. si4 sold4. fad8 |
+	la\breve
+	\bar "||"
 	}
 }
 tenor={
@@ -358,15 +449,16 @@ tenor={
 	\time 2/1
 	r\breve |
 	r\breve |
-%80
 	do |
+%80
 	mi1 fa |
 	sol\breve |
 	fa1 mi~ |
 	mi re |
-%85
 	do2 mi re1 |
+%85
 	do\breve |
+	r\breve |
 	r\breve |
 	r\breve |
 	r\breve |
@@ -379,7 +471,51 @@ tenor={
 %95
 	r\breve |
 	r\breve |
+	do1 la |
+	si2 do la1 |
+	sol r2 sol |
+%100
+	la si do2. si4 |
+	do2 re2. do4 do2~ |
+	do si do1~ |
+	do r |
+	do re |
+%105
+	mi fa |
+	mi re |
+	do\breve~ |
+	do\breve |
 	r\breve |
+%110
+	r\breve |
+	r\breve |
+	do1 re |
+	mi mi2 fa~ |
+	fa4 mi mi2 re2. do4 |
+%115
+	mi1 r |
+	r\breve |
+	r\breve |
+	r\breve |
+	r\breve |
+%120
+	r\breve |
+	r\breve |
+	r\breve |
+	r\breve |
+	r\breve |
+%125
+	r\breve |
+	sol\breve |
+	sol\breve |
+	fa\breve |
+	fa\breve |
+%130
+	mi1 re |
+	do re |
+	do re |
+	mi\breve |
+	\bar "||"
   }
 }
 bassus={
@@ -502,6 +638,52 @@ bassus={
 %95
 	sol do, |
 	do\breve |
+	fa\breve |
+	sol2 mi fa1 |
+	do mi |
+%100
+	re do2. re4 |
+	mi2 fa sol mi |
+	re1 do~ |
+	do fa2 sol |
+	la1 sol~ |
+%105
+	sol fa |
+	r2 do re2. mi4 |
+	fa\breve |
+	do\breve |
+	\bar "||"
+	do1 si |
+%110
+	do la |
+	sol2 la fa2. mi8 re |
+	do1 fa |
+	mi2. fa4 sol2 re~ |
+	re4 mi do2 re si |
+%115
+	do la1 si2 |
+	do re do fa~
+	fa mi re1 | 
+	do\breve
+	r\breve
+%120
+	r\breve
+	r\breve
+	r\breve
+	r\breve
+	r\breve
+%125
+	r\breve
+	do2 do do1 |
+	sol' sol |
+	re\breve~ |
+	re1 fa |
+%130
+	do re |
+	la si2 si |
+	la la si1 |
+	la\breve |
+	\bar "||"
   }
 }
 textAcantus=\lyricmode {
@@ -524,6 +706,12 @@ textAcantus=\lyricmode {
   su -- _ per _ om -- nes spe -- ci -- o -- _ _ _ sa.
   Mi -- se -- re -- re, mi -- se -- re -- re sup -- pli -- can -- _ _ _ _ _ _ _ ti
   Du -- fa -- _ y.
+  Sit -- que _ in con -- spec -- _ tu tu -- o
+  mors _ e -- _ jus spe -- ci -- o -- _ _ _ _ _ _ _ _ _ sa
+  Va -- _ _ _ _ _ _ _ le, val -- de de -- co -- _ _ _ _ _ _ ra
+  et pro _ no -- _ _ _ _ _ bis sem -- _ _ _ _ _ per Chris -- _ _ _ _ _ _ _ _ tum ex -- _ _ o -- _ _ ra
+  In ae -- ter -- num ne dam -- ne -- _ _ mur
+  Mi -- se -- re -- _ _ _ re no -- _ _ _ _ bis
 }
 textAalto=\lyricmode {
   A -- _ _ _ _ _ _ _ _ ve A -- _ _ _ ve
@@ -546,6 +734,11 @@ textAalto=\lyricmode {
   de -- bi -- li.
   Mi -- se -- re -- re, mi -- se -- re -- re sup -- pli -- can -- _ _ _ ti
   Du -- fa -- _ y.
+  Sit -- _ _ _ que in con -- _ spec -- tu _ _ tu -- _ o
+  mors _ _ e -- jus spe -- ci -- o
+  sem -- _ _ _ _ per Chris -- _ _ _ _ _ _ _ _ tum ex -- _ _ o -- _ _ ra
+  In ae -- ter -- num ne dam -- ne -- _ mur
+  Mi -- se -- _ re -- _ re no -- _ _ _ _ bis
 
 }
 textAtenor=\lyricmode {
@@ -559,6 +752,11 @@ textAtenor=\lyricmode {
   mun -- _ _ _ _ _ _ _ do
   lux est _ _ _ _ _ or -- _ _ _ _ _ _ _  _ _ _ _ _ _ _ _ _ _ _ ta
   Gau -- de _ _ glo -- _ ri -- o -- _ _ sa
+  Sit -- _ _ _ _ que in con -- spec -- tu _ _ tu -- _ _ _ o 
+  mors e -- jus spe -- ci -- o
+  Va -- _ _ _ _ _ _ _ _ le,
+  In ae -- ter -- num
+  Mi -- se -- re -- re no -- _ bis
 }
 textAbassus=\lyricmode {
   A -- _ _ _ _ _ _ ve A -- _ ve
@@ -578,6 +776,12 @@ textAbassus=\lyricmode {
   su -- _ _ per om -- _ _ nes spe -- ci -- o -- sa,
   Mi -- se -- re -- re, mi -- se -- re -- re sup -- _ _ pli -- can -- _ _ _ _ _ _ _ ti _ _ 
   Du -- fa -- y.
+  Sit -- _ _ que in con -- spec -- tu _ _ _ _ _ tu -- o 
+  mors _ e -- _ jus spe -- ci -- _
+  Va -- _ _ _ _ _ _ _ _ le, val -- _ _ de de -- _ _ co -- _ _ ra
+  et _ pro _ no -- _ _ bis
+  In ae -- ter -- _ num ne dam -- ne -- _ mur
+  Mi -- se -- re -- re no -- bis
 }
 
 %#(set-global-staff-size 14.5)
