@@ -1,4 +1,4 @@
-\version "2.24.0"
+\version "2.20.0"
 \include "italiano.ly"
 #(set-global-staff-size 16)
 
@@ -1069,7 +1069,7 @@ textAbassus=\lyricmode {
 	      }
 	}
   \midi {
-    \tempo 4 = 120
+    \tempo 2 = 120
     }
 }
 
