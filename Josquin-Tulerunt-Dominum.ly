@@ -3,7 +3,7 @@
 %\pointAndClickOff
 bcTitle = "Tulerunt Dominum"
 bcComposer = "Attr. Josquin Desprez (1450-1521)"
-bcDate = "11 mars 2022"
+bcDate = "2023-01-03"
 
 #(ly:set-option 'midi-extension "mid")
 #(set-default-paper-size "a4")
