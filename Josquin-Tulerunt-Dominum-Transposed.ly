@@ -1185,7 +1185,11 @@ PartPEightVoiceOneLyricsEight =  \lyricmode {\set ignoreMelismata = ##t
             >>
         
         >>
-    \layout {}
+    \layout {
+    	\context {
+	\Staff \consists Ambitus_engraver
+      }
+    }
     % To create MIDI output, uncomment the following line:
     \midi {\tempo 4 = 240 }
     }
