@@ -27,34 +27,31 @@
         autoBeaming = ##f
         }
     }
-PartPOne =  \relative la' {
-    \time 3/4  
-	sol8.[ sol16] re'8.[ re16] sol,8.[ re'16] | \break % 1
+
+	global={\time 3/4}
+
+PartPOne =  {
+	sol8.[ sol16] re'8.[ re16] sol,8.[ re'16] | % 1
     }
 
-PartPTwo =  \relative la' {
-    \time 3/4  
-    sol'4 re8.[ re16]  sol4 | \break % 2
+PartPTwo =  {
+    sol'4 re8.[ re16]  sol4 | % 2
     }
 
-PartPThree =  \relative la' {
-    \time 3/4  
-	si'16[ sol sol8] sol4 re | \break % 3
+PartPThree = {
+	si'16[ sol sol8] sol4 re | % 3
     }
 
-PartPFour =  \relative la' {
-    \time 3/4  
-	si16[ si si8] si16[ si si8] si4 | \break % 4
+PartPFour =  {
+	si16[ si si8] si16[ si si8] si4 | % 4
     }
 
-PartPFive =  \relative la' {
-    \time 3/4  
-	re'4 r4 r4 | \break % 5
+PartPFive =  {
+	re4 r4 r4 | % 5
     }
 
-PartPSix =  \relative la' {
-    \time 3/4  
-    re'8[ re16 re] re8[ mi] re4 \bar ":|." | % 6
+PartPSix =  {
+    re8[ re16 re] re8[ mi] re4 \bar ":|." | % 6
     }
 
 PartPOneLyrics =  \lyricmode {\set ignoreMelismata = ##t 
@@ -86,8 +83,35 @@ PartPSixLyrics =  \lyricmode {\set ignoreMelismata = ##t
     Tan -- ta -- ra -- ran -- tan -- "tan."
     }
 
+\markup \vspace #2 % change this value accordingly
+\markup { \bold Melody}
+\markup \vspace #1 % change this value accordingly
+
+% First scrore is on one line
+\score {
+  \transpose mi re {
+    <<
+        \new Staff
+        <<
+            \set Staff.instrumentName = "Voice"
+            
+            \context Staff << 
+                \context Voice = "PartPOne" { \global \relative la' \PartPOne \relative la' \PartPTwo  \relative la' \PartPThree  \relative la' \PartPFour  \relative la' \PartPFive  \relative la' \PartPSix }
+                \new Lyrics \lyricsto "PartPOne" { \PartPOneLyrics \PartPTwoLyrics \PartPThreeLyrics \PartPFourLyrics \PartPFiveLyrics \PartPSixLyrics}
+
+            >>
+        >>
+	  >>
+	}
+}
+
+\markup \vspace #2 % change this value accordingly
+\markup { \bold "Short Round aka Canon" }
+\markup \vspace #1 % change this value accordingly
+
 % The score definition
 \score {
+  \transpose mi re {
     <<
         \new Staff
         <<
@@ -95,7 +119,7 @@ PartPSixLyrics =  \lyricmode {\set ignoreMelismata = ##t
             
             \context Staff << 
                 \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
-                \context Voice = "PartPOne" {  \PartPOne }
+                \context Voice = "PartPOne" { \relative la' \PartPOne }
                 \new Lyrics \lyricsto "PartPOne" { \PartPOneLyrics}
                 >>
             >>
@@ -105,7 +129,7 @@ PartPSixLyrics =  \lyricmode {\set ignoreMelismata = ##t
             
             \context Staff << 
                 \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
-                \context Voice = "PartPTwo" {  \PartPTwo }
+                \context Voice = "PartPTwo" { \relative la' \PartPTwo }
                 \new Lyrics \lyricsto "PartPTwo" { \PartPTwoLyrics}
                 >>
             >>
@@ -115,7 +139,7 @@ PartPSixLyrics =  \lyricmode {\set ignoreMelismata = ##t
             
             \context Staff << 
                 \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
-                \context Voice = "PartPThree" {  \PartPThree }
+                \context Voice = "PartPThree" { \relative la' \PartPThree }
                 \new Lyrics \lyricsto "PartPThree" { \PartPThreeLyrics}
                 >>
             >>
@@ -125,7 +149,7 @@ PartPSixLyrics =  \lyricmode {\set ignoreMelismata = ##t
             
             \context Staff << 
                 \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
-                \context Voice = "PartPFour" {  \PartPFour }
+                \context Voice = "PartPFour" { \relative la' \PartPFour }
                 \new Lyrics \lyricsto "PartPFour" { \PartPFourLyrics}
                 >>
             >>
@@ -135,7 +159,7 @@ PartPSixLyrics =  \lyricmode {\set ignoreMelismata = ##t
             
             \context Staff << 
                 \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
-                \context Voice = "PartPFive" {  \PartPFive }
+                \context Voice = "PartPFive" { \relative la' \PartPFive }
                 \new Lyrics \lyricsto "PartPFive" { \PartPFiveLyrics}
                 >>
             >>
@@ -145,11 +169,12 @@ PartPSixLyrics =  \lyricmode {\set ignoreMelismata = ##t
             
             \context Staff << 
                 \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
-                \context Voice = "PartPSix" {  \PartPSix }
+                \context Voice = "PartPSix" { \relative la' \PartPSix }
                 \new Lyrics \lyricsto "PartPSix" { \PartPSixLyrics}
                 >>
             >>
         >>
+    }
     \layout {
 	  papersize = "a4"
 	  line-width = 5
@@ -159,5 +184,7 @@ PartPSixLyrics =  \lyricmode {\set ignoreMelismata = ##t
 	}
     % To create MIDI output, uncomment the following line:
     %  \midi {\tempo 4 = 200 }
-    }
+}
 
+\markup \vspace #2 % change this value accordingly
+\markup { \bold Melody sung twice (men - tutti) - \bold Round sung 6 times :B+Bar, B+Bar+T, B+Bar+T+A, B+Bar+T+A+S2, B+Bar+T+A+S2+S1 twice }
