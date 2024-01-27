@@ -103,6 +103,14 @@ PartPSixLyrics =  \lyricmode {\set ignoreMelismata = ##t
         >>
 	  >>
 	}
+    \layout {
+	  papersize = "a4"
+	  \context {
+	% \Staff \consists Ambitus_engraver
+      }
+	}
+    % To create MIDI output, uncomment the following line:
+    \midi {\tempo 4 = 80 }
 }
 
 \markup \vspace #2 % change this value accordingly
@@ -182,8 +190,6 @@ PartPSixLyrics =  \lyricmode {\set ignoreMelismata = ##t
 	% \Staff \consists Ambitus_engraver
       }
 	}
-    % To create MIDI output, uncomment the following line:
-    %  \midi {\tempo 4 = 200 }
 }
 
 \markup \vspace #2 % change this value accordingly
