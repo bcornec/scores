@@ -464,68 +464,83 @@ un -- \skip1 done,
 
 
 trackF = \relative c {
-  r4*5 g'4 g g g,2 g r4 g'2 g4 c, c g2 r2. d'2 d4 d d d2 g,2. g4 
-  | % 9
-  g2 c8 d e fis 
-  | % 10
-  g a b c d4 d,4. d8 d4 g8 a b c d 
-  | % 12
-  c b a g4 r2 g4 c,4. c8 g'2 r2. a2 a4 g g,8 a b c 
-  | % 17
-  d a b c d e fis g 
-  | % 18
-  a e fis g a b c d 
-  | % 19
-  e d c b a g f e 
-  | % 20
-  d c b a g a b c 
-  | % 21
-  d2 c8 b a1 d2 f 
-  | % 24
-  e d 
-  | % 25
-  e1 
-  | % 26
-  d2 d'1 b 
-  | % 28
-  g2 b 
-  | % 29
-  fis b 
-  | % 30
-  r4*15 g4 c, c'2 
-  | % 35
-  b4 c2 r4 
-  | % 36
-  g c, c'2 
-  | % 37
-  b4 c2 r4 
-  | % 38
-  g c a g 
-  | % 39
-  e d8 d a'4 b 
-  | % 40
-  cis d4. d8 cis4 
-  | % 41
-  cis a1 a2 a,1 d4 d8 e fis4 g 
-  | % 45
-  a b a d, 
-  | % 46
-  d1 
-  | % 47
-  g,1*2 g1. a2 b1 c 
-  | % 53
-  d 
-  | % 54
-  e 
-  | % 55
-  d 
-  | % 56
-  d 
-  | % 57
-  g, 
-  | % 58
-  
+  \clef "bass" \time 2/2 \key g \major
+  r1 | % 1
+  r4 g'4 g g | % 2
+  g,2 g  | % 3
+  r4 g'2 g4 | % 4
+  c,4 c g2 | % 5
+  r2 r4 d'4~ | % 6
+  d4 d d d | % 7
+  d2 g,2~ | % 8
+  g4 g4 g2 | % 9
+  c8 d e fis g a b c | % 10
+  d4 d,4. d8 d4 | % 11
+  g8 a b c d c b a | % 12
+  g4 r4 r g | % 13
+  c,4. c8 g'2 | % 14
+  r2 r4 a4~ | % 15
+  a4 a g g,8 a | % 16
+  b8 c d a b c d e | % 17
+  fis8 g a e fis g a b | % 18
+  c8 d e d c b a g | % 19
+  f8 e d c b a g a | % 20
+  b8 c d2 c8 b | % 21
+  a1 | % 22
+  d2 f | % 23
+  e2 d | % 24
+  e1 | % 25
+  d2 d'2~ | % 26
+  d2 b2~ | % 27
+  b2 g2 | % 28
+  b2 fis | % 29
+  b2 r2 | % 30
+  r1 | % 31
+  r1 | % 32
+  r1 | % 33
+  r4 g4 c,4 c'4~ | % 34
+  c4 b4 c2 | % 35
+  r4 g c, c'4~ | % 36
+  c4 b c2 | % 37
+  r4 g c a | % 38
+  g4 e d8 d a'4 | % 39
+  b4 cis d4. d8 | % 40
+  cis4 cis a2~ | % 41
+  a2 a2 | % 42
+  a,1 | % 43
+  d4 d8 e fis4 g | % 44
+  a4 b a d, | % 45
+  d1 | % 46
+  g,1~ | % 47
+  g1 | % 48
+  g1~ | % 49
+  g2 a2 | % 50
+  b1 | % 51
+  c1 | % 52
+  d1 | % 53
+  e1 | % 54
+  d1 | % 55
+  d1 | % 56
+  g,1 | % 57
+  \bar "||"
 }
+
+trackFLyrics = \lyricmode {
+Like two proud ar -- mies mar -- ching in the field,
+mar -- ching in the field,
+joi -- ning a "thun" -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "d'ring" fight, 
+joi -- ning a "thun" -- \skip1 \skip1 \skip1 \skip1 "d'ring" \skip1 \skip1 fight, 
+each scorns to yield,
+joi -- ning a "thun" -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "d'ring" -- \skip1 \skip1 fight, 
+each scorns to -- \skip1 yield,
+So in my heart, my heart,
+the one claims the crown,
+the one claims the crown,
+But O your beau -- ty shi -- neth, But O your beau -- ty shi -- neth as the sun,
+and dazz -- led rea -- son yields as quite un -- done,
+and dazz -- led rea -- son yields as quite un -- done,
+}
+
 
 \score {
   <<
@@ -567,6 +582,14 @@ trackF = \relative c {
             \context Staff << 
                 \context Voice = "trackE" { \trackE }
                 \new Lyrics \lyricsto "trackE" { \trackELyrics }
+                >>
+            >>
+	\new Staff
+        <<
+            \set Staff.instrumentName = "Basse 2"
+            \context Staff << 
+                \context Voice = "trackF" { \trackF }
+                \new Lyrics \lyricsto "trackF" { \trackFLyrics }
                 >>
             >>
   >>
