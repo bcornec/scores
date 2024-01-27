@@ -364,11 +364,9 @@ PartPFiveLyricsFour =  \lyricmode {\set ignoreMelismata =
 % The score definition
 \score {
     <<
-        
         \new Staff
         <<
             \set Staff.instrumentName = "Canto 1"
-            
             \context Staff << 
                 \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
                 \context Voice = "PartPOne" {  \PartPOne }
@@ -381,7 +379,6 @@ PartPFiveLyricsFour =  \lyricmode {\set ignoreMelismata =
         \new Staff
         <<
             \set Staff.instrumentName = "Canto 2"
-            
             \context Staff << 
                 \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
                 \context Voice = "PartPTwo" {  \PartPTwo }
@@ -394,7 +391,6 @@ PartPFiveLyricsFour =  \lyricmode {\set ignoreMelismata =
         \new Staff
         <<
             \set Staff.instrumentName = "Alto"
-            
             \context Staff << 
                 \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
                 \context Voice = "PartPThree" {  \PartPThree }
@@ -407,7 +403,6 @@ PartPFiveLyricsFour =  \lyricmode {\set ignoreMelismata =
         \new Staff
         <<
             \set Staff.instrumentName = "Tenore"
-            
             \context Staff << 
                 \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
                 \context Voice = "PartPFour" {  \PartPFour }
@@ -420,7 +415,6 @@ PartPFiveLyricsFour =  \lyricmode {\set ignoreMelismata =
         \new Staff
         <<
             \set Staff.instrumentName = "Basso"
-            
             \context Staff << 
                 \mergeDifferentlyDottedOn\mergeDifferentlyHeadedOn
                 \context Voice = "PartPFive" {  \PartPFive }
