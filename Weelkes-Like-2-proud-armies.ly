@@ -599,6 +599,6 @@ and dazz -- led rea -- son yields as quite un -- done,
 	\Staff \consists Ambitus_engraver
       }
 	}
-  \midi {\tempo 4 = 200}
+  \midi {\tempo 4 = 140}
 }
 \markup \vspace #1 % change this value accordingly
