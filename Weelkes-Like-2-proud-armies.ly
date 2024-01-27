@@ -8,7 +8,7 @@
     title =  "Like two proud armies"
 	subtitle = ""
 	poet = \pieceArranger
-    composer =  "Thomas Weelkes (1676-1623)"
+    composer =  "Thomas Weelkes (1576-1623)"
 	%opus = " "
     
     tagline =  \markup \center-column {
@@ -55,14 +55,14 @@ trackA = \relative c {
   g4 f8 e d e f g | % 21
   a1 | % 22
   fis2 a | % 23
-  a1~ | %24
-  a2 a2 |
-  a2 a2 |
-  b1 |
-  g1 |
-  e2 fis |
-  gis a2~ |
-  a2 gis2 | 
+  a1~ | % 24
+  a2 a2 | % 25
+  a2 a2 | % 26
+  b1 | % 27
+  g1 | % 28
+  e2 fis | % 29
+  gis a2~ | % 30
+  a2 gis2 | % 31
   r4 b b4. c8 | % 32
   d4 b a2 | % 33
   b2 r2 | % 34
@@ -71,24 +71,24 @@ trackA = \relative c {
   r4 d e4. e8 | % 37
   d4 d c4. c8 | % 38
   b4 g r2 | % 39
-  r1 |
-  r4 a cis d |
-  e4. e8 e,4 fis |
-  a2~ a4 a4 |
-  a2 r2 | 
-  d,4 d8 e fis4 g | 
+  r1 | % 40
+  r4 a cis d | % 41
+  e4. e8 e,4 fis | % 42
+  a2~ a4 a4 | % 43
+  a2 r2 | % 44
+  d,4 d8 e fis4 g | % 45
   a b a4 d, | % 46
-  d r4 r2 | % 48
-  g4 g8 a b4 c | % 49
-  d4 e d g, | % 50
-  b2 r4 a | 
-  d4. c8 b2 | 
-  r2 r4 e4  | 
+  d r4 r2 | % 47
+  g4 g8 a b4 c | % 48
+  d4 e d g, | % 49
+  b2 r4 a | % 50
+  d4. c8 b2 | % 51
+  r2 r4 e4  | % 52
   fis4. e8 d2 | % 53
-  r2 g,2 |
-  d'4 d d,4. e8  |
-  fis4 g a2  | 
-  b1 | % 58
+  r2 g,2 | % 54
+  d'4 d d,4. e8  | %55
+  fis4 g a2  | % 56
+  b1 | % 57
   \bar "||"
 }
 
@@ -125,54 +125,54 @@ trackB = \relative c {
   d4 a fis d | %7
   a'2 b2~ | %8
   b4 b4 b2| %9
-  c2~ c4 b |
+  c2~ c4 b | %10
   a4 d4. d8 d4 | % 11
-  d8 c b a g4. a8 | 
-  b8 c d c b a g4 | 
-  g2 r4 d' | % 15
-  e4. e8 d4 a4~ |
-  a8 a8 a4 b8 c d c | % 17
-  b8 a g4 d' d | % 18
-  d8 e d g, d'4 c8 b | 
-  a4 e2 a4~ | % 20
-  a4 b8 c d2 | % 21
-  d4 d,8 e f g a b | % 22 
-  cis4 d~ d cis | 
-  d2 d, | % 24
-  e2 f | % 25
-  e1 | % 26
-  fis2 fis | % 27
-  g1 | % 28
-  r2 g2~ |
-  g2 b2~ | % 30
-  b2 c2~ | % 31
-  c2 b2 | % 32
-  r4 g4 g4. e8 | % 33
-  d4 d' d2 | % 34
-  d4 d e2 | % 35
-  d4. d8 c2 | % 36
-  r4 d e2 | % 37
-  d4. d8 c2 | % 38
-  r4 d e fis | % 39
-  g4. g8 fis4 fis | % 40
-  d4 e a, r4 | % 41
-  r4 e4 a fis | % 42
-  e4. e8 a4 fis | % 43
-  e4 d e2 | % 44
-  fis2 d4 d8 e | % 45
-  fis4 g a b | % 46
-  a4 d, d2 | % 47
-  r2 g4 g8 a | % 48
-  b4 c d e | % 49
-  d g, g2 | % 50
-  r4 g c2 | % 51
-  r2 r4 d4 | % 52
-  e4. d8 c2 | % 53
-  r2 r4 d4 | %54
-  g4. fis8 e2 | % 55
-  fis2 d2~ | %56
-  d2 d2 | %57
-  d1 | %58
+  d8 c b a g4. a8 | % 12
+  b8 c d c b a g4 | % 13
+  g2 r4 d' | % 14
+  e4. e8 d4 a4~ | % 15
+  a8 a8 a4 b8 c d c | % 16
+  b8 a g4 d' d | % 17
+  d8 e d g, d'4 c8 b | % 18
+  a4 e2 a4~ | % 19
+  a4 b8 c d2 | % 20
+  d4 d,8 e f g a b | % 21 
+  cis4 d~ d cis | % 22
+  d2 d, | % 23
+  e2 f | % 24
+  e1 | % 25
+  fis2 fis | % 26
+  g1 | % 27
+  r2 g2~ | % 28
+  g2 b2~ | % 29
+  b2 c2~ | % 30
+  c2 b2 | % 31
+  r4 g4 g4. e8 | % 32
+  d4 d' d2 | % 33
+  d4 d e2 | % 34
+  d4. d8 c2 | % 35
+  r4 d e2 | % 36
+  d4. d8 c2 | % 37
+  r4 d e fis | % 38
+  g4. g8 fis4 fis | % 39
+  d4 e a, r4 | % 40
+  r4 e4 a fis | % 41
+  e4. e8 a4 fis | % 42
+  e4 d e2 | % 43
+  fis2 d4 d8 e | % 44
+  fis4 g a b | % 45
+  a4 d, d2 | % 46
+  r2 g4 g8 a | % 47
+  b4 c d e | % 48
+  d g, g2 | % 49
+  r4 g c2 | % 50
+  r2 r4 d4 | % 51
+  e4. d8 c2 | % 52
+  r2 r4 d4 | %53
+  g4. fis8 e2 | % 54
+  fis2 d2~ | %55
+  d2 d2 | %56
+  d1 | %57
   \bar "||"
 }
 
@@ -200,170 +200,185 @@ as quite un -- done,
 }
 
 trackC = \relative c {
-  r4 d' g b 
-  | % 2
-  g2 d 
-  | % 3
-  d2. g4 
-  | % 4
-  g g g2 
-  | % 5
-  g4 g g2 
-  | % 6
-  fis4 fis a fis 
-  | % 7
-  fis2 a4 fis 
-  | % 8
-  fis2 g2. g4 g2 g8 fis 
-  | % 10
-  e d c4 g' fis 
-  | % 11
-  fis4. fis8 fis4 g 
-  | % 12
-  g g g, g8 a 
-  | % 13
-  b c d4 d c4. c8 d4 g g4. 
-  | % 15
-  g8 g4 fis4. fis8 fis4 g4. e8 g a d, c 
-  | % 17
-  b4 r4 a'8 b a g 
-  | % 18
-  fis4 e a,8 b c d 
-  | % 19
-  e4 a,2 d4 
-  | % 20
-  g g, d' a'2 a,4 e'1 r2 d 
-  | % 24
-  cis d1 cis2 d1 r1. e2 g 
-  | % 29
-  fis e1*2 r4 d d4. a'8 
-  | % 33
-  fis4 g fis2 
-  | % 34
-  g4 g g2 
-  | % 35
-  g4. g8 g2. g4 g4. g8 g4 
-  | % 37
-  g g2 g4 
-  | % 38
-  g g a d, 
-  | % 39
-  e fis4. fis8 r4 
-  | % 40
-  e fis gis a4. a8 e4 fis a2. a,4 cis d2 
-  | % 43
-  cis4 d2 r1 d4 d8 e fis4 g 
-  | % 46
-  a a b b, 
-  | % 47
-  g1 
-  | % 48
-  r2 g4 g8 a 
-  | % 49
-  b4 c d e 
-  | % 50
-  c e d d 
-  | % 51
-  g4. fis8 e4 e 
-  | % 52
-  a4. g8 fis4 fis 
-  | % 53
-  b4. a8 g2 
-  | % 54
-  r4 e a4. g8 
-  | % 55
-  fis4 b a g2 fis4 g1 
+  \clef "treble" \time 2/2 \key g \major
+  r4 d' g b | % 1
+  g2 d | % 2
+  d2. g4 | % 3
+  g4 g g2 | % 4
+  g4 g g2 | % 5
+  fis4 fis a fis | % 6
+  fis2 a4 fis | % 7
+  fis2 g2~ | % 8
+  g4 g4 g2 | % 9
+  g8 fis e d c4 g' | % 10
+  fis4 fis4. fis8 fis4 | % 11
+  g4 g g g, | % 12
+  g8 a b c d4 d | % 13
+  c4. c8 d4 g | % 14
+  g4. g8 g4 fis4~ | % 15
+  fis8 fis fis4 g4. e8 | % 16
+  g8 a d, c b4 r4 | % 17
+  a'8 b a g fis4 e | % 18
+  a,8 b c d e4 a,4~| % 19
+  a4 d g g, | % 20
+  d' a'4~ a4 a,4 | %21
+  e'1 | % 22
+  r2 d | % 23
+  cis2 d2~ | % 24
+  d2 cis2 | % 25
+  d1 | % 26
+  r1 | %27
+  r2 e2 | %28
+  g2 fis | % 29
+  e1~ | % 30
+  e1  | % 31
+  r4 d d4. a'8 | % 32
+  fis4 g fis2 | % 33
+  g4 g g2 | % 34
+  g4. g8 g2~ | %35
+  g4 g g4. g8 | % 36
+  g4 g g2 | % 37
+  g4 g g a | % 38
+  d, e fis4. fis8 | % 39
+  r4 e fis gis | % 40
+  a4. a8 e4 fis | % 41
+  a2~ a4 a,4 | % 42
+  cis4 d2 cis4 | % 43
+  d2 r2 | % 44
+  r2 d4 d8 e | % 45
+  fis4 g a a | % 46
+  b b, g2~ | % 47
+  g2 r2 | % 48
+  g4 g8 a b4 c | % 49
+  d4 e c e | % 50
+  d d g4. fis8 | % 51
+  e4 e a4. g8 | % 52
+  fis4 fis b4. a8 | % 53
+  g2 r4 e | % 54
+  a4. g8 fis4 b | % 55
+  a g2 fis4 | % 56 
+  g1 | % 57
+  \bar "||"
+}
+
+trackCLyrics = \lyricmode {
+Like two proud ar -- mies mar -- ching in the field,
+in the field
+mar -- ching in the field,
+in the field
+joi -- ning a "thun" -- \skip1 \skip1 \skip1 \skip1 "d'ring" fight, 
+joi -- ning a "thun" -- "d'ring" fight, 
+a "thun" -- \skip1 \skip1 "d'ring" fight,
+each scorns to yield,
+each scorns to yield,
+joi -- ning a "thun" -- \skip1 \skip1 \skip1 \skip1 "d'ring" fight, 
+thun -- \skip1 \skip1 "d'ring" fight,
+a thun -- \skip1 \skip1 "d'ring" fight,
+a thun -- "d'ring" fight, 
+a thun -- "d'ring" fight, 
+each scorns to -- \skip1 yield,
+So in my heart, your beau -- ty and my rea -- son:
+the one claims the crown,
+the o -- ther says "'tis" trea -- son
+the o -- ther says "'tis" trea -- son
+But O your beau -- ty shi -- neth as the sun, as the sun,
+and dazz -- led rea -- son yields as quite un -- done,
+and dazz -- led rea -- son yields as quite un -- done,
+as quite un -- done,
+as quite un -- done,
+as quite un -- done,
+as quite un -- done,
+as quite un -- \skip1 done,
 }
 
 trackD = \relative c {
-  r4 b' d g 
-  | % 2
-  d2 b 
-  | % 3
-  b2. b4 
-  | % 4
-  c c d2 
-  | % 5
-  c4 c b2 
-  | % 6
-  a4 a a a 
-  | % 7
-  a a2 a4 
-  | % 8
-  d2 d2. d4 d2 c g a 
-  | % 11
-  r4 d4. d8 d4 
-  | % 12
-  g,8 a b c d c b a 
-  | % 13
-  b4 b g4. g8 
-  | % 14
-  b4 b c4. c8 
-  | % 15
-  b4 d d4. d8 
-  | % 16
-  d4 r2. 
-  | % 17
-  b4 a8 g d'4. e8 
-  | % 18
-  a,4 a2 a8 b 
-  | % 19
-  c4 f2 g4 
-  | % 20
-  d d8 c b4 a8 g 
-  | % 21
-  f4 e8 d e2 
-  | % 22
-  a a1. a2 a2. a4 a1 g 
-  | % 28
-  b2 c 
-  | % 29
-  b1 
-  | % 30
-  r4*9 g4 g4. a8 b4 
-  | % 33
-  g d'2 g,4 
-  | % 34
-  d' c2 d4 
-  | % 35
-  g, g r4 g2 e4. fis8 g2. e4 g4. g8 r4 
-  | % 38
-  a b cis d4. d8 d4 g, a b e,2 r4 a 
-  | % 42
-  cis cis e4. a,8 
-  | % 43
-  e4 fis a4. a8 
-  | % 44
-  a2. b4 
-  | % 45
-  d2 r2 
-  | % 46
-  d4 d8 e fis4. fis8 
-  | % 47
-  g4 e d e 
-  | % 48
-  g2 g,4 g8 a 
-  | % 49
-  b4 c d e 
-  | % 50
-  d g, e2 
-  | % 51
-  r4 fis b4. a8 
-  | % 52
-  g4. fis8 e2 
-  | % 53
-  r4 a d4. c8 
-  | % 54
-  b4. a8 g2 
-  | % 55
-  a4 a2 b4 
-  | % 56
-  d1 
-  | % 57
-  d 
-  | % 58
-  
+  \clef "treble_8" \time 2/2 \key g \major
+  r4 b' d g | % 1
+  d2 b | % 2
+  b2. b4 | % 3
+  c c d2 | % 4
+  c4 c b2 | % 5
+  a4 a a a | % 6
+  a a2 a4 | % 7
+  d2 d2~ | % 8
+  d4 d4 d2 | % 9
+  c2 g | % 10
+  a2 r4 d~ | % 11
+  d8 d d4 g,8 a b c | % 12
+  d8 c b a b4 b | % 13
+  g4. g8 b4 b | % 14
+  c4. c8 b4 d | % 15
+  d4. d8 d4 r| % 16
+  r2 b4 a8 g | % 17
+  d'4. e8 a,4 a~| % 18
+  a4 a8 b c4 f~| % 19
+  f4 g4 d d8 c | % 20
+  b4 a8 g f4 e8 d | % 21
+  e2 a | % 22
+  a1~ | % 23
+  a2 a2 |  % 24
+  a2. a4 | % 25
+  a1 | % 26
+  g | % 27
+  b2 c | % 28
+  b1 | % 29
+  r1 | % 30
+  r1 | % 31
+  r4 g4 g4. a8 | % 32
+  b4 g d'2 | % 33
+  g,4 d' c2 | % 34
+  d4 g, g r4 | % 35
+  g2 e4. fis8 | % 36
+  g2. e4 | % 37
+  g4. g8 r4 a | % 38
+  b4 cis d4. d8 | % 39
+  d4 g, a b | % 40
+  e,2 r4 a | % 41
+  cis cis e4. a,8 | % 42
+  e4 fis a4. a8 | % 43
+  a2. b4 | % 44
+  d2 r2 | % 45
+  d4 d8 e fis4. fis8 | % 46
+  g4 e d e | % 47
+  g2 g,4 g8 a | % 48
+  b4 c d e | % 49
+  d g, e2 | % 50
+  r4 fis b4. a8 | % 51
+  g4. fis8 e2 | % 52
+  r4 a d4. c8 | % 53
+  b4. a8 g2 | % 54
+  a4 a2 b4 | % 55
+  d1 | % 56
+  d1 | % 57
+  \bar "||"
 }
+
+trackDLyrics = \lyricmode {
+Like two proud ar -- mies mar -- ching in the field,
+in the field
+mar -- ching in the field,
+in the field
+joi -- ning a "thun" -- "d'ring" fight, 
+joi -- ning a "thun" -- \skip1 \skip1 \skip1 \skip1 "d'ring" \skip1 \skip1 fight, 
+each scorns to yield,
+each scorns to yield,
+each scorns to yield,
+joi -- ning a "thun" -- "d'ring" fight, 
+thun -- \skip1 "d'ring" fight,
+joi -- ning a "thun" -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "d'ring" fight, 
+each scorns to yield,
+So in my heart, your beau -- ty and my rea -- son:
+the one claims the crown,
+the o -- ther says "'tis" trea -- son
+But O your beau -- ty shi -- neth as the sun,
+But O your beau -- ty shi -- neth as the sun, the sun,
+and dazz -- led rea -- son yields as quite un -- done,
+and dazz -- led rea -- son yields as quite un -- done,
+as quite \skip1 un -- \skip1 done,
+as quite \skip1 un -- \skip1 done,
+as quite un -- \skip1 done,
+}
+
 
 trackE = \relative c {
   g'2 g4 g 
@@ -519,6 +534,22 @@ trackF = \relative c {
             \context Staff << 
                 \context Voice = "trackB" { \trackB }
                 \new Lyrics \lyricsto "trackB" { \trackBLyrics }
+                >>
+            >>
+	\new Staff
+        <<
+            \set Staff.instrumentName = "Alto"
+            \context Staff << 
+                \context Voice = "trackC" { \trackC }
+                \new Lyrics \lyricsto "trackC" { \trackCLyrics }
+                >>
+            >>
+	\new Staff
+        <<
+            \set Staff.instrumentName = "Tenor"
+            \context Staff << 
+                \context Voice = "trackD" { \trackD }
+                \new Lyrics \lyricsto "trackD" { \trackDLyrics }
                 >>
             >>
   >>
