@@ -28,7 +28,7 @@
         }
 }
 
-\markup \vspace #2 % change this value accordingly
+\markup \vspace #1 % change this value accordingly
 
 trackA = \relative c {
   \clef "treble" \time 2/2 \key g \major
@@ -381,78 +381,87 @@ as quite un -- \skip1 done,
 
 
 trackE = \relative c {
-  g'2 g4 g 
-  | % 2
-  g,2 g 
-  | % 3
-  r4 g'2 g4 
-  | % 4
-  c, c g2 
-  | % 5
-  r2. d'2 d4 d d d2 r1 
-  | % 8
-  g2. g4 
-  | % 9
-  g2 e8 d c d 
-  | % 10
-  e fis g4 d a'4. a8 a4 g4. a8 b 
-  | % 12
-  c d c b a g4 g,2 r2. g'4 
-  | % 15
-  c,4. c8 g'4 d4. d8 d4 g,8 a b c d 
-  | % 17
-  a b c d e fis g a 
-  | % 18
-  e fis g a b c d e 
-  | % 19
-  d c b a g f e d 
-  | % 20
-  c b a g a b c d 
-  | % 21
-  e f g a2. g8 f e2 d d a1 a 
-  | % 26
-  d 
-  | % 27
-  r2 g1 e 
-  | % 29
-  dis2 e1*2 r4*13 g4 c,8 c c'2 
-  | % 36
-  b4 c4. c8 r4 
-  | % 37
-  g c,8 c c'2 
-  | % 38
-  b4 c4. c8 r2. d,4 g e d 
-  | % 40
-  b a2. 
-  | % 41
-  a4 a2 a a'4 fis e2 
-  | % 44
-  d1*2 r1 
-  | % 47
-  g4 g8 a b4 c 
-  | % 48
-  d e d g, 
-  | % 49
-  g2. e4 
-  | % 50
-  g e a4. g8 
-  | % 51
-  fis4. e8 d2 
-  | % 52
-  r4 g c4. b8 
-  | % 53
-  a4. g8 fis4 b 
-  | % 54
-  e4. d8 c4 b 
-  | % 55
-  d d, a'4. g8 
-  | % 56
-  fis4 b a2 
-  | % 57
-  g1 
-  | % 58
-  
+  \clef "bass" \time 2/2 \key g \major
+  g'2 g4 g | % 1
+  g,2 g | % 2
+  r4 g'2 g4 | % 3
+  c, c g2 | % 4
+  r2 r4 d'4~ | % 5
+  d4 d4 d d | % 6
+  d2 r2 | % 7 
+  r2 g2~ | % 8
+  g4 g g2 | % 9
+  e8 d c d e fis g4 | % 10
+  d a'4. a8 a4 | % 11
+  g4. a8 b c d c | % 12
+  b8 a g4 g,2  | % 13
+  r2 r4 g'4 | % 14
+  c,4. c8 g'4 d4~ | % 15
+  d8 d8 d4 g,8 a b c | % 16
+  d8 a b c d e fis g | % 17
+  a8 e fis g a b c d | % 18
+  e8 d c b a g f e | % 19
+  d8 c b a g a b c | % 20
+  d8 e f g a2~ | % 21
+  a4 g8 f e2 | % 22
+  d2 d  | % 23
+  a1 | % 24
+  a1 | % 25
+  d1 | % 26
+  r2 g2~ | % 27
+  g2 e2~ | % 28
+  e2 dis2 | % 29 
+  e1~ | % 30
+  e1 | % 31
+  r1 | % 32
+  r1 | % 33
+  r1 | % 34
+  r4 g4 c,8 c c'4~ | % 35 
+  c4 b4 c4. c8 | % 36
+  r4 g c,8 c c'4~ | % 37
+  c4 b4 c4. c8 | % 38
+  r2 r4 d,4 | % 39
+  g4 e d b | % 40
+  a2. a4 | % 41
+  a2 a | % 42
+  a'4 fis e2 | % 43
+  d1~ | % 44
+  d1 | % 45
+  r1 | % 46
+  g4 g8 a b4 c | % 47
+  d e d g, | % 48
+  g2. e4 | % 49
+  g e a4. g8 | % 50
+  fis4. e8 d2 | % 51
+  r4 g c4. b8 | % 52
+  a4. g8 fis4 b | % 53
+  e4. d8 c4 b | % 54
+  d4 d, a'4. g8 | % 55
+  fis4 b a2 | % 56
+  g1 | % 57
+  \bar "||"
 }
+
+trackELyrics = \lyricmode {
+Like two proud ar -- mies mar -- ching in the field,
+mar -- ching in the field,
+joi -- ning a "thun" -- \skip1 \skip1 \skip1 \skip1 \skip1 "d'ring" fight, 
+joi -- ning a "thun" -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "d'ring" fight, 
+each scorns to yield,
+joi -- ning a "thun" -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "d'ring" \skip1 \skip1 fight, 
+each scorns to yield,
+So in my heart, 
+the o -- ther says "'tis" trea -- son
+the o -- ther says "'tis" trea -- son
+But O your beau -- ty shi -- neth as the sun, as the sun,
+and dazz -- led rea -- son yields as quite un -- done,
+he yields as quite \skip1 un -- \skip1 done,
+as quite \skip1 un -- \skip1 done,
+as quite \skip1 un -- \skip1 done,
+as quite un done,
+un -- \skip1 done,
+}
+
 
 trackF = \relative c {
   r4*5 g'4 g g g,2 g r4 g'2 g4 c, c g2 r2. d'2 d4 d d d2 g,2. g4 
@@ -552,6 +561,14 @@ trackF = \relative c {
                 \new Lyrics \lyricsto "trackD" { \trackDLyrics }
                 >>
             >>
+	\new Staff
+        <<
+            \set Staff.instrumentName = "Basse 1"
+            \context Staff << 
+                \context Voice = "trackE" { \trackE }
+                \new Lyrics \lyricsto "trackE" { \trackELyrics }
+                >>
+            >>
   >>
   \layout {
   	papersize = "a4"
@@ -561,3 +578,4 @@ trackF = \relative c {
 	}
   \midi {\tempo 4 = 200}
 }
+\markup \vspace #1 % change this value accordingly
