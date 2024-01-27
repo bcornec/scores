@@ -1,4 +1,5 @@
-% Lily was here -- automatically converted by midi2ly from Weelkes-Armies.mid
+% Based on a conversion by midi2ly from Weelkes-Armies.mid
+% Fully remodeled after !!
 \version "2.24.0"
 \pointAndClickOff
 #(define pieceArranger (string-append "Edition: Bruno Cornec (Lilypond " (lilypond-version) ")"))
@@ -88,6 +89,7 @@ trackA = \relative c {
   d'4 d d,4. e8  |
   fis4 g a2  | 
   b1 | % 58
+  \bar "||"
 }
 
 trackALyrics = \lyricmode {
@@ -113,78 +115,89 @@ and rea -- son yields as quite un -- \skip1 done.
 }
 
 trackB = \relative c {
-  r4*5 g''4 b d b2 g r4 c2 b4 e e d2 r2. d2 a4 fis d a'2 b2. b4 
-  | % 9
-  b2 c2. b4 a d4. d8 
-  | % 11
-  d4 d8 c b a g4. a8 b c d c b a g4 g2 r4 d' 
-  | % 15
-  e4. e8 d4 a4. a8 a4 b8 c d c b 
-  | % 17
-  a g4 d' d d8 
-  | % 18
-  e d g, d'4 c8 b a4 e2 a 
-  | % 20
-  b8 c d2 d4 
-  | % 21
-  d,8 e f g a b cis4 
-  | % 22
-  d2 cis4 d2 d, e 
-  | % 24
-  f e1 fis2 fis 
-  | % 27
-  g1 
-  | % 28
-  r2 g1 b 
-  | % 30
-  c 
-  | % 31
-  b2 r4 g 
-  | % 32
-  g4. e8 d4 d' 
-  | % 33
-  d2 d4 d 
-  | % 34
-  e2 d4. d8 
-  | % 35
-  c2 r4 d 
-  | % 36
-  e2 d4. d8 
-  | % 37
-  c2 r4 d 
-  | % 38
-  e fis g4. g8 
-  | % 39
-  fis4 fis d e 
-  | % 40
-  a, r2 e4 
-  | % 41
-  a fis e4. e8 
-  | % 42
-  a4 fis e d 
-  | % 43
-  e2 fis 
-  | % 44
-  d4 d8 e fis4 g 
-  | % 45
-  a b a d, 
-  | % 46
-  d2 r2 
-  | % 47
-  g4 g8 a b4 c 
-  | % 48
-  d e d g, 
-  | % 49
-  g2 r4 g 
-  | % 50
-  c2 r2. d4 e4. d8 c2 r2. d4 
-  | % 54
-  g4. fis8 e2 
-  | % 55
-  fis d1 d2 d1 
+  \clef "treble" \time 2/2 \key g \major
+  r1 | %1
+  r4 g''4 b d | %2
+  b2 g | %3
+  r4 c4~ c b4 | %4
+  e e d2 | %5
+  r2 r4 d4~ | %6
+  d4 a fis d | %7
+  a'2 b2~ | %8
+  b4 b4 b2| %9
+  c2~ c4 b |
+  a4 d4. d8 d4 | % 11
+  d8 c b a g4. a8 | 
+  b8 c d c b a g4 | 
+  g2 r4 d' | % 15
+  e4. e8 d4 a4~ |
+  a8 a8 a4 b8 c d c | % 17
+  b8 a g4 d' d | % 18
+  d8 e d g, d'4 c8 b | 
+  a4 e2 a4~ | % 20
+  a4 b8 c d2 | % 21
+  d4 d,8 e f g a b | % 22 
+  cis4 d~ d cis | 
+  d2 d, | % 24
+  e2 f | % 25
+  e1 | % 26
+  fis2 fis | % 27
+  g1 | % 28
+  r2 g2~ |
+  g2 b2~ | % 30
+  b2 c2~ | % 31
+  c2 b2 | % 32
+  r4 g4 g4. e8 | % 33
+  d4 d' d2 | % 34
+  d4 d e2 | % 35
+  d4. d8 c2 | % 36
+  r4 d e2 | % 37
+  d4. d8 c2 | % 38
+  r4 d e fis | % 39
+  g4. g8 fis4 fis | % 40
+  d4 e a, r4 | % 41
+  r4 e4 a fis | % 42
+  e4. e8 a4 fis | % 43
+  e4 d e2 | % 44
+  fis2 d4 d8 e | % 45
+  fis4 g a b | % 46
+  a4 d, d2 | % 47
+  r2 g4 g8 a | % 48
+  b4 c d e | % 49
+  d g, g2 | % 50
+  r4 g c2 | % 51
+  r2 r4 d4 | % 52
+  e4. d8 c2 | % 53
+  r2 r4 d4 | %54
+  g4. fis8 e2 | % 55
+  fis2 d2~ | %56
+  d2 d2 | %57
+  d1 | %58
+  \bar "||"
 }
 
-% One claims the crown, the o -- ther says ’tis trea -- son.
+trackBLyrics = \lyricmode {
+Like two proud ar -- mies mar -- ching in the field,
+mar -- ching in the field,
+joi -- ning a "thun" -- "d'ring" fight, 
+joi -- ning a "thun" -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1  "d'ring" fight, 
+each scorns to yield,
+joi -- ning a "thun" -- \skip1 \skip1 \skip1 \skip1 \skip1 "d'ring" fight, 
+a "thun" -- \skip1 \skip1 \skip1 "d'ring" \skip1 \skip1 fight,
+a "thun" -- "d'ring" \skip1 \skip1 fight,
+a "thun" -- \skip1 \skip1 \skip1 \skip1 \skip1 "d'ring" \skip1 fight, 
+each scorns to -- \skip1 yield, to yield;
+So in my heart, your beau -- ty and my rea -- son:
+the one claims the crown,
+the one claims the crown,
+But O your beau -- ty shi -- neth as the sun,
+But O your beau -- ty shi -- neth as the -- \skip1 sun;
+and dazz -- led rea -- son yields as quite un -- done,
+and dazz -- led rea -- son yields as quite un -- done,
+he yields as quite un -- done,
+as quite un -- done,
+as quite un -- done,
+}
 
 trackC = \relative c {
   r4 d' g b 
@@ -498,6 +511,14 @@ trackF = \relative c {
             \context Staff << 
                 \context Voice = "trackA" { \trackA }
                 \new Lyrics \lyricsto "trackA" { \trackALyrics }
+                >>
+            >>
+	\new Staff
+        <<
+            \set Staff.instrumentName = "Soprano 2"
+            \context Staff << 
+                \context Voice = "trackB" { \trackB }
+                \new Lyrics \lyricsto "trackB" { \trackBLyrics }
                 >>
             >>
   >>
