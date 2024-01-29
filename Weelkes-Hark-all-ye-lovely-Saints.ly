@@ -53,7 +53,11 @@ PartPOne = \relative c''  {
 	a4 g a2 | % 14
   }
   \alternative {
-	{b2 r4 d4} {b2 r4 c8 c} | % 15 / 16
+	\volta 1 {b2 r4 d4}
+	}
+	\pageBreak 
+  \alternative {
+	\volta 2 {b2 r4 c8 c}
 	}
 
   \repeat volta 2 {
@@ -67,7 +71,7 @@ PartPOne = \relative c''  {
 	a2 c2~ | % 24
 	c2 b2 | % 25
 	a1 | % 26
-    b8 b b b b4 c | %27
+    b8 b b b b4 c \break | %27
 	d8 d d d d4 c4~ | % 28
 	c4 b4 a2 | % 29
     b8 b b b b4 c | % 30
