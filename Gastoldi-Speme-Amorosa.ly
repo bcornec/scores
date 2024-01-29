@@ -537,6 +537,6 @@ PartPFiveLyricsFour =  \lyricmode {\set ignoreMelismata = ##t
       }
 	}
     % To create MIDI output, uncomment the following line:
-    %  \midi {\tempo 4 = 200 }
+    \midi {\tempo 4 = 150 }
     }
 

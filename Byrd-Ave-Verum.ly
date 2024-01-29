@@ -371,7 +371,7 @@ PartPFourVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t A
       }
 	}
     % To create MIDI output, uncomment the following line:
-    %  \midi {\tempo 4 = 96 }
+    \midi {\tempo 4 = 96 }
     }
 	\markup{ \bold\tiny {SOURCE:} \tiny\italic {Gradualia,} -\tiny {
 				édition révisée, 1610 (publié originellement en 1605)}}

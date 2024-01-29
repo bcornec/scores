@@ -510,6 +510,6 @@ PartPFourVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Mo
         >>
     \layout {}
     % To create MIDI output, uncomment the following line:
-    %  \midi {\tempo 4 = 120 }
+    \midi {\tempo 4 = 160 }
     }
 
