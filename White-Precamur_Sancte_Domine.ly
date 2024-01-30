@@ -12,6 +12,7 @@
 	%opus = " "
     
     tagline =  \markup \center-column {
+	  \line {"  "}
 	  \line {"Copyright © 2024 Bruno Cornec, based on Nancho Alvarez' work at http://tomasluisdevictoria.org"}
 	  \line {"Edition may be freely distributed, duplicated, performed, or recorded"}
 	}
@@ -133,7 +134,7 @@ altusOne=\relative d'{
 	f4. c8 d2 ~
 	d4 a r a
 	c c f4. f8
-	f4 e4. d8 d4 ~
+	f4 e4~ e8 d8 d4 ~
 	d c4 r a
 	d2 d1
   }
@@ -554,19 +555,19 @@ gregorienTOne =\lyricmode {
 Chri -- ste qui __ _ lux es et di -- es,
 no -- ctis te -- ne -- bras de -- te -- gis,
 lu -- cis -- que lu -- men cre -- de -- ris,
-lu -- men be -- _ a -- tum pre -- di -- cans. A -- _ men. __ _ _ 
+lu -- men be -- _ a -- tum pre -- di -- cans. A -- _ _ men. __ _ 
 }
 gregorienTTwo =\lyricmode {
 Ne gra -- vis __ _ som -- nus ir -- ru -- at,
 nec ho -- stis nos sur -- ri -- pi -- at,
 nec ca -- ro il -- li con -- sen -- ti -- ens,
-nos ti -- bi __ _ re -- os sta -- tu -- at. A -- _ men. __ _ _ 
+nos ti -- bi __ _ re -- os sta -- tu -- at. A -- _ _ men. __ _ 
 }
 gregorienTThree =\lyricmode {
 De -- fen -- sor __ _ no -- ster a -- spi -- ce,
 in -- si -- di -- an -- tes re -- pri -- me,
 gu -- ber -- na tu -- os fa -- mu -- los,
-quos san -- gui -- _ ne mer -- ca -- tus es. A -- _ men. __ _ _ 
+quos san -- gui -- _ ne mer -- ca -- tus es. A -- _ _ men. __ _ 
 }
 
 
