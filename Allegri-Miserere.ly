@@ -14,7 +14,7 @@
     
     tagline =  \markup \center-column {
 	  \line {"  "}
-	  \line {"Copyright © 2024 Bruno Cornec, based on Nancho Alvarez' work at http://tomasluisdevictoria.org"}
+	  \line {"Copyright © 2024 Bruno Cornec, based on Remi Studer' work at CPDL"}
 	  \line {"Edition may be freely distributed, duplicated, performed, or recorded"}
 	}
     copyright = " "
@@ -408,20 +408,20 @@ CIIBassusVVII=\relative do'{
 }
 
 TCIICantusIVVII=\lyricmode{\set ignoreMelismata = ##t
-"Ec" -- ce e -- nim ve -- ri -- "tá" -- tem di -- le -- xi -- \skip1 sti 
-Di -- le -- xi\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "sti :" __\skip1
+"Ec" -- ce e -- nim ve -- ri -- "tá" -- tem di -- le -- xi -- \skip1 \skip1 
+\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "sti :" __\skip1
 in -- cer -- ta et oc -- cul -- ta sa -- pi -- en \skip1 -- ti -- ae tu -- ae ma -- ni -- fe -- "sta" -- sti 
 mi --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "hi."
 }
 TCIICantusIIVVII=\lyricmode{\set ignoreMelismata = ##t
-"Ec" -- ce e -- nim ve -- ri -- "tá" -- tem di -- le -- \skip1 xi -- sti __\skip1
-Di -- le -- \skip1 \skip1 xi "sti :" __\skip1
+"Ec" -- ce e -- nim ve -- ri -- "tá" -- tem di -- le -- \skip1 xi -- \skip1 \skip1
+\skip1 \skip1 \skip1 \skip1 \skip1 "sti :" __\skip1
 in -- cer -- ta et oc -- cul -- ta sa -- pi -- en \skip1 -- ti -- ae tu -- ae ma -- ni -- fe -- "sta" -- sti 
 mi --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "hi."
 }
 TCIIAltusVVII=\lyricmode{\set ignoreMelismata = ##t
-"Ec" -- ce e -- nim ve -- ri -- "tá" -- tem di -- le -- xi -- \skip1 sti 
-Di -- \skip1 \skip1 le -- \skip1 xi "sti :" __\skip1
+"Ec" -- ce e -- nim ve -- ri -- "tá" -- tem di -- le -- xi -- \skip1 \skip1 
+\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "sti :" __\skip1
 in -- cer -- ta et oc -- cul -- ta sa -- pi -- en \skip1 -- ti -- ae tu -- ae ma -- ni -- fe -- "sta" -- sti 
 mi --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "hi."
 }
@@ -728,6 +728,7 @@ CIICantusIVXV=\relative do''{
   re1 do |
   mib4 re re2 r4 sol2 fa4 |
   mib4. re8 do8.[ re16] sib4 do1 |
+  re\breve |
   re\breve \bar "||" |
   mib4 mib8 mib mib4 mib mib mib mib mib8 mib |
   re2. re4 re2 r2|
@@ -745,6 +746,7 @@ CIICantusIIVXV=\relative do''{
   la2 sol sib1~ |
   sib1 r1 |
   sib2 la8.[ sib16] sol4 la1 |
+  la\breve |
   do4 do8 do do4 do do do do do8 do |
   sib2. sib4 la2 re~ |
   re do do1~ |
@@ -761,6 +763,7 @@ CIIAltusVXV=\relative re'{
   sib,2. la4 sol2 sol'2~ |
   sol\breve~ |
   sol1. fad8.[ sol16] mi4 |
+  fad\breve |
   sol4 sol8 sol sol4 sol sol sol sol sol8 sol |
   sol2. sol4 re2 r |
   mib\breve |
@@ -777,6 +780,7 @@ CIIBassusVXV=\relative do'{
   sol1 mib~ |
   mib\breve |
   re\breve |
+  re\breve |
   do4 do8 do do4 do do do do do8 do |
   sol'2. sol4 fad2 r |
   do'\breve |
@@ -787,19 +791,19 @@ CIIBassusVXV=\relative do'{
 }
 
 TCIICantusIVXV=\lyricmode{\set ignoreMelismata = ##t
-Li -- be -- ra me de san -- guí -- ni -- bus, De -- us, De -- us sa -- "lu" -- tis me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "ae:" 
+Li -- be -- ra me de san -- guí -- ni -- bus, De -- us, De -- us sa -- "lu" -- tis me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "ae:" 
 et ex -- sul -- ta -- bit lin -- gua me -- a jus -- "tí" -- ti -- am tu --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "am."
 }
 TCIICantusIIVXV=\lyricmode{\set ignoreMelismata = ##t
-Li -- be -- ra me de san -- guí -- ni -- bus, De -- us, De -- us sa -- "lu" -- tis \skip1 me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "ae:" 
+Li -- be -- ra me de san -- guí -- ni -- bus, De -- us, De -- us sa -- "lu" -- tis \skip1 me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "ae:" 
 et ex -- sul -- ta -- bit lin -- gua me -- a jus -- "tí" -- ti -- am tu --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "am."
 }
 TCIIAltusVXV=\lyricmode{\set ignoreMelismata = ##t
-Li -- be -- ra me de san -- guí -- ni -- bus, De -- us, De -- us sa -- "lu" -- tis me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "ae:" 
+Li -- be -- ra me de san -- guí -- ni -- bus, De -- us, De -- us sa -- "lu" -- tis me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "ae:" 
 et ex -- sul -- ta -- bit lin -- gua me -- a jus -- "tí" -- ti -- am tu --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "am."
 }
 TCIIBassusVXV=\lyricmode{\set ignoreMelismata = ##t
-Li -- be -- ra me de san -- guí -- ni -- bus, De -- us, De -- us sa -- "lu" -- tis me --\skip1 \skip1 "ae:" 
+Li -- be -- ra me de san -- guí -- ni -- bus, De -- us, De -- us sa -- "lu" -- tis me --\skip1 \skip1 \skip1 "ae:" 
 et ex -- sul -- ta -- bit lin -- gua me -- a jus -- "tí" -- ti -- am tu --\skip1 \skip1 \skip1 "am."
 }
 
@@ -883,25 +887,294 @@ CIBassusVXVII=\relative do'{
 }
 
 TCICantusIVXVII=\lyricmode{\set ignoreMelismata = ##t
-Quo -- ni -- am si vo -- lu -- is -- ses sa -- cri -- fi -- ci -- um, de -- dis -- "sem " "ú" --\skip1 \skip1 ti -- "que :" 
-ho -- lau -- caus -- tis "non " __\skip1 de -- lec -- "tá" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
+Quo -- ni -- am si vo -- lu -- is -- ses sa -- cri -- fi -- ci -- um, de -- dis -- "sem " "u" --\skip1 \skip1 ti -- "que :" 
+ho -- lau -- caus -- tis "non " __\skip1 de -- lec -- "ta" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
 }
 TCICantusIIVXVII=\lyricmode{\set ignoreMelismata = ##t
-Quo -- ni -- am si vo -- lu -- is -- ses sa -- cri -- fi -- ci -- um, de -- dis -- "sem " "ú" --\skip1 \skip1 \skip1 \skip1 \skip1 ti -- "que :" 
-ho -- lau -- caus -- tis "non " de -- lec -- "tá" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
+Quo -- ni -- am si vo -- lu -- is -- ses sa -- cri -- fi -- ci -- um, de -- dis -- "sem " "u" --\skip1 \skip1 \skip1 \skip1 \skip1 ti -- "que :" 
+ho -- lau -- caus -- tis "non " de -- lec -- "ta" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
 }
 TCIAltusVXVII=\lyricmode{\set ignoreMelismata = ##t
-Quo -- ni -- am si vo -- lu -- is -- ses sa -- cri -- fi -- ci -- um, de -- dis -- "sem " "ú" --\skip1 \skip1 \skip1 \skip1 ti -- "que :" 
-ho -- lau -- caus -- tis "non " __\skip1 \skip1 de -- lec -- "tá" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
+Quo -- ni -- am si vo -- lu -- is -- ses sa -- cri -- fi -- ci -- um, de -- dis -- "sem " "u" --\skip1 \skip1 \skip1 \skip1 ti -- "que :" 
+ho -- lau -- caus -- tis "non " __\skip1 \skip1 de -- lec -- "ta" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
 }
 TCITenorVXVII=\lyricmode{\set ignoreMelismata = ##t
-Quo -- ni -- am si vo -- lu -- is -- ses sa -- cri -- fi -- ci -- um, de -- dis -- "sem " "ú" --\skip1 \skip1 \skip1 \skip1 \skip1 ti -- "que :" 
-ho -- lau -- caus -- tis "non " de -- lec -- "tá" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
+Quo -- ni -- am si vo -- lu -- is -- ses sa -- cri -- fi -- ci -- um, de -- dis -- "sem " "u" --\skip1 \skip1 \skip1 \skip1 \skip1 ti -- "que :" 
+ho -- lau -- caus -- tis "non " de -- lec -- "ta" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
 }
 TCIBassusVXVII=\lyricmode{\set ignoreMelismata = ##t
-Quo -- ni -- am si vo -- lu -- is -- ses sa -- cri -- fi -- ci -- um, de -- dis -- "sem " "ú" --\skip1 \skip1 ti -- "que :" 
-ho -- lau -- caus -- tis "non " de -- lec -- "tá" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
+Quo -- ni -- am si vo -- lu -- is -- ses sa -- cri -- fi -- ci -- um, de -- dis -- "sem " "u" --\skip1 \skip1 ti -- "que :" 
+ho -- lau -- caus -- tis "non " de -- lec -- "ta" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
 }
+
+CIICantusIVXIX=\relative do''{
+  r4 re \tuplet 3/2 { re4 re re } re re re re | 
+  re4 re re re re2. re4 |
+  re1 do |
+  mib4 re re2 r4 sol2 fa4 |
+  mib4. re8 do8.[ re16] sib4 do1 |
+  re\breve |
+  re\breve \bar "||" |
+  r4 mib \tuplet 3/2 { mib4 mib mib } mib2 mib |
+  re1 re2 r2|
+  sol1. do2~
+  do2 sib lab sol |
+  fa1. sol8[ fa mib fa] |
+  sol\breve~ |
+  sol\breve \bar "||" |
+}
+
+CIICantusIIVXIX=\relative do''{
+  r4 sib \tuplet 3/2 { sib4 sib sib } sib sib sib sib | 
+  sib4 sib sib sib sib2. sib4 |
+  sib1. la2~ |
+  la2 sol sib1~ |
+  sib1 r1 |
+  sib2 la8.[ sib16] sol4 la1 |
+  la\breve |
+  r4 do \tuplet 3/2 { do4 do do } do2 do |
+  sib1 la2 re~ |
+  re do do1~ |
+  do\breve~ |
+  do\breve~ |
+  do\breve~ |
+  do2 si4 la si1 |
+}
+
+CIIAltusVXIX=\relative re'{
+  r4 sol \tuplet 3/2 { sol4 sol sol } sol sol sol sol | 
+  sol4 sol sol sol sol2. sol4 |
+  fa1 fa |
+  sib,2. la4 sol2 sol'2~ |
+  sol\breve~ |
+  sol1. fad8.[ sol16] mi4 |
+  fad\breve |
+  r4 sol \tuplet 3/2 { sol4 sol sol } sol2 sol |
+  sol1 re2 r |
+  mib\breve |
+  do\breve~ |
+  do\breve |
+  mib2 re4 do mib2 re4 do |
+  re\breve |
+}
+
+CIIBassusVXIX=\relative do'{
+  r4 sol \tuplet 3/2 { sol4 sol sol } sol sol sol sol | 
+  sol4 sol sol sol sol2. sol4 |
+  sib1 fa |
+  sol1 mib~ |
+  mib\breve |
+  re\breve |
+  re\breve |
+  r4 do \tuplet 3/2 { do4 do do } do2 do |
+  sol'1 fad2 r |
+  do'\breve |
+  lab\breve~ |
+  lab1. lab2 |
+  sol\breve~ |
+  sol\breve |
+}
+
+TCIICantusIVXIX=\lyricmode{\set ignoreMelismata = ##t
+Be -- ní -- gne fac, Do -- mi -- ne, in bo -- na vo -- lun -- ta -- te tu -- a 
+Si --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "on :" 
+ut ae -- di -- fi -- cen -- tur mu -- ri Je -- \skip1 \skip1 \skip1 \skip1 \skip1 "ru" --sa --\skip1 \skip1 \skip1 "lem. " __\skip1
+}
+TCIICantusIIVXIX=\lyricmode{\set ignoreMelismata = ##t
+Be -- ní -- gne fac, Do -- mi -- ne, in bo -- na vo -- lun -- ta -- te tu -- a __\skip1 
+Si --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "on :" 
+ut ae -- di -- fi -- cen -- tur mu -- ri Je -- \skip1 \skip1 "ru" \skip1 \skip1 \skip1 \skip1 --sa --\skip1 "lem. "
+}
+TCIIAltusVXIX=\lyricmode{\set ignoreMelismata = ##t
+Be -- ní -- gne fac, Do -- mi -- ne, in bo -- na vo -- lun -- ta -- te tu -- a 
+Si --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "on :" 
+ut ae -- di -- fi -- cen -- tur mu -- ri Je -- "ru" \skip1 \skip1 \skip1 \skip1 \skip1 --sa --\skip1 "lem. "
+}
+TCIIBassusVXIX=\lyricmode{\set ignoreMelismata = ##t
+Be -- ní -- gne fac, Do -- mi -- ne, in bo -- na vo -- lun -- ta -- te tu -- a 
+Si --\skip1 \skip1 \skip1 "on :" 
+ut ae -- di -- fi -- cen -- tur mu -- ri Je -- "ru" \skip1 --sa -- "lem. " __\skip1
+}
+
+CICantusIVXX=\relative do''{
+  r2 re4 re8 re re4 re4 re4 re |
+  re4 re8 re8 re4 re8 re re4 re re4 re |
+  re1 re2 re |
+  sib2 mib1 re2 |
+  do\breve |
+  sib\breve \bar "||" |
+}
+
+CICantusIIVXX=\relative do''{
+  r2 sib4 sib8 sib sib4 sib4 sib4 sib |
+  sib4 sib8 sib8 sib4 sib8 sib sib4 sib sib4 sib |
+  la1 sib2 sib |
+  sol1 fa2 sib2~ |
+  sib2 la4 sol la1 |
+  sib\breve |
+  }
+
+CIAltusVXX=\relative re'{
+  r2 sol4 sol8 sol sol4 sol4 sol4 sol |
+  sol4 sol8 sol8 sol4 sol8 sol sol4 sol sol4 sol |
+  fa1 fa2 fa |
+  fa2 mib4 sol do,2 re |
+  fa\breve |
+  fa\breve |
+  }
+
+CITenorVXX=\relative do'{
+  r2 sib4 sib8 sib sib4 sib4 sib4 sib |
+  sib4 sib8 sib8 sib4 sib8 sib sib4 sib sib4 sib |
+  fa2 la re1~ |
+  re2 do4 sib la2 sib |
+  do\breve |
+  re\breve |
+	}
+CIBassusVXX=\relative do'{
+  r2 sol4 sol8 sol sol4 sol4 sol4 sol |
+  sol4 sol8 sol8 sol4 sol8 sol sol4 sol sol4 sol |
+  re1 sib2 sib |
+  mib1 fa2 sib, |
+  fa\breve |
+  sib\breve |
+}
+
+TCICantusIVXX=\lyricmode{\set ignoreMelismata = ##t
+Tunc ac -- cep -- ta -- bis sa -- cri -- fi -- ci -- um jus -- ti -- ti -- ae, o -- bla -- ti -- "o" -- "nes," "et " ho -- \skip1 lo -- "cau" -- "sta."
+}
+TCICantusIIVXX=\lyricmode{\set ignoreMelismata = ##t
+Tunc ac -- cep -- ta -- bis sa -- cri -- fi -- ci -- um jus -- ti -- ti -- ae, o -- bla -- ti -- "o" -- "nes," "et " ho -- lo -- "cau" -- \skip1 \skip1 \skip1 \skip1 "sta."
+}
+TCIAltusVXX=\lyricmode{\set ignoreMelismata = ##t
+Tunc ac -- cep -- ta -- bis sa -- cri -- fi -- ci -- um jus -- ti -- ti -- ae, o -- bla -- ti -- "o" -- "nes," "et " ho -- \skip1 \skip1 \skip1 lo -- "cau" -- "sta."
+}
+TCITenorVXX=\lyricmode{\set ignoreMelismata = ##t
+Tunc ac -- cep -- ta -- bis sa -- cri -- fi -- ci -- um jus -- ti -- ti -- ae, o -- bla -- ti -- "o" -- "nes," "et " ho -- \skip1 lo -- "cau" -- "sta."
+}
+TCIBassusVXX=\lyricmode{\set ignoreMelismata = ##t
+Tunc ac -- cep -- ta -- bis sa -- cri -- fi -- ci -- um jus -- ti -- ti -- ae, o -- bla -- ti -- "o" -- "nes," "et " ho -- \skip1 lo -- "cau" -- "sta."
+}
+
+
+CICantusIVXXI=\relative do''{
+  do1. do2  |
+  do1 do2 do |
+  do2. sol4 sol2. re4 | 
+  re2 la' sib1 |
+  sib1 la~ |
+  la2 re si1~
+  si\breve \bar "||" |
+}
+
+CICantusIIVXXI=\relative do''{
+  sol1. sol2  |
+  sol1 sol2 sol |
+  sol2 sol sib sol |
+  la1 sol |
+  sol1 la~ |
+  la2 la sol1~ |
+  sol\breve |
+  }
+
+CIAltusVXXI=\relative re'{
+  mib1. mib2  |
+  mib1 mib2 mib |
+  mib2 mib sol re |
+  re1 re |
+  re1 re1~ |
+  re2 re re1~ |
+  re\breve |
+  }
+
+CITenorVXXI=\relative do'{
+  sol1. sol2  |
+  sol1 sol2 sol |
+  sol2 do re1~ |
+  re2 re, re1 |
+  re2 re2. mi4 |
+  fad4 sol fad2. fad4 re1~ |
+  re\breve |
+	}
+CIBassusVXXI=\relative do'{
+  do,1. do2  |
+  do1 do2 do |
+  do2 do sol1 |
+  re'1 sol, |
+  sol1 re'~ |
+  re2 re sol,1~|
+  sol\breve |
+}
+
+TCICantusIVXXI=\lyricmode{\set ignoreMelismata = ##t
+Tunc im -- "po" -- nent su -- per al -- "ta" -- \skip1 re __\skip1 tu -- um vi -- \skip1 tu -- "los."
+}
+TCICantusIIVXXI=\lyricmode{\set ignoreMelismata = ##t
+Tunc im -- "po" -- nent su -- per al -- "ta" -- \skip1 re tu -- um vi -- \skip1 tu -- "los."
+}
+TCIAltusVXXI=\lyricmode{\set ignoreMelismata = ##t
+Tunc im -- "po" -- nent su -- per al -- "ta" -- \skip1 re tu -- um vi -- \skip1 tu -- "los."
+}
+TCITenorVXXI=\lyricmode{\set ignoreMelismata = ##t
+Tunc im -- "po" -- nent su -- per al -- "ta" -- \skip1 re tu -- um vi -- \skip1 \skip1 \skip1 \skip1 tu -- "los."
+}
+TCIBassusVXXI=\lyricmode{\set ignoreMelismata = ##t
+Tunc im -- "po" -- nent su -- per al -- "ta" -- re tu -- um vi -- \skip1 tu -- "los."
+}
+
+CIICantusIVXXI=\relative do''{
+  mib1. mib2  |
+  mib1 mib2 mib |
+  mib2 mib re1 |
+  re1 sib |
+  sib1 re~ |
+  re2 re re1~ |
+  re\breve |
+}
+
+CIICantusIIVXXI=\relative do''{
+  do1. do2  |
+  do1 do2 do |
+  do2 do sib1 |
+  la2 re1 re2 |
+  re1~ re2 la2~ |
+  la2 la si1~ |
+  si\breve |
+}
+
+CIIAltusVXXI=\relative re'{
+  sol1. sol2  |
+  sol1 sol2 sol |
+  sol2 sol sol1 |
+  fad1 sol |
+  sol2 sol1 fad4 mi |
+  fad2. fad4 sol1~ |
+  sol\breve |
+}
+
+CIIBassusVXXI=\relative do'{
+  do,1. do2  |
+  do1 do2 do |
+  do2 sol sol'1 |
+  re1 sol |
+  sol1 re~ |
+  re2 re sol1~ |
+  sol\breve |
+}
+
+TCIICantusIVXXI=\lyricmode{\set ignoreMelismata = ##t
+Tunc im -- "po" -- nent su -- per al -- "ta" -- re tu -- um vi -- \skip1 tu -- "los."
+}
+TCIICantusIIVXXI=\lyricmode{\set ignoreMelismata = ##t
+Tunc im -- "po" -- nent su -- per al -- "ta" -- re tu -- um vi -- \skip1 \skip1 \skip1 tu -- "los."
+}
+TCIIAltusVXXI=\lyricmode{\set ignoreMelismata = ##t
+Tunc im -- "po" -- nent su -- per al -- "ta" -- re tu -- um vi -- \skip1 \skip1 \skip1 tu -- "los."
+}
+TCIIBassusVXXI=\lyricmode{\set ignoreMelismata = ##t
+Tunc im -- "po" -- nent su -- per al -- "ta" -- re tu -- um vi -- \skip1 tu -- "los."
+}
+
 
 
 gregorienOne = {
@@ -917,7 +1190,7 @@ gregorienTwo = {
 	\key sol \minor \clef "trebble" 
 	\set Score.timing = ##f
 	\relative do'' {
-	sib\breve sib4 do sib sib2 \bar "|"
+	sib\breve do sib sib2 \bar "|"
 	sib\breve la4 fa sol2 \bar "||"
   }
 }
@@ -934,7 +1207,7 @@ gregorienThree = {
 
 TgregorienVII =\lyricmode {
   \once \override LyricText.self-alignment-X = #LEFT 
-  "Et secúndum multitúndum multitdinem miseratiónum tu" -- "á" -- "rum,"
+  "Et secúndum multitudinem miseratiónum tu" -- "á" -- "rum,"
   \once \override LyricText.self-alignment-X = #LEFT 
   "dele iniquitá" -- tem "mé" -- "am."
 }
@@ -946,13 +1219,13 @@ TgregorienVIV =\lyricmode {
 }
 TgregorienVVI =\lyricmode {
   \once \override LyricText.self-alignment-X = #LEFT 
-  "Ecce enim in iniquitátibus" con -- "cép" -- tus "sum :"
+  "Ecce enim in iniquitátibus con" -- "cép" -- tus "sum :"
   \once \override LyricText.self-alignment-X = #LEFT 
   "et in peccátis concépit me má" -- ter me -- "a."
 }
 TgregorienVVIII =\lyricmode {
   \once \override LyricText.self-alignment-X = #LEFT 
-  "Aspérges me Domine, hyssópo, et mun" -- da -- "bor :"
+  "Aspérges me hyssópo, et mun" -- da -- "bor :"
   \once \override LyricText.self-alignment-X = #LEFT 
   "lavábis me, et super nivem de" -- al -- "bá" -- "bor."
 }
@@ -976,16 +1249,22 @@ TgregorienVXIV =\lyricmode {
 }
 TgregorienVXVI =\lyricmode {
   \once \override LyricText.self-alignment-X = #LEFT 
-  "Dómine, lábia méa"  a -- "pé" -- ri -- "es :"
+  "Dómine, lábia méa  a" -- "pé" -- ri -- "es :"
   \once \override LyricText.self-alignment-X = #LEFT 
   "et os meum annuntiábit láu" -- dem "tú" -- "am."
+}
+TgregorienVXVIII =\lyricmode {
+  \once \override LyricText.self-alignment-X = #LEFT 
+  "Sacrifícium Deo spíritus contribu" -- "lá" -- "tus :"
+  \once \override LyricText.self-alignment-X = #LEFT 
+  "cor contrítum, et humiliátum, Deus, non" des -- "pí" -- ci -- "es."
 }
 
 \score {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Tutti"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 1"}
 
 \new ChoirStaff<<
 
@@ -1032,7 +1311,7 @@ TgregorienVXVI =\lyricmode {
 	indent=3\cm
 }
 
-\midi {\tempo 4 = 120 }
+\midi {\tempo 4 = 160 }
 
 }
 
@@ -1042,7 +1321,7 @@ TgregorienVXVI =\lyricmode {
 <<
 \new GregorianTranscriptionStaff <<
 	\global
-	\set GregorianTranscriptionStaff.instrumentName = "Tutti"
+	\set GregorianTranscriptionStaff.instrumentName = "Schola"
   \context Staff << 
 	\context GregorianTranscriptionVoice = "greg2" {  \gregorienOne }
 		\new GregorianTranscriptionLyrics \lyricsto "greg2" { \TgregorienVII }
@@ -1054,7 +1333,7 @@ TgregorienVXVI =\lyricmode {
 	%ragged-right = ##f
 	ragged-last = ##f
 }
-\midi {\tempo 4 = 120 }
+\midi {\tempo 4 = 160 }
 }
 
 \markup \vspace #1 % change this value accordingly
@@ -1063,7 +1342,7 @@ TgregorienVXVI =\lyricmode {
 \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Soli"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 2"}
 \new ChoirStaff<<
 
 	\new Staff <<
@@ -1103,7 +1382,7 @@ TgregorienVXVI =\lyricmode {
 	indent=3\cm
 }
 
-\midi {\tempo 4 = 120 }
+\midi {\tempo 4 = 160 }
 
 }
 
@@ -1113,7 +1392,7 @@ TgregorienVXVI =\lyricmode {
 <<
 \new GregorianTranscriptionStaff <<
 	\global
-	\set GregorianTranscriptionStaff.instrumentName = "Tutti"
+	\set GregorianTranscriptionStaff.instrumentName = "Schola"
   \context Staff << 
 	\context GregorianTranscriptionVoice = "greg4" { \gregorienOne }
 		\new GregorianTranscriptionLyrics \lyricsto "greg4" { \TgregorienVIV }
@@ -1125,7 +1404,7 @@ TgregorienVXVI =\lyricmode {
 	%ragged-right = ##f
 	ragged-last = ##f
 }
-\midi {\tempo 4 = 120 }
+\midi {\tempo 4 = 160 }
 }
 
 \markup \vspace #1 % change this value accordingly
@@ -1134,7 +1413,7 @@ TgregorienVXVI =\lyricmode {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Tutti"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 1"}
 \new ChoirStaff<<
 
 	\new Staff <<
@@ -1180,7 +1459,7 @@ TgregorienVXVI =\lyricmode {
 	indent=3\cm
 }
 
-\midi {\tempo 4 = 120 }
+\midi {\tempo 4 = 160 }
 
 }
 
@@ -1190,7 +1469,7 @@ TgregorienVXVI =\lyricmode {
 <<
 \new GregorianTranscriptionStaff <<
 	\global
-	\set GregorianTranscriptionStaff.instrumentName = "Tutti"
+	\set GregorianTranscriptionStaff.instrumentName = "Schola"
   \context Staff << 
 	\context GregorianTranscriptionVoice = "greg6" { \gregorienTwo }
 		\new GregorianTranscriptionLyrics \lyricsto "greg6" { \TgregorienVVI }
@@ -1202,7 +1481,7 @@ TgregorienVXVI =\lyricmode {
 	%ragged-right = ##f
 	ragged-last = ##f
 }
-\midi {\tempo 4 = 120 }
+\midi {\tempo 4 = 160 }
 }
 
 \markup \vspace #1 % change this value accordingly
@@ -1211,7 +1490,7 @@ TgregorienVXVI =\lyricmode {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Soli"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 2"}
 \new ChoirStaff<<
 
 	\new Staff <<
@@ -1251,7 +1530,7 @@ TgregorienVXVI =\lyricmode {
 	indent=3\cm
 }
 
-\midi {\tempo 4 = 120 }
+\midi {\tempo 4 = 160 }
 
 }
 
@@ -1261,7 +1540,7 @@ TgregorienVXVI =\lyricmode {
 <<
 \new GregorianTranscriptionStaff <<
 	\global
-	\set GregorianTranscriptionStaff.instrumentName = "Tutti"
+	\set GregorianTranscriptionStaff.instrumentName = "Schola"
   \context Staff << 
 	\context GregorianTranscriptionVoice = "greg8" { \gregorienOne }
 		\new GregorianTranscriptionLyrics \lyricsto "greg8" { \TgregorienVVIII }
@@ -1273,7 +1552,7 @@ TgregorienVXVI =\lyricmode {
 	%ragged-right = ##f
 	ragged-last = ##f
 }
-\midi {\tempo 4 = 120 }
+\midi {\tempo 4 = 160 }
 }
 
 \markup \vspace #1 % change this value accordingly
@@ -1282,7 +1561,7 @@ TgregorienVXVI =\lyricmode {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Tutti"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 1"}
 
 \new ChoirStaff<<
 
@@ -1329,7 +1608,7 @@ TgregorienVXVI =\lyricmode {
 	indent=3\cm
 }
 
-\midi {\tempo 4 = 120 }
+\midi {\tempo 4 = 160 }
 
 }
 
@@ -1339,7 +1618,7 @@ TgregorienVXVI =\lyricmode {
 <<
 \new GregorianTranscriptionStaff <<
 	\global
-	\set GregorianTranscriptionStaff.instrumentName = "Tutti"
+	\set GregorianTranscriptionStaff.instrumentName = "Schola"
   \context Staff << 
 	\context GregorianTranscriptionVoice = "greg10" { \gregorienOne }
 		\new GregorianTranscriptionLyrics \lyricsto "greg10" { \TgregorienVX }
@@ -1351,7 +1630,7 @@ TgregorienVXVI =\lyricmode {
 	%ragged-right = ##f
 	ragged-last = ##f
 }
-\midi {\tempo 4 = 120 }
+\midi {\tempo 4 = 160 }
 }
 
 \markup \vspace #1 % change this value accordingly
@@ -1360,7 +1639,7 @@ TgregorienVXVI =\lyricmode {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Soli"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 2"}
 \new ChoirStaff<<
 
 	\new Staff <<
@@ -1400,7 +1679,7 @@ TgregorienVXVI =\lyricmode {
 	indent=3\cm
 }
 
-\midi {\tempo 4 = 120 }
+\midi {\tempo 4 = 160 }
 
 }
 
@@ -1410,9 +1689,9 @@ TgregorienVXVI =\lyricmode {
 <<
 \new GregorianTranscriptionStaff <<
 	\global
-	\set GregorianTranscriptionStaff.instrumentName = "Tutti"
+	\set GregorianTranscriptionStaff.instrumentName = "Schola"
   \context Staff << 
-	\context GregorianTranscriptionVoice = "greg12" { \gregorienOne }
+	\context GregorianTranscriptionVoice = "greg12" { \gregorienThree }
 		\new GregorianTranscriptionLyrics \lyricsto "greg12" { \TgregorienVXII }
 	>>
   >>
@@ -1422,7 +1701,7 @@ TgregorienVXVI =\lyricmode {
 	%ragged-right = ##f
 	ragged-last = ##f
 }
-\midi {\tempo 4 = 120 }
+\midi {\tempo 4 = 160 }
 }
 
 \markup \vspace #1 % change this value accordingly
@@ -1432,7 +1711,7 @@ TgregorienVXVI =\lyricmode {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Tutti"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 1"}
 \new ChoirStaff<<
 
 	\new Staff <<
@@ -1478,7 +1757,7 @@ TgregorienVXVI =\lyricmode {
 	indent=3\cm
 }
 
-\midi {\tempo 4 = 120 }
+\midi {\tempo 4 = 160 }
 
 }
 
@@ -1488,7 +1767,7 @@ TgregorienVXVI =\lyricmode {
 <<
 \new GregorianTranscriptionStaff <<
 	\global
-	\set GregorianTranscriptionStaff.instrumentName = "Tutti"
+	\set GregorianTranscriptionStaff.instrumentName = "Schola"
   \context Staff << 
 	\context GregorianTranscriptionVoice = "greg14" { \gregorienOne }
 		\new GregorianTranscriptionLyrics \lyricsto "greg14" { \TgregorienVXIV }
@@ -1500,7 +1779,7 @@ TgregorienVXVI =\lyricmode {
 	%ragged-right = ##f
 	ragged-last = ##f
 }
-\midi {\tempo 4 = 120 }
+\midi {\tempo 4 = 160 }
 }
 
 \markup \vspace #1 % change this value accordingly
@@ -1509,7 +1788,7 @@ TgregorienVXVI =\lyricmode {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Soli"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 2"}
 \new ChoirStaff<<
 
 	\new Staff <<
@@ -1549,7 +1828,7 @@ TgregorienVXVI =\lyricmode {
 	indent=3\cm
 }
 
-\midi {\tempo 4 = 120 }
+\midi {\tempo 4 = 160 }
 
 }
 
@@ -1559,7 +1838,7 @@ TgregorienVXVI =\lyricmode {
 <<
 \new GregorianTranscriptionStaff <<
 	\global
-	\set GregorianTranscriptionStaff.instrumentName = "Tutti"
+	\set GregorianTranscriptionStaff.instrumentName = "Schola"
   \context Staff << 
 	\context GregorianTranscriptionVoice = "greg16" { \gregorienTwo }
 		\new GregorianTranscriptionLyrics \lyricsto "greg16" { \TgregorienVXVI }
@@ -1571,7 +1850,7 @@ TgregorienVXVI =\lyricmode {
 	%ragged-right = ##f
 	ragged-last = ##f
 }
-\midi {\tempo 4 = 120 }
+\midi {\tempo 4 = 160 }
 }
 
 \markup \vspace #1 % change this value accordingly
@@ -1580,7 +1859,7 @@ TgregorienVXVI =\lyricmode {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Tutti"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 1"}
 \new ChoirStaff<<
 
 	\new Staff <<
@@ -1626,7 +1905,223 @@ TgregorienVXVI =\lyricmode {
 	indent=3\cm
 }
 
-\midi {\tempo 4 = 120 }
+\midi {\tempo 4 = 160 }
+
+}
+
+\markup \vspace #1 % change this value accordingly
+
+\score {
+<<
+\new GregorianTranscriptionStaff <<
+	\global
+	\set GregorianTranscriptionStaff.instrumentName = "Schola"
+  \context Staff << 
+	\context GregorianTranscriptionVoice = "greg18" { \gregorienThree }
+		\new GregorianTranscriptionLyrics \lyricsto "greg18" { \TgregorienVXVIII }
+	>>
+  >>
+>>
+\layout{ 
+  	papersize = "a4"
+	%ragged-right = ##f
+	ragged-last = ##f
+}
+\midi {\tempo 4 = 160 }
+}
+
+\markup \vspace #1 % change this value accordingly
+
+\score {
+  \new StaffGroup {
+	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
+	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
+	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 2"}
+\new ChoirStaff<<
+
+	\new Staff <<
+	\new Voice="C2C1V19" {
+		\set Staff.instrumentName="Cantus I"
+	  	\global \clef "treble" \CIICantusIVXIX }
+	\new Lyrics \lyricsto "C2C1V19" {\TCIICantusIVXIX }
+	>>
+	\new Staff <<
+	\new Voice="C2C2V19" {
+		\set Staff.instrumentName="Cantus II"
+	  	\global \clef "treble" \CIICantusIIVXIX }
+	\new Lyrics \lyricsto "C2C2V19" {\TCIICantusIIVXIX }
+	>>
+	\new Staff <<
+	\new Voice="C2A1V19" {
+		\set Staff.instrumentName="Altus"
+	  	\global \clef "treble" \CIIAltusVXIX }
+	\new Lyrics \lyricsto "C2A1V19" {\TCIIAltusVXIX }
+	>>
+	\new Staff <<
+	\new Voice="C2B1V19" {
+		\set Staff.instrumentName="Bassus"
+	  	\global \clef "bass" \CIIBassusVXIX }
+	\new Lyrics \lyricsto "C2B1V19" {\TCIIBassusVXIX }
+	>>
+>>
+}
+
+
+\layout{ 
+  	papersize = "a4"
+	\context {\Staff \consists Ambitus_engraver }
+	ragged-last = ##f
+
+	% useful for incipit
+	indent=3\cm
+}
+
+\midi {\tempo 4 = 160 }
+
+}
+
+\markup \vspace #1 % change this value accordingly
+
+\score {
+  \new StaffGroup {
+	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
+	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
+	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 1"}
+\new ChoirStaff<<
+
+	\new Staff <<
+	\new Voice="C1C1V20" {
+		\set Staff.instrumentName="Cantus I"
+	  	\global \clef "treble" \CICantusIVXX }
+	\new Lyrics \lyricsto "C1C1V20" {\TCICantusIVXX }
+	>>
+	\new Staff <<
+	\new Voice="C1C2V20" {
+		\set Staff.instrumentName="Cantus II"
+	  	\global \clef "treble" \CICantusIIVXX }
+	\new Lyrics \lyricsto "C1C2V20" {\TCICantusIIVXX }
+	>>
+	\new Staff <<
+	\new Voice="C1A1V20" {
+		\set Staff.instrumentName="Altus"
+	  	\global \clef "treble" \CIAltusVXX }
+	\new Lyrics \lyricsto "C1A1V20" {\TCIAltusVXX }
+	>>
+	\new Staff <<
+	\new Voice="C1T1V20" {
+		\set Staff.instrumentName="Tenor"
+	  	\global \clef "treble_8" \CITenorVXX }
+	\new Lyrics \lyricsto "C1T1V20" {\TCITenorVXX }
+	>>
+	\new Staff <<
+	\new Voice="C1B1V20" {
+		\set Staff.instrumentName="Bassus"
+	  	\global \clef "bass" \CIBassusVXX }
+	\new Lyrics \lyricsto "C1B1V20" {\TCIBassusVXX }
+	>>
+>>
+}
+
+
+\layout{ 
+  	papersize = "a4"
+	\context {\Staff \consists Ambitus_engraver }
+	ragged-last = ##f
+
+	% useful for incipit
+	indent=3\cm
+}
+
+\midi {\tempo 4 = 160 }
+
+}
+
+
+\markup \vspace #4 % change this value accordingly
+
+\score {
+  <<
+  \new StaffGroup <<
+	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
+	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
+	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 1"}
+
+	\new ChoirStaff<<
+	\new Staff <<
+	\new Voice="C1C1V21" {
+		\set Staff.instrumentName="Cantus I"
+	  	\global \clef "treble" \CICantusIVXXI }
+	\new Lyrics \lyricsto "C1C1V21" {\TCICantusIVXXI }
+	>>
+	\new Staff <<
+	\new Voice="C1C2V21" {
+		\set Staff.instrumentName="Cantus II"
+	  	\global \clef "treble" \CICantusIIVXXI }
+	\new Lyrics \lyricsto "C1C2V21" {\TCICantusIIVXXI }
+	>>
+	\new Staff <<
+	\new Voice="C1A1V21" {
+		\set Staff.instrumentName="Altus"
+	  	\global \clef "treble" \CIAltusVXXI }
+	\new Lyrics \lyricsto "C1A1V21" {\TCIAltusVXXI }
+	>>
+	\new Staff <<
+	\new Voice="C1T1V21" {
+		\set Staff.instrumentName="Tenor"
+	  	\global \clef "treble_8" \CITenorVXXI }
+	\new Lyrics \lyricsto "C1T1V21" {\TCITenorVXXI }
+	>>
+	\new Staff <<
+	\new Voice="C1B1V21" {
+		\set Staff.instrumentName="Bassus"
+	  	\global \clef "bass" \CIBassusVXXI }
+	\new Lyrics \lyricsto "C1B1V21" {\TCIBassusVXXI }
+	>>
+  >>
+>>
+  \new StaffGroup <<
+	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
+	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
+	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 2"}
+
+	\new ChoirStaff<<
+	\new Staff <<
+	\new Voice="C2C1V21" {
+		\set Staff.instrumentName="Cantus I"
+	  	\global \clef "treble" \CIICantusIVXXI }
+	\new Lyrics \lyricsto "C2C1V21" {\TCIICantusIVXXI }
+	>>
+	\new Staff <<
+	\new Voice="C2C2V21" {
+		\set Staff.instrumentName="Cantus II"
+	  	\global \clef "treble" \CIICantusIIVXXI }
+	\new Lyrics \lyricsto "C2C2V21" {\TCIICantusIIVXXI }
+	>>
+	\new Staff <<
+	\new Voice="C2A1V21" {
+		\set Staff.instrumentName="Altus"
+	  	\global \clef "treble" \CIIAltusVXXI }
+	\new Lyrics \lyricsto "C2A1V21" {\TCIIAltusVXXI }
+	>>
+	\new Staff <<
+	\new Voice="C2B1V21" {
+		\set Staff.instrumentName="Bassus"
+	  	\global \clef "bass" \CIIBassusVXXI }
+	\new Lyrics \lyricsto "C2B1V21" {\TCIIBassusVXXI }
+	>>
+  >>
+>>
+>>
+\layout{ 
+  	papersize = "a4"
+	\context {\Staff \consists Ambitus_engraver }
+	ragged-last = ##f
+
+	% useful for incipit
+	indent=3\cm
+}
+
+\midi {\tempo 4 = 160 }
 
 }
 
