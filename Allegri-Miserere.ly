@@ -35,6 +35,7 @@ global={ \key sol \minor \time 2/1 }
 incipitwidth = 6
 
 CICantusIVI=\relative do''{
+  \sectionLabel "Versum 1"
   re2. re4 re2 re |
   re1 re |
   sib2 mib1 re2 |
@@ -139,6 +140,7 @@ mi -- se -- ri "cor" di -- "am" mi -- \skip1 se -- ri -- cor -- di -- am tu -- "
 }
 
 CIICantusIVIII=\relative do''{
+  \sectionLabel "Versum 3"
   re2. re4 re2 re4 re |
   re2 r2 re4 re re re|
   re1 do |
@@ -235,6 +237,7 @@ mun -- da __\skip1 "me." __\skip1
 }
 
 CICantusIVV=\relative do''{
+  \sectionLabel "Versum 5"
   re4 re \tuplet 3/2 { re4 re re } re4 re2 re4 |
   re1 re |
   sib2 mib1 re2 |
@@ -340,6 +343,7 @@ ut jus -- ti -- fi -- ce -- ris in ser -- "mo" -- ni -- bus tu -- "is," et vin -
 }
 
 CIICantusIVVII=\relative do''{
+  \sectionLabel "Versum 7"
   re4. re8 re4 re re8 re re2 re4 |
   re1 do |
   mib4 re re2 r4 sol2 fa4 |
@@ -432,6 +436,7 @@ mi --\skip1 \skip1 \skip1 "hi." __\skip1
 }
 
 CICantusIVIX=\relative do''{
+  \sectionLabel "Versum 9"
   r1 r2 r4 re4 | 
   \tuplet 3/2 { re4 re re } re4 re re re \tuplet 3/2 { re4 re re }|
   re1 re |
@@ -547,6 +552,7 @@ hu -- mi -- li -- "a" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 
 }
 
 CIICantusIVXI=\relative do''{
+  \sectionLabel "Versum 11"
   r2 r4 re re re re re |
   re1 do |
   mib4 re re2 r4 sol2 fa4 |
@@ -628,6 +634,7 @@ et "spí" -- ri -- tum rec -- tum in -- no -- va in vi -- "sce" -- ri -- bus me 
 }
 
 CICantusIVXIII=\relative do''{
+  \sectionLabel "Versum 13"
   re4 re \tuplet 3/2 { re4 re re } \tuplet 3/2 { re4 re re } re4 re |
   re1 re |
   sib2 mib1 re2 |
@@ -723,6 +730,7 @@ et "spi" -- ti -- tu prin -- ci -- "pa" -- li con -- "fir" -- ma "me," __\skip1 
 }
 
 CIICantusIVXV=\relative do''{
+  \sectionLabel "Versum 15"
   r1 r2 \tuplet 3/2 { re4 re re } | 
   \tuplet 3/2 { re2 re8 re } \tuplet 3/2 { re4 re re } re4 re \tuplet 3/2 { re4 re re } |
   re1 do |
@@ -808,6 +816,7 @@ et ex -- sul -- ta -- bit lin -- gua me -- a jus -- "tí" -- ti -- am tu --\skip
 }
 
 CICantusIVXVII=\relative do''{
+  \sectionLabel "Versum 17"
   r1 \tuplet 3/2 { re4. re8 re4 } \tuplet 3/2 { re4 re re } |
   re4 re4 re8 re re re re2. re4 |
   re1 re1 |
@@ -908,6 +917,7 @@ ho -- lau -- caus -- tis "non " de -- lec -- "ta" --\skip1 \skip1 \skip1 \skip1 
 }
 
 CIICantusIVXIX=\relative do''{
+  \sectionLabel "Versum 19"
   r4 re \tuplet 3/2 { re4 re re } re re re re | 
   re4 re re re re2. re4 |
   re1 do |
@@ -997,6 +1007,7 @@ ut ae -- di -- fi -- cen -- tur mu -- ri Je -- "ru" \skip1 --sa -- "lem. " __\sk
 }
 
 CICantusIVXX=\relative do''{
+  \sectionLabel "Versum 20"
   r2 re4 re8 re re4 re4 re4 re |
   re4 re8 re8 re4 re8 re re4 re re4 re |
   re1 re2 re |
@@ -1206,54 +1217,63 @@ gregorienThree = {
 
 
 TgregorienVII =\lyricmode {
+  \sectionLabel "Versum 2"
   \once \override LyricText.self-alignment-X = #LEFT 
   "Et secúndum multitudinem miseratiónum tu" -- "á" -- "rum,"
   \once \override LyricText.self-alignment-X = #LEFT 
   "dele iniquitá" -- tem "mé" -- "am."
 }
 TgregorienVIV =\lyricmode {
+  \sectionLabel "Versum 4"
   \once \override LyricText.self-alignment-X = #LEFT 
   "Quóniam iniquitátem meam ego co" -- "gnó" -- "sco"
   \once \override LyricText.self-alignment-X = #LEFT 
   "et peccátum meum contra me" est sem -- "per."
 }
 TgregorienVVI =\lyricmode {
+  \sectionLabel "Versum 6"
   \once \override LyricText.self-alignment-X = #LEFT 
   "Ecce enim in iniquitátibus con" -- "cép" -- tus "sum :"
   \once \override LyricText.self-alignment-X = #LEFT 
   "et in peccátis concépit me má" -- ter me -- "a."
 }
 TgregorienVVIII =\lyricmode {
+  \sectionLabel "Versum 8"
   \once \override LyricText.self-alignment-X = #LEFT 
   "Aspérges me hyssópo, et mun" -- da -- "bor :"
   \once \override LyricText.self-alignment-X = #LEFT 
   "lavábis me, et super nivem de" -- al -- "bá" -- "bor."
 }
 TgregorienVX =\lyricmode {
+  \sectionLabel "Versum 10"
   \once \override LyricText.self-alignment-X = #LEFT 
   "Avérte fáciem tuam a peccátis" "mé" -- "is :"
   \once \override LyricText.self-alignment-X = #LEFT 
   "et omnes iniquitátes mé" -- as "dé" -- "le."
 }
 TgregorienVXII =\lyricmode {
+  \sectionLabel "Versum 12"
   \once \override LyricText.self-alignment-X = #LEFT 
   "Ne projícias me a fácie" "tú" -- "a :"
   \once \override LyricText.self-alignment-X = #LEFT 
   "et spíritum sánctam túum ne áu" -- "fé" -- ras a "me."
 }
 TgregorienVXIV =\lyricmode {
+  \sectionLabel "Versum 14"
   \once \override LyricText.self-alignment-X = #LEFT 
   "Docébo iniquos vias" "tú" -- "as :"
   \once \override LyricText.self-alignment-X = #LEFT 
   "et impii ad te con" -- ver -- "tén" -- "tur."
 }
 TgregorienVXVI =\lyricmode {
+  \sectionLabel "Versum 16"
   \once \override LyricText.self-alignment-X = #LEFT 
   "Dómine, lábia méa  a" -- "pé" -- ri -- "es :"
   \once \override LyricText.self-alignment-X = #LEFT 
   "et os meum annuntiábit láu" -- dem "tú" -- "am."
 }
 TgregorienVXVIII =\lyricmode {
+  \sectionLabel "Versum 18"
   \once \override LyricText.self-alignment-X = #LEFT 
   "Sacrifícium Deo spíritus contribu" -- "lá" -- "tus :"
   \once \override LyricText.self-alignment-X = #LEFT 
@@ -1264,7 +1284,7 @@ TgregorienVXVIII =\lyricmode {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 1"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-15 \rotate #90 "Chorus 1"}
 
 \new ChoirStaff<<
 
@@ -1342,7 +1362,7 @@ TgregorienVXVIII =\lyricmode {
 \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 2"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-15 \rotate #90 "Chorus 2"}
 \new ChoirStaff<<
 
 	\new Staff <<
@@ -1413,7 +1433,7 @@ TgregorienVXVIII =\lyricmode {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 1"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-15 \rotate #90 "Chorus 1"}
 \new ChoirStaff<<
 
 	\new Staff <<
@@ -1490,7 +1510,7 @@ TgregorienVXVIII =\lyricmode {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 2"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-15 \rotate #90 "Chorus 2"}
 \new ChoirStaff<<
 
 	\new Staff <<
@@ -1561,7 +1581,7 @@ TgregorienVXVIII =\lyricmode {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 1"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-15 \rotate #90 "Chorus 1"}
 
 \new ChoirStaff<<
 
@@ -1639,7 +1659,7 @@ TgregorienVXVIII =\lyricmode {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 2"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-15 \rotate #90 "Chorus 2"}
 \new ChoirStaff<<
 
 	\new Staff <<
@@ -1711,7 +1731,7 @@ TgregorienVXVIII =\lyricmode {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 1"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-15 \rotate #90 "Chorus 1"}
 \new ChoirStaff<<
 
 	\new Staff <<
@@ -1788,7 +1808,7 @@ TgregorienVXVIII =\lyricmode {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 2"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-15 \rotate #90 "Chorus 2"}
 \new ChoirStaff<<
 
 	\new Staff <<
@@ -1859,7 +1879,7 @@ TgregorienVXVIII =\lyricmode {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 1"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-15 \rotate #90 "Chorus 1"}
 \new ChoirStaff<<
 
 	\new Staff <<
@@ -1936,7 +1956,7 @@ TgregorienVXVIII =\lyricmode {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 2"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-15 \rotate #90 "Chorus 2"}
 \new ChoirStaff<<
 
 	\new Staff <<
@@ -1986,7 +2006,7 @@ TgregorienVXVIII =\lyricmode {
   \new StaffGroup {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 1"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-15 \rotate #90 "Chorus 1"}
 \new ChoirStaff<<
 
 	\new Staff <<
@@ -2044,7 +2064,7 @@ TgregorienVXVIII =\lyricmode {
   \new StaffGroup <<
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 1"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-15 \rotate #90 "Chorus 1"}
 
 	\new ChoirStaff<<
 	\new Staff <<
@@ -2082,7 +2102,7 @@ TgregorienVXVIII =\lyricmode {
   \new StaffGroup <<
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
-	\set StaffGroup.instrumentName = \markup {\hspace #-12 \rotate #90 "Coro 2"}
+	\set StaffGroup.instrumentName = \markup {\hspace #-15 \rotate #90 "Chorus 2"}
 
 	\new ChoirStaff<<
 	\new Staff <<
