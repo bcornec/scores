@@ -14,7 +14,7 @@
     
     tagline =  \markup \center-column {
 	  \line {"  "}
-	  \line {"Copyright © 2024 Bruno Cornec, based on Remi Studer' work at CPDL"}
+	  \line {"Copyright © 2024 Bruno Cornec, reuse of Remi Studer' words at CPDL"}
 	  \line {"Edition may be freely distributed, duplicated, performed, or recorded"}
 	}
     copyright = " "
@@ -412,25 +412,25 @@ CIIBassusVVII=\relative do'{
 }
 
 TCIICantusIVVII=\lyricmode{\set ignoreMelismata = ##t
-"Ec" -- ce e -- nim ve -- ri -- "tá" -- tem di -- le -- xi -- \skip1 \skip1 
+"Ec" -- ce e -- nim ve -- ri -- "ta" -- tem di -- le -- xi -- \skip1 \skip1 
 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "sti :" __\skip1
 in -- cer -- ta et oc -- cul -- ta sa -- pi -- en \skip1 -- ti -- ae tu -- ae ma -- ni -- fe -- "sta" -- sti 
 mi --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "hi."
 }
 TCIICantusIIVVII=\lyricmode{\set ignoreMelismata = ##t
-"Ec" -- ce e -- nim ve -- ri -- "tá" -- tem di -- le -- \skip1 xi -- \skip1 \skip1
+"Ec" -- ce e -- nim ve -- ri -- "ta" -- tem di -- le -- \skip1 xi -- \skip1 \skip1
 \skip1 \skip1 \skip1 \skip1 \skip1 "sti :" __\skip1
 in -- cer -- ta et oc -- cul -- ta sa -- pi -- en \skip1 -- ti -- ae tu -- ae ma -- ni -- fe -- "sta" -- sti 
 mi --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "hi."
 }
 TCIIAltusVVII=\lyricmode{\set ignoreMelismata = ##t
-"Ec" -- ce e -- nim ve -- ri -- "tá" -- tem di -- le -- xi -- \skip1 \skip1 
+"Ec" -- ce e -- nim ve -- ri -- "ta" -- tem di -- le -- xi -- \skip1 \skip1 
 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "sti :" __\skip1
 in -- cer -- ta et oc -- cul -- ta sa -- pi -- en \skip1 -- ti -- ae tu -- ae ma -- ni -- fe -- "sta" -- sti 
 mi --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "hi."
 }
 TCIIBassusVVII=\lyricmode{\set ignoreMelismata = ##t
-"Ec" -- ce e -- nim ve -- ri -- "tá" -- tem di -- le -- xi -- \skip1 \skip1 \skip1 "sti :" __\skip1 
+"Ec" -- ce e -- nim ve -- ri -- "ta" -- tem di -- le -- xi -- \skip1 \skip1 \skip1 "sti :" __\skip1 
 in -- cer -- ta et oc -- cul -- ta sa -- pi -- en \skip1 -- ti -- ae tu -- ae ma -- ni -- fe -- "sta" -- sti 
 mi --\skip1 \skip1 \skip1 "hi." __\skip1
 }
@@ -618,19 +618,19 @@ CIIBassusVXI=\relative do'{
 
 TCIICantusIVXI=\lyricmode{\set ignoreMelismata = ##t
 "Cor" mun -- dum cre -- a in "me," De --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "us :" __\skip1 
-et "spí" -- ri -- tum rec -- tum in -- no -- va in vi -- "sce" -- ri -- bus me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "is."
+et "spi" -- ri -- tum rec -- tum in -- no -- va in vi -- "sce" -- ri -- bus me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "is."
 }
 TCIICantusIIVXI=\lyricmode{\set ignoreMelismata = ##t
 "Cor" mun -- dum cre -- a in "me," De --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "us :" __\skip1 
-et "spí" -- ri -- tum rec -- tum in -- no -- va in vi -- "sce" -- ri -- bus me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "is."
+et "spi" -- ri -- tum rec -- tum in -- no -- va in vi -- "sce" -- ri -- bus me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "is."
 }
 TCIIAltusVXI=\lyricmode{\set ignoreMelismata = ##t
 "Cor" mun -- dum cre -- a in "me," De --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "us :" __\skip1 
-et "spí" -- ri -- tum rec -- tum in -- no -- va in vi -- "sce" -- ri -- bus me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "is."
+et "spi" -- ri -- tum rec -- tum in -- no -- va in vi -- "sce" -- ri -- bus me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "is."
 }
 TCIIBassusVXI=\lyricmode{\set ignoreMelismata = ##t
 "Cor" mun -- dum cre -- a in "me," De --\skip1 \skip1 \skip1 "us :" __\skip1 
-et "spí" -- ri -- tum rec -- tum in -- no -- va in vi -- "sce" -- ri -- bus me --\skip1 \skip1 \skip1 "is."
+et "spi" -- ri -- tum rec -- tum in -- no -- va in vi -- "sce" -- ri -- bus me --\skip1 \skip1 \skip1 "is."
 }
 
 CICantusIVXIII=\relative do''{
@@ -710,23 +710,23 @@ CIBassusVXIII=\relative do'{
 
 TCICantusIVXIII=\lyricmode{\set ignoreMelismata = ##t
 "Red" -- de mi -- hi "lae" -- "ti" -- ti -- am sa -- lu -- "ta" -- ris tu --\skip1 \skip1 \skip1 "i :" 
-et "spi" -- ti -- tu prin -- ci -- "pa" -- li con --\skip1 "fir" -- ma "me," con -- "fir" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ma "me."
+et "spi" -- ri -- tu prin -- ci -- "pa" -- li con --\skip1 "fir" -- ma "me," con -- "fir" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ma "me."
 }
 TCICantusIIVXIII=\lyricmode{\set ignoreMelismata = ##t
 "Red" -- de mi -- hi "lae" -- "ti" -- ti -- am sa -- lu -- "ta" -- ris tu --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "i :" 
-et "spi" -- ti -- tu prin -- ci -- "pa" -- li con -- "fir" -- ma "me," con -- "fir" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ma \skip1 "me."
+et "spi" -- ri -- tu prin -- ci -- "pa" -- li con -- "fir" -- ma "me," con -- "fir" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ma \skip1 "me."
 }
 TCIAltusVXIII=\lyricmode{\set ignoreMelismata = ##t
 "Red" -- de mi -- hi "lae" -- "ti" -- ti -- am sa -- lu -- "ta" -- ris tu --\skip1 \skip1 \skip1 \skip1 \skip1 "i :" 
-et "spi" -- ti -- tu prin -- ci -- "pa" -- li con --\skip1 \skip1 "fir" -- ma "me," __\skip1 \skip1 \skip1 con -- "fir" -- ma "me."
+et "spi" -- ri -- tu prin -- ci -- "pa" -- li con --\skip1 \skip1 "fir" -- ma "me," __\skip1 \skip1 \skip1 con -- "fir" -- ma "me."
 }
 TCITenorVXIII=\lyricmode{\set ignoreMelismata = ##t
 "Red" -- de mi -- hi "lae" -- "ti" -- ti -- am sa -- lu -- "ta" -- ris tu --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1   "i :" 
-et "spi" -- ti -- tu prin -- ci -- "pa" -- li con -- "fir" -- ma "me," con -- "fir" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ma "me."
+et "spi" -- ri -- tu prin -- ci -- "pa" -- li con -- "fir" -- ma "me," con -- "fir" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ma "me."
 }
 TCIBassusVXIII=\lyricmode{\set ignoreMelismata = ##t
 "Red" -- de mi -- hi "lae" -- "ti" -- ti -- am sa -- lu -- "ta" -- ris tu --\skip1 \skip1 \skip1 "i :" 
-et "spi" -- ti -- tu prin -- ci -- "pa" -- li con -- "fir" -- ma "me," __\skip1 \skip1 con -- \skip1 \skip1 "fir" --\skip1 ma "me."
+et "spi" -- ri -- tu prin -- ci -- "pa" -- li con -- "fir" -- ma "me," __\skip1 \skip1 con -- \skip1 \skip1 "fir" --\skip1 ma "me."
 }
 
 CIICantusIVXV=\relative do''{
@@ -799,20 +799,20 @@ CIIBassusVXV=\relative do'{
 }
 
 TCIICantusIVXV=\lyricmode{\set ignoreMelismata = ##t
-Li -- be -- ra me de san -- guí -- ni -- bus, De -- us, De -- us sa -- "lu" -- tis me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "ae:" 
-et ex -- sul -- ta -- bit lin -- gua me -- a jus -- "tí" -- ti -- am tu --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "am."
+Li -- be -- ra me de san -- gui -- ni -- bus, De -- us, De -- us sa -- "lu" -- tis me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "ae:" 
+et ex -- sul -- ta -- bit lin -- gua me -- a jus -- "ti" -- ti -- am tu --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "am."
 }
 TCIICantusIIVXV=\lyricmode{\set ignoreMelismata = ##t
-Li -- be -- ra me de san -- guí -- ni -- bus, De -- us, De -- us sa -- "lu" -- tis \skip1 me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "ae:" 
-et ex -- sul -- ta -- bit lin -- gua me -- a jus -- "tí" -- ti -- am tu --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "am."
+Li -- be -- ra me de san -- gui -- ni -- bus, De -- us, De -- us sa -- "lu" -- tis \skip1 me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "ae:" 
+et ex -- sul -- ta -- bit lin -- gua me -- a jus -- "ti" -- ti -- am tu --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "am."
 }
 TCIIAltusVXV=\lyricmode{\set ignoreMelismata = ##t
-Li -- be -- ra me de san -- guí -- ni -- bus, De -- us, De -- us sa -- "lu" -- tis me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "ae:" 
-et ex -- sul -- ta -- bit lin -- gua me -- a jus -- "tí" -- ti -- am tu --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "am."
+Li -- be -- ra me de san -- gui -- ni -- bus, De -- us, De -- us sa -- "lu" -- tis me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "ae:" 
+et ex -- sul -- ta -- bit lin -- gua me -- a jus -- "ti" -- ti -- am tu --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "am."
 }
 TCIIBassusVXV=\lyricmode{\set ignoreMelismata = ##t
-Li -- be -- ra me de san -- guí -- ni -- bus, De -- us, De -- us sa -- "lu" -- tis me --\skip1 \skip1 \skip1 "ae:" 
-et ex -- sul -- ta -- bit lin -- gua me -- a jus -- "tí" -- ti -- am tu --\skip1 \skip1 \skip1 "am."
+Li -- be -- ra me de san -- gui -- ni -- bus, De -- us, De -- us sa -- "lu" -- tis me --\skip1 \skip1 \skip1 "ae:" 
+et ex -- sul -- ta -- bit lin -- gua me -- a jus -- "ti" -- ti -- am tu --\skip1 \skip1 \skip1 "am."
 }
 
 CICantusIVXVII=\relative do''{
@@ -986,22 +986,22 @@ CIIBassusVXIX=\relative do'{
 }
 
 TCIICantusIVXIX=\lyricmode{\set ignoreMelismata = ##t
-Be -- ní -- gne fac, Do -- mi -- ne, in bo -- na vo -- lun -- ta -- te tu -- a 
+Be -- ni -- gne fac, Do -- mi -- ne, in bo -- na vo -- lun -- ta -- te tu -- a 
 Si --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "on :" 
 ut ae -- di -- fi -- cen -- tur mu -- ri Je -- \skip1 \skip1 \skip1 \skip1 \skip1 "ru" --sa --\skip1 \skip1 \skip1 "lem. " __\skip1
 }
 TCIICantusIIVXIX=\lyricmode{\set ignoreMelismata = ##t
-Be -- ní -- gne fac, Do -- mi -- ne, in bo -- na vo -- lun -- ta -- te tu -- a __\skip1 
+Be -- ni -- gne fac, Do -- mi -- ne, in bo -- na vo -- lun -- ta -- te tu -- a __\skip1 
 Si --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "on :" 
 ut ae -- di -- fi -- cen -- tur mu -- ri Je -- \skip1 \skip1 "ru" \skip1 \skip1 \skip1 \skip1 --sa --\skip1 "lem. "
 }
 TCIIAltusVXIX=\lyricmode{\set ignoreMelismata = ##t
-Be -- ní -- gne fac, Do -- mi -- ne, in bo -- na vo -- lun -- ta -- te tu -- a 
+Be -- ni -- gne fac, Do -- mi -- ne, in bo -- na vo -- lun -- ta -- te tu -- a 
 Si --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "on :" 
 ut ae -- di -- fi -- cen -- tur mu -- ri Je -- "ru" \skip1 \skip1 \skip1 \skip1 \skip1 --sa --\skip1 "lem. "
 }
 TCIIBassusVXIX=\lyricmode{\set ignoreMelismata = ##t
-Be -- ní -- gne fac, Do -- mi -- ne, in bo -- na vo -- lun -- ta -- te tu -- a 
+Be -- ni -- gne fac, Do -- mi -- ne, in bo -- na vo -- lun -- ta -- te tu -- a 
 Si --\skip1 \skip1 \skip1 "on :" 
 ut ae -- di -- fi -- cen -- tur mu -- ri Je -- "ru" \skip1 --sa -- "lem. " __\skip1
 }
@@ -1406,7 +1406,7 @@ TgregorienVXVIII =\lyricmode {
 
 }
 
-\markup \vspace #1 % change this value accordingly
+%\markup \vspace #1 % change this value accordingly
 
 \score {
 <<
@@ -1427,7 +1427,7 @@ TgregorienVXVIII =\lyricmode {
 \midi {\tempo 4 = 160 }
 }
 
-\markup \vspace #1 % change this value accordingly
+\markup \vspace #0.5 % change this value accordingly
 
 \score {
   \new StaffGroup {
@@ -1483,7 +1483,7 @@ TgregorienVXVIII =\lyricmode {
 
 }
 
-\markup \vspace #1 % change this value accordingly
+\markup \vspace #0.5 % change this value accordingly
 
 \score {
 <<
@@ -1504,7 +1504,7 @@ TgregorienVXVIII =\lyricmode {
 \midi {\tempo 4 = 160 }
 }
 
-\markup \vspace #1 % change this value accordingly
+\markup \vspace #0.5 % change this value accordingly
 
 \score {
   \new StaffGroup {
@@ -1554,7 +1554,7 @@ TgregorienVXVIII =\lyricmode {
 
 }
 
-\markup \vspace #1 % change this value accordingly
+%\markup \vspace #1 % change this value accordingly
 
 \score {
 <<
@@ -1575,7 +1575,7 @@ TgregorienVXVIII =\lyricmode {
 \midi {\tempo 4 = 160 }
 }
 
-\markup \vspace #1 % change this value accordingly
+\markup \vspace #0.5 % change this value accordingly
 
 \score {
   \new StaffGroup {
@@ -1632,7 +1632,7 @@ TgregorienVXVIII =\lyricmode {
 
 }
 
-\markup \vspace #1 % change this value accordingly
+\markup \vspace #0.5 % change this value accordingly
 
 \score {
 <<
@@ -1653,7 +1653,7 @@ TgregorienVXVIII =\lyricmode {
 \midi {\tempo 4 = 160 }
 }
 
-\markup \vspace #1 % change this value accordingly
+\markup \vspace #0.5 % change this value accordingly
 
 \score {
   \new StaffGroup {
@@ -1703,7 +1703,7 @@ TgregorienVXVIII =\lyricmode {
 
 }
 
-\markup \vspace #1 % change this value accordingly
+%\markup \vspace #1 % change this value accordingly
 
 \score {
 <<
@@ -1852,7 +1852,7 @@ TgregorienVXVIII =\lyricmode {
 
 }
 
-\markup \vspace #1 % change this value accordingly
+%\markup \vspace #1 % change this value accordingly
 
 \score {
 <<
@@ -1873,7 +1873,7 @@ TgregorienVXVIII =\lyricmode {
 \midi {\tempo 4 = 160 }
 }
 
-\markup \vspace #1 % change this value accordingly
+\markup \vspace #0.5 % change this value accordingly
 
 \score {
   \new StaffGroup {
