@@ -50,6 +50,118 @@ Sixieme=\relative do'{
 	}
 Taille=\relative do'{
   r4 la sib fa |
+  sib2 sib |
+  la4 re do2 |
+  r1 |
+  r1 | %5
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 | %10
+  r2 fa,4 la~ |
+  la sol fa8[ mi re do] |
+  re4. mi8 fa[ sol] la4 |
+  sol2 la~ |
+  la2 r2 | %15
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 | %20
+  r1 |
+  r1 |
+  r1 |
+  r4 do2 la4 |
+  fa sib2 la4~ | %25
+  la re2 do4 |
+  do2 fa, |
+  re4 mi fa8[ sol la sib] |
+  do4 do, r do~ |
+  do fa re2 | %30
+  la'4. sib8 do4 fa, |
+  sib4. la8 sol4 sol |
+  re4. mi8 fa4 re |
+  mi4. fa8 sol4 sol |
+  do,2 r2 | %35
+  r4 do'4 la sib |
+  la4. sib8 do4 do~ |
+  do do fa,2 |
+  r1 |
+  r1 | %40
+  r1 |
+  r1 |
+  r1 |
+  re'4 re, sol2 |
+  fa4 fa re2 | %45
+  r2 r4 fa |
+  re4. re8 mib2 |
+  re sol |
+  re4 re fa2 |
+  do fa4 re~ | %50
+  re fa sol4. sol8 |
+  re4 fa do2 |
+  fa r4 fa |
+  sol mi2 do'4~ |
+  do sib4. la16[ sol] la4 | %55
+  sib1 |
+  r1 |
+  r1 |
+  r2 r4 la |
+  la2 sib4 sib | %60
+  fa2 sol4 la |
+  sol8[ fa mi re] do4 do' |
+  sib sib la2 |
+  r4 re, re2 |
+  la'2. la4 | %65
+  do2 do |
+  r1 |
+  r2 la |
+  fa4 do mib sol |
+  re re4. re8 sol4 | %70
+  la4 fa2 la4~ |
+  la la sol sol |
+  fa2 r |
+  r1 |
+  r1 | %75
+  fa2 la4 sib~ |
+  sib8 sol la4 sib2 |
+  la r |
+  r4 do2 fa,4 |
+  sol8[ fa] mi4 fa fa | %80
+  sol2 fa4 sib8[ la] | 
+  sol[ fa] sol4. fa16[ mi] fa4 |
+  mi2 re4 re |
+  do1 |
+  r1 | %85
+  r1 |
+  r1 |
+  r1 |
+  re2. sol4 |
+  fad4 la4. la8 la4 | %90
+  la sib2 sib4 |
+  sol sol do8[ sib la sol] |
+  fa2 sol4 sol~ |
+  sol do, re re |
+  do do'2 sol4 | %95
+  la1 |
+  r4 sol2 mi4 |
+  fa4. sol8 la4 sib |
+  fa sol4. do,8 do'4~ |
+  do la la2 | %100
+  sib4 re do4. sib16[ la] |
+  sol4 la sib fa~ |
+  fa8 sol la4 sol2 |
+  fa4 do'2 la4 |
+  la4. sib8 do4 re~ | %105
+  re la r sol |
+  sol do,2 fa4 |
+  r re mi sol |
+  fa do re2 |
+  do4 fa fa2 | %110
+  re mi4 sol |
+  fa fa fa2 |
+  fa\breve |
 }
 BasseContreII=\relative do{
   do4 fa fa re~ |
@@ -313,42 +425,49 @@ A -- mour,
 	\new Staff <<
 	\new Voice="Dessus" {
 		\set Staff.instrumentName="Dessus"
+		\set Staff.midiInstrument = #"church organ"
 	  	\global \clef "treble" \Dessus }
 	\new Lyrics \lyricsto "Dessus" {\TDessus }
 	>>
 	\new Staff <<
 	\new Voice="Cinquiesme" {
 		\set Staff.instrumentName="Cinquiesme"
+		\set Staff.midiInstrument = #"church organ"
 	  	\global \clef "treble" \Cinquiesme }
 	\new Lyrics \lyricsto "Cinquiesme" {\TCinquiesme }
 	>>
 	\new Staff <<
 	\new Voice="HauteContre" {
 		\set Staff.instrumentName="HauteContre"
+		\set Staff.midiInstrument = #"church organ"
 	  	\global \clef "treble_8" \HauteContre }
 	\new Lyrics \lyricsto "HauteContre" {\THauteContre }
 	>>
 	\new Staff <<
 	\new Voice="Sixieme" {
 		\set Staff.instrumentName="Sixieme"
+		\set Staff.midiInstrument = #"church organ"
 	  	\global \clef "treble_8" \Sixieme }
 	\new Lyrics \lyricsto "Sixieme" {\TSixieme }
 	>>
 	\new Staff <<
 	\new Voice="Taille" {
 		\set Staff.instrumentName="Taille"
+		\set Staff.midiInstrument = #"church organ"
 	  	\global \clef "treble_8" \Taille }
 	\new Lyrics \lyricsto "Taille" {\TTaille }
 	>>
 	\new Staff <<
 	\new Voice="BasseContreII" {
 		\set Staff.instrumentName="BasseContreII"
+		\set Staff.midiInstrument = #"church organ"
 	  	\global \clef "bass" \BasseContreII }
 	\new Lyrics \lyricsto "BasseContreII" {\TBasseContreII }
 	>>
 	\new Staff <<
 	\new Voice="BasseContreI" {
 		\set Staff.instrumentName="BasseContreI"
+		\set Staff.midiInstrument = #"church organ"
 	  	\global \clef "bass" \BasseContreI }
 	\new Lyrics \lyricsto "BasseContreI" {\TBasseContreI }
 	>>
@@ -357,6 +476,7 @@ A -- mour,
 \layout{ 
   	papersize = "a4"
 	\context {\Staff \consists Ambitus_engraver }
+  	\override Score.BarNumber #'break-visibility = #'#(#f #f #t)
 	ragged-last = ##f
 }
 
