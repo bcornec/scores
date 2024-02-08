@@ -47,6 +47,86 @@ HauteContre=\relative re'{
 
 Sixieme=\relative do'{
   r1 |
+  r1 |
+  r2 r4 la |
+  re2 do |
+  fa4 fa re4. mi8 | %5
+  fa4 do do do~ |
+  do8[ re] mi4 re mi |
+  mi fa do4. re8 |
+  mi la2 fa~ |
+  fa re sol2 | %10
+  do1 |
+  r1 |
+  r1 |
+  r2 r4 mi~ |
+  do do4. sib8 | %15
+  la4 la2 re4~ |
+  re sol,2 do4~ |
+  do do sib fa~ |
+  fa fa fa2 |
+  sib4. do re2 | %20
+  re do8[ sib la sol] |
+  fa2 sol4 sib~ |
+  sib8 la16[ sol] fa4 sol2 |
+  fa2 r |
+  r1 | %25
+  r1 |
+  r1 |
+  r1 |
+  r4 sol2 do4 |
+  la2 re | %30
+  do4 mi2 fa4~ |
+  fa8[ mi re do] sib4 re~ |
+  re8 mi fa2 fa4 |
+  mi2 re4. sol,8 |
+  sol1 | %35
+  r1 |
+  r1 |
+  r2 r4 sib |
+  sol2 fa |
+  sib4. la8 sol[ la sib do] | %40
+  re4 re la2 |
+  la4 re, sib2 |
+  sib4 sol fa2 |
+  r4 re sib2 |
+  do4 re2 la4 | %45
+  sib2 fa4 la |
+  re2 sol4 sol~ |
+  sol fa sib2 |
+  la4 fa la2 |
+  do4. do8 do4 sib | %50
+  la2 sib4 sib~ |
+  sib la sol2 |
+  la1 |
+  r1 |
+  r1 | %55
+  r4 re2 fa4 |
+  sol2 re4 mib~ |
+  mib re2 do8[ sib] |
+  do4 do fa2 |
+  do2 re4 re~ | %60
+  re re4. mi8 fa4 |
+  mi2. fa4 |
+  re2 mib4 re |
+  re2 r |
+  r1 | % 65
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 | %70
+  r1 |
+  r2 r4 do |
+  la2 sib4 sib |
+  re1 |
+  dod | %75
+  r1 |
+  r1 |
+  r2 re |
+  do4 fa4. mi re4~ |
+  re do do re~ | %80
+  re8[ do] sib4 la sol |
 	}
 Taille=\relative do'{
   r4 la sib fa |
