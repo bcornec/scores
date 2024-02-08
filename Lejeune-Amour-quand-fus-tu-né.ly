@@ -54,21 +54,21 @@ Sixieme=\relative do'{
   fa4 do do do~ |
   do8[ re] mi4 re mi |
   mi fa do4. re8 |
-  mi la2 fa~ |
+  mi4 la2 fa4~ |
   fa re sol2 | %10
-  do1 |
+  do,1 |
   r1 |
   r1 |
   r2 r4 mi~ |
-  do do4. sib8 | %15
+  mi do do4. sib8 | %15
   la4 la2 re4~ |
   re sol,2 do4~ |
   do do sib fa~ |
   fa fa fa2 |
-  sib4. do re2 | %20
+  sib4. do8 re2 | %20
   re do8[ sib la sol] |
   fa2 sol4 sib~ |
-  sib8 la16[ sol] fa4 sol2 |
+  sib8[ la16 sol] fa4 sol2 |
   fa2 r |
   r1 | %25
   r1 |
@@ -87,12 +87,12 @@ Sixieme=\relative do'{
   sol2 fa |
   sib4. la8 sol[ la sib do] | %40
   re4 re la2 |
-  la4 re, sib2 |
+  la4 re, sib'2 |
   sib4 sol fa2 |
-  r4 re sib2 |
+  r4 re' sib2 |
   do4 re2 la4 | %45
   sib2 fa4 la |
-  re2 sol4 sol~ |
+  re2 sol,4 sol~ |
   sol fa sib2 |
   la4 fa la2 |
   do4. do8 do4 sib | %50
@@ -124,9 +124,41 @@ Sixieme=\relative do'{
   r1 |
   r1 |
   r2 re |
-  do4 fa4. mi re4~ |
+  do4 fa4. mi8 re4~ |
   re do do re~ | %80
   re8[ do] sib4 la sol |
+  mi'2 re4 re~ |
+  re8 do do4. sib16[ la] si4 |
+  do2 r |
+  do2 r4 do~ | %85
+  do re re2 |
+  sib4 sol2 sol4 |
+  fa8[ sol] la2 sib4 |
+  re4. do8 sib4 sib |
+  la2 r | %90
+  r re |
+  r4 do2 do4 |
+  sib4. do8 re4 sib |
+  sol4 mib' re2 |
+  sol, do~ | %95
+  do4 la fa2 |
+  r2 r4 do'4~ |
+  do la fa2 |
+  sib4 re do4. re8 |
+  mi4 mi fa re | %100
+  re2 sol, |
+  do fa, |
+  sib4 do do2~ |
+  do4 fa, r2 |
+  do'2 la4 la~ | %105
+  la8 sol fa4 sib sib |
+  do2 do4 sib |
+  sib re sol, sol |
+  la8[ sib] do4 sib sib |
+  do4. sib8 la4 sib | %110
+  r2 sol |
+  do4 la sib fa |
+  fa8[ sol la sib] do2 do1 |
 	}
 Taille=\relative do'{
   r4 la sib fa |
@@ -241,7 +273,8 @@ Taille=\relative do'{
   do4 fa fa2 | %110
   re mi4 sol |
   fa fa fa2 |
-  fa\breve |
+  fa1~ |
+  fa1 |
 }
 BasseContreII=\relative do{
   do4 fa fa re~ |
@@ -356,10 +389,8 @@ BasseContreII=\relative do{
   fa do r fa~ | %110
   fa sol sol8[ fa] mi4 |
   do do re2 |
-  do\breve |
-
-
-
+  do1~ |
+  do1 |
 }
 BasseContreI=\relative do{
   r4 fa, sib2 |
@@ -474,7 +505,8 @@ BasseContreI=\relative do{
   fa2 r4 sib4~ | %110
   sib4 sol do2 |
   fa,4 fa sib2 |
-  fa\breve \bar "||" |
+  fa1~ |
+  fa1 \bar "||" |
 }
 
 TDessus=\lyricmode{\set ignoreMelismata = ##t
