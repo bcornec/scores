@@ -33,12 +33,125 @@
 
 global={ \key fa \major \time 2/2 }
 
-Dessus=\relative do''{
+Dessus=\relative do'{
   r1 |
 }
 
-Cinquiesme=\relative do''{
+Cinquiesme=\relative do'{
   r1 |
+  r1 |
+  r2 r4 do |
+  fa2 la |
+  la4 la sol2 | %5
+  do,4 fa fa2 |
+  mi4 sol sol sol~ |
+  sol do, fa mi~ |
+  mi fa do2 |
+  re4 fa4. mi16[ re] mi4 | %10
+  fa1 |
+  r1 |
+  r1 |
+  r1 |
+  r4 la2 sol4 | %15
+  fa2 fad |
+  sol mi |
+  fa re4 do |
+  re2 fa4 re~ |
+  re re sol fa~ | %20
+  fa fa fa2 |
+  fa8[ mi] re4 re2 |
+  re4 la do2 |
+  la1 |
+  r1 | %25
+  r1 |
+  r1 |
+  r1 |
+  r2 mi' |
+  mi4 fa2 fa4 | %30
+  mi la4. sol8 la4 |
+  re, re2 sol4 |
+  fa re do re~ |
+  re8[ do] do2 si4 |
+  do1 | %35
+  r1 |
+  r1 |
+  r2 fa4 re~ |
+  re mi fa4. fa8 |
+  fa2 sol4 fa~ | %40
+  fa8[ mi] re4 dod2 |
+  mi4 fa fa2 |
+  sib,4 re fa2 |
+  sol4 fa re2 |
+  fa4 fa2 fa4 | %45
+  re2 fa4 fa~ |
+  fa fa sib, do |
+  re2. sol,4 |
+  r re' do4. re8 |
+  mi2 la,4 re~ | %50
+  re do sib8[ do] re4~ |
+  re do do2~ |
+  do do |
+  r1 |
+  r1 | %55
+  r4 fa2 re4 |
+  mib re sol2 |
+  fa4 fa2 mi?4 |
+  fa2 do |
+  r1 | %60
+  r1 |
+  r1 |
+  r2 r4 la' |
+  sib'2 la~ |
+  la4 la do?2~ | %65
+  do sol |
+  la4 fa2 mi4 |
+  sol2 fa |
+  do4 sol' sol2 |
+  fad2. sol4 | %70
+  do, re4. mi8 fa[ re] |
+  mi4 fa2 mi4 |
+  fa1 |
+  r1 |
+  r4 mi2 mi4 | %75
+  la4. sol8 fa[ mi] re4 |
+  mi fa fa mi8[ re] |
+  mi2 fa~ |
+  fa2 r |
+  r1 | %80
+  r1 |
+  r1 |
+  r1 |
+  mi1 |
+  r4 fa mi fa~ | %85
+  fa fa fa4. mi8 |
+  re4 mib sib mib |
+  do2 re8[ do] sib4 |
+  la2 r |
+  re2 r | %90
+  r1 |
+  r1 |
+  r4 sib2 sol4 |
+  sol2 r4 sol~ |
+  sol mi sol2 | %95
+  fa4 do fa2 |
+  sol4 sol mi2 |
+  do4 do fa2 |
+  re4 sol mi8[ fa] sol4 |
+  la2 r | %100
+  r4 sib sol do~ |
+  do la fa sib~ |
+  sib la r4 do~ |
+  do la la2 |
+  mi4 fa fa2 | %105
+  re4 fa fa sol~ |
+  sol8[ fa] mi4 fa2 |
+  re4 sol2 do,4 |
+  do fa4. sol16[ la] sib4 |
+  la4. sol8 fa[ mi] re4~ | %110
+  re sol2 do,4~ |
+  do8 do fa4 fa2 |
+  fa1~ |
+  fa1 |
   }
 
 HauteContre=\relative re'{
