@@ -43,6 +43,119 @@ Cinquiesme=\relative do''{
 
 HauteContre=\relative re'{
   r4 do re2 |
+  fa4 re re2 |
+  re4 fa fa2 |
+  r1 |
+  r1 | %5
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 | %10
+  r4 do fa2 |
+  mi fa4. mi8 |
+  re8[ do] si4 la re |
+  re2 dod |
+  r4 mi2 mi4 | %15
+  do2 re |
+  sib8[ do] re4 do2 |
+  fa,2 fa4 la |
+  la sib la2 |
+  re4 sib2 sib4~ | %20
+  sib4 fa la2 |
+  re4. do8 sib2 |
+  fa2 r |
+  r4 fa do' do |
+  re re re8[ mi] fa4 | %25
+  do fa mi2 |
+  mi4 fa2 re4~ |
+  re8 re do4 re8[ mi] fa4 |
+  mi2 r |
+  r1 | %30
+  r1 |
+  r1 |
+  r1 |
+  r1 |
+  r2 sol | %35
+  mi4 mi fa re |
+  do fa mi mi |
+  fa fa re2 |
+  r4 sol do,2 |
+  re re4. mi8 | %40
+  fa4 fa mi2 |
+  do4 re re8[ mi] fa4 |
+  re sib do4. sib16[ la] |
+  sol4 la sol8[ la] sib4 |
+  la la2 re4 | %45
+  re do8[ sib] do4 do |
+  fa,2 r |
+  r4 fa'4 re4. mi8 |
+  fa4 fa2 do4~ |
+  do sol r2 | %50
+  r1 |
+  r1 |
+  r4 do fa2 |
+  mi4 do2 fa4~ |
+  fa mi fa2 | %55
+  fa r |
+  r1 |
+  r1 |
+  r4 fa, fa2 |
+  fa4 fa' fa2 | %60
+  fa sib,4 la |
+  do sol la fa |
+  r re' do la |
+  sol re' re2 |
+  dod mi4 mi~ | %65
+  mi mi mi2 |
+  do2 do |
+  re4 re re2 |
+  r4 mib2 re4~ |
+  re re re do | %70
+  do fa fa re |
+  do1 |
+  r4 fa re2 |
+  sib4 sib la2 |
+  sol1 | %75
+  r1 |
+  r1 |
+  r1 |
+  la2 la4 sib~ |
+  sib sol la sib~ | %80
+  sib re re2 |
+  do sib4 la |
+  sol1~ |
+  sol2 r |
+  la la~ | %85
+  la4 la fa2 |
+  sol4 sib2 do4 |
+  la2 r |
+  r re |
+  r4 fa? mi fa~ | %90
+  fa8 fa fa2 sol4 |
+  mi2 mi4 fa~ |
+  fa re sib8[ do] re4~| 
+  re8[ do] do2 si4 |
+  do2 mi | % 95
+  fa4 fa4. mi8 re4 |
+  re re do2 |
+  la do4 re~ |
+  re sib r2 |
+  do2 re4 fa~ | %100
+  fa sol mi mi~ |
+  mi do re re~ |
+  re8 mi fa4 mi2 |
+  fa1 |
+  r4 do2 fa4 | %105
+  fa8[ mi] re4 re re |
+  sol,2 la4 re |
+  re2 do4 do |
+  do8[ sib] la4 fa2 |
+  la4 do4. do8 sib4 | %110
+  re2 do4 mi |
+  fa4. mi8 re[ do] sib4 |
+  do do la2 |
+  la1 |
   }
 
 Sixieme=\relative do'{
