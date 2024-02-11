@@ -854,30 +854,44 @@ Ce fut lors que la ter -- re s'é -- mail -- le de cou -- leurs, __\skip1
 et __\skip1 \skip1 les prés  __\skip1 \skip1 \skip1 \skip1 de ver -- deur.
 D'u -- ne puis -- "sant'" ar -- deur "qu'oi" -- si -- ve -- té las -- "civ'" __\skip1 en soy -- mes -- "me," en -- ser -- \skip1 \skip1 \skip1 \skip1 re.
 U -- ne chau -- \skip1 \skip1 \skip1 "d'es" -- pé -- "ranc'" et u -- ne \skip1 froi -- de "peur," froi -- de peur.
+De -- dans un jeu -- ne cueur que de cent mil -- le traits cru -- el -- \skip1 \skip1 le -- ment __\skip1 j'en fer -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "re," cru -- el -- le -- ment __\skip1 \skip1 \skip1 j'en fer -- \skip1 \skip1 \skip1 \skip1 "re."
+D'u -- ne dou -- ce beau -- té
 }
 TCinquiesme=\lyricmode{\set ignoreMelismata = ##t
 Ce fut lors que la ter -- re s'é -- mail -- le de cou -- leurs, __\skip1 
 et les prés, __\skip1 les prés de ver -- \skip1 \skip1 \skip1 deur.
 D'u -- ne puis -- "sant'" ar -- deur "qu'oi" -- si -- ve -- té las -- "civ'" __\skip1 en soy -- mes -- \skip1 "me," en soy -- \skip1 \skip1 mes me en -- ser -- re.
 U -- ne chau -- "d'es" -- pé -- "ranc'" __\skip1 \skip1 et u -- ne froi -- de "peur," froi -- \skip1 \skip1 \skip1 de peur.
+De -- dans \skip1 un jeu -- ne "cueur," un jeu -- \skip1 \skip1 ne "cueur," que de cent mil -- le "traits," mil -- le traits cru -- el -- le -- "ment," cru -- el -- \skip1 le -- ment j'en fer -- "re," cru -- el -- le -- "ment," cru -- el \skip1 -- le -- ment __\skip1 \skip1 \skip1 j'en fer -- \skip1 "re."
+D'u -- ne dou -- ce beau -- "té," dou -- ce beau -- té
 }
 THauteContre=\lyricmode{\set ignoreMelismata = ##t
 A -- mour, A -- mour, quand fus -- tu "né ?"
 De qui fus -- "tu," __\skip1 \skip1 \skip1 \skip1 fus -- tu con -- "çu ?"
 D'u -- ne puis -- "sant'" ar -- \skip1 \skip1 deur "qu'oi" -- si -- ve -- té las -- "civ'" en soy -- mes -- \skip1 "me," en -- ser \skip1 \skip1 -- re.
 Qui te don -- na pou -- voir __\skip1 \skip1 de nous fai -- "re," nous fai -- \skip1 re la guer -- \skip1 \skip1 "re  ?"
+Où te re -- ti -- res "tu ?"
+Où te re -- ti -- res "tu ?"
+De -- dans un jeu -- \skip1 \skip1 ne "cueur" que de cent __\skip1 \skip1 mil -- le "traits," __\skip1 \skip1 \skip1 mil -- le \skip1 traits cru -- el -- le -- "ment," cru -- \skip1 el -- le -- "ment," cru -- el -- le -- ment j'en fer -- \skip1 "re."
+De "qui," de qui fus -- \skip1 tu nour -- "ri ?"
 }
 TSixieme=\lyricmode{\set ignoreMelismata = ##t
 Ce fut lors que la ter -- \skip1 \skip1 re s'é -- mail -- \skip1 \skip1 \skip1 le de cou -- leurs,
 et __\skip1 \skip1 les prés, __\skip1 de ver -- deur.
 D'u -- \skip1 ne puis -- \skip1 \skip1 "sant'" ar -- \skip1 deur "qu'oi" -- \skip1 si -- ve -- té __\skip1 las -- "civ'" en __\skip1 \skip1 soy -- mes -- \skip1 \skip1 \skip1 \skip1 "me," en -- \skip1 \skip1 \skip1 \skip1 ser -- re.
 U -- ne chau -- "d'es" -- pé -- "ranc'" __\skip1 \skip1 \skip1 \skip1 \skip1 et u -- \skip1 ne froi -- de "peur," froi -- de peur.
+De -- dans un jeu -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ne "cueur" que de cent mil -- le "traits," cru -- el -- le -- "ment," j'en fer -- "re," cru -- el -- le -- "ment," __\skip1 j'en fer -- "re," de cent mil -- le traits cru -- el -- le -- "ment," __\skip1 j'en fer -- "re."
+D'u -- ne dou -- ce beau -- \skip1 té __\skip1 \skip1 \skip1
 }
 TTaille=\lyricmode{\set ignoreMelismata = ##t
 A -- mour, A -- mour, quand fus -- tu "né ?"
 De qui __\skip1 fus -- "tu," __\skip1 \skip1 \skip1 \skip1 fus -- \skip1 \skip1 tu con -- "çu ?" __\skip1
 Qui te don -- na pou -- \skip1 voir de nous fai -- re la guer -- \skip1 \skip1 \skip1 \skip1 "re  ?"
 U -- \skip1 ne chau -- "d'es" -- \skip1 \skip1 pé -- "ranc'" et u -- ne froi -- \skip1 de "peur," froi -- \skip1 \skip1 de peur.
+Où te re -- ti -- \skip1 \skip1 \skip1 \skip1 res "tu ?"
+que de cent mil -- le "traits," 
+cru -- el -- le -- "ment," j'en fer -- "re," de cent mil -- le traits  \skip1 cru -- el -- le -- "ment," j'en fer -- "re."
+De qui fus -- tu \skip1 nour -- \skip1 \skip1 \skip1 "ri ?"
 }
 TBasseContreII=\lyricmode{\set ignoreMelismata = ##t
 A -- mour, A -- mour, __\skip1 quand fus -- \skip1 tu "né ?"
@@ -885,12 +899,18 @@ Lors que la ter -- re s'é -- mail -- le de cou -- leurs, __\skip1
 et les __\skip1 \skip1 \skip1 \skip1 prés, de ver -- \skip1 \skip1 deur.
 De qui fus -- \skip1 "tu," con -- \skip1 \skip1 "çu ?"
 Qui te don -- na pou -- voir de nous fai -- re la guer -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "re  ?"
+Où \skip1 te re -- ti -- \skip1 \skip1 \skip1 \skip1 \skip1 res "tu ?"
+De qui \skip1 \skip1 \skip1 \skip1 fus -- \skip1 tu nour -- "ri ?"
+D'u -- ne dou -- ce beau -- \skip1 \skip1 té 
 }
 TBasseContreI=\lyricmode{\set ignoreMelismata = ##t
 A -- mour, quand fus -- \skip1 \skip1 \skip1 \skip1 tu "né ?"
 De qui fus -- "tu," __\skip1 \skip1 \skip1 con -- \skip1 \skip1 "çu ?"
 D'u -- ne puis -- "sant'" ar -- deur "qu'oi" -- si -- ve -- té las -- "civ'" en soy -- __\skip1 \skip1 \skip1 \skip1 mes -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "me," en -- ser -- re.
 Qui te don -- na __\skip1 \skip1 pou -- voir de nous fai -- re la guer -- "re  ?"
+Où te re -- ti -- res "tu ?"
+Où te re -- ti -- res "tu ?"
+De qui \skip1 \skip1 \skip1 \skip1 fus -- tu nour -- "ri ?"
 }
 
 \score {
