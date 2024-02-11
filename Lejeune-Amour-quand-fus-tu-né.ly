@@ -19,7 +19,7 @@
     copyright = " "
     }
 
-#(set-global-staff-size 15)
+#(set-global-staff-size 14)
 
 \layout {
     \context { \Score
@@ -812,8 +812,8 @@ BasseContreI=\relative do{
   r1 | 
   r1 | 
   r4 fa2 sib4 |
-  sol4 do fa, sib8[ la | %80
-  sol la sib do] re4 sol, |
+  sol4 do fa, sib8[ la] | %80
+  sol[ la sib do] re4 sol, |
   do2 re4 re |
   sol,2 sol |
   r1 | 
@@ -856,6 +856,13 @@ D'u -- ne puis -- "sant'" ar -- deur "qu'oi" -- si -- ve -- té las -- "civ'" __
 U -- ne chau -- \skip1 \skip1 \skip1 "d'es" -- pé -- "ranc'" et u -- ne \skip1 froi -- de "peur," froi -- de peur.
 De -- dans un jeu -- ne cueur que de cent mil -- le traits cru -- el -- \skip1 \skip1 le -- ment __\skip1 j'en fer -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "re," cru -- el -- le -- ment __\skip1 \skip1 \skip1 j'en fer -- \skip1 \skip1 \skip1 \skip1 "re."
 D'u -- ne dou -- ce beau -- té
+qui eut pour \skip1 la ser -- \skip1 vir jeu -- "ness'" \skip1 \skip1 \skip1 \skip1 et __\skip1 \skip1 \skip1 \skip1 va -- ni -- "té,"
+jeu -- "ness'" \skip1 et va -- \skip1 \skip1 ni -- "té." __\skip1 
+D'u -- ne bel -- le lu -- miè -- \skip1 \skip1 \skip1 re.
+"Non !" Car si quel -- \skip1 que -- fois je meurs __\skip1 \skip1 par __\skip1 \skip1 \skip1 \skip1 \skip1 leur __\skip1 \skip1 \skip1 \skip1 ef -- fort,
+Aus -- si -- "tost," Aus -- \skip1 si -- "tost," je re -- "tourn'" en ma for -- \skip1 me pre -- miè -- re
+Aus -- si -- "tost," Aus -- \skip1 si -- "tost," je re -- "tourn'" \skip1 \skip1 en ma for -- me pre -- miè -- \skip1 \skip1 \skip1 re
+en __\skip1 ma for -- me pre -- miè -- re.
 }
 TCinquiesme=\lyricmode{\set ignoreMelismata = ##t
 Ce fut lors que la ter -- re s'é -- mail -- le de cou -- leurs, __\skip1 
@@ -864,6 +871,14 @@ D'u -- ne puis -- "sant'" ar -- deur "qu'oi" -- si -- ve -- té las -- "civ'" __
 U -- ne chau -- "d'es" -- pé -- "ranc'" __\skip1 \skip1 et u -- ne froi -- de "peur," froi -- \skip1 \skip1 \skip1 de peur.
 De -- dans \skip1 un jeu -- ne "cueur," un jeu -- \skip1 \skip1 ne "cueur," que de cent mil -- le "traits," mil -- le traits cru -- el -- le -- "ment," cru -- el -- \skip1 le -- ment j'en fer -- "re," cru -- el -- le -- "ment," cru -- el \skip1 -- le -- ment __\skip1 \skip1 \skip1 j'en fer -- \skip1 "re."
 D'u -- ne dou -- ce beau -- "té," dou -- ce beau -- té
+qui eut pour la ser -- "vir," jeu -- \skip1 "ness'" et va -- ni -- "té,"
+jeu -- "ness'" et __\skip1 \skip1 va -- \skip1 \skip1 \skip1 \skip1 \skip1  ni -- "té."
+D'u -- ne bel -- \skip1 \skip1 \skip1 \skip1 le lu -- "miè" -- \skip1 \skip1 \skip1 re. __\skip1
+"Non !" Car si quel -- \skip1 que -- fois __\skip1 \skip1 je meurs par leur ef -- \skip1 \skip1 fort,
+"Non !"
+Aus -- si -- "tost," Aus -- \skip1 si -- "tost," je re -- "tourn'" en ma for -- me pre -- miè -- re, pre -- miè -- \skip1 \skip1 re
+en ma for -- \skip1 me pre -- miè \skip1 --re,
+Aus -- \skip1 si -- "tost," je re -- tour -- "ne," je re -- "tourn'" \skip1 \skip1 \skip1 en ma for -- me pre -- miè -- \skip1 \skip1 \skip1 "r'en" __\skip1 \skip1 \skip1 \skip1 \skip1 ma for -- \skip1 me pre -- miè -- re.
 }
 THauteContre=\lyricmode{\set ignoreMelismata = ##t
 A -- mour, A -- mour, quand fus -- tu "né ?"
@@ -874,6 +889,19 @@ Où te re -- ti -- res "tu ?"
 Où te re -- ti -- res "tu ?"
 De -- dans un jeu -- \skip1 \skip1 ne "cueur" que de cent __\skip1 \skip1 mil -- le "traits," __\skip1 \skip1 \skip1 mil -- le \skip1 traits cru -- el -- le -- "ment," cru -- \skip1 el -- le -- "ment," cru -- el -- le -- ment j'en fer -- \skip1 "re."
 De "qui," de qui fus -- \skip1 tu nour -- "ri ?"
+qui eut pour la ser -- vir jeu -- "ness'" et va -- ni -- "té,"
+et va -- ni -- "té,"
+qui eut pour la ser -- \skip1 vir jeu -- "ness'" et va -- ni -- "té,"
+jeu -- "ness'" __\skip1 et va -- ni -- "té,"  et va -- ni -- "té."
+De quoy te re -- pais -- "tu ?"
+Crains -- tu point __\skip1 le pou -- voir __\skip1 des ans ou  de la "mort ?" __\skip1
+"Non !" Car __\skip1 si quel -- que -- fois je meurs,
+"Non !" Car si quel -- \skip1 que -- fois je meurs, je meurs __\skip1 par leur __\skip1 \skip1 \skip1 \skip1 \skip1 ef -- "fort,"
+Aus -- si -- "tost," __\skip1 \skip1 je re -- "tourn'" en ma for -- \skip1 me
+Aus -- si -- "tost," __\skip1 je re -- "tourn'" \skip1 en ma for -- \skip1 me pre -- miè -- re, 
+Aus -- si -- "tost," __\skip1 \skip1 je re -- "tourn'" en ma for -- me pre -- miè -- \skip1 \skip1 re,
+ma for -- me pre -- miè -- re,
+ma for \skip1 \skip1 \skip1 \skip1 -- me pre -- miè -- re.
 }
 TSixieme=\lyricmode{\set ignoreMelismata = ##t
 Ce fut lors que la ter -- \skip1 \skip1 re s'é -- mail -- \skip1 \skip1 \skip1 le de cou -- leurs,
@@ -882,6 +910,14 @@ D'u -- \skip1 ne puis -- \skip1 \skip1 "sant'" ar -- \skip1 deur "qu'oi" -- \ski
 U -- ne chau -- "d'es" -- pé -- "ranc'" __\skip1 \skip1 \skip1 \skip1 \skip1 et u -- \skip1 ne froi -- de "peur," froi -- de peur.
 De -- dans un jeu -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ne "cueur" que de cent mil -- le "traits," cru -- el -- le -- "ment," j'en fer -- "re," cru -- el -- le -- "ment," __\skip1 j'en fer -- "re," de cent mil -- le traits cru -- el -- le -- "ment," __\skip1 j'en fer -- "re."
 D'u -- ne dou -- ce beau -- \skip1 té __\skip1 \skip1 \skip1
+qui eut pour la ser -- \skip1 vir __\skip1 \skip1 jeu -- "ness'" et va -- ni -- "té."
+De quoy te re -- pais -- "tu ?"
+Crains -- tu point __\skip1 \skip1 \skip1 le pou -- voir __\skip1 \skip1 \skip1 des ans ou de la __\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "mort ?"
+"Non !" Car __\skip1 si quel -- que -- fois je meurs, __\skip1 \skip1 par leur __\skip1 \skip1 ef -- "fort,"
+"Non !" Car si quel -- que -- fois __\skip1 \skip1 je meurs, par leur __\skip1 ef -- "fort,"
+Aus -- \skip1 si -- "tost," je re -- "tour" -- \skip1 \skip1 ne, je re -- "tourn'" en ma for -- me pre -- miè -- \skip1 re,
+Aus -- si -- "tost," __\skip1 \skip1 \skip1 je re -- tour -- ne, je re -- "tourn'" en ma for -- \skip1 \skip1 me pre -- miè -- \skip1 \skip1 re,
+en ma for -- me pre -- miè -- \skip1 \skip1 \skip1 \skip1 re.
 }
 TTaille=\lyricmode{\set ignoreMelismata = ##t
 A -- mour, A -- mour, quand fus -- tu "né ?"
@@ -892,6 +928,17 @@ Où te re -- ti -- \skip1 \skip1 \skip1 \skip1 res "tu ?"
 que de cent mil -- le "traits," 
 cru -- el -- le -- "ment," j'en fer -- "re," de cent mil -- le traits  \skip1 cru -- el -- le -- "ment," j'en fer -- "re."
 De qui fus -- tu \skip1 nour -- \skip1 \skip1 \skip1 "ri ?"
+qui eut pour la ser -- vir jeu -- "ness'" \skip1 \skip1 \skip1 \skip1 et va -- ni -- "té,"
+qui eut pour la ser -- vir jeu -- "ness'" et va -- ni -- "té,"
+pour la ser -- vir jeu -- "ness'" \skip1 et va -- ni -- "té."
+D'u -- ne bel -- \skip1 le lu -- miè -- re.
+Crains -- tu point __\skip1 \skip1 le pou -- voir des ans __\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ou  de la "mort ?"
+"Non !" Car si quel -- que -- fois je meurs, je meurs par leur __\skip1 \skip1 \skip1 \skip1 ef -- "fort," __\skip1 par leur ef -- fort,
+Aus -- si -- "tost," Aus -- si -- "tost," __\skip1 \skip1 je re -- "tour" -- ne,
+Aus -- \skip1 si -- "tost," je re -- "tourn'" -- \skip1 \skip1 \skip1 en ma for -- \skip1 me pre -- miè -- re,
+Aus -- si -- "tost," je re -- "tour" -- \skip1 ne, je re -- "tour" -- ne,
+je re -- "tourn'" -- en ma for -- me pre -- "miè" -- re
+ma for -- me pre -- miè -- re.
 }
 TBasseContreII=\lyricmode{\set ignoreMelismata = ##t
 A -- mour, A -- mour, __\skip1 quand fus -- \skip1 tu "né ?"
@@ -902,6 +949,17 @@ Qui te don -- na pou -- voir de nous fai -- re la guer -- \skip1 \skip1 \skip1 \
 Où \skip1 te re -- ti -- \skip1 \skip1 \skip1 \skip1 \skip1 res "tu ?"
 De qui \skip1 \skip1 \skip1 \skip1 fus -- \skip1 tu nour -- "ri ?"
 D'u -- ne dou -- ce beau -- \skip1 \skip1 té 
+qui eut pour la ser -- \skip1 vir jeu -- \skip1 \skip1 \skip1 \skip1 "ness'" et va -- ni -- "té,"
+qui eut pour la ser -- vir jeu -- "ness'" et va -- ni -- "té." __\skip1 \skip1
+De quoy \skip1 te re -- pais -- "tu ?"
+D'u -- \skip1 ne bel -- le lu -- miè -- re.
+"Non !" Car si quel -- que -- fois je meurs, je meurs par leur __\skip1 \skip1 \skip1 \skip1 ef -- "fort," 
+"Non !" __\skip1 Car si quel -- \skip1 que -- fois __\skip1 \skip1 \skip1 \skip1 je meurs par leur ef -- "fort," 
+Aus -- si -- "tost," je re -- "tour" -- ne,
+en ma for -- me pre -- "miè" -- re,
+re --  "tourn'" -- en ma for -- \skip1 \skip1 me pre -- "miè" -- re, Aus -- \skip1 si -- "tost," 
+Aus -- \skip1 si -- "tost," Aus -- si -- "tost," je re -- \skip1 \skip1 "tourn'" -- en ma  for -- \skip1 me, 
+en \skip1 ma for -- \skip1 \skip1 me pre -- miè -- re.
 }
 TBasseContreI=\lyricmode{\set ignoreMelismata = ##t
 A -- mour, quand fus -- \skip1 \skip1 \skip1 \skip1 tu "né ?"
@@ -911,6 +969,13 @@ Qui te don -- na __\skip1 \skip1 pou -- voir de nous fai -- re la guer -- "re  ?
 Où te re -- ti -- res "tu ?"
 Où te re -- ti -- res "tu ?"
 De qui \skip1 \skip1 \skip1 \skip1 fus -- tu nour -- "ri ?"
+qui eut pour la ser -- \skip1 \skip1 vir jeu -- "ness'" et va -- ni -- "té."
+De quoy te re -- pais -- "tu ?"
+Crains -- tu point le pou -- voir __\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 des ans ou  de la "mort ?"
+"Non !" Car si quel -- \skip1 que -- fois je meurs, __\skip1 \skip1 par leur ef -- "fort," par leur ef -- fort,
+Aus -- \skip1 si -- "tost," je re -- "tourn'" -- \skip1 \skip1 \skip1 \skip1 en \skip1 ma for -- me pre -- "miè" -- re,
+Aus -- si -- "tost," je re -- "tourn'" -- \skip1 \skip1 en \skip1 ma for -- me pre -- "miè" -- re,
+en \skip1 ma for -- me pre -- miè -- re.
 }
 
 \score {
