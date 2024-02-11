@@ -978,59 +978,60 @@ Aus -- si -- "tost," je re -- "tourn'" -- \skip1 \skip1 en \skip1 ma for -- me p
 en \skip1 ma for -- me pre -- miè -- re.
 }
 
-\score {
+\score {\transpose fa la {
 	\new ChoirStaff<<
 
 	\new Staff <<
 	\new Voice="Dessus" {
-		\set Staff.instrumentName="Dessus"
+		\set Staff.instrumentName="Dessus 1"
 		\set Staff.midiInstrument = #"church organ"
 	  	\global \clef "treble" \Dessus }
 	\new Lyrics \lyricsto "Dessus" {\TDessus }
 	>>
 	\new Staff <<
 	\new Voice="Cinquiesme" {
-		\set Staff.instrumentName="Cinquiesme"
+		\set Staff.instrumentName="Dessus 2"
 		\set Staff.midiInstrument = #"church organ"
 	  	\global \clef "treble" \Cinquiesme }
 	\new Lyrics \lyricsto "Cinquiesme" {\TCinquiesme }
 	>>
 	\new Staff <<
 	\new Voice="HauteContre" {
-		\set Staff.instrumentName="HauteContre"
+		\set Staff.instrumentName="Alto 1"
 		\set Staff.midiInstrument = #"church organ"
 	  	\global \clef "treble_8" \HauteContre }
 	\new Lyrics \lyricsto "HauteContre" {\THauteContre }
 	>>
 	\new Staff <<
 	\new Voice="Sixieme" {
-		\set Staff.instrumentName="Sixieme"
+		\set Staff.instrumentName="Alto 2"
 		\set Staff.midiInstrument = #"church organ"
 	  	\global \clef "treble_8" \Sixieme }
 	\new Lyrics \lyricsto "Sixieme" {\TSixieme }
 	>>
 	\new Staff <<
 	\new Voice="Taille" {
-		\set Staff.instrumentName="Taille"
+		\set Staff.instrumentName="Ténor 1"
 		\set Staff.midiInstrument = #"church organ"
 	  	\global \clef "treble_8" \Taille }
 	\new Lyrics \lyricsto "Taille" {\TTaille }
 	>>
 	\new Staff <<
 	\new Voice="BasseContreII" {
-		\set Staff.instrumentName="BasseContreII"
+		\set Staff.instrumentName="Ténor 2"
 		\set Staff.midiInstrument = #"church organ"
-	  	\global \clef "bass" \BasseContreII }
+	  	\global \clef "treble_8" \BasseContreII }
 	\new Lyrics \lyricsto "BasseContreII" {\TBasseContreII }
 	>>
 	\new Staff <<
 	\new Voice="BasseContreI" {
-		\set Staff.instrumentName="BasseContreI"
+		\set Staff.instrumentName="Basse"
 		\set Staff.midiInstrument = #"church organ"
 	  	\global \clef "bass" \BasseContreI }
 	\new Lyrics \lyricsto "BasseContreI" {\TBasseContreI }
 	>>
 >>
+}
 
 \layout{ 
   	papersize = "a4"
@@ -1041,4 +1042,6 @@ en \skip1 ma for -- me pre -- miè -- re.
 \midi {\tempo 4 = 120 }
 
 }
+
+\markup {\bold\tiny {TRANSPOSITION:} \tiny{ Transposé deux tons plus haut, par rapport à la version de H. Expert}}
 
