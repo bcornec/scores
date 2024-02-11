@@ -342,7 +342,7 @@ HauteContre=\relative re'{
   do1 |
   r4 fa re2 |
   sib4 sib la2 |
-  sol1 | %75
+  la1 | %75
   r1 |
   r1 |
   r1 |
@@ -931,7 +931,7 @@ A -- mour,
 	ragged-last = ##f
 }
 
-\midi {\tempo 4 = 160 }
+\midi {\tempo 4 = 120 }
 
 }
 
