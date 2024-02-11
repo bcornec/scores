@@ -1,6 +1,5 @@
 \version "2.24.2"
 \pointAndClickOff
-\include "gregorian.ly"
 \include "italiano.ly"
 
 #(define pieceArranger (string-append "Edition: Bruno Cornec (Lilypond " (lilypond-version) ")"))
@@ -20,18 +19,20 @@
     copyright = " "
     }
 
-#(set-global-staff-size 14)
+#(set-global-staff-size 15)
 
 \layout {
     \context { \Score
-        skipBars = ##t
-        autoBeaming = ##f
+        %skipBars = ##t
+        %autoBeaming = ##f
         }
     }
 
 \markup \vspace #1 % change this value accordingly
 
-global={ \key fa \major \time 2/2 }
+global={ \key fa \major \time 2/2 
+	%\set Score.barNumberVisibility = #all-bar-numbers-visible
+}
 
 Dessus=\relative do'{
   r1 |
@@ -642,8 +643,8 @@ BasseContreII=\relative do{
   do2 fa4 fa |
   re4 sol fa2 | % 25
   la4 la la2 |
-  sol4 la re,4. mi8[ |
-  fa sol] la2 sol8[ fa] |
+  sol4 la re,4. mi8 |
+  fa[ sol] la2 sol8[ fa] |
   sol2 do, |
   r1 | %30
   r1 |
@@ -752,8 +753,8 @@ BasseContreI=\relative do{
   la2 sib4 la |
   re2 re |
   sib4 sol sol8[ la sib do] | %20
-  re2 fa4. mi8~[ |
-  re8 do sib la] sol2 |
+  re2 fa4. mi8 |
+  re8[ do sib la] sol2 |
   sib4 re do2 |
   fa,2 r4 fa |
   sib sol re'4. mi8 | %25
@@ -831,8 +832,8 @@ BasseContreI=\relative do{
   r1 | 
   r2 r4 sib4~ |
   sib4 sol do2 |
-  la4 la re4. do8[ | %100
-  sib8 la] sol4 do2~ |
+  la4 la re4. do8 | %100
+  sib8[ la] sol4 do2~ |
   do4 fa, sib2 |
   sib4 fa do'2 |
   fa,1 |
@@ -849,25 +850,47 @@ BasseContreI=\relative do{
 }
 
 TDessus=\lyricmode{\set ignoreMelismata = ##t
-A -- mour
+Ce fut lors que la ter -- re s'é -- mail -- le de cou -- leurs, __\skip1 
+et __\skip1 \skip1 les prés  __\skip1 \skip1 \skip1 \skip1 de ver -- deur.
+D'u -- ne puis -- "sant'" ar -- deur "qu'oi" -- si -- ve -- té las -- "civ'" __\skip1 en soy -- mes -- "me," en -- ser -- \skip1 \skip1 \skip1 \skip1 re.
+U -- ne chau -- \skip1 \skip1 \skip1 "d'es" -- pé -- "ranc'" et u -- ne \skip1 froi -- de "peur," froi -- de peur.
 }
 TCinquiesme=\lyricmode{\set ignoreMelismata = ##t
-A -- mour
+Ce fut lors que la ter -- re s'é -- mail -- le de cou -- leurs, __\skip1 
+et les prés, __\skip1 les prés de ver -- \skip1 \skip1 \skip1 deur.
+D'u -- ne puis -- "sant'" ar -- deur "qu'oi" -- si -- ve -- té las -- "civ'" __\skip1 en soy -- mes -- \skip1 "me," en soy -- \skip1 \skip1 mes me en -- ser -- re.
+U -- ne chau -- "d'es" -- pé -- "ranc'" __\skip1 \skip1 et u -- ne froi -- de "peur," froi -- \skip1 \skip1 \skip1 de peur.
 }
 THauteContre=\lyricmode{\set ignoreMelismata = ##t
-A -- mour
+A -- mour, A -- mour, quand fus -- tu "né ?"
+De qui fus -- "tu," __\skip1 \skip1 \skip1 \skip1 fus -- tu con -- "çu ?"
+D'u -- ne puis -- "sant'" ar -- \skip1 \skip1 deur "qu'oi" -- si -- ve -- té las -- "civ'" en soy -- mes -- \skip1 "me," en -- ser \skip1 \skip1 -- re.
+Qui te don -- na pou -- voir __\skip1 \skip1 de nous fai -- "re," nous fai -- \skip1 re la guer -- \skip1 \skip1 "re  ?"
 }
 TSixieme=\lyricmode{\set ignoreMelismata = ##t
-A -- mour
+Ce fut lors que la ter -- \skip1 \skip1 re s'é -- mail -- \skip1 \skip1 \skip1 le de cou -- leurs,
+et __\skip1 \skip1 les prés, __\skip1 de ver -- deur.
+D'u -- \skip1 ne puis -- \skip1 \skip1 "sant'" ar -- \skip1 deur "qu'oi" -- \skip1 si -- ve -- té __\skip1 las -- "civ'" en __\skip1 \skip1 soy -- mes -- \skip1 \skip1 \skip1 \skip1 "me," en -- \skip1 \skip1 \skip1 \skip1 ser -- re.
+U -- ne chau -- "d'es" -- pé -- "ranc'" __\skip1 \skip1 \skip1 \skip1 \skip1 et u -- \skip1 ne froi -- de "peur," froi -- de peur.
 }
 TTaille=\lyricmode{\set ignoreMelismata = ##t
-A -- mour, A -- mour,
+A -- mour, A -- mour, quand fus -- tu "né ?"
+De qui __\skip1 fus -- "tu," __\skip1 \skip1 \skip1 \skip1 fus -- \skip1 \skip1 tu con -- "çu ?" __\skip1
+Qui te don -- na pou -- \skip1 voir de nous fai -- re la guer -- \skip1 \skip1 \skip1 \skip1 "re  ?"
+U -- \skip1 ne chau -- "d'es" -- \skip1 \skip1 pé -- "ranc'" et u -- ne froi -- \skip1 de "peur," froi -- \skip1 \skip1 de peur.
 }
 TBasseContreII=\lyricmode{\set ignoreMelismata = ##t
-A -- mour, A -- mour,
+A -- mour, A -- mour, __\skip1 quand fus -- \skip1 tu "né ?"
+Lors que la ter -- re s'é -- mail -- le de cou -- leurs, __\skip1
+et les __\skip1 \skip1 \skip1 \skip1 prés, de ver -- \skip1 \skip1 deur.
+De qui fus -- \skip1 "tu," con -- \skip1 \skip1 "çu ?"
+Qui te don -- na pou -- voir de nous fai -- re la guer -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "re  ?"
 }
 TBasseContreI=\lyricmode{\set ignoreMelismata = ##t
-A -- mour,
+A -- mour, quand fus -- \skip1 \skip1 \skip1 \skip1 tu "né ?"
+De qui fus -- "tu," __\skip1 \skip1 \skip1 con -- \skip1 \skip1 "çu ?"
+D'u -- ne puis -- "sant'" ar -- deur "qu'oi" -- si -- ve -- té las -- "civ'" en soy -- __\skip1 \skip1 \skip1 \skip1 mes -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "me," en -- ser -- re.
+Qui te don -- na __\skip1 \skip1 pou -- voir de nous fai -- re la guer -- "re  ?"
 }
 
 \score {
@@ -927,7 +950,6 @@ A -- mour,
 \layout{ 
   	papersize = "a4"
 	\context {\Staff \consists Ambitus_engraver }
-  	\override Score.BarNumber #'break-visibility = #'#(#f #f #t)
 	ragged-last = ##f
 }
 
