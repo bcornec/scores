@@ -35,6 +35,119 @@ global={ \key fa \major \time 2/2 }
 
 Dessus=\relative do'{
   r1 |
+  r1 |
+  r2 r4 fa |
+  la2 do |
+  do4 re sib2 | %5
+  la4 la la2 |
+  sol4 do si do~ |
+  do la4. sib8 do4 |
+  sol do4. sib8 la[ sol] |
+  fa4 fa sib2 | %10
+  la1 |
+  r1 |
+  r1 |
+  r1 |
+  r1 |%15
+  r4 la2 la4 |
+  sib2 sol |
+  do fa, |
+  fa la4 fa |
+  fa sol sib2~ | %20
+  sib4 la la2 |
+  la4 sib sib sol~ |
+  sol8 fa fa2 mi4 |
+  fa1 |
+  r1 | %25
+  r1 |
+  r1 |
+  r1 |
+  r2 do' |
+  do4 la4. sol8 la[ sib] | %30
+  do4 do2 do4 |
+  fa,2 sol4 sib~ |
+  sib la la2 |
+  sol4 sol2 re4 |
+  mi1 | %35
+  r1 |
+  r1 |
+  r2 r4 fa |
+  sib2 la |
+  sib2. sib4 | %40
+  la2 r |
+  la4 la re,2 |
+  fa4 sol la2 |
+  r1 |
+  r4 la la4. sol8 | %45
+  fa4 sol la2~ |
+  la4 sib sol4. la8 |
+  sib8[ la] la4. sol16[ fa] sol4 | 
+  la2 r4 la |
+  sol2 la4 fa~ | %50
+  fa8 sol la4 re, sol~ |
+  sol8[ fa] fa2 mi4 |
+  fa1 |
+  r1 |
+  r1 | %55
+  r2 sib |
+  sib4 sib2 sib4 |
+  sib1 |
+  la1 |
+  r1 | %60
+  r1 |
+  r1 |
+  r2 r4 la |
+  sib2 la~ |
+  la4 la do?2~ | %65
+  do sol |
+  r4 la2 do4~ |
+  do8[ sib16 la] sib4 la4. sol8 |
+  la[ sib] do4 sib sib |
+  la la2 do4~ | %70
+  do sib la4. sib8 |
+  do4 do do2~ |
+  do r |
+  r1 |
+  r4 la2 la4 | %75
+  do2. sib4 |
+  sib la4. sol16[ fa] sol4 |
+  la2 r |
+  r1 |
+  r1 | %80
+  r1 |
+  r1 |
+  r1 |
+  r2 sol |
+  r4 do do la~ | %85
+  la8 la la2 la4 |
+  sib4. la8 sol4 do~ |
+  do8[ sib la sol] fa4 re8[ mi] |
+  fa[ sol] la2 sol4 |
+  la1 | %90
+  r1 |
+  r1 |
+  r1 |
+  r4 sol2 re4 |
+  mi2 r4 do'~ | %95
+  do la la2 |
+  sib4 sib sol2 |
+  la la4 fa~ |
+  fa sib sol2 |
+  do la | %100
+  r1 |
+  r1 |
+  r4 do2 sol4 |
+  la2 r4 do~ |
+  do la la2 | %105
+  la4 la sib4. la8 |
+  sol4 do2 fa,4 |
+  sib2 sol4 sol |
+  do4. sib16[ la] sib4 fa |
+  r2 r4 fa~ | %110
+  fa sib sol2 |
+  la4 do sib2 |
+  la1~ |
+  la1 |
 }
 
 Cinquiesme=\relative do'{
@@ -100,11 +213,11 @@ Cinquiesme=\relative do'{
   r1 | %60
   r1 |
   r1 |
-  r2 r4 la' |
-  sib'2 la~ |
-  la4 la do?2~ | %65
-  do sol |
-  la4 fa2 mi4 |
+  r1 |
+  r4 re fa2 |
+  mi4 mi la2 | %65
+  sol r4 sol |
+  la fa2 mi4 |
   sol2 fa |
   do4 sol' sol2 |
   fad2. sol4 | %70
@@ -130,7 +243,7 @@ Cinquiesme=\relative do'{
   re2 r | %90
   r1 |
   r1 |
-  r4 sib2 sol4 |
+  r4 sib'2 sol4 |
   sol2 r4 sol~ |
   sol mi sol2 | %95
   fa4 do fa2 |
