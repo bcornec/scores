@@ -1,6 +1,6 @@
 \version "2.24.2"
 \pointAndClickOff
-\include "gregorian.ly"
+\include "gregorian-bc.ly"
 \include "italiano.ly"
 
 #(define pieceArranger (string-append "Edition: Bruno Cornec (Lilypond " (lilypond-version) ")"))
@@ -25,8 +25,9 @@
 \layout {
     \context { \Score
         skipBars = ##t
-        autoBeaming = ##f
+        autoBeaming = ##t
         }
+	
     }
 
 \markup \vspace #1 % change this value accordingly
@@ -1363,7 +1364,7 @@ TgregorienVXVIII =\lyricmode {
 	\set StaffGroup.systemStartDelimiter = #'SystemStartSquare
 	\override StaffGroup.SystemStartSquare.extra-offset = #'(-21 . 0)
 	\set StaffGroup.instrumentName = \markup {\hspace #-15 \rotate #90 "Chorus 2"}
-\new ChoirStaff<<
+	\new ChoirStaff <<
 
 	\new Staff <<
 	\new Voice="C2C1V3" {
@@ -1396,6 +1397,7 @@ TgregorienVXVIII =\lyricmode {
 \layout{ 
   	papersize = "a4"
 	\context {\Staff \consists Ambitus_engraver }
+	autoBeaming = ##t
 	ragged-last = ##f
 
 	% useful for incipit
@@ -1693,6 +1695,7 @@ TgregorienVXVIII =\lyricmode {
 \layout{ 
   	papersize = "a4"
 	\context {\Staff \consists Ambitus_engraver }
+	autoBeaming = ##t
 	ragged-last = ##f
 
 	% useful for incipit

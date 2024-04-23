@@ -636,8 +636,9 @@ quos san -- gui -- _ ne mer -- ca -- tus es. A -- _ _ men. __ _
 
 \layout{ 
   	papersize = "a4"
-	\context {\Staff \consists Ambitus_engraver }
+	\context {\Staff \consists Ambitus_engraver}
 	ragged-last = ##f
+	barNumberVisibility = #first-bar-number-invisible-and-no-parenthesized-bar-numbers
 
 	% useful for incipit
 	indent=3\cm
