@@ -86,7 +86,7 @@ PartPOneVoiceOne =  \relative f'' {
     c4 bes2 a8 [ g8 ] | \barNumberCheck #50
     f8 [ d8 ] g2 fis4 | % 51
     g1 | % 52
-	r1 | %53
+	r1 \break | %53
     r4 bes4 | % 54
     g4 bes4 ~ | % 55
     bes4 a8 [ g8 ] f4 d4 | % 56
@@ -97,23 +97,23 @@ PartPOneVoiceOne =  \relative f'' {
   }
 
 PartPOneVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Ma
-    -- ri -- ez moy mon pè --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 il est temps ou ja --\skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "mais," "ou," -- si vous
-    ne le faic --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    "tes," "ou," si vous ne le faic --\skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 "tes, " __\skip1 con -- trainct je se --\skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ray de vous di -- "r'en "
+    -- ri -- ez moy mon pè --\skip1 \skip1 \skip1 re, Ma -- \skip1 ri --
+    ez __\skip1 \skip1 \skip1 moy mon pè -- \skip1 \skip1
+    \skip1 \skip1 \skip1 re, pè -- \skip1 \skip1 \skip1 re
+    il est temps ou ja -- "mais," __\skip1 \skip1 ou __\skip1
+    \skip1 \skip1 \skip1 ja -- \skip1 \skip1 \skip1 "mais," ou
+    \skip1 ja -- \skip1 \skip1 \skip1 \skip1 "mais," ou si vous
+    ne le faic --\skip1 \skip1 \skip1 te, le faic -- \skip1 \skip1 "tes," 
+	ou si vous ne le faic --\skip1 \skip1\skip1 \skip1 \skip1 \skip1 "te,"
+    \skip1 con -- trainct je se --\skip1 ray, __\skip1 \skip1
+    je __\skip1 \skip1 \skip1 se -- ray de vous di -- "r'en "
     __\skip1 \skip1 \skip1 \skip1 "deux " __\skip1 \skip1 \skip1 \skip1
     \skip1 "motz:" ma vo -- lon -- "té " __\skip1 \skip1 fe --\skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "ray, "
-    __\skip1 et fault que "je " __\skip1 \skip1 le fa --\skip1 "ce," ce
+    \skip1 \skip1 ray, ma __\skip1 \skip1 \skip1 \skip1 \skip1 \skip1
+    vol --\skip1 lont --  \skip1 té  \skip1 fe -- "ray, "
+    __\skip1 et fault que "je " __\skip1 le __\skip1 fa --\skip1 "ce," ce
     --\skip1 \skip1 la "je " __\skip1 "vous " __\skip1 \skip1 pro -- "metz,"
-    et fault que \skip1 "je " __\skip1 \skip1 le fa --\skip1 "ce," ce
+    et fault que \skip1 "je " __\skip1 le __\skip1 fa --\skip1 "ce," ce
     --\skip1 \skip1 la \skip1 "je " __\skip1 "vous " __\skip1 \skip1 \skip1 pro -- "metz."
     }
 
@@ -175,27 +175,27 @@ PartPTwoVoiceOne =  \relative c'' {
     r2 r4 f4 | % 55
     d4 f4 ~ f4 e8 [ d8 ] | % 56
     c4. d8 e4 d4~ | % 57
-    d4 c4 d4 e4 | % 58
+    d4 cis4 d4 e4 | % 58
     d1  \bar "||" | % 59
   }
 
 PartPTwoVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Ma
-    -- ri -- ez moy mon pè --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    "re, " __\skip1 il est temps ou ja --\skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 "mais," "ou," si vous ne la faic --\skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
+    -- ri -- ez moy mon pè --\skip1 \skip1 \skip1 "re," Ma -- \skip1
+    ri  -- \skip1 ez __\skip1 \skip1 moy __\skip1 \skip1 mon
+    __\skip1 pè -- \skip1 \skip1 "re," mon __\skip1 pè -- \skip1
+    "re, " __\skip1 il est temps ou ja -- mais, Il est __\skip1
+    \skip1 \skip1 \skip1 \skip1 temps __\skip1 \skip1 \skip1
+    ou ja -- "mais," "ou" si vous ne le faic --\skip1 \skip1 te,
+    faic -- \skip1 \skip1 \skip1 \skip1 te, ne le faic --
     \skip1 "tes, " __\skip1 con -- trainct je se --\skip1 "ray," con --
     trainct je se -- ray de vous di -- "r'en" --\skip1 \skip1 \skip1
-    \skip1 "deux " __\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "motz:" ma
+    \skip1 "deux " __\skip1 \skip1 \skip1 motz, de vous \skip1
+    di -- \skip1 "r'en" deux __\skip1 \skip1 \skip1 \skip1 "motz:" ma
     vo -- lon -- "té" fe -- "ray," ma vo -- lon -- "té" fe -- "ray, "
     __\skip1 ce -- la "je " __\skip1 "vous " __\skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 pro -- "metz,"
+    \skip1 pro --\skip1 metz, pro -- "metz,"
     __\skip1 ce -- la "je " __\skip1 "vous " __\skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 pro -- "metz."
+    \skip1 pro -- \skip1 \skip1 metz, pro -- "metz."
     }
 
 PartPThreeVoiceOne =  \relative f' {
@@ -269,25 +269,25 @@ PartPThreeVoiceOne =  \relative f' {
   }
 
 PartPThreeVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Ma
-    -- ri -- ez moy mon pè --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "re," ma -- ri --
+    -- ri -- ez moy mon pè -- re, Ma -- \skip1 ri -- \skip1 ez
+    __\skip1 \skip1 moy mon __\skip1 pè -- \skip1 "re," ma -- ri --
     ez moy mon pe --\skip1 \skip1 \skip1 "re, " __\skip1 il est temps
-    "ou " __\skip1 \skip1 ja --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "mais,"
-    "ou," si vous ne le faic --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 "tes," "ou," si vous ne le faic --
-    "tes," con -- trainct je se --\skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 ray de vous di -- "r'en " __\skip1 \skip1 \skip1
-    \skip1 "deux " __\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 "motz:" ma vo -- lon -- "té" fe --\skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "ray," 
-	et fault "que " __\skip1 "je " __\skip1 \skip1 le fa --\skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "ce, " __\skip1 ce -- la
+    "ou " __\skip1 \skip1 ja --\skip1 \skip1 \skip1 \skip1 \skip1 mais,
+    __\skip1 \skip1 \skip1 ou ja -- mais, Il \skip1 est
+    __\skip1 \skip1 \skip1 temps ou \skip1 ja -- \skip1 "mais,"
+    "ou" si vous ne le faic -- \skip1 \skip1 tes, ou si vous ne le 
+    faic -- \skip1 "tes," "ou" si vous ne le faic --
+    "tes," con -- trainct je se --\skip1 ray, con -- trainct\skip1 je
+    se -- \skip1 ray, con -- trainct je __\skip1 \skip1 \skip1 se --
+    ray, de vous di -- "r'en " __\skip1 \skip1 \skip1
+    "deux " motz, __\skip1 \skip1 de vous __\skip1 \skip1
+    \skip1  di -- "r'en " deux "motz:" ma vo -- lon -- "té" fe -- ray
+    __\skip1 \skip1 ma __\skip1 vo -- lon -- té fe -- "ray," 
+	et fault "que " __\skip1 "je " __\skip1 \skip1 le fa --\skip1 \skip1 ce,
+    __\skip1 \skip1 fa --  \skip1 \skip1 \skip1 "ce, " __\skip1 ce -- la
     je "vous " __\skip1 pro -- "metz,"
-	et fault "que " __\skip1 "je " __\skip1 \skip1 le fa --\skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "ce, " __\skip1 ce -- la
+	et fault "que " __\skip1 "je " __\skip1 \skip1 le fa --\skip1 \skip1 \skip1 ce,
+    __\skip1 \skip1 fa -- \skip1 \skip1 \skip1 "ce, " __\skip1 ce -- la
     je "vous " __\skip1 pro -- "metz."
     }
 
@@ -351,22 +351,22 @@ PartPFourVoiceOne =  \relative c' {
   }
 
 PartPFourVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Ma
-    -- ri -- ez moy mon pè --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 "re," il est temps ou ja --\skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "mais," il est temps "ou "
-    __\skip1 \skip1 ja --\skip1 \skip1 \skip1 "mais," "ou," si vous ne
-    le "faic " __\skip1 \skip1 "tes," "ou," si vous ne le faic -- "tes,"
+    -- ri -- ez moy mon pè --\skip1 \skip1 \skip1 re, \skip1 Ma --
+    ri -- \skip1 ez "moy," il est temps ou ja -- mais __\skip1 \skip1
+    \skip1 \skip1 \skip1 \skip1 ou ja -- "mais," il est temps "ou "
+    __\skip1 \skip1 ja -- mais, ja -- \skip1 "mais," "ou" si vous ne
+    le "faic " __\skip1 \skip1 "tes," "ou" si vous ne le faic -- "tes,"
     con -- traint je se --\skip1 "ray," con -- "trainct " __\skip1
-    \skip1 je se --\skip1 "ray," con -- trainct je se --\skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 ray de vous di -- "r'en" deux
-    --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1
+    \skip1 je se --\skip1 "ray," con -- trainct je se -- ray, con --
+    trainct je __\skip1 se -- \skip1 ray de vous di -- "r'en" deux __\skip1
+    motz,  de __\skip1 vous __\skip1 di -- "r'en" deux
     "motz:" ma vo -- lon -- "té " __\skip1 \skip1 fe -- "ray," et fault
-    que "je " __\skip1 "le " __\skip1 \skip1 fa --\skip1 \skip1 \skip1
+    que "je " __\skip1 "le " __\skip1 fa --\skip1 \skip1 \skip1 \skip1
     \skip1 \skip1 "ce," ce -- la je "vous " __\skip1 \skip1 \skip1
-    \skip1 \skip1 pro -- "metz," 
-	et fault "que " __\skip1 "je " __\skip1 "le "  __\skip1 \skip1 fa --\skip1 \skip1 \skip1
+    \skip1 pro -- \skip1 "metz," et fault "que " __\skip1 
+	"je " __\skip1 "le "  __\skip1 fa --\skip1 \skip1 \skip1 \skip1
     \skip1 \skip1 "ce," ce -- la je \skip1 "vous " __\skip1 \skip1 \skip1
-	\skip1 \skip1 \skip1 pro -- "metz."
+	\skip1 pro -- \skip1 \skip1 "metz."
     }
 
 
