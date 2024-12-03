@@ -105,7 +105,7 @@ PartPOneLyricsTwo =  \lyricmode {\set ignoreMelismata = ##t
   See, see your mis -- tress bids you cease,
   and wel -- come Love, with __\skip1 Love's in -- crease
   Love, with Love's in -- crease;
-  Di -- a -- na hath pro -- cur'd, pro -- cur -- ed your peace.
+  Di -- a -- na hath pro -- cur'd, hath pro -- cur'd your peace.
   \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 
   \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 See, \skip1
   Cu -- pid hath sworn his bow for -- lorn to break and __\skip1 burn, ere
