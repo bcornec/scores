@@ -274,7 +274,7 @@ PartPTwoVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Mo
     that\skip1 will\skip1 \skip1 have "none." To the town there -- fore
     will I "gad," will I "gad," will I "gad," will I "gad," will I
     "gad," To get me a hus -- band good or "bad," to\skip1 get me
-    a\skip1 hus -- band\skip1 good or "bad." Mo -- "ther," I will have a
+    a\skip1 hus -- \skip1 band good or "bad." Mo -- "ther," I will have a
     hus -- "band," And I will have him out of "hand." Mo -- "ther," I
     will sure have "one," have "one," In spite of "her," \skip1 in\skip1
     spite of her that will have "none."
@@ -354,13 +354,13 @@ PartPThreeVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Mo
     to\skip1 "kiss," to "kiss," to "kiss." Mo -- "ther," I will sure
     have "one." For I have heard "'tis" "trim," "'tis" "trim," \skip1
     for I have heard "'tis" trim when folks do "love," By good Sir John
-    now I will "prove," now I will "prove," \skip1 "I," by good Sir John
+    now I will "prove," now I will "prove," -- \skip1 \skip1 by good Sir John
     I swear I will "prove." For Mo -- "ther," I will sure have "one,"
     have "one," have "one," have "one," In spite of her that will have
     "none." To the town there -- fore will I "gad," will I "gad," will I
     "gad," will I "gad," will I "gad," will\skip1 I "gad," will I "gad,"
-    To get me a\skip1 hus -- band\skip1 good or "bad," to get me a\skip1
-    hus -- band\skip1 good or "bad." Mo -- "ther," I will have a hus --
+    To get me a\skip1 hus -- \skip1 band good or "bad," to get me a\skip1
+    hus -- \skip1 band good or "bad." Mo -- "ther," I will have a hus --
     "band," And I will have him out of\skip1 "hand." Mo -- "ther," I
     will sure have "one," have "one," In\skip1 spite of her that "will,"
     in spite of her that will have "none."
