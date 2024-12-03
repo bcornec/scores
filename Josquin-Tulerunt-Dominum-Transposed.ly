@@ -1101,8 +1101,8 @@ PartPEightVoiceOneLyricsEight =  \lyricmode {\set ignoreMelismata = ##t
     -- lu -- "ia," Al -- le -- lu -- "ia." Cum er -- go fle --\skip1 ret
     in --\skip1 cli -- na -- vit "se," "et" pro -- spe -- xit in mo
     --\skip1 \skip1 nu -- men -- tum Prae -- ce -- det vos in Ga -- li
-    -- lae -- am i -- bi e -- um vi -- de --\skip1 \skip1 \skip1 \skip1
-    bi -- "tis," i -- bi e -- um vi -- de -- bi -- "tis," Al -- le -- lu
+    -- lae -- am i -- bi e -- um vi -- de -- bi -- \skip1 \skip1 \skip1 \skip1
+    "tis," i -- bi e -- um vi -- de -- bi -- "tis," Al -- le -- lu
     -- "ia," Al -- le -- lu -- "ia," Al -- le -- lu -- "ia." \skip1
     }
 
