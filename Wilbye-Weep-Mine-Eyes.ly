@@ -10,7 +10,7 @@
 	%opus = " "
     
     tagline =  \markup \center-column {
-	  \line {"Copyright © 2024 Bruno Cornec, based CPDL work from Rafael Ornes"}
+	  \line {"Copyright © 2024 Bruno Cornec, based on CPDL work from Rafael Ornes"}
 	  \line {"Edition may be freely distributed, duplicated, performed, or recorded"}
 	}
     copyright = " "

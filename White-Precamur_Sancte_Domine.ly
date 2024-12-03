@@ -25,6 +25,7 @@
     \context { \Score
         skipBars = ##t
         autoBeaming = ##f
+		barNumberVisibility = #all-bar-numbers-visible
         }
     }
 
@@ -41,7 +42,7 @@ cantus=\relative c''{
 	d e
 	f d
 	d d 
-	d f
+	d f | \break
 	e c
 	d f
 	e f
@@ -107,7 +108,7 @@ discantusThree=\relative c''{
 	f4. e8 d2
 	cis2 r
 	r4 a'4 d4. a8 
-	b4 a a4. a8
+	bes4 a a4. a8
 	g4 e f4. g8 
 	a1
 	r4 a bes4. a8
@@ -156,7 +157,7 @@ altusTwo=\relative d'{
 	a8  bes c4 
 	bes8 a a'2 g4~
 	g8 a f4 e2 
-	r4 d2.
+	d2 d
 	d1
   }
 altusThree=\relative d'{
@@ -294,7 +295,7 @@ bassusThree=\relative c'{
 	a1
 	d2 r
 	r4 a' d4. a8
-	b4 g a2 ~
+	bes4 g a2 ~
 	a4 a d,2 ~
 	d4 f r a
 	bes4. a8 g4 g
@@ -339,10 +340,10 @@ dex -- _ te -- ra tu -- a pro -- _ _ _ te -- _ _ _ gat
 fa -- mu -- los qui __ _ te di -- \skip1 \skip1 li -- gunt.
 }
 textdiscantusThree=\lyricmode{\set ignoreMelismata = ##t
-Me -- men -- to no -- stri Do -- mi -- _ _ _ ne
+Me -- men -- to no -- stri Do -- \skip1 \skip1  \skip1 mi -- ne
 in gra -- vi i -- sto cor -- po -- _ _ _ _ re
-qui es de -- fen -- sor a -- _ ni -- _ mæ
-ad -- e -- sto no -- bis Do -- mi -- _ _ _ _ _ ne. 
+qui es de -- fen -- sor a -- _ _ ni -- mæ
+ad -- e -- sto no -- bis Do -- _ _ _ _ _ mi -- ne. 
 }
 
 textaltusOne=\lyricmode{\set ignoreMelismata = ##t
@@ -350,7 +351,7 @@ Pre -- ca -- mur san -- cte Do -- mi -- ne,
 de -- fen -- de nos in _ hac no -- cte
 sit no -- bis in _ te re -- qui -- es,
 sit no -- bis in te re -- qui -- _ _ es.
-qui -- e -- tam no -- ctem tri -- bu -- _ _ _ e
+qui -- e -- tam no -- ctem tri -- bu -- _ _ e __\skip1 \skip1
 tri -- bu -- e.
 }
 textaltusTwo=\lyricmode{\set ignoreMelismata = ##t
@@ -358,20 +359,20 @@ O -- cu -- li som -- num __ _ _ ca -- pi -- _ _ ant
 cor ad te sem -- per vi -- gi -- let,
 cor ad te sem -- per vi -- gi -- let
 dex -- _ te -- ra tu -- a pro -- _ te -- gat __ _ _ _ 
-fa -- _ mu -- los qui __ _  te _ di -- li -- _ _ _ gunt. _
+fa -- _ mu -- los qui __\skip1 te di -- \skip1 li -- \skip1 gunt, di -- li -- gunt.
 }
 textaltusThree=\lyricmode{\set ignoreMelismata = ##t
 Me -- men -- to no -- stri __ _ _ Do -- mi -- ne, Do -- mi -- ne
 in gra -- vi i -- sto cor -- po -- _ re
 cor -- _ po -- re
 qui es de -- fen -- sor a -- ni -- mæ
-ad -- e -- sto no -- bis Do -- mi -- _ _ _ _ _ 
-ne, Do -- mi -- _ ne.
+ad -- e -- sto no -- bis Do -- _ _ _ mi -- ne,
+Do -- _ _ _ mi -- _ ne.
 }
 
 texttenorOne=\lyricmode{\set ignoreMelismata = ##t
 Pre -- ca -- mur san -- cte Do -- mi -- _ _ _ ne
-de -- fen -- de nos in hac __ _ no -- _ _ _ _ _ _ cte
+de -- fen -- de nos in __\skip1 \skip1 hac no -- _ _ _ _ _ cte
 sit no -- bis in __ _ te __ _ re -- qui -- es
 qui -- e -- tam no -- ctem tri -- _ _ bu -- e.
 }
@@ -385,7 +386,7 @@ texttenorThree=\lyricmode{\set ignoreMelismata = ##t
 Me -- men -- to no -- stri Do -- mi -- _ ne
 in gra -- vi i -- sto cor -- po -- _ _ _ _ _ _ re
 qui es de -- fen -- sor a -- ni -- mæ
-ad -- e -- sto no -- bis Do -- mi -- _ _ _ _ ne. _
+ad -- e -- sto no -- bis Do -- mi -- ne, __ \skip1 Do -- mi -- ne.
 }
 
 textbassusOne=\lyricmode{\set ignoreMelismata = ##t
@@ -402,7 +403,7 @@ ant, ca -- _ pi -- ant,
 cor ad te sem -- per vi -- gi -- _ let,
 dex -- _ te -- ra tu -- a pro -- _ _ te -- _ _ gat, _
 fa -- mu -- los qui te di -- li -- gunt,
-di -- li -- _ gunt.
+di -- \skip1 li -- \skip1 gunt.
 }
 textbassusThree=\lyricmode{\set ignoreMelismata = ##t
 Me -- men -- to no -- stri Do -- mi -- _ ne
@@ -604,6 +605,7 @@ quos san -- gui -- _ ne mer -- ca -- tus es. A -- _ _ men. __ _
 	\new Staff << 
 	\new Voice="v2" {
 		\set Staff.instrumentName=\incipitdiscantus
+		\set Score.barNumberVisibility = #all-bar-numbers-visible
 		\global \clef "treble" \discantusOne}
 	\new Lyrics \lyricsto "v2" {\textdiscantusOne }
 	>>
