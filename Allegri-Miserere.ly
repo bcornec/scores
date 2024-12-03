@@ -733,7 +733,7 @@ et "spi" -- ri -- tu prin -- ci -- "pa" -- li con -- "fir" -- ma "me," __\skip1 
 CIICantusIVXV=\relative do''{
   \sectionLabel "Versum 15"
   r1 r2 \tuplet 3/2 { re4 re re } | 
-  \tuplet 3/2 { re2 re8 re } \tuplet 3/2 { re4 re re } re4 re \tuplet 3/2 { re4 re re } |
+  \tuplet 3/2 { re4. re8 re4 } \tuplet 3/2 { re4 re re } re4 re \tuplet 3/2 { re4 re re } |
   re1 do |
   mib4 re re2 r4 sol2 fa4 |
   mib4. re8 do8.[ re16] sib4 do1 |
@@ -750,7 +750,7 @@ CIICantusIVXV=\relative do''{
 
 CIICantusIIVXV=\relative do''{
   r1 r2 \tuplet 3/2 { sib4 sib sib } | 
-  \tuplet 3/2 { sib2 sib8 sib } \tuplet 3/2 { sib4 sib sib } sib4 sib \tuplet 3/2 { sib4 sib sib } |
+  \tuplet 3/2 { sib4. sib8 sib4 } \tuplet 3/2 { sib4 sib sib } sib4 sib \tuplet 3/2 { sib4 sib sib } |
   sib1. la2~ |
   la2 sol sib1~ |
   sib1 r1 |
@@ -767,7 +767,7 @@ CIICantusIIVXV=\relative do''{
 
 CIIAltusVXV=\relative re'{
   r1 r2 \tuplet 3/2 { sol4 sol sol } | 
-  \tuplet 3/2 { sol2 sol8 sol } \tuplet 3/2 { sol4 sol sol } sol4 sol \tuplet 3/2 { sol4 sol sol } |
+  \tuplet 3/2 { sol4. sol8 sol4 } \tuplet 3/2 { sol4 sol sol } sol4 sol \tuplet 3/2 { sol4 sol sol } |
   fa1 fa |
   sib,2. la4 sol2 sol'2~ |
   sol\breve~ |
@@ -784,7 +784,7 @@ CIIAltusVXV=\relative re'{
 
 CIIBassusVXV=\relative do'{
   r1 r2 \tuplet 3/2 { sol4 sol sol } | 
-  \tuplet 3/2 { sol2 sol8 sol } \tuplet 3/2 { sol4 sol sol } sol4 sol \tuplet 3/2 { sol4 sol sol } |
+  \tuplet 3/2 { sol4. sol8 sol4 } \tuplet 3/2 { sol4 sol sol } sol4 sol \tuplet 3/2 { sol4 sol sol } |
   sib1 fa |
   sol1 mib~ |
   mib\breve |
@@ -898,23 +898,23 @@ CIBassusVXVII=\relative do'{
 
 TCICantusIVXVII=\lyricmode{\set ignoreMelismata = ##t
 Quo -- ni -- am si vo -- lu -- is -- ses sa -- cri -- fi -- ci -- um, de -- dis -- "sem " "u" --\skip1 \skip1 ti -- "que :" 
-ho -- lau -- caus -- tis "non " __\skip1 de -- lec -- "ta" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
+ho -- lo -- caus -- tis "non " __\skip1 de -- lec -- "ta" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
 }
 TCICantusIIVXVII=\lyricmode{\set ignoreMelismata = ##t
 Quo -- ni -- am si vo -- lu -- is -- ses sa -- cri -- fi -- ci -- um, de -- dis -- "sem " "u" --\skip1 \skip1 \skip1 \skip1 \skip1 ti -- "que :" 
-ho -- lau -- caus -- tis "non " de -- lec -- "ta" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
+ho -- lo -- caus -- tis "non " de -- lec -- "ta" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
 }
 TCIAltusVXVII=\lyricmode{\set ignoreMelismata = ##t
 Quo -- ni -- am si vo -- lu -- is -- ses sa -- cri -- fi -- ci -- um, de -- dis -- "sem " "u" --\skip1 \skip1 \skip1 \skip1 ti -- "que :" 
-ho -- lau -- caus -- tis "non " __\skip1 \skip1 de -- lec -- "ta" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
+ho -- lo -- caus -- tis "non " __\skip1 \skip1 de -- lec -- "ta" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
 }
 TCITenorVXVII=\lyricmode{\set ignoreMelismata = ##t
 Quo -- ni -- am si vo -- lu -- is -- ses sa -- cri -- fi -- ci -- um, de -- dis -- "sem " "u" --\skip1 \skip1 \skip1 \skip1 \skip1 ti -- "que :" 
-ho -- lau -- caus -- tis "non " de -- lec -- "ta" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
+ho -- lo -- caus -- tis "non " de -- lec -- "ta" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
 }
 TCIBassusVXVII=\lyricmode{\set ignoreMelismata = ##t
 Quo -- ni -- am si vo -- lu -- is -- ses sa -- cri -- fi -- ci -- um, de -- dis -- "sem " "u" --\skip1 \skip1 ti -- "que :" 
-ho -- lau -- caus -- tis "non " de -- lec -- "ta" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
+ho -- lo -- caus -- tis "non " de -- lec -- "ta" --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 be -- "ris."
 }
 
 CIICantusIVXIX=\relative do''{
