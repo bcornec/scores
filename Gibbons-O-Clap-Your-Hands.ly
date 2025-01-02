@@ -40,14 +40,14 @@
     }
 PartPOneVoiceOne =  \relative e' {
     \clef "treble" \time 2/2 \key a \major | % 1
-    r1*2 ^\markup{ \tiny {Secunda pars on Page 9} } | % 2
+    R1 R1 ^\markup{ \tiny {Secunda pars on Page 9} } | % 2
     e2 e4 e4 fis2 fis2 | % 3
     gis1 e2 a2 ~ \break | % 4
     a2 fis2 b2 gis2 | % 5
     cis2 cis4 cis4 cis2 cis2 | % 6
     d2. e4 fis2 e2 \pageBreak | % 7
-    e2 e1 e2 | % 8
-    e2 e2 R1*2 r2 b2 \break |
+    e2 e~ e e | % 8
+    e2 e2 R1 R1 r2 b2 \break |
     \barNumberCheck #10
     b1. b4 b4 | % 11
     b1. b4 b4 | % 12
@@ -56,17 +56,16 @@ PartPOneVoiceOne =  \relative e' {
     cis2 r2 R1 | % 14
     r2 e,4 e4 a2 b2 | % 15
     cis2 a2 d2 b2 \break | % 16
-    cis2 b2. e,4 e'2 ~ | % 17
+    cis2 b2~ b4 e,4 e'2 ~ | % 17
     e2 cis2 b1 | % 18
     a2 r2 R1 \pageBreak | % 19
-    b2 cis2. b4 cis2 |
-    \barNumberCheck #20
+    b2 cis2~ cis4 b4 cis2 | \barNumberCheck #20
     d2 b2 fis'1 ~ | % 21
     fis2 e4 d4 cis1 \break | % 22
-    cis2 d1 b2 | % 23
+    cis2 d2~ d2 b2 | % 23
     a1 R1 | % 24
-    r1*2 \pageBreak | % 25
-    a2 b2. a4 b2 | % 26
+    R1 R1 \pageBreak | % 25
+    a2 b2~ b4 a4 b2 | % 26
     cis1 r2 cis2 | % 27
     b2 e,4 e'4 e2 dis2
     \break | % 28
@@ -80,14 +79,14 @@ PartPOneVoiceOne =  \relative e' {
     ~ | % 35
     b2 a2. a4 gis2 | % 36
     b2 e,2 e'1 \pageBreak | % 37
-    r1*2 | % 38
-    r1*2 | % 39
+    R1 R1 | % 38
+    R1 R1 | % 39
     R1 r2 b2 \break | \barNumberCheck #40
     gis2 e2 e'2. d4 | % 41
     cis2. b4 a2. gis4 | % 42
     fis2 b1 a2 \pageBreak | % 43
     gis2 gis4 gis4 a2 fis2 | % 44
-    r1*2 | % 45
+    R1 R1 | % 45
     r2 b4 b4 cis2 d4 d4
     \break | % 46
     e2 fis2 e1 ~ | % 47
@@ -101,8 +100,8 @@ PartPOneVoiceOne =  \relative e' {
     fis4 \break | % 52
     e2 d4 cis4 b1 | % 53
     cis1 R1 | % 54
-    r1*2 \pageBreak | % 55
-    r1*2 | % 56
+    R1 R1 \pageBreak | % 55
+    R1 R1 | % 56
     a2 a4 a4 d1 | % 57
     e4 fis4 g4 e4 fis2
     fis4 fis4 \break | % 58
@@ -112,22 +111,22 @@ PartPOneVoiceOne =  \relative e' {
     e,2 e4 e4 a1 | % 62
     b4 cis4 d4 b4 cis2
     b4 a4 | % 63
-    d2 fis4 fis4 e2 \stemDown
+    d2 fis4 fis4 e2 
     cis4 cis4 \break | % 64
     b1 cis2 cis4 cis4 | % 65
     d2 cis2 r2 r4 cis4 | % 66
     fis2 e2 r2 r4 cis4 \pageBreak | % 67
     e2 b4 e4 e2 dis2 | % 68
-    e1 R1*2 r2 b4 b4 \break | \barNumberCheck #70
+    e1 R1 R1 r2 b4 b4 \break | \barNumberCheck #70
     cis2 b2 r2 r4 b4 | % 71
     cis2 b2 r2 r4 b4 | % 72
     cis2 e2 e2 dis2 \pageBreak | % 73
-    e2 r2 R1*2 r4 e4 d4 cis4 | % 75
+    e2 r2 R1 R1 r4 e4 d4 cis4 | % 75
     b2. cis4 a2 r2 \break | % 76
     R1 r2 cis2 | % 77
     d2 e4 fis4 e2 d2 | % 78
     d2 cis2 d2 r2 \pageBreak | % 79
-    r1*2 | \barNumberCheck #80
+    R1 R1 | \barNumberCheck #80
     r2 e4 e4 cis2 a2 | % 81
     a4 b4 cis4 a4 b1 \break | % 82
     a2 a2 b2 cis4 cis4 | % 83
@@ -147,36 +146,36 @@ PartPOneVoiceOne =  \relative e' {
     R1 e2 a4 a4 | % 96
     e'1 cis2 b4 a4 | % 97
     b2 e,2 e'2. e4 \pageBreak | % 98
-    e1 R1*2 r2 cis2 | \barNumberCheck #100
+    e1 R1 R1 r2 cis2 | \barNumberCheck #100
     cis2 b4 a4 e'2 d4
     cis4 \break | % 101
     fis2 e2 R1 | % 102
-    r1*2 | % 103
+    R1 R1 | % 103
     r2 cis2 b4 e2 dis4 | % 104
     e2 fis4 fis4 e2 d4
     d4 \pageBreak | % 105
-    cis1 R1*2 r2 e2 ~ | % 107
-    e4 fis4 dis2 e2 \stemDown
+    cis1 R1 R1 r2 e2 ~ | % 107
+    e4 fis4 dis2 e2 
     cis2 \break | % 108
     fis2 b,2 cis2 a4 fis4
     | % 109
     b2 r2 r2 e2 ~ | \barNumberCheck #110
-    e4 fis4 dis2 e2. \stemDown
+    e4 fis4 dis2 e2. 
     cis4 \pageBreak | % 111
     d2 b2 r2 cis2 | % 112
     b1. b2 | % 113
     b2 b2 cis2 b2 \break | % 114
     a2 r2 r2 e'2 | % 115
     cis2 e2 e2 dis2 | % 116
-    e1 R1*2 r2 cis4 cis4 \pageBreak | % 118
+    e1 R1 R1 r2 cis4 cis4 \pageBreak | % 118
     d2 e2 fis2 e2 | % 119
     a,2 cis2 fis,2 a2 |
     \barNumberCheck #120
     R1 r2 e'4 e4 \break | % 121
     d2 cis2 fis2 e2 | % 122
     d4 d4 cis2 fis,2 r2 | % 123
-    r1*2 \pageBreak | % 124
-    r1*2 | % 125
+    R1 R1 \pageBreak | % 124
+    R1 R1 | % 125
     r2 e'2 fis4 fis4 b,2 | % 126
     b1 R1 \break | % 127
     r2 cis2 cis2 cis2 | % 128
@@ -191,11 +190,11 @@ PartPOneVoiceOne =  \relative e' {
 
 PartPOneVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
     clap your hands to -- ge -- ther "all " ____ ye peo -- "ple," O clap
-    your hands to -- ge -- ther all ye peo -- "ple," ye peo -- "ple." O
+    your hands to -- ge -- ther all ye peo -- "ple," __\skip1 ye peo -- "ple." O
     sing un -- to God with the voice of me -- lo -- "dy." For the Lord
-    is high and to be fear -- "ed," and "to " ____ be fear -- "ed." He
-    is the great King of "all " ____ "the " ____ "earth," of all the
-    "earth," he is the great "King," the great King of all the "earth."
+    is high and to be fear -- "ed," __\skip1 and "to " ____ be fear -- "ed." He
+    is __\skip1 the great King of "all " ____ "the " ____ "earth," of all __\skip1 the
+    "earth," he is __\skip1 the great "King," the great King of all the "earth."
     "He " ____ shall sub -- "due," he shall sub -- due the peo -- "ple,"
     the peo -- ple un -- der "us," and the na -- "tions " ____ un -- der
     our "feet," our "feet." He shall choose out an he -- ri -- tage for
@@ -226,35 +225,34 @@ PartPOneVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
 
 PartPTwoVoiceOne =  \relative e' {
     \clef "treble" \time 2/2 \key a \major | % 1
-    r1*2 | % 2
-    r1*2 | % 3
+    R1 R1 | % 2
+    R1 R1 | % 3
     e2 e4 d4 cis2 e2 ~ \break | % 4
     e2 dis2 e1 | % 5
     R1 a2 a4 a4 | % 6
     a2. a4 a2 a2 \pageBreak | % 7
-    r2 a1 gis2 | % 8
+    r2 a~ a gis | % 8
     a2 a2 e2 e2 ~ | % 9
     e2 e4 fis4 g2 g4 a4
     \break | \barNumberCheck #10
-    b1. a4 g4 | % 11
+    b1~ b2 a4 g4 | % 11
     fis2 fis2 gis1 | % 12
-    gis2 fis1 eis2 \pageBreak | % 13
+    gis2 fis~ fis eis \pageBreak | % 13
     fis2 a2 fis2 gis2 ~ | % 14
-    gis4 e4 a1 gis2 | % 15
+    gis4 e4 a2~ a gis2 | % 15
     e2 fis2 d2 r2 \break | % 16
     cis4 cis4 d2 b2 e2 ~ | % 17
-    e4 b4 cis4 a4 b2 b2
-    | % 18
-    r1*2 \pageBreak | % 19
+    e4 b4 cis4 a4 b2 b2 | % 18
+    R1 R1 \pageBreak | % 19
     r2 e2 fis2. e4 | \barNumberCheck #20
     fis2 gis2 a2 d,2 ~ | % 21
     d2 b2 e2 cis2 ~ \break | % 22
-    cis2 fis1 e4 d4 | % 23
+    cis2 fis2~ fis2 e4 d4 | % 23
     cis2 cis2 fis2. e4 | % 24
     fis2 gis2 a2. gis4 \pageBreak | % 25
     fis2 d2 e1 | % 26
-    r1*2 | % 27
-    r1*2 \break | % 28
+    R1 R1 | % 27
+    R1 R1 \break | % 28
     r2 e1 e4 e4 | % 29
     e1 r2 e2 ~ | \barNumberCheck #30
     e2 e4 e4 e1 \pageBreak | % 31
@@ -280,7 +278,7 @@ PartPTwoVoiceOne =  \relative e' {
     \pageBreak | % 49
     R1 e'2 e4 fis4 | \barNumberCheck #50
     gis2 fis4 gis4 a2 fis2 | % 51
-    e2 e4 fis4 fis4 gis4 \stemUp
+    e2 e4 fis4 fis4 gis4 
     a4 fis4 \break | % 52
     b2 a2 a2 gis2 | % 53
     a2. a4 fis2 b2 ~ | % 54
@@ -289,7 +287,7 @@ PartPTwoVoiceOne =  \relative e' {
     fis4 e4 d2 cis2. b4 | % 56
     a2 d1 b2 | % 57
     e1 d1 \break | % 58
-    r1*2 | % 59
+    R1 R1 | % 59
     d2 d4 d4 g1 | \barNumberCheck #60
     a4 b4 c4 a4 b1 ~ \pageBreak | % 61
     b2 g4 g4 fis1 ~ | % 62
@@ -329,17 +327,17 @@ PartPTwoVoiceOne =  \relative e' {
     d2 e2 fis1 \pageBreak | % 91
     r2 e2 a,2 d4 b4 | % 92
     cis2 cis2 b2 fis'2 | % 93
-    fis4 fis4 fis4 e4 d2 \stemUp
+    fis4 fis4 fis4 e4 d2 
     cis2 \break | % 94
     b2 b2 cis1 ~ | % 95
     cis2 fis2 e1 | % 96
     e1 a1 | % 97
     gis2 a1 gis2 \pageBreak | % 98
-    a1 R1*2 r2 e2 | \barNumberCheck #100
+    a1 R1 R1 r2 e2 | \barNumberCheck #100
     e2 e4 a,4 a'2 fis4 a4
     \break | % 101
     a2 a2 R1 | % 102
-    r1*2 | % 103
+    R1 R1 | % 103
     r2 e4 e4 b'2 a2 | % 104
     gis2 fis4 fis4 gis4 a4
     b2 \pageBreak | % 105
@@ -347,7 +345,7 @@ PartPTwoVoiceOne =  \relative e' {
     e2. fis4 d2 e2 | % 107
     cis2 fis2 b,2 cis2 \break | % 108
     R1 a'2. b4 | % 109
-    gis2 a4 a4 fis2 gis4 \stemUp
+    gis2 a4 a4 fis2 gis4 
     gis4 | \barNumberCheck #110
     e4 cis4 fis2 r2 e2 \pageBreak | % 111
     d2 fis2 e2 r2 | % 112
@@ -379,12 +377,12 @@ PartPTwoVoiceOne =  \relative e' {
 
 PartPTwoVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
     clap your hands to --\skip1 ge -- "ther," O clap your hands to -- ge
-    -- ther all ye peo -- "ple." O "sing " ____ un -- to God with the
-    voice "of " ____ me -- lo -- "dy," of me -- lo -- "dy." For the
-    "Lord " ____ is high and to be "feared," for the Lord is "high "
+    -- ther all __\skip1 ye peo -- "ple." O "sing " ____ un -- to God with the
+    voice __\skip1 "of " ____ me -- lo -- "dy," of me -- \skip1 lo -- "dy." For the
+    "Lord " ____ is high __\skip1 and to be "feared," for the Lord is "high "
     ____ and to be fear -- "ed." He is the great King of "all " ____ the
-    "earth," "of " ____ all "the " ____ "earth," he is the great King of
-    "all " ____ the "earth." He shall sub -- "due," "he " ____ shall sub
+    "earth," "of " ____ all __\skip1 "the " ____ "earth," he is the great King of __\skip1
+    all the "earth." He shall sub -- "due," "he " ____ shall sub
     -- "due," he shall sub -- due the peo -- ple un -- "der " ____ "us,"
     and the na -- tions un --\skip1 der our "feet." He shall choose
     "out " ____ an he -- ri -- "tage " ____ "for " ____ "us, " ____ he
@@ -425,27 +423,27 @@ PartPThreeVoiceOne =  \relative a {
     a2 a2 gis2 gis2 | % 5
     e'2 e4 e4 cis2 a2 | % 6
     a2. cis4 a2 a2 \pageBreak | % 7
-    e2 e1 e2 | % 8
-    e2 e2 R1*2 r2 b'2 \break | \barNumberCheck
+    e2 e~ e e | % 8
+    e2 e2 R1 R1 r2 b'2 \break | \barNumberCheck
     #10
     g4 g4 g2 b1 ~ | % 11
     b2 b4 b4 b2. b4 | % 12
     e,2 a2 gis2 gis2 \pageBreak | % 13
     fis1 R1 | % 14
     r2 cis'4 cis4 d2 b2 | % 15
-    e2 d1 e2 ~ \break | % 16
+    e2 d2~ d e ~ \break | % 16
     e4 cis4 fis2 e1 ~ | % 17
     e2 e2 r2 e2 | % 18
     a,2. gis4 a2 fis2 \pageBreak | % 19
-    e2 r2 R1*2 a2 b2 ~ | % 21
+    e2 r2 R1 R1 a2 b2 ~ | % 21
     b4 a4 b2 cis2. b4
     \break | % 22
     a2 fis2 b2. e,4 | % 23
     e1 R1 | % 24
-    r1*2 \pageBreak | % 25
+    R1 R1 \pageBreak | % 25
     R1 e2 e'2 ~ | % 26
     e4 d4 e2 fis2 e2 | % 27
-    d4 b4 b1 b2 \break | % 28
+    d4 b4 b2~ b2 b2 \break | % 28
     b1 r2 e2 ~ | % 29
     e2 e4 e4 e1 | \barNumberCheck #30
     r2 e1 e4 e4 \pageBreak | % 31
@@ -462,7 +460,7 @@ PartPThreeVoiceOne =  \relative a {
     cis4 b4 a1 a2 | % 42
     b2. b4 e,2 fis2 \pageBreak | % 43
     gis1 fis1 | % 44
-    r1*2 | % 45
+    R1 R1 | % 45
     R1 r2 fis'4 fis4 \break | % 46
     e2 d1 cis2 | % 47
     b2 a2 b2 cis4 d4 | % 48
@@ -480,7 +478,7 @@ PartPThreeVoiceOne =  \relative a {
     a2 fis1 b2 | % 57
     e,1 d2 d'2 \break | % 58
     g,2. b4 e,1 | % 59
-    r1*2 | \barNumberCheck #60
+    R1 R1 | \barNumberCheck #60
     a2 a4 a4 d1 \pageBreak | % 61
     e4 fis4 g4 e4 fis2.
     e4 | % 62
@@ -491,17 +489,17 @@ PartPThreeVoiceOne =  \relative a {
     fis2 e2 r2 r4 e4 | % 66
     d2 cis2 r2 r4 cis4 \pageBreak | % 67
     b2 e4 b4 cis2 b2 | % 68
-    b1 R1*2 r2 e4 e4 \break | \barNumberCheck #70
+    b1 R1 R1 r2 e4 e4 \break | \barNumberCheck #70
     cis2 e2 r2 r4 e4 | % 71
     cis2 e2 r2 r4 d4 | % 72
     cis4 b4 cis4 e4 b1
     \pageBreak | % 73
-    r1*2 | % 74
+    R1 R1 | % 74
     r4 b4 cis4 e4 a,2. a4
     | % 75
     b1 r4 cis4 d4 e4 \break | % 76
     e2 e2 e1 | % 77
-    r1*2 | % 78
+    R1 R1 | % 78
     r2 e2 a,2 a4 b4 \pageBreak | % 79
     cis2 gis2 b2 b2 |
     \barNumberCheck #80
@@ -509,15 +507,15 @@ PartPThreeVoiceOne =  \relative a {
     r2 cis4 cis4 fis2 e2 ~
     \break | % 82
     e4 d4 cis2 b2 e,2 | % 83
-    fis4 g4 a4 fis4 b2 \stemUp
+    fis4 g4 a4 fis4 b2 
     a2 | % 84
     g1 a1 \pageBreak | % 85
     b2 a1 gis2 ~ | % 86
     gis2 e2. e4 fis2 ~ | % 87
     fis2 d2 e2 fis2 \break | % 88
     r4 cis4 cis'2 cis1 | % 89
-    r1*2 | \barNumberCheck #90
-    r1*2 \pageBreak | % 91
+    R1 R1 | \barNumberCheck #90
+    R1 R1 \pageBreak | % 91
     r2 cis2 fis4 fis4 fis2 | % 92
     fis2. e4 d2 b2 | % 93
     d2 fis2 b,2 cis2 \break | % 94
@@ -525,18 +523,18 @@ PartPThreeVoiceOne =  \relative a {
     r2 a2 cis4 cis4 cis2 | % 96
     a2 b2 a1 | % 97
     e'1. b2 \pageBreak | % 98
-    a1 R1*2 r2 cis2 | \barNumberCheck #100
-    cis2 e4 fis4 e4 \stemDown
+    a1 R1 R1 r2 cis2 | \barNumberCheck #100
+    cis2 e4 fis4 e4 
     cis4 d4 e4 \break | % 101
     fis4 d4 e2 R1 | % 102
-    r1*2 | % 103
+    R1 R1 | % 103
     r2 cis4 cis4 e2 a,2 | % 104
     b2 b2 e4 cis4 d4
     b4 \pageBreak | % 105
     cis1 R1 | % 106
-    r1*2 | % 107
+    R1 R1 | % 107
     R1 e2. fis4 \break | % 108
-    dis2 e4 d4 cis2 \stemDown
+    dis2 e4 d4 cis2 
     fis4 fis4 | % 109
     b,2 cis2 b1 | \barNumberCheck #110
     r2 b2. cis4 a2 \pageBreak | % 111
@@ -547,12 +545,12 @@ PartPThreeVoiceOne =  \relative a {
     cis2 r2 r2 b2 | % 115
     cis2 b2 b2. b4 | % 116
     b2 r2 R1 | % 117
-    r1*2 \pageBreak | % 118
-    r1*2 | % 119
+    R1 R1 \pageBreak | % 118
+    R1 R1 | % 119
     R1 r2 cis4 cis4 | \barNumberCheck #120
     d2 e2 fis2 e2 \break | % 121
     a,2. a4 d2 e2 | % 122
-    a,1 R1*2 r2 e'2 \pageBreak | % 124
+    a,1 R1 R1 r2 e'2 \pageBreak | % 124
     cis4 cis4 e2 b1 | % 125
     r2 b2 b4 b4 b2 | % 126
     b2 b2 cis2 d2 \break | % 127
@@ -567,13 +565,13 @@ PartPThreeVoiceOne =  \relative a {
     }
 
 PartPThreeVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
-    clap your hands to -- ge -- ther all "ye " __\skip1 __ peo -- "ple,"
+    clap your hands to -- ge -- \skip1 ther all "ye " __\skip1 __ peo -- "ple,"
     "all " ____ ye peo -- "ple," O clap your hands to -- ge -- ther all
-    ye peo -- "ple," ye peo -- "ple." O sing un -- to "God " ____ with
-    the "voice," the voice of me -- lo -- "dy." For the Lord is high and
-    "to " ____ "be " ____ fear --\skip1 "ed." He is the "great " ____
-    "King," he "is " ____ the great "King " __\skip1 __ of all the
-    "earth," he "is " ____ the great King of all the "earth," the
+    ye peo -- "ple," __\skip1 ye peo -- "ple." O sing un -- to "God " ____ with
+    the "voice," the voice of me -- lo -- "dy." For the Lord is high and __\skip1
+    "to " ____ be  __\skip1 fear --\skip1 "ed." He is the "great " ____
+    "King," he "is " ____ the great "King " __\skip1 \skip1 __ of all the
+    "earth," he "is " ____ the great King of all the "earth," __\skip1 the
     "earth." "He " ____ shall sub -- "due," he shall sub -- due the peo
     -- "ple," the peo -- ple un -- der "us," and the na --\skip1
     "tions " ____ un -- der "our " ____ "feet." He shall choose out an
@@ -605,11 +603,11 @@ PartPThreeVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
 
 PartPFourVoiceOne =  \relative a {
     \clef "bass" \time 2/2 \key a \major | % 1
-    r1*2 | % 2
-    a2 a4 gis4 fis2 \stemDown
+    R1 R1 | % 2
+    a2 a4 gis4 fis2 
     fis2 | % 3
     e2 e2 R1 \break | % 4
-    r1*2 | % 5
+    R1 R1 | % 5
     a,2 a4 a4 a2 a2 | % 6
     d2. cis4 d2 a'2 \pageBreak | % 7
     gis2 a2 e1 | % 8
@@ -620,15 +618,15 @@ PartPFourVoiceOne =  \relative a {
     | % 11
     b2 b2 e2. e4 | % 12
     cis2 fis2 cis'1 \pageBreak | % 13
-    r1*2 | % 14
+    R1 R1 | % 14
     R1 r2 e,2 | % 15
-    cis2 d2. b4 e2 \break | % 16
+    cis2 d2~ d4 b4 e2 \break | % 16
     a,2 b2 gis2 a2 | % 17
-    e'1. e2 | % 18
-    r1*2 \pageBreak | % 19
-    r1*2 | \barNumberCheck #20
+    e'1~ e2 e2 | % 18
+    R1 R1 \pageBreak | % 19
+    R1 R1 | \barNumberCheck #20
     r2 e2 fis2. e4 | % 21
-    fis2 gis4 gis4 a2. \stemDown
+    fis2 gis4 gis4 a2. 
     gis4 \break | % 22
     fis4 e4 d4 cis4 b2
     e2 | % 23
@@ -645,13 +643,13 @@ PartPFourVoiceOne =  \relative a {
     g,2 g2 a2 a2 | % 33
     d2 r2 r2 e4 e4 \break | % 34
     a2 e2 cis4 cis4 d2 | % 35
-    e2 r2 R1*2 r2 e2 \pageBreak | % 37
+    e2 r2 R1 R1 r2 e2 \pageBreak | % 37
     cis2 a2 a'2. gis4 | % 38
     fis2. e4 d1 ~ | % 39
     d2 d2 e1 ~ \break | \barNumberCheck #40
     e1 R1 | % 41
-    r1*2 | % 42
-    r1*2 \pageBreak | % 43
+    R1 R1 | % 42
+    R1 R1 \pageBreak | % 43
     R1 r2 a4 a4 | % 44
     b2 cis4 cis4 d2 e,2
     | % 45
@@ -661,9 +659,9 @@ PartPFourVoiceOne =  \relative a {
     e2 a,2 e'1 ~ | % 48
     e1 a1 \bar "||"
     \pageBreak | % 49
-    r1*2 | \barNumberCheck #50
-    r1*2 | % 51
-    r1*2 \break | % 52
+    R1 R1 | \barNumberCheck #50
+    R1 R1 | % 51
+    R1 R1 \break | % 52
     R1 e2 e4 e4 | % 53
     a1 b4 cis4 d4 b4 | % 54
     cis2 b2 d2 cis2 \pageBreak | % 55
@@ -683,24 +681,24 @@ PartPFourVoiceOne =  \relative a {
     d2 a2 r2 r4 a4 | % 66
     d,2 a'2 r2 r4 a4 \pageBreak | % 67
     e2 e4 e4 a2 b2 | % 68
-    e,1 R1*2 r2 e4 e4 \break | \barNumberCheck #70
+    e,1 R1 R1 r2 e4 e4 \break | \barNumberCheck #70
     a2 e2 r2 r4 e4 | % 71
     a2 e2 r2 r4 b'4 | % 72
     a4 gis4 fis4 e4 b'1
     \pageBreak | % 73
-    r1*2 | % 74
+    R1 R1 | % 74
     r2 r4 e,4 d4 cis4 b4 a4
     | % 75
     e'1 r4 e4 fis4 a4 \break | % 76
     e2. e4 a,1 | % 77
-    r1*2 | % 78
+    R1 R1 | % 78
     r2 a'2 fis2 e4 d4 \pageBreak
     | % 79
     cis2 e2 b2 b2 | \barNumberCheck
     #80
     e1 R1 | % 81
     r2 cis4 cis4 d2 e2 \break | % 82
-    a,4 b4 cis4 a4 d2 \stemUp
+    a,4 b4 cis4 a4 d2 
     cis2 | % 83
     d4 e4 fis4 d4 g2
     fis2 | % 84
@@ -714,16 +712,16 @@ PartPFourVoiceOne =  \relative a {
     \pageBreak | % 91
     a'2 cis,2 d2 b2 | % 92
     fis'1 R1 | % 93
-    r1*2 \break | % 94
-    r1*2 | % 95
+    R1 R1 \break | % 94
+    R1 R1 | % 95
     r2 fis2 a4 a4 a2 | % 96
     a2 gis2 a2 fis2 | % 97
     e1 e1 \pageBreak | % 98
-    a,1 R1*2 r2 a'2 | \barNumberCheck #100
-    a2 gis4 fis4 cis'2 \stemDown
+    a,1 R1 R1 r2 a'2 | \barNumberCheck #100
+    a2 gis4 fis4 cis'2 
     b4 a4 \break | % 101
     d2 cis2 R1 | % 102
-    r1*2 | % 103
+    R1 R1 | % 103
     r2 a4 a4 gis2 fis2 | % 104
     e2 d4 d4 cis2 b4
     b4 \pageBreak | % 105
@@ -731,7 +729,7 @@ PartPFourVoiceOne =  \relative a {
     gis2 a4 a4 fis2 e2
     | % 107
     a,2 r2 R1 \break | % 108
-    r1*2 | % 109
+    R1 R1 | % 109
     e'2. fis4 d2 e4 e4
     | \barNumberCheck #110
     cis2 b2 e2 cis2 \pageBreak | % 111
@@ -741,14 +739,14 @@ PartPFourVoiceOne =  \relative a {
     a2 r2 r2 gis2 | % 115
     a2 e2 b'2 b2 | % 116
     e,1 R1 | % 117
-    r1*2 \pageBreak | % 118
-    r1*2 | % 119
-    r1*2 | \barNumberCheck #120
+    R1 R1 \pageBreak | % 118
+    R1 R1 | % 119
+    R1 R1 | \barNumberCheck #120
     r2 a4 a4 fis2 cis2 \break | % 121
     d2 a'2 fis2 cis2 | % 122
     d2 a2 R1 | % 123
-    r1*2 \pageBreak | % 124
-    r1*2 | % 125
+    R1 R1 \pageBreak | % 124
+    R1 R1 | % 125
     r2 e'2 dis4 dis4 e2 | % 126
     b2 r2 R1 \break | % 127
     r2 fis'2 eis2 fis2 | % 128
@@ -765,9 +763,9 @@ PartPFourVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
     clap your hands to -- ge -- "ther," O clap your hands to -- ge --
     ther all ye peo --\skip1 \skip1 "ple." O sing un -- to "God " ____
     with the voice of me -- lo -- "dy," of me -- lo -- "dy." For the
-    Lord is high "and " ____ to be fear -- "ed." He is the great King of
-    "all " __\skip1 \skip1 \skip1 \skip1 \skip1 __ the "earth," he "is "
-    ____ the great King of "all " __\skip1 __ the "earth," of all the
+    Lord __\skip1 is high "and " ____ to be fear -- \skip1 "ed." He is the great King of
+    "all " __\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 the "earth," he "is "
+    ____ the great King of "all " __\skip1 \skip1 the "earth," of all the
     "earth." "He " ____ shall sub -- "due," he shall sub -- due the peo
     -- ple un -- der "us," and the na -- tions un -- der our "feet." He
     shall choose out an he -- ri -- "tage " ____ for "us, " ____ "ev’n"
@@ -795,10 +793,10 @@ PartPFourVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
 
 PartPFiveVoiceOne =  \relative a' {
     \clef "treble" \time 2/2 \key a \major | % 1
-    r1*2 | % 2
+    R1 R1 | % 2
     R1 a2 a4 a4 | % 3
     b2 b2 cis2 cis2 \break | % 4
-    r1*2 | % 5
+    R1 R1 | % 5
     e2 e4 e4 e2 e2 | % 6
     fis2. e4 d2 cis2 \pageBreak
     | % 7
@@ -808,20 +806,20 @@ PartPFiveVoiceOne =  \relative a' {
     #10
     b2 cis2 dis2 e2 | % 11
     e2 dis2 e1 | % 12
-    r1*2 \pageBreak | % 13
+    R1 R1 \pageBreak | % 13
     r2 cis4 cis4 d2 b2 | % 14
-    e1 R1*2 r2 e2 ~ \break | % 16
+    e1 R1 R1 r2 e2 ~ \break | % 16
     e2 d1 cis2 | % 17
     b2 e,2 r2 b'2 | % 18
     cis2. b4 cis2 d4 d4
     \pageBreak | % 19
     e2 e2 a,1 ~ | \barNumberCheck #20
     a2 gis2 fis1 | % 21
-    r1*2 \break | % 22
+    R1 R1 \break | % 22
     R1 d'2 e2 ~ | % 23
     e4 d4 e2 fis1 | % 24
     r4 fis4 e4 d4 cis1 \pageBreak | % 25
-    r1*2 | % 26
+    R1 R1 | % 26
     a2 cis2. b4 cis2 | % 27
     d2 b2 b2 b2 \break | % 28
     b1 R1 | % 29
@@ -831,13 +829,13 @@ PartPFiveVoiceOne =  \relative a' {
     | % 32
     e4 d4 d1 cis2 | % 33
     d2 r2 r2 b4 b4 \break | % 34
-    cis2 b2 e4 cis4 \stemDown
+    cis2 b2 e4 cis4 
     fis2 | % 35
     e2. d4 cis2 b2 ~ | % 36
     b2 a2. a4 gis2 \pageBreak | % 37
     a1 R1 | % 38
-    r1*2 | % 39
-    r1*2 \break | \barNumberCheck #40
+    R1 R1 | % 39
+    R1 R1 \break | \barNumberCheck #40
     b2 gis2 e2 e'2 ~ | % 41
     e4 d4 cis2. b4 a2 | % 42
     d1 cis1 \pageBreak | % 43
@@ -848,11 +846,11 @@ PartPFiveVoiceOne =  \relative a' {
     gis4 e4 e'1 cis2 | % 48
     b1 cis1 \bar "||"
     \pageBreak | % 49
-    r1*2 | \barNumberCheck #50
-    r1*2 | % 51
-    r1*2 \break | % 52
-    r1*2 | % 53
-    r1*2 | % 54
+    R1 R1 | \barNumberCheck #50
+    R1 R1 | % 51
+    R1 R1 \break | % 52
+    R1 R1 | % 53
+    R1 R1 | % 54
     e,2 e4 e4 a1 \pageBreak | % 55
     b4 cis4 d4 b4 cis1 | % 56
     d4 e4 fis1 e4 d4 | % 57
@@ -870,23 +868,23 @@ PartPFiveVoiceOne =  \relative a' {
     e1 e1 | % 65
     r2 cis4 cis4 d2 cis2 | % 66
     r2 r4 cis4 fis2 e2 \pageBreak | % 67
-    r1*2 | % 68
+    R1 R1 | % 68
     r4 b4 e2 cis2 cis2 | % 69
     d2 cis2 b1 \break | \barNumberCheck #70
     r2 b4 b4 cis2 b2 | % 71
     r2 r4 b4 cis2 b2 | % 72
     R1 r2 b2 \pageBreak | % 73
     cis2 e2 e2 dis2 | % 74
-    e1 R1*2 r4 e4 d4 cis4 \break | % 76
+    e1 R1 R1 r4 e4 d4 cis4 \break | % 76
     b2 b2 cis1 | % 77
-    r1*2 | % 78
+    R1 R1 | % 78
     r2 e2 fis2 cis4 d4
     \pageBreak | % 79
     e2 b2 b2 b2 |
     \barNumberCheck #80
     b1 R1 | % 81
     r2 e4 e4 d2 b2 \break | % 82
-    cis4 d4 e4 cis4 \stemDown
+    cis4 d4 e4 cis4 
     fis2 e2 | % 83
     d2. d4 d2 d2 | % 84
     e4 fis4 g4 e4 fis2
@@ -896,7 +894,7 @@ PartPFiveVoiceOne =  \relative a' {
     fis1 r2 fis'2 ~ \break | % 88
     fis4 fis4 eis2 fis2.
     fis4 | % 89
-    r1*2 | \barNumberCheck #90
+    R1 R1 | \barNumberCheck #90
     r2 cis2 fis4 fis4 fis2
     \pageBreak | % 91
     fis2 e2 d2 d2 | % 92
@@ -911,12 +909,12 @@ PartPFiveVoiceOne =  \relative a' {
     | % 99
     e'2 d4 cis4 fis2 e2
     | \barNumberCheck #100
-    r1*2 \break | % 101
+    R1 R1 \break | % 101
     r2 cis2 b4 e2 dis4 | % 102
     e2 fis4 fis4 e2 d4
     d4 | % 103
     cis2 r2 R1 | % 104
-    r1*2 \pageBreak | % 105
+    R1 R1 \pageBreak | % 105
     r2 e2. fis4 dis2 | % 106
     e2 cis2 fis2 b,2 | % 107
     cis2 r2 R1 \break | % 108
@@ -928,7 +926,7 @@ PartPFiveVoiceOne =  \relative a' {
     fis2 e1 dis2 | % 113
     e1 r2 b2 \break | % 114
     cis2 b2 b1 | % 115
-    r1*2 | % 116
+    R1 R1 | % 116
     r2 e2 d2 cis2 | % 117
     b2. b4 cis1 \pageBreak | % 118
     r2 cis4 cis4 d2 e2 | % 119
@@ -988,8 +986,8 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
 
 PartPSixVoiceOne =  \relative e' {
     \clef "treble" \time 2/2 \key a \major | % 1
-    r1*2 | % 2
-    r1*2 | % 3
+    R1 R1 | % 2
+    R1 R1 | % 3
     R1 e2 e4 e4 \break | % 4
     fis2 fis2 gis2 e2 | % 5
     a2 a4 a4 a2 a2 | % 6
@@ -1007,13 +1005,13 @@ PartPSixVoiceOne =  \relative e' {
     a1 fis2 gis2 \break | % 16
     fis1 b,2 cis4 d4 | % 17
     e1 R1 | % 18
-    e2 fis2. e4 fis2 \pageBreak | % 19
-    gis2 a2. b4 a2 | \barNumberCheck
+    e2 fis2~ fis4 e4 fis2 \pageBreak | % 19
+    gis2 a2~ a4 b4 a2 | \barNumberCheck
     #20
     d,2 e2 fis1 | % 21
     R1 r2 e2 \break | % 22
     fis2. e4 fis2 gis2 | % 23
-    a2 a2. gis4 fis2 ~ | % 24
+    a2 a2~ a4 gis4 fis2 ~ | % 24
     fis4 fis4 b,2 e2 fis2 ~
     \pageBreak | % 25
     fis4 e4 fis2 gis1 | % 26
@@ -1028,7 +1026,7 @@ PartPSixVoiceOne =  \relative e' {
     d2 r2 r2 e4 e4 \break | % 34
     e2 e2 e4 a4 fis2 | % 35
     b2 e,2 e1 | % 36
-    r1*2 \pageBreak | % 37
+    R1 R1 \pageBreak | % 37
     r2 e2 cis2 a2 | % 38
     a'2. gis4 fis2. e4 | % 39
     fis4 gis4 a2 gis2. fis4
@@ -1038,18 +1036,18 @@ PartPSixVoiceOne =  \relative e' {
     fis4 e4 d4 b4 e2 cis2
     \pageBreak | % 43
     cis1 r2 cis4 cis4 | % 44
-    fis2 e4 e4 fis2 gis4 \stemUp
+    fis2 e4 e4 fis2 gis4 
     gis4 | % 45
     a2 b2 a2 fis2 \break | % 46
     a4 e4 r2 R1 | % 47
     r4 b4 cis4 d4 e1 ~ | % 48
     e2 e2 e2 e2 \bar "||"
     \pageBreak | % 49
-    r1*2 | \barNumberCheck #50
-    r1*2 | % 51
-    r1*2 \break | % 52
-    r1*2 | % 53
-    r1*2 | % 54
+    R1 R1 | \barNumberCheck #50
+    R1 R1 | % 51
+    R1 R1 \break | % 52
+    R1 R1 | % 53
+    R1 R1 | % 54
     R1 a,2 a4 a4 \pageBreak | % 55
     d1 e4 fis4 g4 e4 | % 56
     fis1. fis4 fis4 | % 57
@@ -1069,7 +1067,7 @@ PartPSixVoiceOne =  \relative e' {
     a2 a2 gis2 r2 \break | \barNumberCheck #70
     r2 gis4 gis4 a2 gis2 | % 71
     r2 r4 gis4 a2 gis2 | % 72
-    r1*2 \pageBreak | % 73
+    R1 R1 \pageBreak | % 73
     r4 b4 a4 gis4 fis2 fis2 | % 74
     e1 r4 cis4 d4 e4 | % 75
     e2 e2 fis4 e4 a2 ~ \break | % 76
@@ -1080,7 +1078,7 @@ PartPSixVoiceOne =  \relative e' {
     \pageBreak | % 79
     e2 gis2 fis1 | \barNumberCheck #80
     gis1 a1 | % 81
-    r1*2 \break | % 82
+    R1 R1 \break | % 82
     R1 r2 a4 a4 | % 83
     fis2 d2 d4 e4 fis4 d4
     | % 84
@@ -1095,7 +1093,7 @@ PartPSixVoiceOne =  \relative e' {
     a2 a2 a2 a2 \pageBreak | % 91
     a2. gis4 fis4 fis4 b2 ~ | % 92
     b2 ais2 b1 | % 93
-    r1*2 \break | % 94
+    R1 R1 \break | % 94
     R1 r2 fis2 | % 95
     a4 a4 a2 a2 a2 | % 96
     a2 e2 e2 fis2 | % 97
@@ -1103,17 +1101,17 @@ PartPSixVoiceOne =  \relative e' {
     e2 e2 e2 e4 a,4 | % 99
     a'2 fis4 a4 a2 a2 |
     \barNumberCheck #100
-    r1*2 \break | % 101
+    R1 R1 \break | % 101
     r2 e4 e4 b'2 a2 | % 102
-    gis2 a4 fis4 gis4 a2 \stemUp
+    gis2 a4 fis4 gis4 a2 
     gis4 | % 103
     a2 r2 R1 | % 104
-    r1*2 \pageBreak | % 105
+    R1 R1 \pageBreak | % 105
     r2 e4 e4 a2 fis4 fis4 | % 106
     b2 a2 R1 | % 107
     a2. b4 gis2 a2 \break | % 108
     fis2 b2 a2 r2 | % 109
-    r1*2 | \barNumberCheck #110
+    R1 R1 | \barNumberCheck #110
     a2. b4 gis2 a2 \pageBreak | % 111
     fis2. b4 gis2 a2 | % 112
     fis2 b2 b1 | % 113
@@ -1121,7 +1119,7 @@ PartPSixVoiceOne =  \relative e' {
     e2 gis2 fis2 gis2 | % 115
     e2 e2 fis2 fis2 | % 116
     e1 R1 | % 117
-    r1*2 \pageBreak | % 118
+    R1 R1 \pageBreak | % 118
     r2 a4 a4 d,2 cis2 | % 119
     d2 a2 d2 e2 | \barNumberCheck #120
     fis2 e2 a,2 a2 \break | % 121
@@ -1132,7 +1130,7 @@ PartPSixVoiceOne =  \relative e' {
     a2 gis2 fis1 | % 125
     gis2 gis2 fis4 fis4 e2 | % 126
     dis2 fis2 fis2 fis2 \break | % 127
-    fis1 R1*2 r2 fis2 | % 129
+    fis1 R1 R1 r2 fis2 | % 129
     a4 a4 a2 a1 \pageBreak | \barNumberCheck
     #130
     b2 e,1 e2 | % 131
@@ -1145,9 +1143,9 @@ PartPSixVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
     clap your hands to -- ge -- "ther," O clap your hands to -- ge --
     ther all "ye " ____ peo -- "ple." O sing un -- to "God " ____ with
     the voice of me -- lo -- "dy," of me -- lo -- "dy." For the Lord is
-    high and to be fear -- "ed," and to be fear --\skip1 "ed." He is
-    "the " ____ great King "of " ____ all the "earth," he is "the " ____
-    great King of "all " __\skip1 __ the "earth," he "is " ____ the
+    high and to be fear -- "ed," and to be fear --\skip1 "ed." He is \skip1 
+    the great King "of " __\skip1 \skip1 \skip1 all the "earth," he is the
+    great King of "all " __\skip1 \skip1 the __\skip1 \skip1 "earth," he is __\skip1 the
     great "King," he is the great King "of " ____ all the "earth." "He "
     ____ shall sub -- "due," he shall sub -- due the peo -- ple un --
     der "us," and the na -- tions un -- der our "feet," our "feet." He
@@ -1180,9 +1178,9 @@ PartPSixVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
 
 PartPSevenVoiceOne =  \relative a {
     \clef "treble_8" \time 2/2 \key a \major \transposition c | % 1
-    r1*2 | % 2
-    r1*2 | % 3
-    r1*2 \break | % 4
+    R1 R1 | % 2
+    R1 R1 | % 3
+    R1 R1 \break | % 4
     a2 a4 a4 b2 b2 | % 5
     cis2 cis2 e2 e4 e4
     | % 6
@@ -1196,18 +1194,18 @@ PartPSevenVoiceOne =  \relative a {
     e,4 | % 11
     b'1 r2 b4 b4 | % 12
     cis1. cis2 \pageBreak | % 13
-    cis2 fis4 fis4 d2 \stemDown
+    cis2 fis4 fis4 d2 
     e2 | % 14
     cis2 a2 r2 gis4 gis4 | % 15
     a2 fis2 b1 \break | % 16
     r2 b2 b2 a2 | % 17
     b4 gis4 a4 cis4 e1 | % 18
-    r1*2 \pageBreak | % 19
-    e2 a,2. gis4 a2 | \barNumberCheck
+    R1 R1 \pageBreak | % 19
+    e2 a,2~ a4 gis4 a2 | \barNumberCheck
     #20
     fis2 b2 d1 | % 21
     d,1 e1 \break | % 22
-    r1*2 | % 23
+    R1 R1 | % 23
     R1 cis'2 d2 ~ | % 24
     d4 d4 e2 e2 cis2
     \pageBreak | % 25
@@ -1243,12 +1241,12 @@ PartPSevenVoiceOne =  \relative a {
     e'2 ~ | % 48
     e2 e,2 e1 \bar "||"
     \pageBreak | % 49
-    r1*2 | \barNumberCheck #50
-    r1*2 | % 51
-    r1*2 \break | % 52
-    r1*2 | % 53
-    r1*2 | % 54
-    r1*2 \pageBreak | % 55
+    R1 R1 | \barNumberCheck #50
+    R1 R1 | % 51
+    R1 R1 \break | % 52
+    R1 R1 | % 53
+    R1 R1 | % 54
+    R1 R1 \pageBreak | % 55
     R1 e2 e4 e4 | % 56
     a1 b4 cis4 d4 b4 | % 57
     cis2 b4 a4 d4 e4
@@ -1263,13 +1261,13 @@ PartPSevenVoiceOne =  \relative a {
     e4 b4 e2 cis1 | % 65
     r2 e4 e4 fis2 e2 | % 66
     r2 r4 e4 d2 cis2 \pageBreak | % 67
-    r1*2 | % 68
+    R1 R1 | % 68
     r2 r4 e4 e2 cis4 cis4 | % 69
     fis2 e2 e2 r2 \break | \barNumberCheck
     #70
     r2 e4 e4 cis2 e2 | % 71
     r2 r4 e4 cis2 e2 | % 72
-    r1*2 \pageBreak | % 73
+    R1 R1 \pageBreak | % 73
     r4 b4 cis4 e4 b2 b2
     | % 74
     b2 r2 r4 e,4 fis4 a4 | % 75
@@ -1277,7 +1275,7 @@ PartPSevenVoiceOne =  \relative a {
     b1 a1 | % 77
     a2 e'4 b4 cis2 fis,2 | % 78
     a1. r2 \pageBreak | % 79
-    r1*2 | \barNumberCheck #80
+    R1 R1 | \barNumberCheck #80
     r2 b4 b4 cis4 d4 e4
     cis4 | % 81
     fis2 e2 b2 b2 \break | % 82
@@ -1295,18 +1293,18 @@ PartPSevenVoiceOne =  \relative a {
     r2 fis2 fis4 fis4 fis2 | % 93
     b,2 cis2 d2 e2 \break | % 94
     fis2 fis2 fis1 | % 95
-    r1*2 | % 96
-    r1*2 | % 97
-    r1*2 \pageBreak | % 98
+    R1 R1 | % 96
+    R1 R1 | % 97
+    R1 R1 \pageBreak | % 98
     r2 cis2 cis2 e4 fis4 | % 99
     e4 cis4 d4 e4 fis4
     d4 e2 | \barNumberCheck #100
-    r1*2 \break | % 101
+    R1 R1 \break | % 101
     r2 cis4 cis4 e2 a,2 | % 102
     b2 fis'4 d4 e2 fis4
     b,4 | % 103
     e2 r2 R1 | % 104
-    r1*2 \pageBreak | % 105
+    R1 R1 \pageBreak | % 105
     r2 a,4 gis4 fis2 fis4 fis4 | % 106
     e4 e4 cis'2 d2 b2 | % 107
     a2 r2 r2 a2 ~ \break | % 108
@@ -1314,16 +1312,16 @@ PartPSevenVoiceOne =  \relative a {
     e2 cis2 fis2 e2 | \barNumberCheck
     #110
     R1 r2 e'2 ~ \pageBreak | % 111
-    e4 fis4 dis2 e2 \stemDown
+    e4 fis4 dis2 e2 
     cis2 | % 112
     d2 b2 b1 | % 113
     b1 r2 e2 \break | % 114
     e2 e2 dis2 r2 | % 115
-    r1*2 | % 116
+    R1 R1 | % 116
     r2 cis2 b2 a2 | % 117
     b2 b2 a1 \pageBreak | % 118
-    r1*2 | % 119
-    r1*2 | \barNumberCheck #120
+    R1 R1 | % 119
+    R1 R1 | \barNumberCheck #120
     r2 cis4 cis4 d2 e2 \break | % 121
     fis2 e2 a,2. a4 | % 122
     d2 e2 fis2 e2 | % 123
@@ -1346,8 +1344,8 @@ PartPSevenVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
     clap your hands to -- ge -- "ther," O clap your hands to -- ge --
     ther all ye peo -- "ple," all ye peo -- "ple." O sing un -- to God
     with the voice of me -- lo -- "dy." For the Lord is high and "to "
-    ____ be fear -- "ed," for the Lord is "high," is high and to be fear
-    --\skip1 "ed." He is the great King of all the "earth," he "is "
+    be __\skip1 fear -- "ed," for the Lord is "high," is high and to be fear
+    --\skip1 "ed." He is __\skip1 the great King of all the "earth," he "is "
     ____ the great King of all the "earth," the "earth," the great King
     of all the "earth." He shall sub -- "due," "he " ____ shall sub --
     due the peo -- ple un --\skip1 der "us," un -- der "us," "and " ____
@@ -1380,34 +1378,34 @@ PartPSevenVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
 
 PartPEightVoiceOne =  \relative a {
     \clef "bass" \time 2/2 \key a \major | % 1
-    r1*2 | % 2
-    r1*2 | % 3
+    R1 R1 | % 2
+    R1 R1 | % 3
     R1 a2 a4 gis4 \break | % 4
     fis2 fis2 e2 e2 | % 5
     R1 a2 a4 a4 | % 6
     fis2. a4 d,2 a2 \pageBreak | % 7
     e'2 cis2 e1 | % 8
-    a,1 R1*2 r2 b'2 \break | \barNumberCheck #10
-    b1. b4 b4 | % 11
-    b1. gis4 gis4 | % 12
+    a,1 R1 R1 r2 b'2 \break | \barNumberCheck #10
+    b1~ b2 b4 b4 | % 11
+    b1~ b2 gis4 gis4 | % 12
     cis2 fis,2 cis2 cis2 \pageBreak
     | % 13
     fis1 R1 | % 14
-    r1*2 | % 15
+    R1 R1 | % 15
     R1 r2 gis4 gis4 \break | % 16
     a2 fis2 b2 e,4 fis4
     | % 17
-    gis4 e4 a1 gis2 | % 18
-    r1*2 \pageBreak | % 19
+    gis4 e4 a2~ a gis2 | % 18
+    R1 R1 \pageBreak | % 19
     R1 r2 a,2 | \barNumberCheck #20
     d4 fis4 e2 d2. cis4
     | % 21
     b2 b2 a1 \break | % 22
-    a'2 b2. a4 b2 | % 23
-    cis4 b4 a4 gis4 \stemDown
+    a'2 b2~ b4 a4 b2 | % 23
+    cis4 b4 a4 gis4 
     fis4 e4 d4 cis4 | % 24
     b2 e2 a,1 \pageBreak | % 25
-    r1*2 | % 26
+    R1 R1 | % 26
     a2 a'2. gis4 a2 | % 27
     b2 gis2 fis2 fis2 \break | % 28
     e1 R1 | % 29
@@ -1419,29 +1417,29 @@ PartPEightVoiceOne =  \relative a {
     r2 gis4 gis4 a2 b2 | % 35
     gis2 a2 e1 ~ | % 36
     e1 e1 \pageBreak | % 37
-    r1*2 | % 38
-    r1*2 | % 39
-    r1*2 \break | \barNumberCheck #40
+    R1 R1 | % 38
+    R1 R1 | % 39
+    R1 R1 \break | \barNumberCheck #40
     r2 e2 cis2 a2 | % 41
     a'2. gis4 fis2. e4 | % 42
     d2 b2 cis1 \pageBreak | % 43
     cis1 fis1 | % 44
-    r1*2 | % 45
+    R1 R1 | % 45
     R1 r2 b,4 b4 \break | % 46
     cis2 d4 d4 e2. fis4
     | % 47
     gis2 a2 e1 ~ | % 48
     e1 a,1 \bar "||"
     \pageBreak | % 49
-    r1*2 | \barNumberCheck #50
-    r1*2 | % 51
-    r1*2 \break | % 52
-    r1*2 | % 53
+    R1 R1 | \barNumberCheck #50
+    R1 R1 | % 51
+    R1 R1 \break | % 52
+    R1 R1 | % 53
     a2 a4 a4 d1 | % 54
     e4 fis4 g4 e4 fis2.
     e4 \pageBreak | % 55
     d4 cis4 b2 a1 | % 56
-    r1*2 | % 57
+    R1 R1 | % 57
     R1 d2 d4 d4 \break | % 58
     g1 a4 b4 c4 a4 | % 59
     b2. a4 g2 e2 |
@@ -1456,7 +1454,7 @@ PartPEightVoiceOne =  \relative a {
     e'1 a,1 | % 65
     r2 a'4 a4 d2 a2 | % 66
     r2 r4 a4 d,2 a'2 \pageBreak | % 67
-    r1*2 | % 68
+    R1 R1 | % 68
     r2 r4 e4 a2 a4 a4 | % 69
     d,2 a'2 e1 \break | \barNumberCheck #70
     r2 e4 e4 a2 e2 | % 71
@@ -1473,11 +1471,11 @@ PartPEightVoiceOne =  \relative a {
     R1 r2 b'4 b4 | \barNumberCheck #80
     gis2 e2 a4 b4 cis4
     a4 | % 81
-    d2 cis2 fis,4 fis4 \stemDown
+    d2 cis2 fis,4 fis4 
     gis4 e4 \break | % 82
     a2 a2 R1 | % 83
-    r1*2 | % 84
-    r1*2 \pageBreak | % 85
+    R1 R1 | % 84
+    R1 R1 \pageBreak | % 85
     d,2 fis1 cis2 ~ | % 86
     cis2 e2. e4 b2 | % 87
     d1 a2 a2 \break | % 88
@@ -1490,22 +1488,22 @@ PartPEightVoiceOne =  \relative a {
     b2 ais2 b2 cis,2 \break | % 94
     d2 b2 fis'1 ~ | % 95
     fis1 R1 | % 96
-    r1*2 | % 97
-    r1*2 \pageBreak | % 98
+    R1 R1 | % 97
+    R1 R1 \pageBreak | % 98
     r2 a2 a2 gis4 fis4 | % 99
     cis'2 b4 a4 d2 cis2
     | \barNumberCheck #100
-    r1*2 \break | % 101
+    R1 R1 \break | % 101
     r2 a4 a4 gis2 fis2 | % 102
     e2 d'4 d4 cis2 b4
     b4 | % 103
     a2 r2 R1 | % 104
-    r2 b4 b4 e,4 a2 \stemDown
+    r2 b4 b4 e,4 a2 
     gis4 \pageBreak | % 105
     a1 R1 | % 106
     r2 a2. b4 gis2 | % 107
     a2 fis2 e2 a,2 \break | % 108
-    r1*2 | % 109
+    R1 R1 | % 109
     r2 a'2. b4 gis2 | \barNumberCheck #110
     a2 fis2 e4 e4 r2 \pageBreak
     | % 111
@@ -1513,17 +1511,17 @@ PartPEightVoiceOne =  \relative a {
     b2 gis2 fis1 | % 113
     e1 r2 e2 \break | % 114
     a2 e2 b'1 | % 115
-    r1*2 | % 116
+    R1 R1 | % 116
     r2 cis,2 d2 a2 | % 117
     e'2 e2 a,1 \pageBreak | % 118
-    r1*2 | % 119
-    r1*2 | \barNumberCheck #120
+    R1 R1 | % 119
+    R1 R1 | \barNumberCheck #120
     R1 r2 a'4 a4 \break | % 121
     fis2 cis2 d2 a'2 | % 122
     fis2 cis2 d2 a2 | % 123
-    r1*2 \pageBreak | % 124
-    r1*2 | % 125
-    r1*2 | % 126
+    R1 R1 \pageBreak | % 124
+    R1 R1 | % 125
+    R1 R1 | % 126
     r2 b'2 ais4 ais4 b2 \break | % 127
     fis2 fis2 cis'2 a2 | % 128
     gis2 gis2 fis2 r2 | % 129
@@ -1536,10 +1534,10 @@ PartPEightVoiceOne =  \relative a {
 
 PartPEightVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
     clap your hands to -- ge -- "ther," O clap your hands to -- ge --
-    ther all ye peo -- "ple." O sing un -- to God with the voice of me
-    -- lo -- "dy." For the Lord is high and "to " ____ be fear -- "ed."
-    He is the great King of all the "earth," he is the great King of
-    "all " __\skip1 \skip1 \skip1 \skip1 \skip1 __ the "earth," he is
+    ther all ye peo -- "ple." O sing __\skip1 un -- to God __\skip1 with the voice of me
+    -- lo -- "dy." For the Lord is high and to be __\skip1 fear -- \skip1 "ed."
+    He is the great King of all the "earth," he is __\skip1 the great King of
+    "all " __\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 the "earth," he is
     the great King of all the "earth." He shall sub -- "due," "he " ____
     shall sub -- due the peo -- ple un --\skip1 der "us," and the na --
     tions un -- der "our " ____ "feet." He shall choose out an he -- ri
