@@ -69,30 +69,27 @@ PartPOneVoiceOne =  \relative e' {
     cis1 r2 cis2 | % 27
     b2 e,4 e'4 e2 dis2
     \break | % 28
-    e1 r2 b2 ~ | % 29
+    e1 r2 b2 ~ | % 55
     b2 b4 b4 b1 | \barNumberCheck #30
-    r2 e1 e4 e4 \pageBreak | % 31
+    r2 e2~ e e4 e4 \pageBreak | % 31
     e2. a,4 a2 a2 | % 32
-    R1 r2 e'2 | % 33
-    fis2 fis2 e2. e4 \break | % 34
-    e2 gis,4 gis4 cis2 b2
-    ~ | % 35
-    b2 a2. a4 gis2 | % 36
-    b2 e,2 e'1 \pageBreak | % 37
-    R1 R1 | % 38
-    R1 R1 | % 39
-    R1 r2 b2 \break | \barNumberCheck #40
-    gis2 e2 e'2. d4 | % 41
-    cis2. b4 a2. gis4 | % 42
-    fis2 b1 a2 \pageBreak | % 43
-    gis2 gis4 gis4 a2 fis2 | % 44
-    R1 R1 | % 45
-    r2 b4 b4 cis2 d4 d4
-    \break | % 46
-    e2 fis2 e1 ~ | % 47
-    e2 cis2 b4 a4 a2 ~ | % 48
-    a2 gis2 a1 \bar "||"
-    \pageBreak | % 49
+    R1 r2 e'2 | 
+    fis2 fis2 e2. e4 \break |
+    e2 gis,4 gis4 cis2 b2~ | % 67
+    b2 a2~ a4 a4 gis2 |
+    b2 e,2 e'1 \pageBreak |
+    R1 R1 |
+    R1 R1 |
+    R1 r2 b2 \break | \barNumberCheck #77
+    gis2 e2 e'2. d4 | %79
+    cis2. b4 a2. gis4 | 
+    fis2 b2 b a2 \pageBreak | %
+    gis2 gis4 gis4 a2 fis2 | %85
+    R1 R1 | %87
+    r2 b8 b b4 cis2 d4 d4 \break | %89
+    e2 fis2 e1 ~ | %91-92
+    e2 cis2 b4 a4 a2 ~ | %93-94
+    a2 gis2 a1 \bar "||" \pageBreak | %95-96
     e2 ^\markup{ \italic {Secunda pars} } e4 e4
     a1 | \barNumberCheck #50
     b4 cis4 d4 b4 cis1 ~ | % 51
@@ -195,10 +192,10 @@ PartPOneVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
     is high and to be fear -- "ed," __\skip1 and "to " ____ be fear -- "ed." He
     is __\skip1 the great King of "all " ____ "the " ____ "earth," of all __\skip1 the
     "earth," he is __\skip1 the great "King," the great King of all the "earth."
-    "He " ____ shall sub -- "due," he shall sub -- due the peo -- "ple,"
-    the peo -- ple un -- der "us," and the na -- "tions " ____ un -- der
+    "He " ____ shall sub -- "due," he \skip1 shall sub -- due the peo -- "ple,"
+    the peo -- ple un -- der "us," and the na -- "tions " __\skip1 un -- \skip1 der
     our "feet," our "feet." He shall choose out an he -- ri -- tage for
-    "us," "ev’n" the wor -- ship of Ja -- "cob," "ev’n" the wor -- ship
+    "us," e -- ven the wor -- ship of Ja -- "cob," e -- ven the wor -- ship
     of Ja -- cob "whom " ____ he lov --\skip1 \skip1 \skip1 \skip1 "ed."
     God is gone up with a mer -- ry "noise, " ____ and the Lord with the
     sound of the trum -- "pet," God is gon up with a mer -- ry "noise,"
@@ -253,22 +250,22 @@ PartPTwoVoiceOne =  \relative e' {
     fis2 d2 e1 | % 26
     R1 R1 | % 27
     R1 R1 \break | % 28
-    r2 e1 e4 e4 | % 29
-    e1 r2 e2 ~ | \barNumberCheck #30
-    e2 e4 e4 e1 \pageBreak | % 31
-    r2 a1 a4 a4 | % 32
-    b2 b2 a1 | % 33
-    fis2 a2. a4 gis2 \break | % 34
-    a2 r2 r2 fis4 fis4 | % 35
-    b,2 e2 r2 e2 ~ | % 36
-    e4 d4 cis2 b1 \pageBreak | % 37
-    e2 cis2 a2 a'2 ~ | % 38
-    a4 gis4 fis2. e4 d2 ~ | % 39
-    d4 e4 fis2 e1 ~ \break | \barNumberCheck #40
-    e2 e2 e2 e2 | % 41
-    e2 e2 fis1 ~ | % 42
-    fis2 gis2. fis4 fis2 ~ \pageBreak | % 43
-    fis2 eis2 fis2 a2 ~ | % 44
+    r2 e2~ e e4 e4 | % 55-56
+    e1 r2 e2 ~ | \barNumberCheck #57
+    e2 e4 e4 e1 \pageBreak |
+    r2 a2~ a a4 a4 | % 61-62
+    b2 b2 a1 |
+    fis2 a2. a4 gis2 \break |
+    a2 r2 r2 fis4 fis4 |
+    b,2 e2 r2 e2 ~ |
+    e4 d4 cis2 b1 \pageBreak |
+    e2 cis2 a2 a'2 ~ |
+    a4 gis4 fis2~ fis4 e4 d2 ~ | % 75-76
+    d4 e4 fis2 e1 ~ \break | \barNumberCheck #77
+    e2 e2 e2 e2 |
+    e2 e2 fis1 ~ |
+    fis2 gis2~ gis4 fis4 fis2 ~ \pageBreak |
+    fis2 eis2 fis2 a2 | %85
     a2 gis2 fis2 e2 ~ | % 45
     e2 d2 cis2 b2 ~ \break | % 46
     b4 a4 fis4 b4 gis4 e4
@@ -382,12 +379,12 @@ PartPTwoVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
     "Lord " ____ is high __\skip1 and to be "feared," for the Lord is "high "
     ____ and to be fear -- "ed." He is the great King of "all " ____ the
     "earth," "of " ____ all __\skip1 "the " ____ "earth," he is the great King of __\skip1
-    all the "earth." He shall sub -- "due," "he " ____ shall sub
-    -- "due," he shall sub -- due the peo -- ple un -- "der " ____ "us,"
+    all the "earth." He \skip1 shall sub -- "due," "he " ____ shall sub
+    -- "due," he \skip1 shall sub -- due the peo -- ple un -- "der " ____ "us,"
     and the na -- tions un --\skip1 der our "feet." He shall choose
-    "out " ____ an he -- ri -- "tage " ____ "for " ____ "us, " ____ he
-    shall choose out an he --\skip1 ri --\skip1 "tage " ____ for "us,"
-    "ev’n " ____ the wor -- "ship " ____ of Ja -- "cob, " ____ the wor
+    "out " ____ an he -- \skip1 ri -- "tage " ____ "for " ____ "us, " ____ he
+    shall choose out an he --\skip1 ri --\skip1 \skip1 "tage " ____ for "us,"
+    e -- ven the wor -- "ship " ____ of Ja -- "cob, " ____ the wor
     -- ship "of " ____ Ja --\skip1 cob whom he lov -- "ed." God is gone
     up with a mer -- ry "noise," with a mer --\skip1 \skip1 ry "noise,"
     and the Lord with the sound "of " ____ the trum -- "pet," "and "
@@ -444,28 +441,27 @@ PartPThreeVoiceOne =  \relative a {
     R1 e2 e'2 ~ | % 26
     e4 d4 e2 fis2 e2 | % 27
     d4 b4 b2~ b2 b2 \break | % 28
-    b1 r2 e2 ~ | % 29
+    b1 r2 e2 ~ | % 55
     e2 e4 e4 e1 | \barNumberCheck #30
-    r2 e1 e4 e4 \pageBreak | % 31
-    cis2. cis4 a2 a2 | % 32
-    R1 r2 a2 | % 33
-    a2 d2 b2 b2 \break | % 34
-    a2 e'2. e4 d2 ~ | % 35
-    d2 cis4 a4 e'2 e,2 | % 36
-    gis2 a2 b1 \pageBreak | % 37
-    r2 e1 e4 e4 | % 38
-    fis2 cis2 d2. cis4 | % 39
-    b2 a2 e'1 \break | \barNumberCheck #40
-    R1 e2 cis2 ~ | % 41
-    cis4 b4 a1 a2 | % 42
-    b2. b4 e,2 fis2 \pageBreak | % 43
-    gis1 fis1 | % 44
-    R1 R1 | % 45
-    R1 r2 fis'4 fis4 \break | % 46
-    e2 d1 cis2 | % 47
-    b2 a2 b2 cis4 d4 | % 48
-    e2 e,2 e1 \bar "||"
-    \pageBreak | % 49
+    r2 e2~ e e4 e4 \pageBreak | % 31
+    cis2. cis4 a2 a2 |
+    R1 r2 a2 |
+    a2 d2 b2 b2 \break |
+    a2 e'2~ e4 e4 d2 ~ | % 67
+    d2 cis4 a4 e'2 e,2 | 
+    gis2 a2 b1 \pageBreak |
+    r2 e2~ e e4 e4 | %73-74
+    fis2 cis2 d2. cis4 | 
+    b2 a2 e'1 \break | \barNumberCheck #77
+    R1 e2 cis2 ~ | 
+    cis4 b4 a2~ a a2 | % 81
+    b2. b4 e,2 fis2 \pageBreak | %83
+    gis1 fis1 | %85
+    R1 R1 | %87 
+    R1 r2 fis'8 fis fis4 \break | %89 
+    e2 d2~ d cis2 | % 91
+    b2 a2 b2 cis4 d4 | %
+    e2 e,2 e1 \bar "||" \pageBreak | %95-96
     R1 a2 a4 a4 | \barNumberCheck #50
     e'2 d4 e4 a,2. a4 | % 51
     a2 gis4 fis4 b2 fis4
@@ -492,8 +488,7 @@ PartPThreeVoiceOne =  \relative a {
     b1 R1 R1 r2 e4 e4 \break | \barNumberCheck #70
     cis2 e2 r2 r4 e4 | % 71
     cis2 e2 r2 r4 d4 | % 72
-    cis4 b4 cis4 e4 b1
-    \pageBreak | % 73
+    cis4 b4 cis4 e4 b1 \pageBreak | 
     R1 R1 | % 74
     r4 b4 cis4 e4 a,2. a4
     | % 75
@@ -572,11 +567,11 @@ PartPThreeVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
     "to " ____ be  __\skip1 fear --\skip1 "ed." He is the "great " ____
     "King," he "is " ____ the great "King " __\skip1 \skip1 __ of all the
     "earth," he "is " ____ the great King of all the "earth," __\skip1 the
-    "earth." "He " ____ shall sub -- "due," he shall sub -- due the peo
-    -- "ple," the peo -- ple un -- der "us," and the na --\skip1
-    "tions " ____ un -- der "our " ____ "feet." He shall choose out an
-    he -- ri -- tage for "us," he "shall " ____ choose out an he -- ri
-    -- tage "for " ____ "us," "ev’n" the wor -- ship of Ja -- cob whom
+    "earth." "He " ____ shall sub -- "due," he \skip1 shall sub -- due the peo
+    -- "ple," the peo -- ple un -- der "us," and \skip1 the na --\skip1
+    "tions " un -- der "our" "feet," our "feet." He __\skip1 shall choose out an
+    he -- ri -- tage for "us," he "shall " ____ choose out __\skip1 an he -- ri
+    -- tage "for " ____ "us," e -- ven the wor -- ship __\skip1 of Ja -- cob whom
     "he " ____ lov --\skip1 "ed." God is gone up with a mer -- ry
     "noise," and the Lord with the sound of the trum --\skip1 "pet," of
     the trum -- "pet," "God " ____ is gone up with a mer -- ry "noise,"
@@ -626,19 +621,16 @@ PartPFourVoiceOne =  \relative a {
     R1 R1 \pageBreak | % 19
     R1 R1 | \barNumberCheck #20
     r2 e2 fis2. e4 | % 21
-    fis2 gis4 gis4 a2. 
-    gis4 \break | % 22
-    fis4 e4 d4 cis4 b2
-    e2 | % 23
+    fis2 gis4 gis4 a2.  gis4 \break | % 22
+    fis4 e4 d4 cis4 b2 e2 | % 23
     a,1 a'2 b2 ~ | % 24
-    b4 a4 b2 cis2 a2
-    \pageBreak | % 25
+    b4 a4 b2 cis2 a2 \pageBreak | % 25
     d2. cis4 b2 e,2 | % 26
     a1 R1 | % 27
     r2 e2 b2 b2 \break | % 28
     e1 r2 e2 ~ | % 29
     e2 e4 e4 e1 | \barNumberCheck #30
-    r2 e1 cis4 cis4 \pageBreak | % 31
+    r2 e2~ e cis4 cis4 \pageBreak | % 31
     cis1 d1 | % 32
     g,2 g2 a2 a2 | % 33
     d2 r2 r2 e4 e4 \break | % 34
@@ -647,10 +639,10 @@ PartPFourVoiceOne =  \relative a {
     cis2 a2 a'2. gis4 | % 38
     fis2. e4 d1 ~ | % 39
     d2 d2 e1 ~ \break | \barNumberCheck #40
-    e1 R1 | % 41
-    R1 R1 | % 42
-    R1 R1 \pageBreak | % 43
-    R1 r2 a4 a4 | % 44
+    e1 R1 | %
+    R1 R1 | %
+    R1 R1 \pageBreak | %
+    R1 r2 a8 a8 a4 | %85-86
     b2 cis4 cis4 d2 e,2
     | % 45
     fis2 gis2 a2 b2 \break | % 46
@@ -684,8 +676,7 @@ PartPFourVoiceOne =  \relative a {
     e,1 R1 R1 r2 e4 e4 \break | \barNumberCheck #70
     a2 e2 r2 r4 e4 | % 71
     a2 e2 r2 r4 b'4 | % 72
-    a4 gis4 fis4 e4 b'1
-    \pageBreak | % 73
+    a4 gis4 fis4 e4 b'1 \pageBreak |
     R1 R1 | % 74
     r2 r4 e,4 d4 cis4 b4 a4
     | % 75
@@ -766,9 +757,9 @@ PartPFourVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
     Lord __\skip1 is high "and " ____ to be fear -- \skip1 "ed." He is the great King of
     "all " __\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 the "earth," he "is "
     ____ the great King of "all " __\skip1 \skip1 the "earth," of all the
-    "earth." "He " ____ shall sub -- "due," he shall sub -- due the peo
+    "earth." "He " ____ shall sub -- "due," he \skip1 shall sub -- due the peo
     -- ple un -- der "us," and the na -- tions un -- der our "feet." He
-    shall choose out an he -- ri -- "tage " ____ for "us, " ____ "ev’n"
+    shall choose out an he -- ri -- "tage " ____ for "us, " ____ e -- ven
     the wor -- ship of Ja -- cob whom he "loved," the wor -- ship of Ja
     -- cob whom he lov --\skip1 "ed." God is gone up with a mer -- ry
     "noise," and the Lord with the sound "of " ____ "the " __\skip1 __
@@ -822,30 +813,27 @@ PartPFiveVoiceOne =  \relative a' {
     R1 R1 | % 26
     a2 cis2. b4 cis2 | % 27
     d2 b2 b2 b2 \break | % 28
-    b1 R1 | % 29
-    r2 b1 b4 b4 | \barNumberCheck #30
-    b1 r2 e2 ~ \pageBreak | % 31
-    e2 e4 e4 fis2 fis2
-    | % 32
-    e4 d4 d1 cis2 | % 33
-    d2 r2 r2 b4 b4 \break | % 34
-    cis2 b2 e4 cis4 
-    fis2 | % 35
-    e2. d4 cis2 b2 ~ | % 36
-    b2 a2. a4 gis2 \pageBreak | % 37
-    a1 R1 | % 38
-    R1 R1 | % 39
+    b1 R1 |
+    r2 b2~ b b4 b4 | \barNumberCheck #55
+    b1 r2 e2 ~ \pageBreak |
+    e2 e4 e4 fis2 fis2 | % 32
+    e4 d4 d2~ d cis2 | % 63
+    d2 r2 r2 b4 b4 \break |
+    cis2 b2 e4 cis4 fis2 |
+    e2. d4 cis2 b2 ~ |
+    b2 a2~ a4 a4 gis2 \pageBreak | %71
+    a1 R1 | %
+    R1 R1 | %
     R1 R1 \break | \barNumberCheck #40
-    b2 gis2 e2 e'2 ~ | % 41
-    e4 d4 cis2. b4 a2 | % 42
-    d1 cis1 \pageBreak | % 43
-    cis1 r2 cis4 cis4 | % 44
-    d2 e4 e4 d2 b2 | % 45
-    fis'1 e2 d2 \break | % 46
-    cis2 b1 a2 | % 47
-    gis4 e4 e'1 cis2 | % 48
-    b1 cis1 \bar "||"
-    \pageBreak | % 49
+    b2 gis2 e2 e'2 ~ | %
+    e4 d4 cis2. b4 a2 | %
+    d1 cis1 \pageBreak | %
+    cis1 r2 cis8 cis cis4 | %85-86
+    d2 e4 e4 d2 b2 | %
+    fis'1 e2 d2 \break | %
+    cis2 b2~ b a2 | %91-92
+    gis4 e4 e'2~ e cis2 | %
+    b1 cis1 \bar "||" \pageBreak | %96
     R1 R1 | \barNumberCheck #50
     R1 R1 | % 51
     R1 R1 \break | % 52
@@ -956,12 +944,12 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
     voice of me -- lo -- "dy." For the Lord is high "and " ____ to be
     fear -- "ed." He is the great King of all the "earth, " ____ the
     "earth," he "is " ____ the great King of all the "earth," he is the
-    great King of all the "earth." He shall sub -- "due," "he " ____
-    shall sub -- due the peo -- ple un -- der "us," and the na -- tions
-    un -- der our "feet," the na -- "tions " ____ un -- der our "feet."
+    great King of all the "earth." He \skip1 shall sub -- "due," "he " ____
+    shall sub -- due the peo -- ple un __\skip1 -- der "us," and the na -- tions
+    un -- der our "feet," the na -- "tions" __\skip1 un --\skip1 der our "feet."
     He shall choose "out " ____ an he -- ri --\skip1 tage for "us,"
-    "ev’n" the wor -- ship of Ja -- cob whom he lov -- "ed," whom he lov
-    -- "ed," whom he lov -- "ed." God is gone up with a mer -- ry
+    e -- ven the wor -- ship of Ja -- cob whom he lov -- "ed," whom __\skip1 he lov
+    -- "ed," whom __\skip1 he lov -- "ed." God is gone up with a mer -- ry
     "noise," and the Lord with the sound "of " ____ the trum -- "pet,"
     God is gon up with a mer -- ry "noise," and the "Lord " ____ with
     the "sound " ____ of the trum -- "pet," the trum -- "pet," the trum
@@ -1006,43 +994,36 @@ PartPSixVoiceOne =  \relative e' {
     fis1 b,2 cis4 d4 | % 17
     e1 R1 | % 18
     e2 fis2~ fis4 e4 fis2 \pageBreak | % 19
-    gis2 a2~ a4 b4 a2 | \barNumberCheck
-    #20
+    gis2 a2~ a4 b4 a2 | \barNumberCheck #20
     d,2 e2 fis1 | % 21
     R1 r2 e2 \break | % 22
     fis2. e4 fis2 gis2 | % 23
     a2 a2~ a4 gis4 fis2 ~ | % 24
-    fis4 fis4 b,2 e2 fis2 ~
-    \pageBreak | % 25
+    fis4 fis4 b,2 e2 fis2 ~ \pageBreak | % 25
     fis4 e4 fis2 gis1 | % 26
     r2 e2 a2 a4 gis4 | % 27
-    fis2 gis4 e4 fis2 fis2
-    \break | % 28
-    gis1 r2 gis2 ~ | % 29
-    gis2 gis4 gis4 gis1 | \barNumberCheck #30
-    r2 gis1 a4 a4 \pageBreak | % 31
-    a1 fis1 | % 32
-    g2. fis4 e2 e2 | % 33
-    d2 r2 r2 e4 e4 \break | % 34
-    e2 e2 e4 a4 fis2 | % 35
-    b2 e,2 e1 | % 36
-    R1 R1 \pageBreak | % 37
-    r2 e2 cis2 a2 | % 38
-    a'2. gis4 fis2. e4 | % 39
-    fis4 gis4 a2 gis2. fis4
-    \break | \barNumberCheck #40
-    e1 r2 e2 ~ | % 41
-    e2 a2. gis4 fis2 ~ | % 42
-    fis4 e4 d4 b4 e2 cis2
-    \pageBreak | % 43
-    cis1 r2 cis4 cis4 | % 44
-    fis2 e4 e4 fis2 gis4 
-    gis4 | % 45
-    a2 b2 a2 fis2 \break | % 46
-    a4 e4 r2 R1 | % 47
-    r4 b4 cis4 d4 e1 ~ | % 48
-    e2 e2 e2 e2 \bar "||"
-    \pageBreak | % 49
+    fis2 gis4 e4 fis2 fis2 \break | % 28
+    gis1 r2 gis2 ~ | % 55
+    gis2 gis4 gis4 gis1 | \barNumberCheck #57
+    r2 gis2~ gis a4 a4 \pageBreak | 
+    a1 fis1 |
+    g2. fis4 e2 e2 | %
+    d2 r2 r2 e4 e4 \break | %
+    e2 e2 e4 a4 fis2 | %
+    b2 e,2 e1 | % 69
+    R1 R1 \pageBreak | 
+    r2 e2 cis2 a2 | %
+    a'2. gis4 fis2. e4 | %
+    fis4 gis4 a2 gis2. fis4 \break | \barNumberCheck #40
+    e1 r2 e2 ~ | %
+    e2 a2~ a4 gis4 fis2 ~ | %
+    fis4 e4 d4 b4 e2 cis2 \pageBreak | %83
+    cis1 r2 cis8 cis cis4 | %85
+    fis2 e4 e4 fis2 gis4 gis4 | %87
+    a2 b2 a2 fis2 \break | %89
+    a4 e4 r2 R1 | %91
+    r4 b4 cis4 d4 e1 | %93-94
+    e2 e2 e1 \bar "||" \pageBreak | %95-96
     R1 R1 | \barNumberCheck #50
     R1 R1 | % 51
     R1 R1 \break | % 52
@@ -1147,12 +1128,12 @@ PartPSixVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
     the great King "of " __\skip1 \skip1 \skip1 all the "earth," he is the
     great King of "all " __\skip1 \skip1 the __\skip1 \skip1 "earth," he is __\skip1 the
     great "King," he is the great King "of " ____ all the "earth." "He "
-    ____ shall sub -- "due," he shall sub -- due the peo -- ple un --
+    ____ shall sub -- "due," he \skip1 shall sub -- due the peo -- ple un --
     der "us," and the na -- tions un -- der our "feet," our "feet." He
     shall choose out an he --\skip1 ri --\skip1 tage "for " ____ "us,"
-    "he " ____ shall choose "out " ____ an he -- ri -- tage for "us,"
-    "ev’n" the wor -- ship of Ja -- cob whom he lov -- "ed," he lov --
-    "ed," of Ja -- cob "whom " ____ he lov -- "ed." God is gone up with
+    "he " ____ shall __\skip1 choose "out " ____ an he -- ri -- tage for "us,"
+    e -- ven the wor -- ship of Ja -- cob whom he lov -- "ed," he lov --
+    "ed," of Ja -- cob "whom" he lov -- "ed." God is gone up with
     a mer -- ry "noise," and the Lord with the sound of the trum --
     "pet," the sound of the trum -- "pet," of the trum --\skip1 "pet,"
     and the "Lord," and the Lord with the sound of the trum -- pet O
@@ -1201,8 +1182,7 @@ PartPSevenVoiceOne =  \relative a {
     r2 b2 b2 a2 | % 17
     b4 gis4 a4 cis4 e1 | % 18
     R1 R1 \pageBreak | % 19
-    e2 a,2~ a4 gis4 a2 | \barNumberCheck
-    #20
+    e2 a,2~ a4 gis4 a2 | \barNumberCheck #20
     fis2 b2 d1 | % 21
     d,1 e1 \break | % 22
     R1 R1 | % 23
@@ -1213,26 +1193,23 @@ PartPSevenVoiceOne =  \relative a {
     cis1 r2 cis2 | % 27
     fis2 e4 gis,4 b2. a4
     \break | % 28
-    gis1 R1 | % 29
-    r2 e'1 e4 e4 | \barNumberCheck #30
-    e1 r2 e2 ~ \pageBreak | % 31
-    e2 e4 e4 d2. cis4
-    | % 32
-    b2 d2 cis4 b4 a2 | % 33
-    a1 e'2 e2 \break | % 34
-    cis2 r2 r2 b2 ~ | % 35
-    b4 cis4 cis2. d4 e4
-    fis4 | % 36
-    e1 e2 b2 \pageBreak | % 37
-    cis1. cis2 | % 38
-    a1 r4 a4 b4 cis4 | % 39
-    d2. cis4 b1 ~ \break | \barNumberCheck #40
-    b2 b2 cis2. b4 | % 41
-    a2 cis2 cis1 | % 42
-    r2 b4 b4 gis2 a4 b4
-    \pageBreak | % 43
-    cis1 cis1 | % 44
-    R1 r2 e4 e4 | % 45
+    gis1 R1 |
+    r2 e'2~ e e4 e4 | \barNumberCheck #55
+    e1 r2 e2 ~ \pageBreak | 
+    e2 e4 e4 d2. cis4 |
+    b2 d2 cis4 b4 a2 |
+    a1 e'2 e2 \break |
+    cis2 r2 r2 b2 ~ |
+    b4 cis4 cis2~ cis4 d4 e4 fis4 |
+    e1 e2 b2 \pageBreak | %71-72
+    cis1~ cis2 cis2 | %73
+    a1 r4 a4 b4 cis4 |
+    d2. cis4 b1 ~ \break | \barNumberCheck #77
+    b2 b2 cis2. b4 | 
+    a2 cis2 cis1 |
+    r2 b8 b b4 gis2 a4 b4 \pageBreak |
+    cis1 cis1 | %85
+    R1 r2 e8 e e4 | 
     cis2 b4 b4 e2 b2
     \break | % 46
     r2 r4 b4 b4 b4 cis4
@@ -1347,13 +1324,13 @@ PartPSevenVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
     be __\skip1 fear -- "ed," for the Lord is "high," is high and to be fear
     --\skip1 "ed." He is __\skip1 the great King of all the "earth," he "is "
     ____ the great King of all the "earth," the "earth," the great King
-    of all the "earth." He shall sub -- "due," "he " ____ shall sub --
+    of all the "earth." He \skip1 shall sub -- "due," "he " ____ shall sub --
     due the peo -- ple un --\skip1 der "us," un -- der "us," "and " ____
-    the na -- tions un -- der our "feet." He shall choose out an he --
-    ri -- tage for "us, " ____ an he -- ri -- tage for "us," "ev’n" the
-    wor -- ship of Ja -- "cob," "ev’n" the wor -- ship of Ja -- "cob,"
-    the wor -- ship "of " ____ Ja -- cob "whom " ____ "he " __\skip1 __
-    lov -- "ed." God is gone up with a mer -- ry "noise," and the
+    the na -- \skip1 tions un -- der our "feet." He shall __\skip1 choose out an he --
+    ri -- tage for "us, " ____ an he -- ri -- tage for "us," e -- ven the
+    wor -- ship of Ja -- "cob," e -- ven the wor -- ship of Ja -- "cob,"
+    the wor -- ship "of" Ja -- cob "whom " ____ "he " __\skip1 __
+    lov -- \skip1 \skip1 "ed." God is gone up with a mer -- ry "noise," and the
     "Lord " ____ with the sound of "the " __ "trum " --\skip1 __ "pet,"
     God is gone up with a mer -- ry "noise," "and " ____ the Lord
     "with " ____ the sound of "the " ____ trum --\skip1 "pet." O sing
@@ -1409,25 +1386,24 @@ PartPEightVoiceOne =  \relative a {
     a2 a'2. gis4 a2 | % 27
     b2 gis2 fis2 fis2 \break | % 28
     e1 R1 | % 29
-    r2 e1 e4 e4 | \barNumberCheck #30
-    e1 r2 a2 ~ \pageBreak | % 31
-    a2 a4 a4 a2 a2 | % 32
-    g2 d2 a'1 ~ | % 33
-    a2 d,2 e1 \break | % 34
-    r2 gis4 gis4 a2 b2 | % 35
-    gis2 a2 e1 ~ | % 36
-    e1 e1 \pageBreak | % 37
-    R1 R1 | % 38
-    R1 R1 | % 39
+    r2 e2~ e e4 e4 | \barNumberCheck #55
+    e1 r2 a2 ~ \pageBreak | %
+    a2 a4 a4 a2 a2 | %
+    g2 d2 a'1 ~ | %
+    a2 d,2 e1 \break | %
+    r2 gis4 gis4 a2 b2 | %
+    gis2 a2 e1 ~ | %
+    e1 e1 \pageBreak | %
+    R1 R1 | % 73-74
+    R1 R1 | %
     R1 R1 \break | \barNumberCheck #40
-    r2 e2 cis2 a2 | % 41
-    a'2. gis4 fis2. e4 | % 42
-    d2 b2 cis1 \pageBreak | % 43
-    cis1 fis1 | % 44
-    R1 R1 | % 45
-    R1 r2 b,4 b4 \break | % 46
-    cis2 d4 d4 e2. fis4
-    | % 47
+    r2 e2 cis2 a2 | %
+    a'2. gis4 fis2. e4 | %
+    d2 b2 cis1 \pageBreak | %
+    cis1 fis1 | %85-86
+    R1 R1 | %
+    R1 r2 b,8 b b4 \break | %89-90
+    cis2 d4 d4 e2. fis4 | %
     gis2 a2 e1 ~ | % 48
     e1 a,1 \bar "||"
     \pageBreak | % 49
@@ -1538,10 +1514,10 @@ PartPEightVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t O
     -- lo -- "dy." For the Lord is high and to be __\skip1 fear -- \skip1 "ed."
     He is the great King of all the "earth," he is __\skip1 the great King of
     "all " __\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 the "earth," he is
-    the great King of all the "earth." He shall sub -- "due," "he " ____
+    the great King of all the "earth." He \skip1 shall sub -- "due," "he " ____
     shall sub -- due the peo -- ple un --\skip1 der "us," and the na --
     tions un -- der "our " ____ "feet." He shall choose out an he -- ri
-    -- tage for "us," for "us," "ev’n" the wor -- ship of Ja -- cob whom
+    -- tage for "us," for "us," e -- ven the wor -- ship of Ja -- cob whom
     he lov --\skip1 "ed." God is gone up with a mer -- ry "noise," a mer
     -- "ry " ____ "noise," God is gone up with a mer -- ry "noise,"
     "and " ____ the Lord with the sound of the trum -- "pet," "and "
