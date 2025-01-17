@@ -304,6 +304,87 @@ TCTIII=\lyricmode{
   Chri --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 te e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- \skip1 \skip1 i -- son
 }
 
+MSIV=\relative do''{
+  sib1~
+  sib1~
+  sib1~
+  sib1~
+  la
+  sol2 sol~
+  sol fa
+  sol1~
+  sol
+  r2 sol~
+  sol4 fa fa2
+  sol mi
+  fa1
+  mi2. fa4 sol2 la~
+  la4 fa fa2~
+  fa4 re mi2
+  fa1
+  \bar "||" |
+}
+
+TMSIV=\lyricmode{
+  \set ignoreMelismata = ##t
+  Chri --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 te __\skip1 e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- \skip1 \skip1 i -- son
+}
+
+CTIV=\relative do'{
+  re1~
+  re~
+  re~
+  re~
+  re,
+  re'
+  do
+  sib2 mib~
+  mib re~
+  re do
+  sib re~
+  re4 do do2~
+  do sib
+  do1
+  do,1
+  re 
+  do
+  do'
+  \bar "||" |
+}
+
+TCTIV=\lyricmode{
+  \set ignoreMelismata = ##t
+  Chri --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 te __\skip1 e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- i -- son
+}
+
+TNIV=\relative do'{
+  sol2. fa4
+  sol2 re
+  sol la
+  sib2. la8 sol
+  fa1
+  sib
+  la
+  sol~
+  sol2 fa
+  mi1
+  re
+  mi2 do
+  re1
+  do
+  do'
+  fa, 
+  sol
+  fa
+  \jump "Reprendre le Christe 1"
+  \bar "||" |
+}
+
+TTNIV=\lyricmode{
+  \set ignoreMelismata = ##t
+  Chri --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 te __\skip1 e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- i -- son
+}
+
 \score {
 	\new ChoirStaff<<
 		\new Staff <<
@@ -386,6 +467,41 @@ TCTIII=\lyricmode{
 			\set Staff.instrumentName="Contra-Tenor"
 	  		\global \clef "treble_8" \CTIII }
 			\new Lyrics \lyricsto "CT3" {\TCTIII }
+		>>
+  	>>
+\layout{ 
+  	papersize = "a4"
+	\context {
+	  \Staff \consists Ambitus_engraver 
+	}
+	ragged-last = ##f
+
+	indent=3\cm
+	}
+
+\midi {\tempo 4 = 160 }
+}
+
+\score {
+	\new ChoirStaff<<
+		\new Staff <<
+			\new Voice="MS4" {
+			\set Staff.instrumentName="Superius"
+  			\sectionLabel "Christe 2"
+	  		\global \clef "treble" \MSIV}
+			\new Lyrics \lyricsto "MS4" {\TMSIV}
+		>>
+		\new Staff <<
+			\new Voice="CT4" {
+			\set Staff.instrumentName="Contra-Tenor"
+	  		\global \clef "treble_8" \CTIV }
+			\new Lyrics \lyricsto "CT4" {\TCTIV }
+		>>
+		\new Staff <<
+			\new Voice="TN4" {
+			\set Staff.instrumentName="Tenor"
+	  		\global \clef "bass" \TNIV }
+			\new Lyrics \lyricsto "TN4" {\TTNIV }
 		>>
   	>>
 \layout{ 
