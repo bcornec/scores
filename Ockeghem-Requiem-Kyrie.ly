@@ -190,66 +190,6 @@ TCTII=\lyricmode{
   e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- i -- son
 }
 
-MSII=\relative do'{
-  fa2. sol4 
-  la2 la
-  sib2. la8 sol
-  fa1
-  sol2. fa8 mi
-  re2 sib'~
-  sib4 la la2~
-  la4 sol sol2~
-  sol fa
-  sol1
-  r2 la 
-  sol mi 
-  fa1
-  mi2 mi~ 
-  mi re
-  mi2. fa4
-  sol2 la~
-  la fa~
-  fa4 re mi4. re8
-  fa1
-  \bar "||" |
-}
-
-TMSII=\lyricmode{
-  \set ignoreMelismata = ##t
-  Ky -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ri -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 e
-  e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- \skip1 \skip1 \skip1 i -- son
-}
-
-CTII=\relative do'{
-  fa1~
-  fa
-  sol
-  la 
-  sib~
-  sib2 la4 sol
-  fa1
-  sol2 sib
-  la1
-  sol2 sol~
-  sol fa 
-  sol1
-  r2 la
-  sol mi
-  fa2. mi8re
-  do2. re4
-  mi2 fa2~ 
-  fa4 mi fa2
-  sol1
-  fa
-  \jump "Reprendre le Kyrie 1"
-}
-
-TCTII=\lyricmode{
-  \set ignoreMelismata = ##t
-  Ky -- \skip1 \skip1 \skip1 \skip1 \skip1 ri -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 e 
-  e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- i -- son
-}
-
 MSIII=\relative do''{
   sib1~
   sib1~
@@ -385,6 +325,152 @@ TTNIV=\lyricmode{
   Chri --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 te __\skip1 e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- i -- son
 }
 
+MSV=\relative do'{
+  fa1~
+  fa
+  sol
+  la
+  sib~
+  sib
+  la
+  sol2 sol~
+  sol fa 
+  sol1
+  r2 sib~
+  sib4 la la2
+  sol mi
+  fa1
+  mi
+  r2 fa
+  sol la~
+  la4 fa fa2~
+  fa mi
+  fa1
+  \bar "||" |
+}
+
+TMSV=\lyricmode{
+  \set ignoreMelismata = ##t
+  Ky --\skip1 \skip1 \skip1 ri -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 e e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- \skip1 i -- son
+}
+
+CTV=\relative do'{
+  do1
+  re
+  sib2 sol
+  fa1
+  re'~
+  re~
+  re~
+  re
+  do
+  re
+  mi
+  fa2 la,
+  sib do~
+  do sib
+  do1 
+  re
+  do
+  la2 sib
+  sol1
+  do
+  \bar "||" |
+}
+
+TCTV=\lyricmode{
+  \set ignoreMelismata = ##t
+  Ky --\skip1 \skip1 \skip1 \skip1 ri -- \skip1 \skip1 \skip1 \skip1 e __\skip1 \skip1 e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- \skip1 i -- son
+}
+
+TNV=\relative do{
+  fa1~
+  fa2 re
+  mi1
+  re
+  sol2. fa4
+  re2 mi
+  fa1
+  sol2 sib
+  la1
+  sol~
+  sol
+  fa2 fa
+  mi do
+  re1
+  do
+  sib
+  r2 fa'~
+  fa sib,
+  do1
+  fa
+  \bar "||" |
+}
+
+TTNV=\lyricmode{
+  \set ignoreMelismata = ##t
+  Ky --\skip1 \skip1 \skip1 \skip1 ri -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 e __\skip1 \skip1 e -- \skip1 \skip1 \skip1 \skip1 \skip1 le -- \skip1 \skip1 i -- son
+}
+
+MSVI=\relative do'{
+  fa1
+  sol
+  la
+  sib 
+  la
+  sol2 mi
+  fa1
+  r2 sol
+  la1 
+  sol2 mi
+  fa1 
+  mi2 mi~
+  mi4 do re2
+  mi1
+  r2 fa
+  mi sol~
+  sol4 fa la2~
+  la fa
+  sol1
+  fa
+  \bar "||" |
+}
+
+TMSVI=\lyricmode{
+  \set ignoreMelismata = ##t
+  Ky -- \skip1 \skip1 \skip1 \skip1 ri -- \skip1 e
+  e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1  le -- \skip1 \skip1 i -- son
+}
+
+CTVI=\relative do'{
+  r1
+  r
+  fa
+  sol
+  la
+  sib 
+  la
+  sol2 mi
+  fa1
+  r2 sol
+  la1 
+  sol2 mi
+  fa1 
+  mi2 mi~
+  mi4 do re2
+  mi1
+  do
+  re2 fa~
+  fa mi
+  fa1
+}
+
+TCTVI=\lyricmode{
+  \set ignoreMelismata = ##t
+  Ky -- \skip1 \skip1 \skip1 \skip1 ri -- \skip1 e
+  e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1  le -- \skip1 i -- son
+}
+
 \score {
 	\new ChoirStaff<<
 		\new Staff <<
@@ -502,6 +588,72 @@ TTNIV=\lyricmode{
 			\set Staff.instrumentName="Tenor"
 	  		\global \clef "bass" \TNIV }
 			\new Lyrics \lyricsto "TN4" {\TTNIV }
+		>>
+  	>>
+\layout{ 
+  	papersize = "a4"
+	\context {
+	  \Staff \consists Ambitus_engraver 
+	}
+	ragged-last = ##f
+
+	indent=3\cm
+	}
+
+\midi {\tempo 4 = 160 }
+}
+
+
+\score {
+	\new ChoirStaff<<
+		\new Staff <<
+			\new Voice="MS5" {
+			\set Staff.instrumentName="Superius"
+  			\sectionLabel "Kyrie II 1"
+	  		\global \clef "treble" \MSV}
+			\new Lyrics \lyricsto "MS5" {\TMSV}
+		>>
+		\new Staff <<
+			\new Voice="CT5" {
+			\set Staff.instrumentName="Contra-Tenor"
+	  		\global \clef "treble_8" \CTV }
+			\new Lyrics \lyricsto "CT5" {\TCTV }
+		>>
+		\new Staff <<
+			\new Voice="TN5" {
+			\set Staff.instrumentName="Tenor"
+	  		\global \clef "bass" \TNV }
+			\new Lyrics \lyricsto "TN5" {\TTNV }
+		>>
+  	>>
+\layout{ 
+  	papersize = "a4"
+	\context {
+	  \Staff \consists Ambitus_engraver 
+	}
+	ragged-last = ##f
+
+	indent=3\cm
+	}
+
+\midi {\tempo 4 = 160 }
+}
+
+
+\score {
+	\new ChoirStaff<<
+		\new Staff <<
+			\new Voice="MS6" {
+			\set Staff.instrumentName="Superius"
+  			\sectionLabel "Kyrie II 2"
+	  		\global \clef "treble" \MSVI}
+			\new Lyrics \lyricsto "MS6" {\TMSVI}
+		>>
+		\new Staff <<
+			\new Voice="CT6" {
+			\set Staff.instrumentName="Contra-Tenor"
+	  		\global \clef "treble_8" \CTVI }
+			\new Lyrics \lyricsto "CT6" {\TCTVI }
 		>>
   	>>
 \layout{ 
