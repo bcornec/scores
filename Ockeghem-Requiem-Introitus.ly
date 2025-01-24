@@ -544,7 +544,7 @@ TgregorienII =\lyricmode {
 		>>
 		\new Staff <<
 			\new Voice="TN1" {
-			\set Staff.instrumentName="Tenor"
+			\set Staff.instrumentName="Basse"
 	  		\global \clef "bass" \TNI }
 			\new Lyrics \lyricsto "TN1" {\TTNI }
 		>>
@@ -595,7 +595,7 @@ TgregorienII =\lyricmode {
 		>>
 		\new Staff <<
 			\new Voice="TN2" {
-			\set Staff.instrumentName="Tenor"
+			\set Staff.instrumentName="Basse"
 	  		\global \clef "bass" \TNII }
 			\new Lyrics \lyricsto "TN2" {\TTNII }
 		>>

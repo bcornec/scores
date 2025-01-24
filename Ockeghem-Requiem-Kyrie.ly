@@ -71,10 +71,10 @@ CTI=\relative do'{
   mib
   re~
   re 
-  re,
-  mi2 sol
-  re1
-  re'~
+  fa,
+  sol2 sib
+  la1
+  re~
   re
   do
   mi
@@ -104,9 +104,9 @@ TNI=\relative do{
   do2 sib
   sol1~
   sol
-  fa
-  sol2 sib
-  la1
+  re
+  mi2 sol
+  re1
   sol2 sib~
   sib la
   fa1
@@ -198,33 +198,6 @@ MSIII=\relative do''{
   la
   sol2 mi
   fa1
-  sol2 sib~
-  sib4 la la2~
-  la sol
-  la1
-  sol
-  fa
-  mi2. fa4
-  sol2 la~
-  la fa~
-  fa mi 
-  fa1
-  \bar "||" |
-}
-
-TMSIII=\lyricmode{
-  \set ignoreMelismata = ##t
-  Chri --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 te e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- \skip1 \skip1 \skip1 i -- son
-}
-
-CTIII=\relative do'{
-  sol2. fa8 mi
-  re2 sol~
-  sol re
-  sol2. la4
-  fa1
-  sib
-  la
   sol2 re'~
   re do
   sib1
@@ -239,9 +212,38 @@ CTIII=\relative do'{
   \bar "||" |
 }
 
+TMSIII=\lyricmode{
+  \set ignoreMelismata = ##t
+  Chri --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 te 
+  e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- \skip1 \skip1 i -- son
+}
+
+CTIII=\relative do''{
+  sol2. fa8 mi
+  re2 sol~
+  sol re
+  sol2. la4
+  fa1
+  sib
+  la
+  sol2 sib~
+  sib4 la la2~
+  la sol
+  la1
+  sol
+  fa
+  mi2. fa4
+  sol2 la~
+  la fa~
+  fa mi 
+  fa1
+  \bar "||" |
+}
+
 TCTIII=\lyricmode{
   \set ignoreMelismata = ##t
-  Chri --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 te e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- \skip1 \skip1 i -- son
+  Chri --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 te 
+  e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- \skip1 \skip1 \skip1 i -- son
 }
 
 MSIV=\relative do''{
@@ -471,6 +473,193 @@ TCTVI=\lyricmode{
   e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1  le -- \skip1 i -- son
 }
 
+MSVII=\relative do''{
+  do1
+  sib2 la
+  sol1
+  fa
+  r2 la
+  sol do~
+  do sib
+  do1~
+  do
+  re
+  do2 sib~
+  sib4 la la2~
+  la sol
+  la1
+  r
+  sol~
+  sol
+  fa~
+  fa2 mi4 re 
+  mi1~
+  mi
+  fa
+  sol~
+  sol2 la~
+  la fa~
+  fa mi
+  fa1~
+  fa1~
+  fa1~
+  fa1~
+  fa1~
+  fa1~
+  sol~
+  sol2
+  mi 
+  mi1~
+  mi 
+  fa
+  \bar "||" |
+}
+
+TMSVII=\lyricmode{
+  \set ignoreMelismata = ##t
+  Ky -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ri -- \skip1 \skip1 \skip1 \skip1 \skip1 e __\skip1 
+  e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- \skip1 \skip1 i -- \skip1 son
+}
+
+CTVII=\relative do'{
+  do1
+  re2 fa~
+  fa mi
+  fa1
+  mi
+  r2 do
+  re1
+  do
+  mi
+  re2 sib
+  do re
+  do1
+  re~
+  re~
+  re
+  sib
+  do 
+  re~
+  re
+  do1~
+  do
+  r
+  do2. re4
+  mi2 fa~
+  fa re
+  do1
+  la~
+  la
+  do~
+  do
+  re~
+  re
+  sib~
+  sib
+  do~
+  do
+  do
+}
+
+TCTVII=\lyricmode{
+  \set ignoreMelismata = ##t
+  Ky -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ri -- \skip1 \skip1 \skip1 e __\skip1 
+  e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- \skip1 i -- \skip1 son
+}
+
+TNVII=\relative do'{
+  r1
+  r
+  r
+  r
+  do
+  sib2 la2
+  sol1
+  la
+  do
+  sol
+  r
+  la1
+  sib
+  la
+  fa
+  sol2 mib
+  sol1
+  la~
+  la2 sib 
+  sol1~
+  sol
+  la 
+  sol
+  do
+  la2 sib
+  sol1
+  fa~
+  fa
+  la~
+  la
+  sib~
+  sib2 sol
+  sol1~
+  sol
+  sol~
+  sol
+  fa
+  \bar "||" |
+}
+
+TTNVII=\lyricmode{
+  \set ignoreMelismata = ##t
+  Ky -- \skip1 \skip1 \skip1  \skip1  \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ri -- \skip1 \skip1 \skip1 \skip1 \skip1 e __\skip1 
+  e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- \skip1 i -- \skip1 son
+}
+
+BSVII=\relative do{
+  r1
+  r
+  r
+  r
+  r
+  r
+  r
+  r
+  r
+  r
+  r
+  r
+  r
+  re~
+  re
+  mib~
+  mib
+  re~
+  re
+  do~
+  do
+  re
+  mi2 do~
+  do fa~
+  fa sib,
+  do1
+  do'~
+  do
+  fa,~
+  fa
+  sib,~
+  sib
+  mib~
+  mib2 do
+  do1~ 
+  do
+  fa
+}
+
+TBSVII=\lyricmode{
+  \set ignoreMelismata = ##t
+  Ky -- \skip1 ri -- \skip1  \skip1 \skip1 e __\skip1 
+  e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 le -- \skip1 \skip1 i -- \skip1 son
+}
+
 \score {
 	\new ChoirStaff<<
 		\new Staff <<
@@ -568,24 +757,26 @@ TCTVI=\lyricmode{
 \midi {\tempo 4 = 160 }
 }
 
+\markup \vspace #1 % change this value accordingly
+
 \score {
 	\new ChoirStaff<<
 		\new Staff <<
 			\new Voice="MS4" {
-			\set Staff.instrumentName="Superius"
+			\set Staff.instrumentName="Contra-Tenor"
   			\sectionLabel "Christe 2"
-	  		\global \clef "treble" \MSIV}
+	  		\global \clef "treble_8" \MSIV}
 			\new Lyrics \lyricsto "MS4" {\TMSIV}
 		>>
 		\new Staff <<
 			\new Voice="CT4" {
-			\set Staff.instrumentName="Contra-Tenor"
+			\set Staff.instrumentName="Tenor"
 	  		\global \clef "treble_8" \CTIV }
 			\new Lyrics \lyricsto "CT4" {\TCTIV }
 		>>
 		\new Staff <<
 			\new Voice="TN4" {
-			\set Staff.instrumentName="Tenor"
+			\set Staff.instrumentName="Basse"
 	  		\global \clef "bass" \TNIV }
 			\new Lyrics \lyricsto "TN4" {\TTNIV }
 		>>
@@ -602,6 +793,8 @@ TCTVI=\lyricmode{
 
 \midi {\tempo 4 = 160 }
 }
+
+\markup \vspace #1 % change this value accordingly
 
 
 \score {
@@ -621,7 +814,7 @@ TCTVI=\lyricmode{
 		>>
 		\new Staff <<
 			\new Voice="TN5" {
-			\set Staff.instrumentName="Tenor"
+			\set Staff.instrumentName="Basse"
 	  		\global \clef "bass" \TNV }
 			\new Lyrics \lyricsto "TN5" {\TTNV }
 		>>
@@ -639,6 +832,8 @@ TCTVI=\lyricmode{
 \midi {\tempo 4 = 160 }
 }
 
+\markup \vspace #1 % change this value accordingly
+
 
 \score {
 	\new ChoirStaff<<
@@ -654,6 +849,50 @@ TCTVI=\lyricmode{
 			\set Staff.instrumentName="Contra-Tenor"
 	  		\global \clef "treble_8" \CTVI }
 			\new Lyrics \lyricsto "CT6" {\TCTVI }
+		>>
+  	>>
+\layout{ 
+  	papersize = "a4"
+	\context {
+	  \Staff \consists Ambitus_engraver 
+	}
+	ragged-last = ##f
+
+	indent=3\cm
+	}
+
+\midi {\tempo 4 = 160 }
+}
+
+\markup \vspace #1 % change this value accordingly
+
+
+\score {
+	\new ChoirStaff<<
+		\new Staff <<
+			\new Voice="MS7" {
+			\set Staff.instrumentName="Superius"
+  			\sectionLabel "Kyrie II 3"
+	  		\global \clef "treble" \MSVII}
+			\new Lyrics \lyricsto "MS7" {\TMSVII}
+		>>
+		\new Staff <<
+			\new Voice="CT7" {
+			\set Staff.instrumentName="Contra-Tenor"
+	  		\global \clef "treble_8" \CTVII }
+			\new Lyrics \lyricsto "CT7" {\TCTVII }
+		>>
+		\new Staff <<
+			\new Voice="TN7" {
+			\set Staff.instrumentName="Tenor"
+	  		\global \clef "treble_8" \TNVII }
+			\new Lyrics \lyricsto "TN7" {\TTNVII }
+		>>
+		\new Staff <<
+			\new Voice="BS7" {
+			\set Staff.instrumentName="Basse"
+			\global \clef "bass" \BSVII}
+			\new Lyrics \lyricsto "BS7" {\TBSVII }
 		>>
   	>>
 \layout{ 
