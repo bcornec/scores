@@ -1,4 +1,4 @@
-\version "2.24.2"
+\version "2.24.3"
 \pointAndClickOff
 #(define pieceArranger (string-append "Edition: Bruno Cornec (Lilypond " (lilypond-version) ")"))
 
