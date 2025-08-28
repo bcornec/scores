@@ -653,7 +653,6 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {
 % The score definition
 \score {
     <<
-        
         \new StaffGroup \with { \hide SpanBar }
         <<
             \new Staff
@@ -721,7 +720,7 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {
 \markup {\tiny {https://www.digitale-sammlungen.de/en/view/bsb00077382?q=%28Andreae+Gabrielis+Sacrae+Cantiones%29&page=24,25}}
 \markup {\tiny {Premières œuvres publiées par A. Gabrieli après son voyage à Munich en 1562 et sa rencontre avec Roland de Lassus, et avant sa nomination comme organiste à St Marc de Venise}}
 \markup {\tiny {et dédiées au Prince Albert, Duc de Bavière, ce qui a sans doute contibué à sa nommination}}
-\markup {\tiny {Musica ficta intégrée pour l'Ensemble Variations, barres de mesures optionnels, durée des notes préservée, sauf alleluia, paroles mises sytématiquement.}}
+\markup {\tiny {Musica ficta intégrée pour l'Ensemble Variations, barres de mesures optionnelles, durée des notes préservée, sauf alleluia, paroles mises sytématiquement.}}
 \markup {\bold \tiny {TRADUCTION:}}
 \markup {\tiny{"           "} \tiny {O fête sacrée pendant laquelle le Christ est reçu.}}
 \markup {\tiny{"           "} \tiny{La mémoire de sa Passion y est rappelée.}}
