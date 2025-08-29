@@ -7,7 +7,7 @@
 	subtitle = "Poème de Guillaume Guéroult"
 	poet = \pieceArranger
     composer =  "Roland de Lassus (1532-1594)"
-	opus = "Version 1566"
+	%opus = "Version 1566"
     
     tagline =  \markup \center-column {
 	  \line {"Copyright © 2025 Bruno Cornec, based on CPDL work from Pothárn Imre"}
@@ -49,7 +49,7 @@ PartPOneVoiceOne = \relative c''  {
 	bes1 bes \noPageBreak
 	a2 a bes g
 	a2 d, e g~
-	g2 f2 g g
+	g2 fis2 g g
 %15
 	bes1. c2 |
 	d\breve
@@ -72,7 +72,7 @@ PartPOneVoiceOne = \relative c''  {
 	a2 a d d |
 	bes1 r2 d
 	d2 d cis cis
-	d2 bes bes bes 
+	d2 bes bes bes
 	a1 a~
 %35
 	a1 r |
@@ -99,7 +99,7 @@ PartPOneVoiceOne = \relative c''  {
 	a1 g2 d'~
 	d2 f f c~
 %55
-	c4 c e2 e bes~ | 
+	c4 c es2 es bes~ |
 	bes2 bes2 c bes
 	g1 d'
 	b\breve |
@@ -109,8 +109,8 @@ PartPOneVoiceOneLyricsOne =  \lyricmode {
 		Su -- san -- ne~ung iour d'a -- mour so -- li -- ci -- té -- e
         Su -- san -- ne~ung iour d'a -- mour so -- li -- ci -- té --  _ _ _ e __
         Par deux vieil -- larts con -- voi -- tant sa beau -- _ té
-        Fut en son ceur tris -- te et des -- con -- for -- tée
-        Fut en son ceur tris -- te et des -- con -- for -- \skip1 té -- \skip1 e
+        Fut en son cœur tris -- te et des -- con -- for -- tée
+        Fut en son cœur tris -- te et des -- con -- for -- \skip1 té -- \skip1 e
         Voy -- ant l'ef -- fort faic -- te a sa chas -- te -- té
         El -- le leur dict: si par des -- loy -- aul -- té
         de ce corps mien Vous a -- vés io -- ys -- san -- ce
@@ -140,7 +140,13 @@ PartPTwoVoiceOne = \relative c' {
 	f1 d |
 	r2 f f f
 	f1. d2
-	fis2 g g es
+	% 1560 -Ok
+	%fis2 g g e
+	% 1566-1570 - Bof
+	%fis2 g g es
+	% 1576-1592 - Ok
+	%f2 g g e
+	f2 g g e
 	d\breve
 %15
 	r2 g es c |
@@ -156,28 +162,30 @@ PartPTwoVoiceOne = \relative c' {
 	d1 r2 f
 %25
 	f2 f f1~ |
-	f2 d fis g
-	g2 es d1~
+	f2 d f g
+	g2 e d1~
 	d2 d g1~
 	g2 g f1
 %30
 	e2 f d d~ |
 	d4 e f g a2 g
-	fis2 a a1
+	f2 a a1
 	f1 g2. f4
 	e2 e f d
 %35
 	e2 a a1 |
+	%fis2 fis g2. f4
 	fis2 fis g2. f4
-	e4 f g1 f2
-	g1 r2 es
+	%e4 f g1 f2
+	e4 f g1 fis2
+	g1 r2 e
 	d2 d f f
 %40
 	f1 f2 bes |
 	a2 a c1
 	c2 a1 bes2
 	g2. f4 e f g2~
-	g2 f g d
+	g2 fis g d
 %45
 	e2 e f bes |
 	a2 g f2. f4
@@ -203,8 +211,8 @@ PartPTwoVoiceOneLyricsOne =  \lyricmode {
         d'a -- mour so -- li -- ci -- té -- e
         d'a -- mour so -- li -- ci -- té -- e
         Par deux vieil -- larts con -- voi -- tant sa beau -- té
-        Fut en son ceur
-        Fut en son ceur tris -- te et des -- con -- for -- tée
+        Fut en son cœur
+        Fut en son cœur tris -- te et des -- con -- for -- tée
         tris -- te et de -- con -- for -- tée,
         tris -- te et de -- con -- for -- tée,
         Voy -- ant l'ef -- fort faict a sa chas -- te -- té,
@@ -214,7 +222,7 @@ PartPTwoVoiceOneLyricsOne =  \lyricmode {
         Si ie fais re -- sis -- ten -- ce
         Vous me fe -- rés mo -- rir en des -- _ _ _ _ hon -- neur
         Mais i'ay -- me mieulx,
-        Mais i'ay -- me mieux pe -- rir en in -- no -- cen -- _ _ _ ce.
+        Mais i'ay -- me mieulx pe -- rir en in -- no -- cen -- _ _ _ ce.
         pe -- rir en in -- no -- cen -- ce.
         Que d'of -- fen -- ser par pe -- ché le __ _ _ Sei -- gneur
         Que d'of -- fen -- ser
@@ -246,7 +254,7 @@ PartPThreeVoiceOne =  \relative c' {
 	r2 a1 d2
 	c2 c a d~
 %20
-	d4 cis8 b cis!2 d2. d4 |
+	d4 c4 c2 d2. d4 |
 	d2 d es d
 	g,2 g r bes
 	g2 bes f1
@@ -264,8 +272,8 @@ PartPThreeVoiceOne =  \relative c' {
 	r2 d d d
 	cis cis d f
 %35
-	e2 d1 cis2 |
-	d1. bes2
+	e2 d1 c2 |
+	d1. b2
 	c1 a
 	g1 r2 g
 	bes2 a bes c
@@ -295,21 +303,21 @@ PartPThreeVoiceOne =  \relative c' {
 	}
 
 PartPThreeVoiceOneLyricsOne =  \lyricmode {
-	Su -- san -- ne~un jour d'a -- mour so -- li -- ci -- té -- e,
-        d'a -- mour so -- li -- ci -- té -- e,
+		Su -- san -- ne~ung iour d'a -- mour so -- li -- ci -- té -- e
         d'a -- mour so -- li -- ci -- té -- e
-        par deux vieil -- lards con -- voi -- tans sa beau -- té,
-        fut en son coeur tris -- te~et dé -- con -- for -- té -- _ _ _ e,
-        tris -- te~et dé -- con -- for -- té -- e,
-        voy -- ant l'ef -- fort,
-        voy -- ant l'ef -- fort fait a sa chas -- te -- té.
-        El -- le leur dit: si par __ _ _ _ _ dé -- loy -- au -- té
-        de ce corps mien vous a -- vez jou -- is -- san -- ce,
-        c'est fait de moi.
-        Si je fais ré -- sis -- tan -- ce,
-        vous me fe -- rez mou -- rir en dés -- hon -- neur.
-        Mais j'ai -- me mieux pé -- rir en in -- no -- cen -- ce,
-        que d'of -- fen -- ser par pé -- ché le Sei -- gneur.
+        d'a -- mour so -- li -- ci -- té -- e
+        Par deux vieil -- larts con -- voi -- tant sa beau -- té
+        Fut en son cœur tris -- te et des -- con -- for -- _ té -- e
+        tris -- te et des -- con -- for -- tée
+        Voy -- ant l'ef -- fort
+        Voy -- ant l'ef -- fort faict a sa chas -- te -- té
+        El -- le leur dict: si par __ _ _ _ _ des -- loy -- aul -- té
+        De ce corps mien vous a -- vés io -- ys -- san -- ce
+        Cest faict de moy
+        Si ie fais re -- sis -- ten -- ce,
+        Vous me fe -- rés mo -- rir en des -- hon -- neur.
+        Mais i'ay -- me mieulx pe -- rir en in -- no -- cen -- ce,
+        Que d'of -- fen -- ser par pe -- ché le Sei -- gneur.
 	}
 
 PartPFourVoiceOne =  \relative c' {
@@ -320,7 +328,7 @@ PartPFourVoiceOne =  \relative c' {
 	d1 r2 a~
 %5
 	a2 d c c |
-	a2 d2. cis8 b cis!2
+	a2 d2. c4 c2
 	d2. d4 d2 d
 	es2 d g, g
 	r2 bes g bes
@@ -331,7 +339,7 @@ PartPFourVoiceOne =  \relative c' {
 	d2 bes g1
 	r2 a bes2. c4
 %15
-	d2 d g2. f8 es |
+	d2 d g2. f8 e |
 	d4 c bes a g1
 	r2 g bes1~
 	bes2 c d f
@@ -357,7 +365,7 @@ PartPFourVoiceOne =  \relative c' {
 %35
 	a2 f' e1 |
 	d2 a g r4 d'
-	g2 e d1~
+	g2 es d1~
 	d1 r2 g
 	g2 f d c
 %40
@@ -370,7 +378,7 @@ PartPFourVoiceOne =  \relative c' {
 	c2 c f,1 |
 	r2 g bes a
 	bes2. g4 c2 bes
-	f'2 f bes,2. bes4
+	f'1 bes,2. bes4
 	bes2 bes g4 g bes2~
 %50
 	bes4 a8 g a2 bes f' |
@@ -381,33 +389,32 @@ PartPFourVoiceOne =  \relative c' {
 %55
 	es\breve |
 	d1 c2 g'~
-	g4 f e2 d d
+	g4 f es2 d d
 	d\breve |
 	}
 
 PartPFourVoiceOneLyricsOne =  \lyricmode {
-	Su -- san -- ne~un jour d'a -- mour so -- li -- ci -- té -- _ _ _ e,
+	Su -- san -- ne~ung iour d'a -- mour so -- li -- ci -- té -- _ _ e,
         d'a -- mour so -- li -- ci -- té -- e
-        par deux vieil -- lards,
-        par deux vieil -- lards con -- voi -- tans sa beau -- té,
-        fut en __ _ _ son coeur, __ _ _ _ _ _ _ _
-        fut en son coeur tris -- te~et dé -- con -- for -- té -- e,
-        tris -- te~et dé -- con -- for -- té -- e,
-        tris -- te~et dé -- con -- for -- té -- e,
-        voy -- ant l'ef -- fort fait a sa chas -- te -- té.
-        El -- le leur dit,
-        el -- le leur dit: si par dé -- loy -- au -- té
-        de ce corps mien vous a -- vez jou -- is -- san -- ce,
-        c'est fait,
-        c'est fait de moi.
-        Si je fais ré -- sis -- tan -- ce,
-        vous me fe -- rez mou -- rir en dés -- _ _ _ _ hon -- neur.
-        Mais j'ai -- me mieux,
-        mais j'ai -- me mieux,
-        mais j'ai -- me mieux pé -- rir,
-        pé -- rir en in -- no -- cen -- _ _ _ ce,
-        que d'of -- fen -- ser par pé -- ché le Sei -- gneur,
-        que d'of -- fen -- ser par pé -- ché __ _ _ le Sei -- gneur.
+        par deux vieil -- larts,
+        par deux vieil -- larts con -- voi -- tant sa beau -- té,
+        Fut en __ _ _ son cœur, __ _ _ _ _ _ _ _
+        Fut en son cœur tris -- te et dé -- con -- for -- tée,
+        tris -- te et dé -- con -- for -- tée,
+        tris -- te et dé -- con -- for -- tée,
+        Voy -- ant l'ef -- fort faict a sa chas -- te -- té.
+        El -- le leur dict,
+        el -- le leur dict: si par dé -- loy -- aul -- té
+        De ce corps mien vous a -- vés io -- ys -- san -- ce,
+        C'est faict,
+        C'est faict de moi.
+        Si ie fais ré -- sis -- ten -- ce,
+        vous me fe -- rés mo -- rir en dés -- _ _ _ _ hon -- neur.
+        Mais j'ai -- me mieulx,
+        Pé -- rir en in -- no -- cen -- _ ce,
+        Pé -- _ rir en in -- no -- cen -- _ _ _ ce,
+        Que d'of -- fen -- ser par pé -- ché le Sei -- gneur,
+        Que d'of -- fen -- ser par pé -- ché __ _ _ le Sei -- gneur.
 	}
 
 
@@ -486,23 +493,23 @@ PartPFiveVoiceOne =  \relative c {
 	}
 
 PartPFiveVoiceOneLyricsOne =  \lyricmode {
-	Su -- san -- ne~un jour,
-        Su -- san -- ne~un jour d'a -- mour so -- li -- ci -- té -- _ _ _ _ e
-        par deux vieil -- lards,
-        par deux vieil -- lards con -- voi -- tans sa beau -- té,
-        fut en son coeur,
-        fut en son coeur tris -- te~et dé -- con -- for -- té -- _ _ _ _ e,
-        voy -- ant l'ef -- fort,
-        voy -- ant l'ef -- fort fait a sa chas -- te -- té.
-        El -- le leur dit: si par dé -- loy -- au -- té
-        de ce corps mien vous a -- vez jou -- is -- san -- ce,
-        c'est fait de moi.
-        Si je fais ré -- sis -- tan -- ce,
-        vous me fe -- rez mou -- rir __ _ _ en dés -- hon -- neur.
-        Mais j'ai -- me mieux,
-        mais j'ai -- me mieux pé -- rir en in -- no -- cen -- ce,
-        que d'of -- fen -- ser,
-        que d'of -- fen -- ser par pé -- ché le Sei -- gneur.
+	Su -- san -- ne~ung iour,
+        Su -- san -- ne~ung iour d'a -- mour so -- li -- ci -- té -- _ _ _ _ e
+        Par deux vieil -- lars
+        Par deux vieil -- lars con -- voi -- tant sa beau -- té
+        Fut en son cœur,
+        Fut en son cœur tris -- te et dé -- con -- for -- _ té -- _ _ e,
+        Voy -- ant l'ef -- fort,
+        Voy -- ant l'ef -- fort faict a sa chas -- te -- té
+        El -- le leur dict: si par dé -- loy -- aul -- té
+        De ce corps mien vous a -- vés io -- ys -- san -- ce
+        C'est faict de moi.
+        Si ie fais ré -- sis -- ten -- ce,
+        Vous me fe -- rés mo -- rir __ _ _ en dés -- hon -- neur
+        Mais j'ai -- me mieulx
+        Mais j'ai -- me mieulx pé -- rir en in -- no -- cen -- ce
+        Que d'of -- fen -- ser
+        Que d'of -- fen -- ser par pé -- ché le Sei -- gneur.
 	}
 
 \markup \vspace #1 % change this value accordingly
@@ -514,6 +521,7 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {
             \new Staff
             <<
                 \set Staff.instrumentName = "Soprano"
+				\set Staff.midiInstrument = #"reed organ"
                 
                 \context Staff << 
 					\context Voice = "PartPOneVoiceOne" { \PartPOneVoiceOne }
@@ -523,6 +531,7 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {
             \new Staff
             <<
                 \set Staff.instrumentName = "Alto"
+				\set Staff.midiInstrument = #"reed organ"
                 
                 \context Staff << 
 					\context Voice = "PartPTwoVoiceOne" { \PartPTwoVoiceOne }
@@ -532,6 +541,7 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {
             \new Staff
             <<
                 \set Staff.instrumentName = "Ténor 1"
+				\set Staff.midiInstrument = #"reed organ"
                 
                 \context Staff << 
 					\context Voice = "PartPThreeVoiceOne" { \PartPThreeVoiceOne }
@@ -541,6 +551,7 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {
             \new Staff
             <<
                 \set Staff.instrumentName = "Ténor 2"
+				\set Staff.midiInstrument = #"reed organ"
                 
                 \context Staff << 
 					\context Voice = "PartPFourVoiceOne" { \PartPFourVoiceOne }
@@ -550,6 +561,7 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {
             \new Staff
   			<<
                 \set Staff.instrumentName = "Basse"
+				\set Staff.midiInstrument = #"reed organ"
                 
                 \context Staff << 
 					\context Voice = "PartPFiveVoiceOne" { \PartPFiveVoiceOne }
@@ -578,5 +590,13 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {
 \markup {\tiny {https://orka.bibliothek.uni-kassel.de/viewer/image/1521463006792/348/}}
 \markup {\tiny {Voir l'original de 1566 conservé à la bibliothèque d'état bavaroise sur}}
 \markup {\tiny {https://www.digitale-sammlungen.de/en/view/bsb00077375?q=%28lasso+tiers+livres+des+chansons+%29&page=28,29}}
-\markup {\tiny {Le second ténor suit le ténor de la chanson originelle de Didier Lupi}}
+\markup {\tiny {Le premier ténor reprend partiellement le ténor de la chanson originelle de Didier Lupi}}
 \markup {\tiny {Musica ficta intégrée pour l'Ensemble Variations, barres de mesures, durée des notes préservée, orthographe du manuscript}}
+\markup {\tiny {Cadence S m.14 toujours fa bécarre, m.27 fa dièze en 1566 et 1570 seulement => non conservé}}
+\markup {\tiny {S m.55 mi bémol en 1576 et 1592 seulement => conservé avec le mi bémol de la basse}}
+\markup {\tiny {A m.13 et m. 26 fa dièze et mi bécarre en 1560, fa dièze et mi bémol en 1566 et 1570, fa bécarre et mi bécarre en 1576 et 1592 => on conserve la version 1576-1592 }}
+\markup {\tiny {A m.57 fa dièze en 1566 et 1570, fa bécarre en 1560, 1576 et 1592 => on conserve le fa dièze de 1566 et 1570, sensible d'attraction sous entendue dans les autres versions. }}
+\markup {\tiny {En revanche on garde le fa bécarre m. 53 pour la couleur et l'environnement différent }}
+\markup {\tiny {T1 m.21-22 do bécarre et mi bémol en 1560, do dièze et mi bémol en 1566 et 1570, do bécarre et mi bécarre en 1576 et 1592 => on conserve do bécarre et mi bémol, }}
+\markup {\tiny {ce dernier pour le mi bémol de la basse }}
+\markup {\tiny {T1 m.35 do bécarre dans 3 versions => on conserve }}
