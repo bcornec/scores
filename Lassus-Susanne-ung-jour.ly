@@ -103,15 +103,16 @@ PartPOneVoiceOne = \relative c''  {
 	bes2 bes2 c bes
 	g1 d'
 	b\breve |
+	\bar "||"
 	}
 
 PartPOneVoiceOneLyricsOne =  \lyricmode {
 		Su -- san -- ne~ung iour d'a -- mour so -- li -- ci -- té -- e
         Su -- san -- ne~ung iour d'a -- mour so -- li -- ci -- té --  _ _ _ e __
         Par deux vieil -- larts con -- voi -- tant sa beau -- _ té
-        Fut en son cœur tris -- te et des -- con -- for -- tée
-        Fut en son cœur tris -- te et des -- con -- for -- \skip1 té -- \skip1 e
-        Voy -- ant l'ef -- fort faic -- te a sa chas -- te -- té
+        Fut en son cœur tris -- te~et des -- con -- for -- té -- e
+        Fut en son cœur tris -- te~et des -- con -- for -- té -- \skip1 \skip1 \skip1 e
+        Voy -- ant l'ef -- fort faict a sa chas -- _ te -- té
         El -- le leur dict: si par des -- loy -- aul -- té
         de ce corps mien Vous a -- vés io -- ys -- san -- ce
         Cest faict de moy
@@ -212,9 +213,9 @@ PartPTwoVoiceOneLyricsOne =  \lyricmode {
         d'a -- mour so -- li -- ci -- té -- e
         Par deux vieil -- larts con -- voi -- tant sa beau -- té
         Fut en son cœur
-        Fut en son cœur tris -- te et des -- con -- for -- tée
-        tris -- te et de -- con -- for -- tée,
-        tris -- te et de -- con -- for -- tée,
+        Fut en son cœur tris -- te~et des -- con -- for -- té -- e
+        tris -- te~et de -- con -- for -- té -- e,
+        tris -- te~et de -- con -- for -- té -- e,
         Voy -- ant l'ef -- fort faict a sa chas -- te -- té,
         El -- le leur dict: si par des -- loy -- _ _ _ _ aul -- té
         de ce corps mien __ _ _ Vous a -- vés io -- ys -- san -- ce,
@@ -307,8 +308,8 @@ PartPThreeVoiceOneLyricsOne =  \lyricmode {
         d'a -- mour so -- li -- ci -- té -- e
         d'a -- mour so -- li -- ci -- té -- e
         Par deux vieil -- larts con -- voi -- tant sa beau -- té
-        Fut en son cœur tris -- te et des -- con -- for -- _ té -- e
-        tris -- te et des -- con -- for -- tée
+        Fut en son cœur tris -- te~et des -- con -- for -- té -- _ _ e
+        tris -- te~et des -- con -- for -- té -- e
         Voy -- ant l'ef -- fort
         Voy -- ant l'ef -- fort faict a sa chas -- te -- té
         El -- le leur dict: si par __ _ _ _ _ des -- loy -- aul -- té
@@ -399,9 +400,9 @@ PartPFourVoiceOneLyricsOne =  \lyricmode {
         par deux vieil -- larts,
         par deux vieil -- larts con -- voi -- tant sa beau -- té,
         Fut en __ _ _ son cœur, __ _ _ _ _ _ _ _
-        Fut en son cœur tris -- te et dé -- con -- for -- tée,
-        tris -- te et dé -- con -- for -- tée,
-        tris -- te et dé -- con -- for -- tée,
+        Fut en son cœur tris -- te~et dé -- con -- for -- té -- e,
+        tris -- te~et dé -- con -- for -- té -- e,
+        tris -- te~et dé -- con -- for -- té -- e,
         Voy -- ant l'ef -- fort faict a sa chas -- te -- té.
         El -- le leur dict,
         el -- le leur dict: si par dé -- loy -- aul -- té
@@ -498,7 +499,7 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {
         Par deux vieil -- lars
         Par deux vieil -- lars con -- voi -- tant sa beau -- té
         Fut en son cœur,
-        Fut en son cœur tris -- te et dé -- con -- for -- _ té -- _ _ e,
+        Fut en son cœur tris -- te~et dé -- con -- for -- té -- _ _ _ _ e,
         Voy -- ant l'ef -- fort,
         Voy -- ant l'ef -- fort faict a sa chas -- te -- té
         El -- le leur dict: si par dé -- loy -- aul -- té
@@ -578,7 +579,7 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {
       }
 	}
     % To create MIDI output, uncomment the following line:
-    \midi {\tempo 2 = 80 }
+    \midi {\tempo 2 = 120 }
     }
 
 \markup \vspace #1 % change this value accordingly
