@@ -27,7 +27,7 @@
 
 global = {
 	\key f \major
-	\time 2/2 \set Score.measureLength = #(ly:make-moment 2/1)
+	\time 2/1 \set Score.measureLength = #(ly:make-moment 2/1)
         \set Score.tempoHideNote = ##t
 	}
 
@@ -113,7 +113,6 @@ PartPTwoVoiceOne = \relative c' {
     g1. g2 | g1 g | fis2 a1 a2 | a1 bes | a f | g2 g e1 | f2 a1 a2 | a\breve |
         r2 a1 g2 |  a1 f  | g1 c, | r2 g'2. a4 bes2 ~ | bes bes a1 |
     
-    % --- page ---
     g\breve | f2 f1 d2 | e4 f g1 f2 | 
         g1 r2 d ~ | d4 e f1 a2 | g1 r2 g |
         f2 f1 d2 | e4 f g2. fis8 e fis!2 | 
@@ -226,7 +225,7 @@ PartPFourVoiceOne =  \relative c' {
 	}
 
 PartPFourVoiceOneLyricsOne =  \lyricmode {
-  Ky -- ri -- e~e -- lei -- _ _ _ _ _ _ _ son.
+	Ky -- ri -- e~e -- lei -- _ _ _ _ _ _ _ son.
     Ky -- ri -- e~e -- lei -- son.
     Ky -- ri -- e~e -- lei -- son.
     Ky -- ri -- e e -- lei -- _ _ son. __
@@ -367,7 +366,7 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {
       }
 	}
     % To create MIDI output, uncomment the following line:
-    \midi {\tempo 2 = 100 }
+    \midi {\tempo 2 = 90 }
     }
 
 \markup \vspace #1 % change this value accordingly

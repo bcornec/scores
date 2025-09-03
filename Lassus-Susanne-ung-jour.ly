@@ -28,7 +28,7 @@
 
 global = {
 	\key f \major
-	\time 2/2 \set Score.measureLength = #(ly:make-moment 2/1)
+	\time 2/1 \set Score.measureLength = #(ly:make-moment 2/1)
         \set Score.tempoHideNote = ##t
 	}
 
