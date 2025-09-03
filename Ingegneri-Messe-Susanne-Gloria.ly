@@ -583,7 +583,7 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {
       }
 	}
     % To create MIDI output, uncomment the following line:
-    \midi {\tempo 2 = 100 }
+    \midi {\tempo 2 = 110 }
     }
 
 \markup \vspace #1 % change this value accordingly

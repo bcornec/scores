@@ -8,11 +8,11 @@ stdTime = {
 threeTime = {
 	\time 3/1 \set Score.measureLength = #(ly:make-moment 3/1)
 	\tempo \markup {
-	   	\concat {
-        	\smaller \general-align #Y #DOWN \note { 1 } #1
-        	" = "
-        	\smaller \general-align #Y #DOWN \note { 1. } #1
-    	}
+		\concat {
+			\smaller \general-align #Y #DOWN \note { 1 } #1
+			" = "
+			\smaller \general-align #Y #DOWN \note { 1. } #1
+		}
 	}
 }
 
@@ -30,7 +30,7 @@ ficta = \set suggestAccidentals = ##t
 
 \header {
     title =  "Messe Susanne ung jour"
-	subtitle = "Agnus Dei"
+	subtitle = "Agnus Dei I"
 	poet = \pieceArranger
     composer =  "Marco Antonio Ingegnieri (1535-1592)"
     
@@ -59,133 +59,120 @@ global = {
 
 PartPOneVoiceOne = \relative c''  {
     \clef "treble" \global
-	R\breve | r1 g ~ | g2 g \[ bes1 ~| bes( c ~ | c) \] d2 d | d1 d2 d |
+	R\breve | r1 g ~ | g2 g  bes1 ~| bes c ~ | c  d2 d | d1 d2 d |
         es d f1 ~ | f d | r2 d d1 | d2 d bes1 ~ | bes2 d c1 | d\breve | R |
         f1. f2 | d d e1 | a,
 
     bes2. bes4 | bes2 bes a1 | a r1 | r2 d2. d4 f2 | 
-        e d2.\melisma\ficta cis8[ b] cis!2\unficta\melismaEnd | d1 r2 bes ~|
-        bes g a d, | e4\melisma\ficta f g2. fis8[ e] fis!2\unficta\melismaEnd |
-        g1 bes ~ | bes2 g d' d | \[ es1( d) \] | b\longa*1/2
+        e d2. c8 bes c2 | d1 r2 bes ~|
+        bes g a d, | e4 f g2. fis8 e fis2 |
+        g1 bes ~ | bes2 g d' d |  es1 d  | b\breve
     \bar "|."
 	}
 
 PartPOneVoiceOneLyricsOne =  \lyricmode {
-  A -- gnus De -- i,
+  A -- gnus De -- _ i,
         qui tol -- lis pec -- ca -- ta mun -- di,
         qui tol -- lis pec -- ca -- ta mun -- di,
         mi -- se -- re -- re no -- bis,
         mi -- se -- re -- re no -- bis,
-        mi -- se -- re -- re no -- bis,
-        mi -- se -- re -- re no -- bis,
-        mi -- se -- re -- re no -- bis.
+        mi -- se -- re -- re no -- _ _ _ bis,
+        mi -- se -- re -- re no -- _ _ _ _ _ bis,
+        mi -- se -- re -- re no -- _ bis.
 	}
 
 PartPTwoVoiceOne = \relative c' {
 	\clef "treble" \global
 	R\breve | d1. d2 | bes\breve | g1 r1 | g' bes ~ | bes bes | bes a2 f | 
-        f1 f | a2 a2. a4 a2 | bes a g2.( f4 | g a bes2. a8[ g] a2) |
+        f1 f | a2 a2. a4 a2 | bes a g2. f4 | g a bes2. a8 g a2 |
         bes bes1 bes2 |
 
     bes2 bes a1 ~ | a a | r2 a1 a2 | fis fis g1 ~ | g e | f2. f4 f2 g | a\breve |
-        a1 r1 | a d, | g fis2 g ~ | g4( f es2) d1 ~ | d g2. g4 | g1 fis2 g ~ |
-        g4( c, g'2. fis8[ e] fis2) | g\longa*1/2
-    \bar "|."R\breve | d1. d2 | bes\breve | g1 r1 | g' bes ~ | bes bes | bes a2 f | 
-        f1 f | a2 a2. a4 a2 | bes a g2.( f4 | g a bes2. a8[ g] a2) |
-        bes bes1 bes2 |
-
-    bes2 bes a1 ~ | a a | r2 a1 a2 | fis fis g1 ~ | g e | f2. f4 f2 g | a\breve |
-        a1 r1 | a d, | g fis2 g ~ | g4( f es2) d1 ~ | d g2. g4 | g1 fis2 g ~ |
-        g4( c, g'2. fis8[ e] fis2) | g\longa*1/2
+        a1 r1 | a d, | g fis2 g ~ | g4 f es2 d1 ~ | d g2. g4 | g1 fis2 g ~ |
+        g4 c, g'2. fis8 e fis2 | g\breve
     \bar "|."
 	}
 
 PartPTwoVoiceOneLyricsOne =  \lyricmode {
   A -- gnus De -- i,
         qui tol -- lis pec -- ca -- ta mun -- di,
-        qui tol -- lis pec -- ca -- ta mun -- di,
+        qui tol -- lis pec -- ca -- ta mun -- _ _ _ _ _ _ _ di,
         mi -- se -- re -- re no -- bis,
         mi -- se -- re -- re no -- bis,
         mi -- se -- re -- re no -- bis,
-        mi -- se -- re -- re no -- bis, __
-        mi -- se -- re -- re no -- bis.
+        mi -- se -- re -- re no -- _ _ bis, __
+        mi -- se -- re -- re no -- _ _ _ _ _ bis.
 	}
 
 PartPThreeVoiceOne =  \relative c' {
     \clef "treble_8" \global
 
-	d1. d2 | \[ bes1( g) \] | d'\breve | es1. es2 | c1 g2 d' | d1 d2 d |
-        bes d c( bes ~ | bes4 a a g8[ a] bes4 c d e | f\breve) | f1 r1 | R\breve |
+	d1. d2 |  bes1 g  | d'\breve | es1. es2 | c1 g2 d' | d1 d2 d |
+        bes d c bes ~ | bes4 a a g8 a bes4 c d e | f\breve | f1 r1 | R\breve |
         f1. f2 |
 
     g2 g e1 | d r2 d ~ | d d cis cis | d1 g, | R\breve*2 | r2 f'1 d2 | 
-        e f e1 | d bes ~ | bes2 bes a g | \[ c1( a) \] | g d' ~ | d2 d d b |
-        c2.( bes4 a1) | g\longa*1/2
+        e f e1 | d bes ~ | bes2 bes a g |  c1 a  | g d' ~ | d2 d d b |
+        c2. bes4 a1 | g\breve
     \bar "|."
 	}
 
 PartPThreeVoiceOneLyricsOne =  \lyricmode {
-  A -- gnus De -- i,
+  A -- gnus De -- _ i,
     A -- gnus De -- i,
-        qui tol -- lis pec -- ca -- ta mun -- di,
+        qui tol -- lis pec -- ca -- ta mun -- _ _ _ _ _ _ _ _ _ _ di,
         mi -- se -- re -- re no -- bis,
         mi -- se -- re -- re no -- bis,
         mi -- se -- re -- re no -- bis,
-        mi -- se -- re -- re no -- bis,
-        mi -- se -- re -- re no -- bis.
+        mi -- se -- re -- re no -- _ bis,
+        mi -- se -- re -- re no --  _ _ bis.
 	}
 
 PartPFourVoiceOne =  \relative c' {
 	\clef "treble_8" \global
-	r1 g | g2 bes2.( c4 d2 ~ | d) g, g'1 ~ | g g | es1 d2 g | f1 f2 f |
-        g f f4( e d c8[ bes] | c1) d | d d | d2 d es1 ~ | es2 bes2 
+	r1 g | g2 bes2. c4 d2 ~ | d g, g'1 ~ | g g | es1 d2 g | f1 f2 f |
+        g f f4 e d c8 bes | c1 d | d d | d2 d es1 ~ | es2 bes2 
 
     f'1 | bes, r2 d ~ | d d2 cis cis | d1 a1 ~ | a\breve | r1 bes2 bes |
         g g a1 | d,2 d'1 d2 | cis d a1 | a2 a'1 a2 | fis fis g d | 
         d2. d4 d2 b | c g 
 
-    r1 | bes\breve | bes1 a2 g | \[ g1( d') \] | d\longa*1/2
+    r1 | bes\breve | bes1 a2 g |  g1 d'  | d\breve
     \bar "|."
 	}
 
 PartPFourVoiceOneLyricsOne =  \lyricmode {
-  A -- gnus De -- i,
+  A -- gnus De -- _ _ i,
     A -- gnus De -- i,
-        qui tol -- lis pec -- ca -- ta mun -- di,
+        qui tol -- lis pec -- ca -- ta mun -- _ _ _ _ _ di,
         qui tol -- lis pec -- ca -- ta mun -- di,
         mi -- se -- re -- re no -- bis, __
         mi -- se -- re -- re no -- bis,
         mi -- se -- re -- re no -- bis,
         mi -- se -- re -- re no -- bis,
         mi -- se -- re -- re no -- bis,
-        mi -- se -- re -- re no -- bis.
+        mi -- se -- re -- re no -- _ bis.
 	}
 
 PartPFiveVoiceOne =  \relative c' {
 	\clef "bass" \global
-	R\breve*2 | g1. g2 | es2.( d4 c1 ~ | c) g'2 g | bes1 bes2 bes, | es bes f'1 ~|
+	R\breve*2 | g1. g2 | es2. d4 c1 ~ | c g'2 g | bes1 bes2 bes, | es bes f'1 ~|
         f bes, | R\breve R\breve*2 | r2 bes'1 bes2 | g g a1 | d,\breve ~ | d1 r1 | 
         r1 d' ~ | d2 d cis cis |
 
-    d2.( c4 bes1) | a2 d,1 d2 | cis d a'1 | d, g ~ | g2 g d g | \[ c,1( d) \] |
-        g g ~ | g2 g d g | \[ c,1( d) \] | g\longa*1/2
-    \bar "|."R\breve*2 | g1. g2 | es2.( d4 c1 ~ | c) g'2 g | bes1 bes2 bes, | es bes f'1 ~|
-        f bes, | R\breve R\breve*2 | r2 bes'1 bes2 | g g a1 | d,\breve ~ | d1 r1 | 
-        r1 d' ~ | d2 d cis cis |
-
-    d2.( c4 bes1) | a2 d,1 d2 | cis d a'1 | d, g ~ | g2 g d g | \[ c,1( d) \] |
-        g g ~ | g2 g d g | \[ c,1( d) \] | g\longa*1/2
+    d2. c4 bes1 | a2 d,1 d2 | cis d a'1 | d, g ~ | g2 g d g |  c,1 d  |
+        g g ~ | g2 g d g |  c,1 d  | g\breve
     \bar "|."
 	}
 
 PartPFiveVoiceOneLyricsOne =  \lyricmode {
-  A -- gnus De -- i,
+  A -- gnus De -- _ _ i,
         qui tol -- lis pec -- ca -- ta mun -- di,
         mi -- se -- re -- re no -- bis, __
+        mi -- se -- re -- re no -- _ _ bis,
         mi -- se -- re -- re no -- bis,
-        mi -- se -- re -- re no -- bis,
-        mi -- se -- re -- re no -- bis,
-        mi -- se -- re -- re no -- bis.
+        mi -- se -- re -- re no -- _ bis,
+        mi -- se -- re -- re no -- _ bis.
 	}
 
 \markup \vspace #1 % change this value accordingly
@@ -235,7 +222,7 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {
                     >>
                 >>
             \new Staff
-  			<<
+			<<
                 \set Staff.instrumentName = "Basse"
 				\set Staff.midiInstrument = #"reed organ"
                 
@@ -249,12 +236,12 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {
         >>
     \layout {
 		papersize = "a4"
-	  	\context {
+		\context {
 			\Staff \consists Ambitus_engraver
       }
 	}
     % To create MIDI output, uncomment the following line:
-    \midi {\tempo 2 = 100 }
+    \midi {\tempo 2 = 80 }
     }
 
 \markup \vspace #1 % change this value accordingly
