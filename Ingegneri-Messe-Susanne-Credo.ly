@@ -138,10 +138,10 @@ PartPOneVoiceOne = \relative c''  {
         r2 c1 bes2 | g1
 
     d'1 | b2 d d1 | c2 c bes1 | a bes | bes a2 a | g1 f2 f4 e | 
-        d e f g a bes c2 | 
+	% Interprétation personnelle du manuscript pour arranger la fin
+        d e f g a bes c2~ | c2 
         g2. a4 bes2 ~ | 
-                            % TODO g2 aveant c2 ? plutôt que la ligne du dessus lié ?
-        bes4 bes f2 a2. bes4 | c2 bes2 g | d'\breve | b\breve
+        bes4 bes f1 a2~a4 bes4 | c2 c2 g | d'\breve | b\breve
     \bar "|."
 	}
 
