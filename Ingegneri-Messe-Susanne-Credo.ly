@@ -752,27 +752,23 @@ PartPFiveVoiceOne =  \relative c' {
 	}
 
 PartPFiveVoiceOneLyricsOne =  \lyricmode {
-  Pa -- trem om -- ni -- po -- ten -- tem,
+  Pa -- trem om -- ni -- po -- ten -- _ tem,
         om -- ni -- po -- ten -- tem,
     fa -- cto -- rem cæ -- li et ter -- ræ,
-    fa -- cto -- rem cæ -- li et ter -- ræ,
-        vi -- si -- bi -- li -- um om -- ni -- um
+    fa -- cto -- rem cæ -- li et ter -- _ _ ræ,
+        vi -- si -- bi -- li -- um om -- _ _ ni -- um
         et in -- vi -- si -- bi -- li -- um.
 
-%    Et in u -- num Do -- mi -- num Ie -- sum Chri -- stum,
-    Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum,
+    Fi -- li -- um De -- i u -- ni -- ge -- _ ni -- tum,
     et ex Pa -- tre na -- tum
-        an -- te om -- ni -- a sæ -- cu -- la.
-%    De -- um de De -- o,
+        an -- te om -- ni -- a sæ -- _ _ _ cu -- la.
         lu -- men de lu -- mi -- ne,
     De -- um ve -- rum de De -- o ve -- ro,
-%        de De -- o ve -- ro,
     Ge -- ni -- tum, non fa -- ctum,
-%        con -- sub -- stan -- ti -- a -- lem Pa -- tri:
     per quem om -- ni -- a fa -- cta sunt.
 
     Qui pro -- pter nos ho -- mi -- nes
-    et pro -- pter no -- stram sa -- lu -- tem
+    et pro -- pter no -- stram sa -- lu -- _ _ _ _ _ tem
     de -- scen -- dit de cæ -- lis,
     de -- scen -- dit de cæ -- lis,
     de -- scen -- dit de cæ -- lis.
@@ -780,46 +776,31 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {
     % ---
     Et in -- car -- na -- tus est,
     et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto __
-%    ex Ma -- ri -- a Vir -- gi -- ne:
-    et ho -- mo fa -- ctus est,
-    et ho -- mo fa -- ctus est.
+    et ho -- mo fa -- _ ctus est,
+    et ho -- mo fa -- _ _ ctus est.
     % --- a3 section: ---
-%
-%    Cru -- ci -- fi -- xus,
-%    cru -- ci -- fi -- xus e -- ti -- am pro no -- bis,
-%        e -- ti -- am pro no -- bis
-%        sub Pon -- ti -- o Pi -- la -- to:
-%    pas -- sus, et se -- pul -- tus est.
-%
-%        % tripla:
-%    Et re -- sur -- re -- xit ter -- ti -- a di -- e,
-%        se -- cun -- dum scri -- ptu -- ras.
-%        % duple again:
-%    Et a -- scen -- dit in cæ -- lum:
-%    se -- det ad dex -- te -- ram Pa -- tris.
-%
-%    % ---
+
     Et __ i -- te -- rum ven -- tu -- rus est
-    cum glo -- ri -- a iu -- di -- ca -- re vi -- vos et mor -- tu -- os,
+    cum glo -- ri -- a iu -- di -- ca -- _ _ _ _ re 
+	vi -- _ _ _ _ _ _ _ _ _ _ vos et mor -- tu -- os,
         vi -- vos et mor -- tu -- os:
+
     cu -- ius re -- gni non e -- rit fi -- nis.
     Et in Spi -- ri -- tum san -- ctum Do -- mi -- num,
-    et __ vi -- vi -- fi -- can -- tem:
+    et __ vi -- vi -- fi -- can -- _ tem:
 
-%    Qui ex Pa -- tre, Fi -- li -- o -- que pro -- ce -- dit.
-%
-    Qui cum Pa -- tre, et Fi -- li -- o si -- mul a -- do -- ra -- tur,
+    Qui cum Pa -- tre, et Fi -- li -- o si -- _ _ _ _ _ _ mul 
+		a -- do -- ra -- _ _ _ _ tur,
     et con -- glo -- ri -- fi -- ca -- tur:
-    qui lo -- cu -- tus est per Pro -- phe -- tas.
+    qui lo -- cu -- tus est per Pro -- phe -- _ tas.
 
     Et u -- nam, san -- ctam, Ca -- tho -- li -- cam,
         et a -- po -- sto -- li -- cam Ec -- cle -- si -- am,
-        et a -- po -- sto -- li -- cam Ec -- cle -- si -- am.
+        et a -- po -- sto -- li -- cam Ec -- _ cle -- _ si -- am.
 
     Con -- fi -- te -- or u -- num bap -- tis -- ma
-%        in re -- mis -- si -- o -- nem pec -- ca -- to -- rum.
     Et ex -- pe -- cto re -- sur -- re -- cti -- o -- nem,
-        re -- sur -- re -- cti -- o -- nem mor -- tu -- o -- rum,
+        re -- _ _ _ _ _ _ _ _ sur -- re -- cti -- o -- nem mor -- _ tu -- o -- rum,
     et vi -- tam ven -- tu -- ri,
     et vi -- tam ven -- tu -- ri,
     et vi -- tam ven -- tu -- ri sæ -- cu -- li.
