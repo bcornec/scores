@@ -169,12 +169,12 @@ PartPTwoVoiceOne = \relative c' {
         a1 r1 | r2 d, e f ~ | f g a1 ~ | a a | d, d | d2 d
 
     f2 f | f1 f2 f ~ | f4 g a bes c2. c4 | c2 a2. a4 a2 | a bes a g ~ |
-        g4 c, g'2. f8 e f2 | g1 r1 |
+        g4 c, g'2. fis8 e fis2 | g1 r1 |
         r2 g es1 | d d2 f ~ | f4 f g2 a1 |
 
     d,2 f2. f4 bes2 | g bes2. a8 g a2 | bes f1 f2 | g f f1 ~ | f f |
         bes2. bes4 a2 g | f bes a4 g g2 ~ |
-        g4 f8 e f2 g1 | R\breve | r1 r2 a |
+        g4 fis8 e fis2 g1 | R\breve | r1 r2 a |
         bes\breve | g2 g
 
     c1 ~ | c2 c c a ~ | a bes1 bes2 | a a1 d,2 | 

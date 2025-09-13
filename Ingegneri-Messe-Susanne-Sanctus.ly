@@ -175,7 +175,7 @@ PartPTwoVoiceOne = \relative c'' {
         bes1 g2 | r2 d2. d4 | e2 f4 f, a bes |
 
     c2 c r | g'2. g4 a2 | c bes a ~ | a r g ~ | g4 g a2 bes4 a |
-        g2. f8 e f2 | g g2. g4 |
+        g2. fis8 e fis2 | g g2. g4 |
         g2 g1 | g\breve. \bar "||"
 
     \stdTime \breveFromThree r1 d ~ | d2 g1 fis2 | g2. a4 bes2 a | 
@@ -184,7 +184,7 @@ PartPTwoVoiceOne = \relative c'' {
 
     g1 | f2 a f2. d4 | f2 g a1 ~ | a d, | r1 r2 a' | bes1 a2 d, | 
         d g2. a4 bes2 | a a f d | g\breve | 
-        g2 g2. f8 e f2 | g\breve |
+        g2 g2. fis8 e fis2 | g\breve |
         g2 g2. es4 c2 | g'1 g |
 
     % --- page ---
@@ -194,7 +194,7 @@ PartPTwoVoiceOne = \relative c'' {
     d,1 c2 d ~ | d4 e f g a2 f | g f2. g4 a f | g a bes2 a a | 
         g a2. g4 f2 | d es d4 c d e | f d
 
-    g2. f8 e f2 | g1 r1 | r1 r2 bes ~ |
+    g2. fis8 e fis2 | g1 r1 | r1 r2 bes ~ |
         bes a bes2. a4 | g f es2 d g | f4 e f d e f g2 ~ |
         g4 f f e8 d f2 e | d a' bes2. bes4 | a2
 
@@ -209,7 +209,7 @@ PartPTwoVoiceOne = \relative c'' {
 
     g1 | f2 a f2. d4 | f2 g a1 ~ | a d, | r1 r2 a' | bes1 a2 d, | 
         d g2. a4 bes2 | a a f d | g\breve | 
-        g2 g2. f8 e f2 | g\breve |
+        g2 g2. fis8 e fis2 | g\breve |
         g2 g2. es4 c2 | g'1 g |
 
     % --- page ---
