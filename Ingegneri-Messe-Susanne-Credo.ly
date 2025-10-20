@@ -24,9 +24,6 @@ breveFromThree = \tempo \markup {
     }
 }
 
-unficta = \unset suggestAccidentals
-ficta = \set suggestAccidentals = ##t
-
 
 \header {
     title =  "Messe Susanne ung jour"
@@ -76,31 +73,32 @@ PartPOneVoiceOne = \relative c''  {
         d1 f2. f4 | d2 f1 e2 | f1 r1 | r2 d d1 | bes2 g d'2. d4 | g,1 r2 bes |
         bes c d2. e4 | f1 e2 e | f4 e
 
-    d2. c8 b c2 | d2. c8 bes a2 bes ~ |
+    d2. c8 bes c2 | d2. c8 bes a2 bes ~ |
         bes bes1 c2 ~ | c c d1 ~ | d\breve | d | r2 f f1 | d2 bes bes1 |
         c d2 d |
         d1 bes2 bes | a1 a1
-    \bar "||"
+    \bar "||" \break
 
     R\breve*3 | d\breve | 
     d1. d2 | c1 bes | a2 d d1 ~ | d2 c c1 | bes a | fis2. g4 a2 d, | d'1 d |
         d1. d2 | cis1 r1 | R\breve | r1 r2 d ~ | d c1 b2 | c2. bes4 a1 |
-        g fis | g\breve \bar "||"
+        g fis | g\breve \bar "||" \break
 
     s1*0 ^\markup { \italic { Trio } }
-    g1. a2 | bes1 a | r2 bes1 c2 | d1 c2 f, ~ | f g a f | 
-        g2. a4 bes a d2 ~ |\ficta
-        d4 c8 bes c2\unficta d d ~ | d e f d | es1 d2 a |
+    g1. a2 | bes1 a | r2 bes1 c2 | d1 c2 f, ~ | f g a f |  \break
+        g2. a4 bes a d2 ~ |
+        d4 c8 bes c2 d d ~ |
+		d e f d | es1 d2 a |
 
-    d2. c8 bes a2 c | bes a d2. c8 bes | 
-        c4 bes8 c d2.\ficta cis8 b cis!2\unficta |
+    d2. c8 bes a2 c | bes a d2. c8 bes |  \break
+        c4 bes8 c d2. c8 bes c2 |
         d2 d1 c2 ~ | c bes1 a2 |  d,1 g ~ | g2  fis fis1 | 
-        \threeTime
+        \break \threeTime
         R\breve.*4 |\stdTime\breveFromThree
         d'1 e2 f ~ | f d e f4 c |
 
     d4 e f2. e8 d e2 | f1 r1 | r1 d ~ | d\breve | d1 c2 bes ~ |
-        bes4 a g1 c2 ~ | c bes a1 | g\breve \bar "||"
+        bes4 a g1 c2 ~ | c bes a1 | g\breve \bar "||" \break
 
     s1*0 ^\markup { \italic { Tutti } }
     d'1 d2. c4 | bes2 g bes1 ~ | bes2 c d1 | r2 bes bes2. c4 |
@@ -112,20 +110,20 @@ PartPOneVoiceOne = \relative c''  {
 
     f f' ~ | f4 e d2 c1 | r2 bes bes2. bes4 | bes1 r1 | d d2 bes ~ | bes bes1 a2 |
         a\breve | d1. d2 | d1 d2 d | es1. d2 | c\breve | 
-        bes2 d \ficta es\unficta d | c2 bes2. a8 g a2 | 
+        bes2 d es d | c2 bes2. a8 g a2 | 
 
     bes2 bes1 bes2 | bes1 a2 g | fis1 g2 g ~ | g g fis g ~ | g g a bes | 
          g1 d' | b1 r1 | R\breve | d2 d d1 | c bes ~ | bes2 bes a1 | 
         bes2 g d'1 | d r1 | r1 r2 f ~ | f f f1 |
 
     e2 e2 d2. d4 | c2 f f f | 
-        e d2.\ficta cis8 b cis!2\unficta | d1 r2 e |
+        e d2. c8 bes c2 | d1 r2 e |
         f2. e4 d d cis2 | d bes1 bes2 | bes g d'1 ~ | d c2 a | d2. c4 bes1 |
         a d2 bes |
 
     a2 d1 d2 | c1 bes2. a4 | g\breve | r1 r2 bes | d e f2. f4 | f2 d bes c |
         d2. d4 c2 c ~ | c bes1  a2  ~ |
-        a4 g g1 \ficta fis2\unficta | g d' d2. d4 | 
+        a4 g g1 f2 | g d' d2. d4 | 
         d2 d es d |
 
     c1 bes2 bes | bes2. bes4 bes2 bes | bes bes c1 | d2 d1 d2 | d d c1 | bes a2 g |
@@ -141,7 +139,7 @@ PartPOneVoiceOne = \relative c''  {
 	% Interprétation personnelle du manuscript pour arranger la fin
         d e f g a bes c2~ | c2 
         g2. a4 bes2 ~ | 
-        bes4 bes f1 a2~a4 bes4 | c2 c2 g | d'\breve | b\breve
+        bes4 bes f1 a2~a4 bes4 | g2 c2 g | d'\breve | b\breve
     \bar "|."
 	}
 
@@ -229,7 +227,7 @@ PartPTwoVoiceOne = \relative c' {
     % --- page ---
     a2 g1 f2 | e1 a2. a4 | d,1 r1 | R\breve | bes'2. bes4 bes1 | g2 bes1 a2 |
         a a a bes ~ | bes4 a g1 fis2 | a1 a2 a | bes1 a2 d, | 
-        e g1 \ficta fis2 \unficta |
+        e g1 fis2 |
         g\breve | g1. g2 | a a 
 
     a1 | bes r2 bes | bes bes1 a2 | a1  g | f1.  f2 | f d f g | a1 d,2 d |
@@ -268,7 +266,7 @@ PartPTwoVoiceOne = \relative c' {
     g2 g1 a2 | bes1 g2 a | bes2. a4 g1 | f2 f g a ~ | a4 g8 a bes2 a bes |
         a1 g2 bes | a bes2. a2 g4 | 
         f2 bes1  a2 ~
-        a4 g4  g1\ficta fis2\unficta |
+        a4 g4  g1 fis2 |
         g\breve
     \bar "||"
     s1*0 ^\markup { \italic { Tutti } }
@@ -280,9 +278,9 @@ PartPTwoVoiceOne = \relative c' {
         g f f1 ~ | f\breve | r1 r2 f ~ | f f bes1 | g1. bes2 |
 
     a1. g4 a | bes2. a4 g2 f | f\breve | f1 r1 | R\breve R | r1 r2 bes ~ |
-        bes g fis g | g4\ficta c, g'2. fis8 e fis!2\unficta |
+        bes g fis g | g4 c, g'2. fis8 e fis2 |
         g1 a | a2 a1 g2 ~ | g f1 g2 | a1 d, | 
-        d2 g2.\ficta fis8 e fis!2\unficta |
+        d2 g2. fis8 e fis2 |
     % --- page ---
     g2 bes1 bes2 | bes1 a2 a | g2. g4 f2 f ~ | f4 e d e f g a bes |
         c2. g4 bes2 f | a\breve ~ | a1 a2 a | a2. g4 f f e2 |
@@ -296,7 +294,7 @@ PartPTwoVoiceOne = \relative c' {
         bes4 a8 g a2 bes f | f2. f4 f2 f | g f f1 | f bes2. bes4 | 
         bes2 bes a1 | g
 
-    f2 bes | a4 g g2.\ficta fis8 e fis!2\unficta |
+    f2 bes | a4 g g2. fis8 e fis2 |
         g1 r1 | r1 bes ~ | bes2 bes a1 ~ | a2 g bes2. bes4 | bes2 bes a1 | g f2 f |
         bes1 a ~ | a f2 f | f1 d | r2 a' a1 | g2 g f1 | e\breve | 
 
@@ -304,7 +302,7 @@ PartPTwoVoiceOne = \relative c' {
          g1  f2.  g4  | a1 g |
         r2 g1  f2  ~ | 
         f4 f f2 f e4 d |
-        e f g2.\ficta fis8 e fis!2\unficta | g2 bes bes1 | 
+        e f g2. fis8 e fis2 | g2 bes bes1 | 
         a2 a  g1 | fis  g | R\breve | r1 a ~ | a a | g r2 g |
 
     f1 f2 f ~ | f d e g ~ | g fis4 e fis1 | g\breve 
@@ -562,7 +560,7 @@ PartPFourVoiceOne =  \relative c' {
         fis1 fis2 fis | g2. g4 fis2 g | g es d1 ~ | d r1 | r1
     % --- page ---
     r2 c | c c c f ~ | f d r d | d d1 c2 | c d1 d2 | d1 r1 | d1 bes2 g |
-        d'2. c4 bes1 | a f'2. f4 | f2 d1\ficta cis2\unficta | 
+        d'2. c4 bes1 | a f'2. f4 | f2 d1 c2 | 
         d1 a ~ | a2 a bes1 | a\breve | r2 g
 
     a2 a | bes1 g2 g' | g g fis1 | g2 d1 d2 | d d f2. e4 |  d1 c  |
@@ -575,7 +573,7 @@ PartPFourVoiceOne =  \relative c' {
         f d r4 bes bes2 | g g bes2. c4 | d\breve d\breve \bar "||"
 
     r1 d ~ | d d2 d | f g a1 ~ | a r2 g | g g1 f2 ~ | f es d g | f1. f2 |
-        f1 f2.\ficta e4 | d c d2. cis8 b cis!2\unficta | 
+        f1 f2. e4 | d c d2. c8 bes c2 | 
         d1 fis ~ | fis2 fis g d |
 
     f2. e4 d2 d | e1 r2 d ~ | d c1 b2 | c2. bes4 a2 a | g1 r1 | r2 g a1 |

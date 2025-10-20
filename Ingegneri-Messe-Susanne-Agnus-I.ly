@@ -24,10 +24,6 @@ breveFromThree = \tempo \markup {
     }
 }
 
-unficta = \unset suggestAccidentals
-ficta = \set suggestAccidentals = ##t
-
-
 \header {
     title =  "Messe Susanne ung jour"
 	subtitle = "Agnus Dei I"
