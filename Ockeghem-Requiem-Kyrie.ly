@@ -8,7 +8,7 @@
     title = "Requiem"
 	subtitle = "Kyrie"
 	poet = \pieceArranger
-	composer="Johannes Ockeghem (c.1420-1459)"
+	composer="Johannes Ockeghem (c.1420-1497)"
 	%opus = " "
     
     tagline =  \markup \center-column {

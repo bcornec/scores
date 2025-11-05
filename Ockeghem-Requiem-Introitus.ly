@@ -9,7 +9,7 @@
     title = "Requiem"
 	subtitle = "Introïtus"
 	poet = \pieceArranger
-	composer="Johannes Ockeghem (c.1420-1459)"
+	composer="Johannes Ockeghem (c.1420-1497)"
 	%opus = " "
     
     tagline =  \markup \center-column {
@@ -97,7 +97,7 @@ MSI=\relative do'{
   la1
   sol
   r2 la
-  si2. la4
+  sib2. la4
   sol fa fa2~
   fa mi
   r fa~
@@ -299,9 +299,9 @@ TTNI=\lyricmode{
   \set ignoreMelismata = ##t
 Ae --\skip1 \skip1 ter -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 nam __\skip1
 do --\skip1 na __\skip1 \skip1 \skip1 \skip1 \skip1 e -- is __\skip1 Do --\skip1 \skip1 mi -- ne Do --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 mi -- \skip1 \skip1 ne
-Do -- \skip1 mi -- ne 
-Et lux __\skip1 \skip1
-per -- \skip1 pe -- tu --  \skip1 \skip1 a __\skip1
+Do -- \skip1 \skip1 \skip1 mi -- ne  __ \skip1 \skip1
+Et __ \skip1 lux 
+per -- pe -- tu --  a __\skip1
 lu -- \skip1 ce -- \skip1 at
 e -- \skip1 \skip1 \skip1 \skip1 \skip1\skip1 \skip1 is
 Do -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 mi -- ne
@@ -320,7 +320,7 @@ MSII=\relative do'{
   la
   la
   la2. sol4
-  la2 si~
+  la2 sib~
   si la~
   la sol
   la1~
@@ -471,7 +471,7 @@ TNII=\relative do{
   re~
   re2 fa~
   fa4 sol la2
-  si2 la
+  sib2 la
   fa1
   sol
   fa
@@ -483,8 +483,8 @@ TTNII=\lyricmode{
   in Je -- \skip1 \skip1 \skip1 ru -- sa -- lem __\skip1
   ex -- \skip1 au -- di __\skip1 o -- ra -- ti -- o -- \skip1 \skip1 nem
   me -- \skip1 \skip1 \skip1 \skip1 am
-  ad __\skip1 te om -- nis ca -- \skip1 \skip1 \skip1 \skip1 ro __\skip1 \skip1 
-  ve -- ni -- et
+  ad __\skip1 te om -- nis ca -- \skip1 \skip1 \skip1 \skip1 ro 
+  ve -- \skip1 \skip1 ni -- et
 }
 
 gregorienOne = {
