@@ -26,6 +26,10 @@
         }
     }
 
+\paper {
+  system-system-spacing = #'((basic-distance . 17) (minimum-distance . 14) (padding . 6) (strechability . 250))
+}
+
 global = {
 	\key f \major
 	\time 2/2 \set Score.measureLength = #(ly:make-moment 2/1)
@@ -157,8 +161,8 @@ PartPThreeVoiceOne =  \relative a {
     c2 d2 | % 6
     d4 d4 g,2 | % 7
     a4 a4 a2  | % 8
-    b2 b4 \rest bes4 ~ | % 9
-    bes4 c4 c4 c4 | \barNumberCheck #10
+    b2 b4 \rest b4~ | % 9
+    b4 c4 c4 c4 | \barNumberCheck #10
     b2 c4 g4 ~ | % 11
     g8 g8 g2 g4 | % 12
     bes2 a4 a4 | % 13
@@ -330,7 +334,7 @@ PartPFourVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Cer
 	}
 	\midi {
     % To create MIDI output, uncomment the following line:
-    \tempo 2 = 90
+    \tempo 2 = 100
     }
   }
 
@@ -340,6 +344,17 @@ PartPFourVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Cer
 \markup {\tiny {Voir l'original conservé sur}}
 \markup {\tiny {https://stimmbuecher.digitale-sammlungen.de/view?id=bsb00094227}}
 \markup {\tiny {Altérations d'origine respectées, barres de mesure ajoutées, durée des notes préservée, paroles respectées.}}
+  \markup \vspace #1 % change this value accordingly
 \markup {\bold \tiny {TRADUCTION:}}
-\markup {\tiny{"           "} \tiny{}}
-
+\markup {\tiny{"           "} \tiny{J’aperçois le Fils de Dieu}}
+\markup {\tiny{"           "} \tiny{qui s'est envoyé des cieux}}
+\markup {\tiny{"           "} \tiny{ce seront des jours heureux}}
+\markup {\tiny{"           "} \tiny{avec les temps ultimes}}
+\markup {\tiny{"           "} \tiny{Hébreux, que la Vierge porta}}
+\markup {\tiny{"           "} \tiny{issu d'une belle lignée}}
+\markup {\tiny{"           "} \tiny{Tu souffrira beaucoup sur terre}}
+\markup {\tiny{"           "} \tiny{dès ton plus jeune âge}}
+\markup {\tiny{"           "} \tiny{Il sera pourtant un grand prophète}}
+\markup {\tiny{"           "} \tiny{par sa parole divine}}
+\markup {\tiny{"           "} \tiny{Né d'une Mère Vierge}}
+\markup {\tiny{"           "} \tiny{sincère et le cœur avisé}}
