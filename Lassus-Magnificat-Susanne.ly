@@ -77,7 +77,60 @@ cantusII = \relative do'' {
 	\bar "."
   }
 
-TcantusII =  \lyricmode {\set ignoreMelismata = ##t
+sextusII = \relative do'' {
+    \clef "treble" 
+	sol1 sib2. do4
+	re do sib la sol2 fa
+	sib1. sol2
+	fa sib1 la2
+	sib1 la2 re
+	re2. re4 sib2 la
+	r\breve
+	r1 r2 fa'~
+	fa4 fa sib1 do2~
+	do sib2. la8 sol la2
+	sib1 r2 fa'
+	fa re re2. mi4
+	fa2 mib re1
+	re2 sib la1
+	r\breve
+	r1 r2 la
+	sib1 la2 fa'2~
+	fa4 fa re2 re1
+	r2 re2. do4 si2
+	do1 r2 la
+	si2 si do do~
+	do si si1
+	si\longa
+  }
+
+altusII = \relative do'' {
+    \clef "treble" 
+	r\breve
+	r2 sol sib la
+	sol1 fa2 re,~
+	re fa sol la~
+	la sol2. fa8 mi fa2
+	sol la sol fad
+	sol do, fa1~
+	fa\breve
+	fa1 sol 
+	fa\breve
+	fa2 fa sib1
+	la2 sol fa sib
+	la sol2. fa8 mi fa2
+	sol1 r2 la
+	la sol fad sol
+	la sol2. fa8 mi fa2
+	sol1 fa2 la
+	la sol2. fa8 mi fa4 sol
+	la2 sol fad sol
+	la sol2. fad8 mi fad2
+	sol\breve~
+	sol\longa
+  }
+
+TcantusII = \lyricmode {\set ignoreMelismata = ##t
     Et ex -- ul -- ta -- vit __ \skip1 
     Et ex -- ul -- ta -- vit spi -- ri -- tus me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 us __ \skip1
 	in De -- o sa -- lu -- ta -- ri me --\skip1 \skip1 "o," 
@@ -95,6 +148,466 @@ cantusIII = \relative sib {
 	 	\bar "|"
         re4 re re re re re re re re re re re \break 
 	 	\bar "||."
+	  }
+
+cantusIV = \relative do'' {
+  \sectionLabel "Versum 3"
+        \clef "treble"  
+		re1 sib2. la4
+		sol2 sib2. la8 sol la2
+		sib2 fa1 re2
+		sol1 sol
+		r1 r2 re2~
+		re fa sib2. la8 sol
+		la1 sib1~
+		sib r2 fa2~
+		fa do fa1
+		fa2 re do sib
+		la re do2. re4
+		mi4 fa sol2. fad8 mi fad2
+		sol2 re do sib
+		la sib r1
+		r\breve
+		r2 la si si
+		do fa, r2 fa'2~
+		fa4 do fa2 fa sol
+		sol mi re1
+		re2 re mib mib 
+		mib re do1
+		si\longa
+}
+
+sextusIV = \relative do'' {
+        \clef "treble" 
+		r1 sol
+		sib do
+		re2. do8 sib la2 sib
+		re sol,1 sol2
+		r1 r2 sib~
+		sib sib re1
+		re\breve
+		r2 sol sib sib~
+		sib4 la8 sol la2 sib2. do4
+		re mi fa1 re2
+		do2 sib la sol
+		do2. sib4 la1
+		sol1 r1
+		r\breve
+		r1 r2 sol
+		re1 re
+		r2 re do sib
+		la re do2. re4
+		mi fa sol2. fad8 mi fad2
+		sol1 r2 sol2~
+		sol sol mib1
+		re\longa
+	  }
+
+altusIV = \relative do'' {
+        \clef "treble" 
+		r2 sol1 mib2~
+		mib4 fa sol2 fa1
+		sib,1 r2 sol'2
+		re mib1 re2
+		fa1. fa2
+		fa1 sol2 sol2~
+		sol4 fa8 mi fa2 sol1~
+		sol fa~
+		fa fa2 fa
+		sib sib la fa 
+		r fa2. do,4 mi fa
+		sol2 mi r la
+		sib1 la2 r4 fa
+		fa1 fa2 fa~
+		fa mi sol mi
+		r re re sol 
+		sol sib la fa
+		r fa2. fa4 mi2 
+		sol1 r2 la
+		si si do do 
+		sol\breve
+		sol\longa
+	  }
+
+cantusV = \relative sib {
+  \sectionLabel "Versum 4"
+        \pageBreak | % 18
+        \clef "treble_8"  
+  		\set Score.timing = ##f
+		sib4 do re re re re re re re re re re re re re mib re do re re re 
+	 	\bar "|"
+        re4 re do sib do re do sib \break 
+	 	\bar "||."
+	  }
+
+altusVI = \relative do'' {
+  \sectionLabel "Versum 5"
+        \clef "treble"
+		fad\breve
+		sol2 sol2. la4 sib2
+		la2 sol fad1~
+		fad1 r2 sol
+		sol4 fa sol la sib1
+		la2 sol fa1
+		mi2 mi la1
+		fa2 r4 re sol1
+		sol2 sol fa re
+		r2 re sib1
+		sol2 sol fa1
+		fa1 r2 sib2~
+		sib2 sib la sib2~
+		sib4 la8 sol la2 sol1
+		fa2 sol1 sol2
+		fa2 fa sib,4 do re mi 
+		fa2 sol fa sib
+		la1 sol2 la~
+		la4 sol sol1 fad2
+		sol\longa
+	  }
+
+tenorVI = \relative sib {
+        \clef "treble_8"  
+		r1 re~
+		re2 mib1 re2
+		fa mib re1~
+		re\breve
+		r2 sol,2 sol' fa
+		fa re2. la4 re2~
+		la4 dod8 si dod2 re1
+		r2 sol mib1
+		re1 r2 la
+		fa'1 re2 re
+		do4 sib sib2. la8 sol la2
+		sib2. do4 re mi fa2
+		sol2. sol4 fa1~
+		fa re2 re2~
+		re4 do sib la sol2. la4
+		sib la sib2 fa'1
+		r2 sib,1 fa'2
+		fa fa2. mi8 re mi2
+		re\breve
+		si\longa
+	  }
+
+quintusVI = \relative sib {
+        \clef "treble_8"  
+		la\breve
+		sib1 sib
+		do2 do la1
+		r2 la sib4 la sib do
+		re1. re2
+		do sib la1
+		r2 la fa'1
+		re2 re1 do2~
+		do4 si8 la si2 do1
+		la1 r2 sol
+		mib'1 do2 do
+		re1 sol,2 re'~
+		re re re1
+		do1 sib2 sol4 la
+		sib do re2. do8 sib do2
+		re1 re1~
+		re2 re re1
+		do\breve
+		sib1 la
+		sol\longa
+	  }
+
+cantusVII = \relative sib {
+  \sectionLabel "Versum 6"
+        \pageBreak | % 18
+        \clef "treble_8"  
+  		\set Score.timing = ##f
+		sib4 do re re re re mib re2 re4 do re
+	 	\bar "|"
+        re4 re re do sib do re do2 do4 sib \break 
+	 	\bar "||."
+	  }
+
+cantusVIII = \relative do'' {
+  \sectionLabel "Versum 7"
+        \clef "treble"  
+		re1 re2 re
+		dod1 re
+		r\breve
+		sib1 sol2 sol
+		la1 sib
+		sib1 la2 la
+		la1 re1
+		r1 mi1
+		fa1 mi2 re~
+		re4 dod8 si8 dod2 re1
+		re2 re fa1
+		mi2 re2. dod8 si8 dod2
+		re1 re
+		re2 re sol2. fa4
+		mi re mi2 fa2. mi4
+		re4 do re mi fa1
+		sib2 sib mib mib
+		re sib re1
+		do2. sib4 la1
+		re2 sol sib sib
+		r\breve
+		re1 la
+		si\longa
+	  }
+
+sextusVIII = \relative sib {
+        \clef "treble"  
+		r2 re fa fa
+		mi1 re~
+		re r1
+		r\breve
+		r1 re
+		re2 re dod1
+		re2 re fa1
+		mi2 re2. dod8 si dod2
+		re la la la
+		la mi r1
+		la1 re
+		dod2 re mi1
+		fad1 fad2 fad
+		sol2. fa4 mi re mi fa
+		sol2 sol do do 
+		fa1 re
+		mib2 mib sib sib
+		sib2. la8 sol sib4 la fa'2~
+		fa mib re re
+		si do fa sol
+		r\breve
+		la1 re
+		re\longa
+	  }
+
+altusVIII = \relative sib {
+        \clef "treble"  
+		r\breve
+		r1 r2 sol
+		sib sib la1
+		sol1 r
+		r re,
+		fa2 sol mi1
+		fa2 fa fa2. sol4
+		la2 la la1
+		la2 r4 re,4 mi2 fa
+		mi4 la, la'1 sol2~
+		sol4 fa8 mi fa4 sol la1
+		la\breve
+		la\breve
+		si2 si do1
+		do2. sib4 la sol la2
+		sib1. sib2
+		sol\breve
+		sol1 fa2. fa4
+		la2 sol1 fad2
+		sol1 r2 sol
+		fa sib la sol~
+		sol fad4 mi fad1
+		sol\longa
+	  }
+
+cantusIX = \relative sib {
+  \sectionLabel "Versum 8"
+        \pageBreak | % 18
+        \clef "treble_8"  
+  		\set Score.timing = ##f
+		sib4 do re re re re re mib re2 re4 do re4.
+	 	\bar "|"
+        re4 re re re re re re re do sib do re do sib \break 
+	 	\bar "||."
+	  }
+
+cantusX = \relative do'' {
+  \sectionLabel "Versum 9"
+        \clef "treble"  
+	sol1 sib2 la
+	sib do re1~
+	re2 sol sib la
+	sib do re1
+	do1. sol'2~
+	sol fa mib re4 do
+	re1 sib2 sib
+	la re do1
+	la\breve
+	r2 la do re~
+	re4 do8 sib la4 sib do1
+	do2 do2. do4 la2
+	do re sol1
+	la2. la4 re2 re
+	re2. re4 sib2 do
+	sol2 sol la2. la4
+	fa'1. mib2
+	re1 r2 re2~
+	re4 do sib2 la2. la4
+	si\longa
+  }
+
+sextusX = \relative sib {
+        \clef "treble"  
+		r\breve
+		sol1 sib2 la
+		sib2 do re1
+		r1 fa~
+		fa2 fa2. mib8 re mib2
+		re2 re4 do sib2 la4 sol
+		la1 re2 re
+		fa1 fa2 mi~
+		mi4 re re2. dod8 si dod2
+		re1 r2 fa~
+		fa re la mi' 
+		mi2. mi4 mi2 fa
+		mi sol1 do,2~
+		do do si si
+		si2. si4 re2 mi
+		sol do, do2. do4
+		la2 re1 do2~
+		do4 sib8 la sib2 la la
+		fa' re re1~
+		re\longa
+	  }
+
+altusX = \relative sib {
+        \clef "treble"  
+		r2 sol sol fad
+		sol mib re1
+		r2 sol sol fad
+		sol mib re sib'2~
+		sib4 la8 sol la2 sol1
+		sib2 la2. sol4 sol2~
+		sol4 fad8 mi fad2 sol1
+		r2 la la sol
+		fa1 mi
+		re la'~
+		la2 fa fa sol
+		sol2. sol4 la2 fa 
+		sol re' mi1~
+		mi2 fa sol1
+		r2 sol sol2. sol4
+		mi1 fa2 mi 
+		r2 la sib sol
+		sol sol1 fad2
+		la sol1 fad2
+		sol\longa
+	  }
+
+cantusXI = \relative sib {
+  \sectionLabel "Versum 10"
+        \pageBreak | % 18
+        \clef "treble_8"  
+  		\set Score.timing = ##f
+		sib4 do re re mib re re do re re
+	 	\bar "|"
+        re4 re re do sib do re do sib \break 
+	 	\bar "||."
+	  }
+
+cantusXII = \relative do'' {
+  \sectionLabel "Versum 11"
+        \clef "treble"  
+		r\breve
+		r2 sol sib1~
+		sib2 do re sib
+		re do la la~
+		la4 sib do2 la re2~
+		re2 dod r re
+		mi la2. sol4 sol2~
+		sol4 fad8 mi fad2 sol sol,2
+		sol sol sol2. sol4
+		la2 la sib la
+		sol fa r1
+		r1 r2 sib
+		do sib sol fa
+		r1 r2 re~
+		re re re re 
+		do sib la sol
+		do1 la
+		re\breve
+		r\breve
+		r\breve
+		la1 sib
+		la sib2. sib4
+		do2 do4 re mib1~
+		mib re2 fa4 mi 
+		re2 si do do
+		r la4 la sib sib sib2
+		la la4 la si2 si
+		do do4 re mib1~
+		mib re2 fa4 mi
+		re2 si do do
+		r2 la re1~
+		re\longa
+	  }
+
+sextusXII = \relative sib {
+        \clef "treble"  
+		r\breve
+		r\breve
+		r1 r2 re
+		sib sol re'2. do8 sib
+		la1 r1
+		r1 la1
+		dod2 re re1~
+		re re
+		do sib2 re
+		re\breve
+		r\breve
+		r1 r2 re
+		mib re do4 sib sib2~
+		sib4 la8 sol la2 sib sib~
+		sib sib sib sol
+		la re2. re4 sib2
+		mib1 re2. do4
+		sib la sib2 la1
+		r\breve
+		r\breve
+		r2 re1 re2
+		re re re1
+		r2 mi4 fa sol2 sol
+		r2 sol4 la sib2 sib
+		r1 sol'4 fa mi mi
+		re\breve
+		re\breve
+		r2 mi4 fa4 sol2 sol
+		r2 sol,4 la sib2 sib
+		r1 sol'4 fa mi2
+		re1 la,
+		si\longa
+	  }
+
+altusXII = \relative sib {
+        \clef "treble"  
+		r1 r2 sol
+		mib do sol1~
+		sol sol
+		fa2 mi fa1
+		r2 la fa re
+		la la,2. la4 fa'2
+		mi re fa sol
+		la1 re
+		mib1 re2 sol~
+		sol4 fad8 mi fad2 sol fa 
+		sib1 sol2 fa
+		mib1 re2 fa
+		sol fa r1
+		fa fa
+		fa2. fa4 sol2 re
+		mi sol fad sol~
+		sol4 sol sol2. fad8 mi fad2
+		sol1 fad2. fad4 
+		sol2 sol la re~
+		re4 re sib2 la4 sol sol2~
+		sol fad sol1
+		fad sol
+		sol2 do, do'1
+		sol4 la sib2 fa,1
+		r4 re2 re4 mi fa sol2~
+		sol fad sol1
+		fad sol
+		sol2 do, do'1
+		sol4 la sib2 fa,1
+		r4 re2 re4 mi fa sol2~
+		sol fad4 mi fad1
+		sol\longa
 	  }
 
 TcantusIII =  \lyricmode {\set ignoreMelismata = ##t
@@ -303,4 +816,27 @@ lyricstenor =  \lyricmode {\set ignoreMelismata =
 	}
 
 }
+
+\score {
+<<
+\new GregorianTranscriptionStaff <<
+	\global
+	\set GregorianTranscriptionStaff.instrumentName = "Solo"
+  \context Staff << 
+	\context GregorianTranscriptionVoice = "greg3" {  \cantusIII }
+		\new GregorianTranscriptionLyrics \lyricsto "greg3" { \TcantusIII }
+	>>
+  >>
+>>
+\layout{ 
+  	papersize = "a4"
+	%ragged-right = ##f
+	ragged-last = ##f
+}
+\midi {\tempo 4 = 160 }
+}
+\markup \vspace #1 % change this value accordingly
+
+
+
 
