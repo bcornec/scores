@@ -417,7 +417,6 @@ incipitcantus=\markup{
 		{ 
 		\set Staff.instrumentName="Cantus    "
 		\override NoteHead.style = #'neomensural
-		\override rest.style = #'neomensural
 		\override Staff.TimeSignature.style = #'neomensural
 		\cadenzaOn 
 		\clef "petrucci-g"
@@ -441,7 +440,6 @@ incipitdiscantus=\markup{
 		{ 
 		\set Staff.instrumentName="Discantus"
 		\override NoteHead.style = #'neomensural 
-		\override rest.style = #'neomensural
 		\override Staff.TimeSignature.style = #'neomensural
 		\cadenzaOn 
 		\clef "petrucci-c2"
@@ -465,7 +463,6 @@ incipitaltus=\markup{
 		{ 
 		\set Staff.instrumentName="Altus      "
 		\override NoteHead.style = #'neomensural 
-		\override rest.style = #'neomensural
 		\override Staff.TimeSignature.style = #'neomensural
 		\cadenzaOn 
 		\clef "petrucci-c3"
@@ -489,7 +486,6 @@ incipittenor=\markup{
 		{ 
 		\set Staff.instrumentName="Tenor      "
 		\override NoteHead.style = #'neomensural 
-		\override rest.style = #'neomensural
 		\override Staff.TimeSignature.style = #'neomensural
 		\cadenzaOn 
 		\clef "petrucci-c4"
@@ -513,7 +509,6 @@ incipitbassus=\markup{
 		{ 
 		\set Staff.instrumentName="Bassus     "
 		\override NoteHead.style = #'neomensural 
-		\override rest.style = #'neomensural
 		\override Staff.TimeSignature.style = #'neomensural
 		\cadenzaOn 
 		\clef "petrucci-c5"
