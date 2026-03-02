@@ -10,7 +10,7 @@
 	%opus = " "
     
     tagline =  \markup \center-column {
-	  \line {"Copyright © 2026 Bruno Cornec, based on CPDL work from  Pothárn Imre"}
+	  \line {"Copyright © 2026 Bruno Cornec, based on CPDL work from Pothárn Imre"}
 	  \line {"CPDL licensed"}
 	}
     copyright = " "
@@ -36,8 +36,8 @@ global = {
 
 cantus =  \relative c''
 	{
-	R\breve
-	R\breve
+	r\breve
+	r\breve
 	f,\breve
 	g1 a
 %5
@@ -234,7 +234,7 @@ altus =  \relative c'
 	a2 d c f~
 %40
 	f2 e f1 |
-	R\breve
+	r\breve
 	r1 d
 	c2 c es1
 	d\breve
@@ -336,18 +336,18 @@ altus =  \relative c'
 
 tenor =  \relative c'
 	{
-	R\breve
-	R\breve
-	R\breve
-	R\breve
+	r\breve
+	r\breve
+	r\breve
+	r\breve
 %5
-	R\breve |
-	R\breve
-	R\breve
-	R\breve
-	R\breve
+	r\breve |
+	r\breve
+	r\breve
+	r\breve
+	r\breve
 %10
-	R\breve |
+	r\breve |
 	r1 f,~
 	f1 g
 	a1 a
@@ -357,41 +357,41 @@ tenor =  \relative c'
 	g\breve
 	f\breve~
 	f1 r
-	R\breve
+	r\breve
 %20
-	R\breve |
+	r\breve |
 	g1 g2 g
 	a1 g2 f
 	g2. a4 bes2 a~
 	a2 g1 f2
 %25
 	g1 r |
-	R\breve
-	R\breve
-	R\breve
+	r\breve
+	r\breve
+	r\breve
 	r1 r2 a
 %30
 	bes2. bes4 a1 |
 	g\breve
 	a1 g
 	f1 r
-	R\breve
+	r\breve
 %35
-	R\breve |
+	r\breve |
 	r2 a bes2. bes4
 	a1 g2. a4
 	bes2 a g1
 	f\breve
 %40
-	R\breve |
-	R\breve
-	R\breve
+	r\breve |
+	r\breve
+	r\breve
 	r2 a g a
 	bes1. a2
 %45
 	g\breve |
 	f1 r
-	R\breve
+	r\breve
 	r2 a g a
 	bes1. a2
 %50
@@ -403,21 +403,21 @@ tenor =  \relative c'
 %55
 	g2 a1 g2~ |
 	g2 f g1
-	R\breve
+	r\breve
 	f1 g2 g
 	a1. g2~
 %60
 	g2 f g a~ |
 	a2 g1 f2
 	g1 r
-	R\breve
+	r\breve
 	r1 r2 f~
 %65
 	f2 g a1 |
 	g1 a2 bes~
 	bes2 a g1
 	f1 r
-	R\breve
+	r\breve
 %70
 	r1 r2 f~ |
 	f2 g a1
@@ -425,8 +425,8 @@ tenor =  \relative c'
 	bes2 a g1
 	f1 r
 %75
-	R\breve |
-	R\breve
+	r\breve |
+	r\breve
 	r1 g
 	f1. g2
 	a2 bes g g~
@@ -437,7 +437,7 @@ tenor =  \relative c'
 	a2 bes g1
 	f\breve
 %85
-	R\breve |
+	r\breve |
 	r1 r2 g~
 	g2 f g g
 	bes1 a2 g
@@ -449,7 +449,7 @@ tenor =  \relative c'
 	a2 g a1~
 	a2 a g1
 %95
-	R\breve |
+	r\breve |
 	r1 f
 	g1 a~
 	a2 g f1
@@ -473,7 +473,7 @@ tenor =  \relative c'
 	g\breve
 	f1 r
 %115
-	R\breve |
+	r\breve |
 	f1 g
 	a2. g4 f2 e
 	f2 g a1
@@ -486,21 +486,21 @@ tenor =  \relative c'
 
 quintus  =  \relative c'
 	{
-	R\breve
-	R\breve
-	R\breve
-	R\breve
+	r\breve
+	r\breve
+	r\breve
+	r\breve
 %5
-	R\breve |
-	R\breve
-	R\breve
-	R\breve
-	R\breve
+	r\breve |
+	r\breve
+	r\breve
+	r\breve
+	r\breve
 %10
-	R\breve |
-	R\breve
-	R\breve
-	R\breve
+	r\breve |
+	r\breve
+	r\breve
+	r\breve
 	r1 d~
 %15
 	d1 c |
@@ -511,41 +511,41 @@ quintus  =  \relative c'
 %20
 	d\breve~ |
 	d1 r
-	R\breve
-	R\breve
+	r\breve
+	r\breve
 	c1 c2 c
 %25
 	bes1 c2 d |
 	c2. bes4 a2 bes~
 	bes2 c1 d2
 	c1 r
-	R\breve
+	r\breve
 %30
-	R\breve |
-	R\breve
+	r\breve |
+	r\breve
 	r1 r2 bes
 	a2. a4 bes1
 	c\breve
 %35
 	bes1 c |
 	d1 r
-	R\breve
-	R\breve
+	r\breve
+	r\breve
 	r2 bes a2. a4
 %40
 	bes1 c2. bes4 |
 	a2 bes c1
 	d\breve
-	R\breve
-	R\breve
+	r\breve
+	r\breve
 %45
-	R\breve |
+	r\breve |
 	r2 bes c bes
 	a1. bes2
 	c\breve
 	d1 r
 %50
-	R\breve |
+	r\breve |
 	r2 bes c bes
 	a1. bes2
 	c\breve
@@ -557,29 +557,29 @@ quintus  =  \relative c'
 	c2 bes1 c2~
 	c2 d c1
 %60
-	R\breve |
+	r\breve |
 	d1 c2 c
 	bes1. c2~
 	c2 d c bes~
 	bes2 c1 d2
 %65
 	c1 r |
-	R\breve
+	r\breve
 	r1 r2 d~
 	d2 c bes1
 	c1 bes2 a~
 %70
 	a2 bes c1 |
 	d1 r
-	R\breve
+	r\breve
 	r1 r2 d~
 	d2 c bes1
 %75
 	c1 bes2 a~ |
 	a2 bes c1
 	d1 r
-	R\breve
-	R\breve
+	r\breve
+	r\breve
 %80
 	r1 c |
 	d1. c2
@@ -590,7 +590,7 @@ quintus  =  \relative c'
 	r1 r2 c |
 	bes2 a c1
 	d\breve
-	R\breve
+	r\breve
 	r1 r2 c~
 %90
 	c2 d c c |
@@ -602,7 +602,7 @@ quintus  =  \relative c'
 	c2 d c bes~ |
 	bes2 c bes1~
 	bes2 bes c1
-	R\breve
+	r\breve
 	r1 d
 %100
 	c1 bes~ |
@@ -626,7 +626,7 @@ quintus  =  \relative c'
 	c2 c bes1 |
 	c\breve
 	d1 r
-	R\breve
+	r\breve
 	d1 c
 %120
 	bes\breve~
@@ -636,10 +636,10 @@ quintus  =  \relative c'
 
 sextus = \relative c'
 	{
-	R\breve
-	R\breve
-	R\breve
-	R\breve
+	r\breve
+	r\breve
+	r\breve
+	r\breve
 %5
 	f,\breve |
 	g1 a
@@ -732,7 +732,7 @@ sextus = \relative c'
 	f2 f e g
 %80
 	d1 r |
-	R\breve
+	r\breve
 	d1 e2 e
 	f1 c2 c'
 	c2 c f, bes~
@@ -786,12 +786,12 @@ sextus = \relative c'
 	
 bassus  =  \relative c
 	{
-	R\breve
-	R\breve
-	R\breve
-	R\breve
+	r\breve
+	r\breve
+	r\breve
+	r\breve
 %5
-	R\breve |
+	r\breve |
 	r1 d~
 	d1 c
 	bes2. a4 g2 bes~
@@ -821,7 +821,7 @@ bassus  =  \relative c
 	f2 es d d
 	es2. es4 d1
 %30
-	R\breve |
+	r\breve |
 	g,1 c2. c4
 	a2 d g,4 a bes c
 	d1 g
@@ -866,8 +866,8 @@ bassus  =  \relative c
 	f2 es d1 |
 	g,2 c f, bes~
 	bes4 c d2 g,1
-	R\breve
-	R\breve
+	r\breve
+	r\breve
 %70
 	r1 f |
 	bes2 bes a d
@@ -899,7 +899,7 @@ bassus  =  \relative c
 	bes2 bes a1
 	d1 r
 %95
-	R\breve |
+	r\breve |
 	r1 bes2. a4
 	g2 g f2. g4
 	a4 bes c2 a bes

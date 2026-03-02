@@ -34,7 +34,7 @@
     }
 PartPOneVoiceOne =  \relative b' {
     \clef "treble" \key c \major \time 2/1 | % 1
-    R1*12 \break | % 7
+    r1*12 \break | % 7
     b1. \stemDown b2 | % 8
     b1 b1 | % 9
     b1 b1 | \barNumberCheck #10
@@ -53,7 +53,7 @@ PartPOneVoiceOne =  \relative b' {
     a\breve ~ \break | % 22
     a\breve ~ | % 23
     a\breve | % 24
-    R1*4 | % 26
+    r1*4 | % 26
     g\breve | % 27
     a1 b1 ~ | % 28
     b1 b1 | % 29
@@ -81,14 +81,14 @@ PartPOneVoiceOne =  \relative b' {
     \stemDown c2 \stemDown c2 \stemUp a2 \stemDown c2 ~ | \barNumberCheck #50
     \stemDown c4 \stemDown b4 a2. \stemUp g4 g4 f4 | % 51
     a\breve | % 52
-    R1*4 | % 54
+    r1*4 | % 54
     r1 r2 \stemUp a2 \pageBreak | % 55
     \stemDown b2 \stemDown c2 d1 | % 56
     c1 \stemDown b2 \stemUp a2 ~ | % 57
     \stemUp a2 \stemUp g2 f1 | % 58
     e\breve | % 59
-    R1*4 \break | % 61
-    R1*2 | % 62
+    r1*4 \break | % 61
+    r1*2 | % 62
     r1 a1 ~ | % 63
     \stemUp a2 \stemUp a2 \stemUp a2 \stemUp e2 | % 64
     \stemUp f2 \stemUp g2 \stemUp a2 \stemUp d,4 \stemUp e4 | % 65
@@ -107,9 +107,9 @@ PartPOneVoiceOne =  \relative b' {
     \stemUp g2 \stemUp g2 \stemUp g2 \stemUp g2 | % 77
     \stemUp g2. \stemUp f4 e1 | % 78
     d\breve \pageBreak | % 79
-    R1*12 \break | % 85
-    R1*12 \break | % 91
-    R1*2 | % 92
+    r1*12 \break | % 85
+    r1*12 \break | % 91
+    r1*2 | % 92
     r1 d1 | % 93
     e1 f1 | % 94
     g1 r2 \stemUp d2 | % 95
@@ -165,7 +165,7 @@ PartPOneVoiceOne =  \relative b' {
     \stemDown b4 \stemUp a4 a1 \stemUp g2 | % 145
     a\breve ~ | % 146
     a\breve | % 147
-    R1*2 | % 148
+    r1*2 | % 148
     r1 d1 | % 149
     c1 a1 | \barNumberCheck #150
     r2 c1 \stemDown b4 \stemUp a4 \break | % 151
@@ -190,8 +190,8 @@ PartPOneVoiceOne =  \relative b' {
     b1 g1 | % 168
     g\breve ~ | % 169
     g\breve \bar "||"
-    \break R1 ^\markup{ \bold\tiny {Secunda pars} } R1*13 \break | % 176
-    R1*12 \break | % 182
+    \break r1 ^\markup{ \bold\tiny {Secunda pars} } r1*13 \break | % 176
+    r1*12 \break | % 182
     r2 \stemUp e2 \stemUp g2 \stemUp e2 | % 183
     \stemUp g2. \stemUp a4 \stemDown b2 \stemDown c2 | % 184
     \stemDown b2 c1 \stemDown b4 \stemUp a4 | % 185
@@ -210,7 +210,7 @@ PartPOneVoiceOne =  \relative b' {
     \stemUp c4 | % 197
     d\breve ~ | % 198
     d\breve | % 199
-    R1*2 \break | \barNumberCheck #200
+    r1*2 \break | \barNumberCheck #200
     r1 a'1 | % 201
     b1 \stemUp a2 \stemDown d2 ~ | % 202
     \stemDown d2 \stemDown c2 b1 | % 203
@@ -227,9 +227,9 @@ PartPOneVoiceOne =  \relative b' {
     \stemUp g2 \stemUp g2 \stemUp g2 \stemUp g2 | % 214
     \stemUp g2 \stemUp g2 c1 ~ | % 215
     c1 b1 | % 216
-    R1*4 \pageBreak | % 218
-    R1*12 \break | % 224
-    R1*10 | % 229
+    r1*4 \pageBreak | % 218
+    r1*12 \break | % 224
+    r1*10 | % 229
     a\breve \break | \barNumberCheck #230
     a1 a1 | % 231
     b1 b1 | % 232
@@ -247,7 +247,7 @@ PartPOneVoiceOne =  \relative b' {
     \stemDown b2 c1 \stemDown b4 \stemUp a4 | % 244
     g\breve ~ | % 245
     g\breve | % 246
-    R1*2 | % 247
+    r1*2 | % 247
     r1 g1 \break | % 248
     \stemUp g2 \stemUp g2 \stemUp a2 \stemDown b2 | % 249
     \stemDown c2 \stemUp a2 \stemDown b2 \stemDown c2 ~ |
@@ -255,25 +255,25 @@ PartPOneVoiceOne =  \relative b' {
     \stemDown c4 \stemDown b4 a1 \stemUp g2 | % 251
     a\breve ~ | % 252
     a\breve | % 253
-    R1*2 \break | % 254
+    r1*2 \break | % 254
     r2 \stemDown c2 \stemDown c2. \stemDown c4 | % 255
     b1 r2 \stemDown b2 | % 256
     \stemDown c2 \stemDown b2 \stemUp a2 \stemUp g2 | % 257
     a1 \stemDown b2. \stemUp g4 | % 258
     g\breve | % 259
-    R1*4 \break | % 261
+    r1*4 \break | % 261
     r2 \stemUp d2 \stemUp f2 \stemUp d2 | % 262
     \stemUp f2. \stemUp g4 \stemUp a2 \stemDown bes2 | % 263
     \stemUp a2 \stemDown d2. c4 c4 b4 | % 264
     d\breve | % 265
-    R1*4 \pageBreak | % 267
+    r1*4 \pageBreak | % 267
     r1 a1 ~ | % 268
     \stemUp a2 \stemUp a2 a1 | % 269
     c1 \stemDown b2 \stemDown c2 | \barNumberCheck #270
     \stemDown d2 \stemDown b2 a1 | % 271
     \stemUp a2 \stemUp a2 a1 | % 272
     g1 r1 \break | % 273
-    R1*2 | % 274
+    r1*2 | % 274
     r2 \stemDown c2 \stemDown b2 \stemUp a2 ~ | % 275
     \stemUp a2 \stemUp g4 \stemUp f4 e1 | % 276
     d1 r2 \stemUp a'2 | % 277
@@ -290,7 +290,7 @@ PartPOneVoiceOne =  \relative b' {
     \stemDown c2 \stemDown b2 a1 | % 287
     g\breve ~ | % 288
     g\breve \bar "||"
-    \pageBreak R1 ^\markup{ \bold\tiny {Tertia pars} } R1 | % 289
+    \pageBreak r1 ^\markup{ \bold\tiny {Tertia pars} } r1 | % 289
     g1 \stemUp g2 \stemUp g2 | \barNumberCheck #290
     \stemUp g2 \stemUp g2 \stemUp g2 \stemUp g2 | % 291
     g1 g1 | % 292
@@ -305,79 +305,79 @@ PartPOneVoiceOne =  \relative b' {
     #300
     \stemDown b4 a4 a1 \stemUp g4 \stemUp f4 \break | % 301
     g\breve | % 302
-    R1*8 | % 306
+    r1*8 | % 306
     r1 c1 ~ \break | % 307
     \stemDown c2 \stemDown b2 \stemUp a2 \stemUp g2 | % 308
     \stemUp f2 \stemUp e2 d1 | % 309
     c\breve | \barNumberCheck #310
-    R1*4 | % 312
+    r1*4 | % 312
     r1 c'1 ~ | % 313
     \stemDown c2 \stemDown b2 \stemUp a2 \stemUp g2 \pageBreak | % 314
     \stemUp f2 \stemUp e2 d1 | % 315
     c\breve | % 316
-    R1*4 | % 318
+    r1*4 | % 318
     g'1. \stemUp g2 | % 319
     \stemUp g2 \stemUp g2 a1 | \barNumberCheck #320
     \stemUp f2. \stemUp d4 d1 \break | % 321
-    R1*4 | % 323
+    r1*4 | % 323
     r2 \stemUp a'2 \stemDown b2. \stemUp a4 | % 324
     \stemUp g2 \stemUp f2 g1 | % 325
     r1 r2 \stemDown c2 | % 326
     \stemDown c2. \stemDown b4 \stemUp a2 \stemUp g2 | % 327
     a\breve \break | % 328
-    R1*4 | \barNumberCheck #330
+    r1*4 | \barNumberCheck #330
     r1 d1 ~ | % 331
     \stemDown d2 \stemDown d2 \stemDown d2 \stemDown d2 | % 332
     \stemDown d2 \stemDown d2 \stemDown b2. \stemUp g4 | % 333
     g\breve | % 334
-    R1*2 \break | % 335
+    r1*2 \break | % 335
     g1. \stemUp a2 | % 336
     \stemDown b2 \stemDown c2 \stemDown d2 \stemUp g,4 \stemUp a4 | % 337
     \stemDown b4 \stemDown c4 d2. \stemDown c4 c4 b4 | % 338
     d\breve | % 339
-    R1*4 | % 341
+    r1*4 | % 341
     d,1. \stemUp e2 \pageBreak | % 342
     \stemUp f2 \stemUp g2 \stemUp a2 \stemUp d,4 \stemUp e4 | % 343
     \stemUp f4 \stemUp g4 a1 \stemUp g2 | % 344
     a\breve | % 345
-    R1*4 | % 347
+    r1*4 | % 347
     r2 \stemUp e2 g1 ~ | % 348
     g2 \stemUp a2 \stemDown b2 \stemUp e,2 | % 349
     \stemUp g2 \stemUp g2 \stemUp g2 \stemUp g2 ~ | \barNumberCheck
     #350
     \stemUp g2 \stemUp f4 \stemUp e4 f1 | % 351
     e\breve | % 352
-    R1*8 \break | % 356
-    R1*4 | % 358
+    r1*8 \break | % 356
+    r1*4 | % 358
     r1 c'1 ~ | % 359
     \stemDown c2 \stemDown b2 \stemUp a2 \stemUp g2 | \barNumberCheck
     #360
     f1 e1 | % 361
     d\breve | % 362
-    R1*2 \break | % 363
-    R1*12 | % 369
+    r1*2 \break | % 363
+    r1*12 | % 369
     r1 e1 ~ \pageBreak | \barNumberCheck #370
     \stemUp e2 \stemUp f2 \stemUp g2 \stemUp e2 | % 371
     \stemUp f2 \stemUp g2 a1 | % 372
-    R1*2 | % 373
+    r1*2 | % 373
     r1 a1 ~ | % 374
     \stemUp a2 \stemDown b2 \stemDown c2 \stemUp a2 | % 375
     \stemDown b2 \stemDown c2 \stemDown d2 \stemDown b2 \break | % 376
     \stemDown d2 c1 \stemDown b4 \stemUp a4 | % 377
     g\breve | % 378
-    R1*4 | \barNumberCheck #380
+    r1*4 | \barNumberCheck #380
     g1 \stemUp g2 \stemUp g2 | % 381
     \stemUp g2. \stemUp a4 \stemDown b2 \stemDown c2 ~ | % 382
     \stemDown c2 \stemDown b4 \stemUp a4 c1 \break | % 383
     \stemDown b2 \stemUp g2 \stemUp a2 \stemDown b2 | % 384
     c1 a1 | % 385
     b\breve | % 386
-    R1*2 | % 387
+    r1*2 | % 387
     \stemUp g2. \stemUp g4 \stemUp g2 \stemUp g2 | % 388
     \stemUp a2 \stemDown b2 \stemDown c2 \stemUp a2 | % 389
     \stemDown b2 g1 \stemUp f4 \stemUp e4 \break | \barNumberCheck #390
     d1 r1 | % 391
-    R1*4 | % 393
+    r1*4 | % 393
     r2 \stemUp g2 \stemUp e2 \stemUp g2 ~ | % 394
     \stemUp g2 \stemUp f4 \stemUp e4 d1 | % 395
     \stemUp c4 \stemUp d4 \stemUp e4 \stemUp f4 \stemUp g2. \stemUp a4
@@ -489,8 +489,8 @@ PartPOneVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Mi
 
 PartPTwoVoiceOne =  \relative e' {
     \clef "treble_8" \key c \major \time 2/1 | % 1
-    R1*12 \break | % 7
-    R1*4 | % 9
+    r1*12 \break | % 7
+    r1*4 | % 9
     e1. \stemDown e2 | \barNumberCheck #10
     e1 e1 | % 11
     e1 e1 | % 12
@@ -506,7 +506,7 @@ PartPTwoVoiceOne =  \relative e' {
     \stemDown e2 \stemDown d4 \stemDown c4 b1 | % 21
     a\breve ~ \break | % 22
     a\breve | % 23
-    R1*2 | % 24
+    r1*2 | % 24
     c\breve | % 25
     d1 e1 ~ | % 26
     e1 e1 | % 27
@@ -543,14 +543,14 @@ PartPTwoVoiceOne =  \relative e' {
     \stemUp a2. \stemUp f4 \stemUp g2 \stemUp f2 \pageBreak | % 55
     \stemUp d2 e1 \stemUp d2 | % 56
     e1 r1 | % 57
-    R1*4 | % 59
+    r1*4 | % 59
     a1. \stemUp a2 | \barNumberCheck #60
     a1 a1 \break | % 61
     a1 g1 | % 62
     a\breve | % 63
     e\breve | % 64
-    R1*6 \break | % 67
-    R1*6 | \barNumberCheck #70
+    r1*6 \break | % 67
+    r1*6 | \barNumberCheck #70
     r2 \stemDown e'2 \stemDown e2 \stemDown e2 | % 71
     \stemDown d2 e1 \stemDown d4 \stemDown c4 | % 72
     \stemDown b2 \stemDown d2 \stemDown c2 \stemDown b2 \break | % 73
@@ -574,7 +574,7 @@ PartPTwoVoiceOne =  \relative e' {
     \stemDown c2. \stemDown d4 \stemDown e2 \stemDown f2 ~ | \barNumberCheck #90
     \stemDown f4 \stemDown e4 \stemDown d1 \stemDown c2 \break | % 91
     d1 r1 | % 92
-    R1*2 | % 93
+    r1*2 | % 93
     r1 d1 ~ | % 94
     \stemDown d2 \stemDown d2 \stemDown d2 \stemDown d2 | % 95
     \stemDown d2 \stemDown d2 d1 | % 96
@@ -591,7 +591,7 @@ PartPTwoVoiceOne =  \relative e' {
     e1 r2 \stemUp a,2 \pageBreak | % 107
     \stemUp g2 \stemUp a2 e1 | % 108
     a1 r1 | % 109
-    R1*4 | % 111
+    r1*4 | % 111
     b1. \stemDown b2 | % 112
     b1 b1 \break | % 113
     b1 b1 | % 114
@@ -622,8 +622,8 @@ PartPTwoVoiceOne =  \relative e' {
     g1 d1 ~ | % 139
     \stemUp d2 \stemUp e2 \stemUp f2 \stemUp g2 | \barNumberCheck #140
     a\breve | % 141
-    R1*6 \break | % 144
-    R1*2 | % 145
+    r1*6 \break | % 144
+    r1*2 | % 145
     r1 d,1 | % 146
     f1 d1 | % 147
     \stemUp e2. \stemUp f4 \stemUp g4 \stemUp a4 \stemDown b2 ~ | % 148
@@ -650,9 +650,9 @@ PartPTwoVoiceOne =  \relative e' {
     b\breve ~ | % 168
     b\breve ~ | % 169
     b\breve \bar "||"
-    \break R1*14 \break | % 176
-    R1*12 \break | % 182
-    R1*2 | % 183
+    \break r1*14 \break | % 176
+    r1*12 \break | % 182
+    r1*2 | % 183
     r2 \stemDown e2 \stemDown g2 \stemDown e2 | % 184
     \stemDown g4 \stemDown f4 \stemDown e4 \stemDown d4 \stemDown c2
     \stemDown d2 | % 185
@@ -669,8 +669,8 @@ PartPTwoVoiceOne =  \relative e' {
     \stemUp a2. \stemDown b4 \stemDown c2 \stemUp f,2 ~ | % 196
     \stemUp f2 \stemUp g2 a1 | % 197
     a\breve | % 198
-    R1*4 \break | \barNumberCheck #200
-    R1*2 | % 201
+    r1*4 \break | \barNumberCheck #200
+    r1*2 | % 201
     r1 d1 | % 202
     e1 \stemDown d2 \stemDown g2 ~ | % 203
     \stemDown g2 \stemDown f2 \stemDown e2 \stemDown f2 ~ | % 204
@@ -687,9 +687,9 @@ PartPTwoVoiceOne =  \relative e' {
     \stemDown e2 \stemDown e2 e1 ~ | % 215
     e1 d1 ~ | % 216
     d1 r1 | % 217
-    R1*2 \pageBreak | % 218
-    R1*12 \break | % 224
-    R1*2 | % 225
+    r1*2 \pageBreak | % 218
+    r1*12 \break | % 224
+    r1*2 | % 225
     d1. \stemDown d2 | % 226
     d1 d1 | % 227
     \stemDown d2 \stemDown d2 d1 | % 228
@@ -709,12 +709,12 @@ PartPTwoVoiceOne =  \relative e' {
     \stemDown f4 \stemDown g2 ~ | % 241
     \stemDown g4 \stemDown f4 e1 \stemDown d2 \pageBreak | % 242
     e\breve | % 243
-    R1*2 | % 244
+    r1*2 | % 244
     e1. \stemDown e2 | % 245
     e1 e1 | % 246
     \stemDown e2 \stemDown e2 e1 | % 247
     e\breve \break | % 248
-    R1*8 | % 252
+    r1*8 | % 252
     \stemDown f2. \stemDown f4 \stemDown f2 \stemDown f2 | % 253
     \stemDown f2 \stemDown f2 f1 ~ \break | % 254
     f1 e1 | % 255
@@ -722,7 +722,7 @@ PartPTwoVoiceOne =  \relative e' {
     \stemDown e2 \stemDown e2 \stemDown f2 \stemDown e2 | % 257
     \stemDown d2 \stemDown c2 d1 | % 258
     e\breve | % 259
-    R1*4 \break | % 261
+    r1*4 \break | % 261
     \stemDown d2 \stemDown f2 \stemDown d2 \stemDown f2 | % 262
     \stemDown d2 \stemDown f2. \stemDown e4 \stemDown d2 ~ | % 263
     \stemDown d2 \stemDown c4 \stemDown bes4 a1 | % 264
@@ -730,14 +730,14 @@ PartPTwoVoiceOne =  \relative e' {
     \stemUp a2 \stemUp a2 a1 | % 266
     c1 \stemDown b2 \stemDown c2 \pageBreak | % 267
     \stemDown d2 \stemDown b2 a1 | % 268
-    R1*4 | \barNumberCheck #270
+    r1*4 | \barNumberCheck #270
     f'1. \stemDown f2 | % 271
     f1 f1 | % 272
     e1 \stemDown d2 \stemDown c2 ~ \break | % 273
     \stemDown c2 \stemDown b4 \stemUp a4 \stemUp g4 \stemUp a4 \stemDown
     b4 \stemUp g4 | % 274
     a1 r1 | % 275
-    R1*4 | % 277
+    r1*4 | % 277
     r2 \stemUp a2 \stemUp a2 \stemUp a2 | % 278
     c1 \stemDown b2 \stemUp g2 \break | % 279
     \stemUp a2 \stemDown b2 \stemUp e,2 \stemDown b'2 | \barNumberCheck
@@ -756,7 +756,7 @@ PartPTwoVoiceOne =  \relative e' {
     g1 g1 | % 291
     g1. \stemUp e2 | % 292
     e\breve | % 293
-    R1*2 | % 294
+    r1*2 | % 294
     r1 c'1 ~ \break | % 295
     \stemDown c2 \stemDown c2 c1 | % 296
     \stemDown c2 \stemDown c2 \stemDown c2 \stemDown c2 | % 297
@@ -770,23 +770,23 @@ PartPTwoVoiceOne =  \relative e' {
     \stemDown c2 \stemDown g'2. \stemDown f4 \stemDown e2 | % 304
     \stemDown d4 \stemDown c4 c1 \stemDown b2 | % 305
     c\breve | % 306
-    R1*2 \break | % 307
-    R1*4 | % 309
+    r1*2 \break | % 307
+    r1*4 | % 309
     g'1. \stemDown f2 | \barNumberCheck #310
     \stemDown e2 \stemDown d2 \stemDown c2 \stemDown d2 ~ | % 311
     \stemDown d2 \stemDown c2 f1 | % 312
     e\breve | % 313
-    R1*2 \pageBreak | % 314
-    R1*2 | % 315
+    r1*2 \pageBreak | % 314
+    r1*2 | % 315
     g1. \stemDown f2 | % 316
     \stemDown e2 \stemDown d2 \stemDown c2 \stemDown d2 ~ | % 317
     \stemDown d2 \stemDown c2 f1 | % 318
     e\breve | % 319
-    R1*2 | \barNumberCheck #320
+    r1*2 | \barNumberCheck #320
     d1. \stemDown d2 \break | % 321
     \stemDown d2 \stemDown d2 e1 | % 322
     \stemDown c2. \stemUp a4 a1 | % 323
-    R1*2 | % 324
+    r1*2 | % 324
     r2 \stemDown d2 \stemDown c2. \stemDown b4 | % 325
     \stemUp a2 \stemUp g2 a1 ~ | % 326
     a1 r1 | % 327
@@ -803,24 +803,24 @@ PartPTwoVoiceOne =  \relative e' {
     \stemUp g2 \stemUp a2 \stemDown b2 \stemDown c2 | % 337
     \stemDown d2. \stemDown f4 e1 | % 338
     d\breve | % 339
-    R1*4 | % 341
+    r1*4 | % 341
     r1 d,1 ~ \pageBreak | % 342
     \stemUp d2 \stemUp e2 \stemUp f2 \stemUp g2 | % 343
     \stemUp a2 \stemDown c2 b1 | % 344
     a\breve | % 345
-    R1*4 | %346
+    r1*4 | %346
 	r1 e1 | % 348
     g1 ~ \break \stemUp g2 \stemUp a2 \stemDown b2 \stemUp e,2 | \barNumberCheck
     #350
     \stemDown b'2 c2 b2 \stemDown e2. \stemDown d4 \stemDown d4 \stemDown c4 | % 351
     e\breve | % 352
-    R1*6 | % 355
+    r1*6 | % 355
     r1 b1 ~ \break | % 356
     \stemDown b2 \stemDown b2 \stemDown c2 \stemDown b2 ~ | % 357
     \stemDown b4 \stemUp a4 a1 \stemUp g2 | % 358
     a\breve ~ | % 359
     a\breve | \barNumberCheck #360
-    R1*2 | % 361
+    r1*2 | % 361
     r1 b1 ~ | % 362
     \stemDown b2 \stemUp a2 \stemUp g2 \stemUp f2 \break | % 363
     e1 d1 | % 364
@@ -829,28 +829,28 @@ PartPTwoVoiceOne =  \relative e' {
     \stemUp a2 \stemDown e'2. \stemDown d4 \stemDown c2 | % 367
     \stemDown b4 \stemUp a4 a1 \stemUp g2 | % 368
     a\breve | % 369
-    R1*2 \pageBreak | \barNumberCheck #370
-    R1*2 | % 371
+    r1*2 \pageBreak | \barNumberCheck #370
+    r1*2 | % 371
     r1 a1 ~ | % 372
     \stemUp a2 \stemDown b2 \stemDown c2 \stemUp a2 | % 373
     \stemDown b2 \stemDown c2 d1 | % 374
-    R1*4 \break | % 376
-    R1*2 | % 377
+    r1*4 \break | % 376
+    r1*2 | % 377
     r1 b1 ~ | % 378
     \stemDown b2 \stemDown c2 \stemDown d2 \stemDown b2 | % 379
     \stemDown c2 \stemDown d2 \stemDown e2 \stemDown c2 |
     \barNumberCheck #380
     b1 c1 | % 381
     b1 r1 | % 382
-    R1*2 \break | % 383
-    R1*4 | % 385
+    r1*2 \break | % 383
+    r1*4 | % 385
     r1 d1 ~ | % 386
     \stemDown d2 \stemDown c2 \stemDown b2 \stemUp a2 | % 387
     \stemUp g2 \stemDown d'2. \stemDown c4 \stemDown b2 | % 388
     \stemUp a4 \stemUp g4 g1 \stemUp f2 | % 389
     g\breve ~ \break | \barNumberCheck #390
     g\breve | % 391
-    R1*8 | % 395
+    r1*8 | % 395
     r2 \stemDown g'2 \stemDown e2 \stemDown g2 ~ \pageBreak | % 396
     \stemDown g2 \stemDown f4 \stemDown e4 d1 | % 397
     c1 c1 ~ | % 398
@@ -956,72 +956,72 @@ PartPTwoVoiceOneLyricsTwo =  \lyricmode {\set ignoreMelismata = ##t Mi
 
 PartPThreeVoiceOne =  \relative e' {
     \clef "treble_8" \key c \major \time 2/1 | % 1
-    R1*12 \break | % 7
-    R1*16 \break | % 15
-    R1*8 | % 19
+    r1*12 \break | % 7
+    r1*16 \break | % 15
+    r1*8 | % 19
     e1. \stemDown e2 | \barNumberCheck #20
     e1 e1 | % 21
     e1 e1 \break | % 22
     f\breve | % 23
     e\breve ~ | % 24
     e\breve | % 25
-    R1*10 \pageBreak | \barNumberCheck #30
-    R1*12 \break | % 36
-    R1*8 | \barNumberCheck #40
+    r1*10 \pageBreak | \barNumberCheck #30
+    r1*12 \break | % 36
+    r1*8 | \barNumberCheck #40
     d1. \stemDown d2 | % 41
     d1 d1 \break | % 42
     d1 d1 | % 43
     e\breve | % 44
     d\breve ~ | % 45
     d\breve | % 46
-    R1*6 \break | % 49
-    R1*12 \pageBreak | % 55
-    R1*6 | % 58
+    r1*6 \break | % 49
+    r1*12 \pageBreak | % 55
+    r1*6 | % 58
     c1. \stemDown c2 | % 59
     c1 c1 | \barNumberCheck #60
     c1 c1 \break | % 61
     d\breve | % 62
     c\breve ~ | % 63
     c\breve | % 64
-    R1*6 \break | % 67
-    R1*12 \break | % 73
-    R1*2 | % 74
+    r1*6 \break | % 67
+    r1*12 \break | % 73
+    r1*2 | % 74
     b1. \stemDown b2 | % 75
     b1 b1 | % 76
     b1 b1 | % 77
     c\breve | % 78
     b\breve ~ \pageBreak | % 79
     b\breve | \barNumberCheck #80
-    R1*10 \break | % 85
-    R1*12 \break | % 91
+    r1*10 \break | % 85
+    r1*12 \break | % 91
     a1. \stemUp a2 | % 92
     a1 a1 | % 93
     a1 a1 | % 94
     bes\breve | % 95
     a\breve ~ | % 96
     a\breve | % 97
-    R1*4 \break | % 99
-    R1*16 \pageBreak | % 107
-    R1*8 | % 111
+    r1*4 \break | % 99
+    r1*16 \pageBreak | % 107
+    r1*8 | % 111
     g1. \stemUp g2 | % 112
     g1 g1 \break | % 113
     g1 g1 | % 114
     a\breve | % 115
     g\breve ~ | % 116
     g\breve | % 117
-    R1*8 \break | % 121
-    R1*16 \break | % 129
-    R1*12 | % 135
+    r1*8 \break | % 121
+    r1*16 \break | % 129
+    r1*12 | % 135
     f1. \stemUp f2 | % 136
     f1 f1 \pageBreak | % 137
     f1 f1 | % 138
     g\breve | % 139
     f\breve ~ | \barNumberCheck #140
     f\breve | % 141
-    R1*6 \break | % 144
-    R1*14 \break | % 151
-    R1*12 \break | % 157
-    R1*10 | % 162
+    r1*6 \break | % 144
+    r1*14 \break | % 151
+    r1*12 \break | % 157
+    r1*10 | % 162
     e1. \stemUp e2 | % 163
     e1 e1 \pageBreak | % 164
     e1 e1 | % 165
@@ -1030,98 +1030,98 @@ PartPThreeVoiceOne =  \relative e' {
     e\breve ~ | % 168
     e\breve ~ | % 169
     e\breve \bar "||"
-    \break R1*14 \break | % 176
-    R1*12 \break | % 182
-    R1*2 | % 183
+    \break r1*14 \break | % 176
+    r1*12 \break | % 182
+    r1*2 | % 183
     \stemUp e2. \stemUp e4 \stemUp e2 \stemUp e2 | % 184
     \stemUp e2 \stemUp e2 f1 | % 185
     e\breve | % 186
-    R1*4 \break | % 188
-    R1*12 \pageBreak | % 194
-    R1*8 | % 198
+    r1*4 \break | % 188
+    r1*12 \pageBreak | % 194
+    r1*8 | % 198
     \stemUp f2. \stemUp f4 \stemUp f2 \stemUp f2 | % 199
     \stemUp f2 \stemUp f2 g1 \break | \barNumberCheck #200
     f\breve | % 201
-    R1*10 \break | % 206
-    R1*12 \break | % 212
-    R1*2 | % 213
+    r1*10 \break | % 206
+    r1*12 \break | % 212
+    r1*2 | % 213
     \stemUp g2. \stemUp g4 \stemUp g2 \stemUp g2 | % 214
     \stemUp g2 \stemUp g2 a1 | % 215
     g\breve | % 216
-    R1*4 \pageBreak | % 218
-    R1*12 \break | % 224
-    R1*4 | % 226
+    r1*4 \pageBreak | % 218
+    r1*12 \break | % 224
+    r1*4 | % 226
     \stemUp a2. \stemUp a4 \stemUp a2 \stemUp a2 | % 227
     \stemUp a2 \stemUp a2 bes1 | % 228
     a\breve | % 229
-    R1*2 \break | \barNumberCheck #230
-    R1*12 \break | % 236
-    R1*12 \pageBreak | % 242
-    R1*6 | % 245
+    r1*2 \break | \barNumberCheck #230
+    r1*12 \break | % 236
+    r1*12 \pageBreak | % 242
+    r1*6 | % 245
     \stemDown b2. \stemDown b4 \stemDown b2 \stemDown b2 | % 246
     \stemDown b2 \stemDown b2 c1 | % 247
     b\breve \break | % 248
-    R1*8 | % 252
+    r1*8 | % 252
     \stemDown c2. \stemDown c4 \stemDown c2 \stemDown c2 | % 253
     \stemDown c2 \stemDown c2 d1 \break | % 254
     c\breve | % 255
-    R1*12 \break | % 261
-    R1*2 | % 262
+    r1*12 \break | % 261
+    r1*2 | % 262
     \stemDown d2. \stemDown d4 \stemDown d2 \stemDown d2 | % 263
     \stemDown d2 \stemDown d2 e1 | % 264
     d\breve | % 265
-    R1*4 \pageBreak | % 267
-    R1*12 \break | % 273
-    R1*12 \break | % 279
-    R1*8 | % 283
+    r1*4 \pageBreak | % 267
+    r1*12 \break | % 273
+    r1*12 \break | % 279
+    r1*8 | % 283
     \stemDown e2. \stemDown e4 \stemDown e2 \stemDown e2 \break | % 284
     \stemDown e2 \stemDown e2 f1 | % 285
     e\breve ~ | % 286
     e\breve ~ | % 287
     e\breve ~ | % 288
     e\breve \bar "||"
-    \pageBreak R1*14 \break | % 295
-    R1*12 \break | % 301
+    \pageBreak r1*14 \break | % 295
+    r1*12 \break | % 301
     e1. \stemDown e2 | % 302
     e1 e1 | % 303
     e1 e1 | % 304
     f\breve | % 305
     e\breve ~ | % 306
     e\breve \break | % 307
-    R1*14 \pageBreak | % 314
-    R1*14 \break | % 321
-    R1*14 \break | % 328
-    R1*4 | \barNumberCheck #330
+    r1*14 \pageBreak | % 314
+    r1*14 \break | % 321
+    r1*14 \break | % 328
+    r1*4 | \barNumberCheck #330
     d1. \stemDown d2 | % 331
     d1 d1 | % 332
     d1 d1 | % 333
     e\breve | % 334
     d\breve ~ \break | % 335
     d\breve | % 336
-    R1*12 \pageBreak | % 342
-    R1*14 \break | % 349
-    R1*14 \break | % 356
-    R1*14 \break | % 363
-    R1*2 | % 364
+    r1*12 \pageBreak | % 342
+    r1*14 \break | % 349
+    r1*14 \break | % 356
+    r1*14 \break | % 363
+    r1*2 | % 364
     c1. \stemDown c2 | % 365
     c1 c1 | % 366
     c1 c1 | % 367
     d\breve | % 368
     c\breve ~ | % 369
     c\breve \pageBreak | \barNumberCheck #370
-    R1*12 \break | % 376
-    R1*14 \break | % 383
-    R1*4 | % 385
+    r1*12 \break | % 376
+    r1*14 \break | % 383
+    r1*4 | % 385
     b1. \stemDown b2 | % 386
     b1 b1 | % 387
     b1 b1 | % 388
     c\breve | % 389
     b\breve ~ \break | \barNumberCheck #390
     b\breve | % 391
-    R1*10 \pageBreak | % 396
-    R1*14 \break | % 403
-    R1*14 \break | \barNumberCheck #410
-    R1*6 | % 413
+    r1*10 \pageBreak | % 396
+    r1*14 \break | % 403
+    r1*14 \break | \barNumberCheck #410
+    r1*6 | % 413
     a1. \stemUp a2 | % 414
     a1 a1 | % 415
     a1 a1 \break | % 416
@@ -1161,8 +1161,8 @@ PartPFourVoiceOne =  \relative b {
     \stemDown d2 c1 \stemDown b4 \stemUp a4 \break | % 7
     g\breve ~ | % 8
     g\breve | % 9
-    R1*12 \break | % 15
-    R1*8 | % 19
+    r1*12 \break | % 15
+    r1*8 | % 19
     r1 b1 ~ | \barNumberCheck #20
     \stemDown b2 \stemDown b2 \stemDown b2 \stemDown b2 | % 21
     c1 c1 \break | % 22
@@ -1171,9 +1171,9 @@ PartPFourVoiceOne =  \relative b {
     \stemUp a2 \stemUp g4 \stemUp f4 \stemUp e2 \stemUp a2 | % 25
     \stemUp f2 g1 \stemUp e2 | % 26
     e\breve | % 27
-    R1*6 \pageBreak | \barNumberCheck #30
-    R1*12 \break | % 36
-    R1*8 | \barNumberCheck #40
+    r1*6 \pageBreak | \barNumberCheck #30
+    r1*12 \break | % 36
+    r1*8 | \barNumberCheck #40
     f1. \stemUp f2 | % 41
     f1 g1 \break | % 42
     f1 d1 | % 43
@@ -1208,8 +1208,8 @@ PartPFourVoiceOne =  \relative b {
     a\breve | % 69
     r2 \stemDown e'2 \stemDown c2 \stemDown d2 | \barNumberCheck #70
     e1 e,1 | % 71
-    R1*4 \break | % 73
-    R1*6 | % 76
+    r1*4 \break | % 73
+    r1*6 | % 76
     \stemUp g2. \stemUp g4 \stemUp g2 \stemUp g2 | % 77
     \stemUp e2. \stemUp f4 g1 | % 78
     g\breve \pageBreak | % 79
@@ -1246,7 +1246,7 @@ PartPFourVoiceOne =  \relative b {
     \stemDown c2 \stemDown d2 e1 | % 109
     \stemDown d2 \stemDown b2 c1 | \barNumberCheck #110
     b1 r1 | % 111
-    R1*2 | % 112
+    r1*2 | % 112
     r1 e1 ~ \break | % 113
     \stemDown e2 \stemDown e2 \stemDown e2 \stemDown e2 | % 114
     e1 e1 | % 115
@@ -1283,13 +1283,13 @@ PartPFourVoiceOne =  \relative b {
     \stemDown e2 \stemDown c2 b1 | % 145
     a\breve ~ | % 146
     a\breve | % 147
-    R1*6 | \barNumberCheck #150
+    r1*6 | \barNumberCheck #150
     r1 a1 \break | % 151
     g1 e1 | % 152
     r1 a1 ~ | % 153
     a2 a2 a1 | % 154
     d,\breve | % 155
-    R1*2 | % 156
+    r1*2 | % 156
     f1. \stemUp e2 \break | % 157
     d1 \stemUp e2 \stemUp a2 | % 158
     \stemDown b2 \stemDown c2 d1 | % 159
@@ -1305,7 +1305,7 @@ PartPFourVoiceOne =  \relative b {
     g\breve ~ | % 169
     g\breve \bar "||"
     \break e1 e1 | \barNumberCheck #170
-    R1*2 | % 171
+    r1*2 | % 171
     e1 e1 | % 172
     \stemUp f2 \stemUp e2 a1 | % 173
     \stemUp g2 a1 \stemUp a2 | % 174
@@ -1319,7 +1319,7 @@ PartPFourVoiceOne =  \relative b {
     \stemDown a2 \stemDown c1 b4 a4| % 181
     \stemDown b2 c1 \stemDown b4 \stemUp a4 \break | % 182
     c1 b1 | % 183
-    R1*4 | % 185
+    r1*4 | % 185
     r1 e1 | % 186
     d1 e1 | % 187
     r1 r2 \stemDown e2 \break | % 188
@@ -1338,9 +1338,9 @@ PartPFourVoiceOne =  \relative b {
     \stemUp a2 \stemUp a2 bes1 \break | \barNumberCheck #200
     a1. \stemUp f2 | % 201
     \stemUp g2. \stemUp f4 d1 | % 202
-    R1*8 \break | % 206
-    R1*12 \break | % 212
-    R1*2 | % 213
+    r1*8 \break | % 206
+    r1*12 \break | % 212
+    r1*2 | % 213
     e1. \stemUp e2 | % 214
     \stemUp e2 \stemUp e2 \stemUp e2 \stemUp e2 | % 215
     \stemUp e2. \stemUp f4 g1 | % 216
@@ -1386,13 +1386,13 @@ PartPFourVoiceOne =  \relative b {
     \stemUp a2. \stemUp a4 \stemUp a2 \stemUp a2 | % 253
     \stemUp a2 \stemUp a2 a1 ~ \break | % 254
     a1 g1 | % 255
-    R1*4 | % 257
+    r1*4 | % 257
     r1 r2 \stemUp g2 | % 258
     \stemDown c2. \stemDown c4 b1 | % 259
     r2 \stemDown b2 \stemDown c2 \stemDown b2 | \barNumberCheck #260
     \stemUp a2 \stemDown d2. c4 c4 b4 \break | % 261
     d\breve | % 262
-    R1*10 \pageBreak | % 267
+    r1*10 \pageBreak | % 267
     d1. \stemDown d2 | % 268
     d1 f1 | % 269
     \stemDown e2 \stemDown f2 \stemDown g2 \stemDown e2 |
@@ -1417,7 +1417,7 @@ PartPFourVoiceOne =  \relative b {
     \stemUp a2 \stemDown b2 c1 | % 287
     b\breve ~ | % 288
     b\breve \bar "||"
-    \pageBreak R1*6 | % 291
+    \pageBreak r1*6 | % 291
     c1 \stemDown c2 \stemDown c2 | % 292
     \stemDown c2 \stemDown c2 \stemDown c2 \stemDown c2 | % 293
     c1 c1 | % 294
@@ -1437,18 +1437,18 @@ PartPFourVoiceOne =  \relative b {
     \stemUp a2 \stemUp g2 c1 | % 308
     \stemDown d2 \stemDown c2 f1 | % 309
     e\breve | \barNumberCheck #310
-    R1*4 | % 312
+    r1*4 | % 312
     c1. \stemDown b2 | % 313
     \stemUp a2 \stemUp g2 c1 \pageBreak | % 314
     \stemDown d2 \stemDown c2 f1 | % 315
     e\breve | % 316
-    R1*4 | % 318
+    r1*4 | % 318
     r1 c1 ~ | % 319
     \stemDown c2 \stemDown c2 \stemDown c2 \stemDown c2 |
     \barNumberCheck #320
     d1 \stemDown b2. \stemUp g4 \break | % 321
     g1 r1 | % 322
-    R1*2 | % 323
+    r1*2 | % 323
     r2 \stemDown d'2 \stemDown d2. \stemDown c4 | % 324
     \stemDown b2 \stemUp a2 g1 | % 325
     r1 r2 \stemDown e'2 | % 326
@@ -1463,19 +1463,19 @@ PartPFourVoiceOne =  \relative b {
     \stemUp g2 \stemUp g2 \stemUp e2. \stemUp f4 | % 334
     g\breve ~ \break | % 335
     g\breve | % 336
-    R1*4 | % 338
+    r1*4 | % 338
     g1. \stemUp a2 | % 339
     \stemDown b2 \stemDown c2 \stemDown d2 \stemUp g,4 \stemUp a4 |
     \barNumberCheck #340
     \stemDown b4 \stemDown c4 d1 \stemDown c2 | % 341
     d\breve \pageBreak | % 342
-    R1*4 | % 344
+    r1*4 | % 344
     a1. \stemDown b2 | % 345
     \stemDown c2 \stemDown d2 \stemDown e2 \stemUp a,4 \stemDown b4 | % 346
     \stemDown c4 \stemDown d4 e2. \stemDown d4 d4 c4 | % 347
     e\breve | % 348
-    R1*2 \break | % 349
-    R1*4 | % 351
+    r1*2 \break | % 349
+    r1*4 | % 351
     r2 \stemUp a,2 c1 ~ | % 352
     \stemDown c2 \stemDown d2 \stemDown e2 \stemUp a,2 | % 353
     \stemDown c2 \stemDown c2 \stemDown c2 \stemDown c2 ~ | % 354
@@ -1498,13 +1498,13 @@ PartPFourVoiceOne =  \relative b {
     a1. \stemDown b2 \pageBreak | \barNumberCheck #370
     \stemDown c2 \stemUp a2 \stemDown b2 \stemDown c2 | % 371
     d1 r1 | % 372
-    R1*2 | % 373
+    r1*2 | % 373
     d1. \stemDown e2 | % 374
     \stemDown f2 \stemDown d2 \stemDown e2 \stemDown f2 | % 375
     \stemDown g2 \stemDown e2 \stemDown f2 \stemDown g2 ~ \break | % 376
     \stemDown g4 \stemDown f4 \stemDown e4 \stemDown d4 e1 ~ | % 377
     e1 r1 | % 378
-    R1*4 | \barNumberCheck #380
+    r1*4 | \barNumberCheck #380
     r1 e1 | % 381
     \stemDown e2 \stemDown e2 e1 | % 382
     f1 \stemDown e2 \stemDown c2 \break | % 383
@@ -1521,8 +1521,8 @@ PartPFourVoiceOne =  \relative b {
     \stemDown b2 c1 \stemDown b2 | % 393
     c1 g1 ~ | % 394
     g1 r1 | % 395
-    R1*2 \pageBreak | % 396
-    R1*2 | % 397
+    r1*2 \pageBreak | % 396
+    r1*2 | % 397
     r1 e'1 ~ | % 398
     \stemDown e2 \stemDown e2 \stemDown e2 \stemDown e2 | % 399
     d1 g1 | \barNumberCheck #400
@@ -1539,11 +1539,11 @@ PartPFourVoiceOne =  \relative b {
     e1. \stemDown e2 | % 411
     e\breve ~ | % 412
     e\breve | % 413
-    R1*2 | % 414
+    r1*2 | % 414
     \stemDown c2. \stemDown c4 \stemDown c2 \stemDown c2 | % 415
     \stemDown d2 \stemDown e2 \stemDown c2. \stemDown d4 \break | % 416
     e\breve | % 417
-    R1*2 | % 418
+    r1*2 | % 418
     \stemDown c1. \stemDown c2 | % 419
     \stemDown d2 \stemDown e2 f1 | \barNumberCheck #420
     e\breve ~ | % 421
@@ -1634,24 +1634,24 @@ PartPFourVoiceOneLyricsFour =  \lyricmode {\set ignoreMelismata = ##t Mi
 
 PartPFiveVoiceOne =  \relative e {
     \clef "bass" \key c \major \time 2/1 | % 1
-    R1*4 | % 3
+    r1*4 | % 3
     e1. \stemDown e2 | % 4
     e1 e1 | % 5
     e1 e1 | % 6
     f\breve \break | % 7
     e\breve ~ | % 8
     e\breve | % 9
-    R1*12 \break | % 15
-    R1*8 | % 19
+    r1*12 \break | % 15
+    r1*8 | % 19
     e1. \stemDown e2 | \barNumberCheck #20
     e1 e1 | % 21
     a,1 a1 \break | % 22
     d\breve | % 23
     a\breve ~ | % 24
     a\breve | % 25
-    R1*10 \pageBreak | \barNumberCheck #30
-    R1*12 \break | % 36
-    R1*8 | \barNumberCheck #40
+    r1*10 \pageBreak | \barNumberCheck #30
+    r1*12 \break | % 36
+    r1*8 | \barNumberCheck #40
     d1. \stemDown d2 | % 41
     d1 g,1 \break | % 42
     d'1 bes1 | % 43
@@ -1669,27 +1669,27 @@ PartPFiveVoiceOne =  \relative e {
     f1 \stemDown e2 \stemDown d2 ~ \pageBreak | % 55
     \stemDown d2 \stemUp c2 bes1 | % 56
     a1 r1 | % 57
-    R1*4 | % 59
+    r1*4 | % 59
     r1 a'1 ~ | \barNumberCheck #60
     \stemDown a2 \stemDown g2 \stemDown f2 \stemDown e2 \break | % 61
     \stemDown d2 \stemUp c2 b1 | % 62
     a\breve ~ | % 63
     a\breve | % 64
-    R1*6 \break | % 67
-    R1*2 | % 68
+    r1*6 \break | % 67
+    r1*2 | % 68
     r2 \stemDown a'2 \stemDown a2 \stemDown a2 | % 69
     \stemDown g2 a1 \stemDown g4 \stemDown f4 | \barNumberCheck #70
     e1 r1 | % 71
-    R1*4 \break | % 73
-    R1*2 | % 74
+    r1*4 \break | % 73
+    r1*2 | % 74
     r1 g1 ~ | % 75
     \stemDown g2 \stemDown g2 \stemDown g2 \stemDown g2 | % 76
     \stemDown e2. \stemDown f4 g1 | % 77
     c,\breve | % 78
     g\breve ~ \pageBreak | % 79
     g\breve | \barNumberCheck #80
-    R1*10 \break | % 85
-    R1*12 \break | % 91
+    r1*10 \break | % 85
+    r1*12 \break | % 91
     r1 d'1 ~ | % 92
     \stemDown d2 \stemDown d2 d1 | % 93
     c1 d1 | % 94
@@ -1717,9 +1717,9 @@ PartPFiveVoiceOne =  \relative e {
     c1. \stemDown d2 | % 116
     e\breve ~ | % 117
     e\breve | % 118
-    R1*6 \break | % 121
-    R1*16 \break | % 129
-    R1*12 | % 135
+    r1*6 \break | % 121
+    r1*16 \break | % 129
+    r1*12 | % 135
     d1. \stemDown d2 | % 136
     d1 d1 \pageBreak | % 137
     d1 d1 | % 138
@@ -1727,8 +1727,8 @@ PartPFiveVoiceOne =  \relative e {
     d'\breve ~ | \barNumberCheck #140
     d\breve ~ | % 141
     d\breve | % 142
-    R1*4 \break | % 144
-    R1*2 | % 145
+    r1*4 \break | % 144
+    r1*2 | % 145
     d1 f1 | % 146
     d1 \stemDown f2. \stemDown e4 | % 147
     \stemUp c2 \stemDown g'2. \stemDown f4 \stemDown e4 \stemDown d4 | % 148
@@ -1742,11 +1742,11 @@ PartPFiveVoiceOne =  \relative e {
     r2 \stemUp a2 \stemUp b2 \stemUp c2 | % 156
     d1. \stemUp c2 \break | % 157
     b1 a1 | % 158
-    R1*2 | % 159
+    r1*2 | % 159
     r1 r2 \stemUp c2 | \barNumberCheck #160
     \stemDown d2 \stemDown e2 f1 | % 161
     e\breve | % 162
-    R1*2 | % 163
+    r1*2 | % 163
     c1. \stemUp c2 \pageBreak | % 164
     c1 c1 | % 165
     d1 d1 | % 166
@@ -1754,9 +1754,9 @@ PartPFiveVoiceOne =  \relative e {
     e'\breve ~ | % 168
     e\breve ~ | % 169
     e\breve \bar "||" 
-    \break R1*2 | \barNumberCheck #170
+    \break r1*2 | \barNumberCheck #170
     a,1 a1 | % 171
-    R1*2 | % 172
+    r1*2 | % 172
     a1 a1 | % 173
     \stemUp b2 \stemUp a2 d1 | % 174
     \stemUp c2 d1 \stemDown d2 | % 175
@@ -1769,7 +1769,7 @@ PartPFiveVoiceOne =  \relative e {
     \stemDown a2 \stemDown g4 \stemDown f4 \stemDown e2 \stemDown f2 | % 181
     \stemDown g2 \stemDown a2 f1 \break | % 182
     e\breve | % 183
-    R1*4 | % 185
+    r1*4 | % 185
     r1 e1 | % 186
     f1 e1 | % 187
     r2 \stemDown d2 \stemDown e2 \stemDown e2 \break | % 188
@@ -1786,8 +1786,8 @@ PartPFiveVoiceOne =  \relative e {
     \stemDown d2 \stemDown d2 \stemDown d2 \stemDown d2 | % 199
     \stemDown d2 \stemDown d2 g,1 \break | \barNumberCheck #200
     d'\breve | % 201
-    R1*10 \break | % 206
-    R1*12 \break | % 212
+    r1*10 \break | % 206
+    r1*12 \break | % 212
     r1 e1 ~ | % 213
     \stemDown e2 \stemDown e2 \stemDown e2 \stemDown e2 | % 214
     e1 \stemUp a,2. \stemUp b4 | % 215
@@ -1825,29 +1825,29 @@ PartPFiveVoiceOne =  \relative e {
     \stemDown e2. \stemDown e4 \stemDown e2 \stemDown e2 | % 246
     \stemDown e2 \stemDown e2 a,1 | % 247
     e'\breve \break | % 248
-    R1*6 | % 251
+    r1*6 | % 251
     r1 f1 ~ | % 252
     \stemDown f2 \stemDown f2 \stemDown f2 \stemDown f2 | % 253
     \stemDown f2 \stemDown f2 f1 ~ \break | % 254
     f1 c1 | % 255
-    R1*6 | % 258
+    r1*6 | % 258
     r2 \stemDown e2 \stemDown e2. \stemDown e4 | % 259
     \stemDown e2 \stemDown e2 \stemDown e2 \stemDown e2 |
     \barNumberCheck #260
     \stemDown f2. \stemDown d4 e1 \break | % 261
     d\breve | % 262
-    R1*4 | % 264
+    r1*4 | % 264
     d1. \stemDown d2 | % 265
     d1 f1 | % 266
     \stemDown e2 \stemDown f2 \stemDown g2 \stemDown e2 \pageBreak | % 267
     d\breve | % 268
-    R1*4 | \barNumberCheck #270
+    r1*4 | \barNumberCheck #270
     r1 f1 ~ | % 271
     \stemDown f2 \stemDown f2 f1 | % 272
     \stemUp c2 \stemDown g'2 \stemDown f2 \stemDown e2 ~ \break | % 273
     \stemDown e2 \stemDown d4 \stemUp c4 b1 | % 274
     a1 r1 | % 275
-    R1*2 | % 276
+    r1*2 | % 276
     r1 r2 \stemDown d2 | % 277
     \stemDown d2 \stemDown d2 f1 | % 278
     \stemDown e2 \stemUp c2 \stemDown d2 \stemDown e2 \break | % 279
@@ -1859,10 +1859,10 @@ PartPFiveVoiceOne =  \relative e {
     \stemUp c2. \stemUp c4 \stemUp c2 \stemUp c2 \break | % 284
     \stemUp c2 \stemUp a2 d1 | % 285
     a\breve | % 286
-    R1*2 | % 287
+    r1*2 | % 287
     r1 e'1 | % 288
     e\breve \bar "||"
-    \pageBreak R1*4 | \barNumberCheck #290
+    \pageBreak r1*4 | \barNumberCheck #290
     c1 \stemUp c2 \stemUp c2 | % 291
     \stemUp c2 \stemUp c2 \stemUp c2 \stemUp c2 | % 292
     c1 c1 | % 293
@@ -1879,19 +1879,19 @@ PartPFiveVoiceOne =  \relative e {
     \stemDown c2 \stemDown b2 \stemDown a2 \stemDown g2 | % 304
     \stemDown f2 \stemDown e2 d1 | % 305
     c\breve | % 306
-    R1*2 \break | % 307
-    R1*4 | % 309
+    r1*2 \break | % 307
+    r1*4 | % 309
     r1 c'1 ~ | \barNumberCheck #310
     \stemDown c2 \stemDown b2 \stemDown a2 \stemDown g2 | % 311
     \stemDown f2 \stemDown e2 d1 | % 312
     c\breve | % 313
-    R1*2 \pageBreak | % 314
-    R1*2 | % 315
+    r1*2 \pageBreak | % 314
+    r1*2 | % 315
     r1 c'1 ~ | % 316
     \stemDown c2 \stemDown b2 \stemDown a2 \stemDown g2 | % 317
     \stemDown f2 \stemDown e2 d1 | % 318
     c\breve | % 319
-    R1*2 | \barNumberCheck #320
+    r1*2 | \barNumberCheck #320
     r1 g'1 ~ \break | % 321
     \stemDown g2 \stemDown g2 \stemDown g2 \stemDown g2 | % 322
     a1 \stemDown f2. \stemDown d4 | % 323
@@ -1909,18 +1909,18 @@ PartPFiveVoiceOne =  \relative e {
     \stemDown e2 \stemDown e2 c1 | % 334
     g\breve ~ \break | % 335
     g\breve | % 336
-    R1*4 | % 338
+    r1*4 | % 338
     r1 g1 ~ | % 339
     \stemUp g2 \stemUp a2 \stemUp b2 \stemUp c2 | \barNumberCheck #340
     \stemDown d2. \stemDown f4 e1 | % 341
     d\breve \pageBreak | % 342
-    R1*4 | % 344
+    r1*4 | % 344
     r1 a1 ~ | % 345
     \stemUp a2 \stemUp b2 \stemUp c2 \stemDown d2 | % 346
     \stemDown e2 \stemDown g2 f1 | % 347
     e\breve | % 348
-    R1*2 \break | % 349
-    R1*4 | % 351
+    r1*2 \break | % 349
+    r1*4 | % 351
     r1 a,1 | % 352
     c1. \stemDown d2 | % 353
     \stemDown e2 \stemUp a,2 \stemDown e'2 \stemDown f2 | % 354
@@ -1929,7 +1929,7 @@ PartPFiveVoiceOne =  \relative e {
     \stemDown e2 \stemDown e2 \stemDown e2 \stemDown d2 | % 357
     c1 b1 | % 358
     a\breve | % 359
-    R1*4 | % 361
+    r1*4 | % 361
     r1 g'1 ~ | % 362
     \stemDown g2 \stemDown f2 \stemDown e2 \stemDown d2 \break | % 363
     c1 b1 | % 364
@@ -1939,19 +1939,19 @@ PartPFiveVoiceOne =  \relative e {
     \stemDown d2 \stemUp c2 b1 | % 368
     a\breve ~ | % 369
     a\breve \pageBreak | \barNumberCheck #370
-    R1*2 | % 371
+    r1*2 | % 371
     d1. \stemDown e2 | % 372
     \stemDown f2 \stemDown d2 \stemDown e2 \stemDown f2 | % 373
     \stemDown g2. \stemDown f4 d1 | % 374
-    R1*4 \break | % 376
-    R1*2 | % 377
+    r1*4 \break | % 376
+    r1*2 | % 377
     e1. \stemDown f2 | % 378
     \stemDown g2 \stemDown e2 \stemDown f2 \stemDown g2 | % 379
     \stemDown a2 \stemDown f2 e1 ~ | \barNumberCheck #380
     e1 \stemUp c2. \stemDown d4 | % 381
     e\breve | % 382
-    R1*2 \break | % 383
-    R1*6 | % 386
+    r1*2 \break | % 383
+    r1*6 | % 386
     r1 g1 ~ | % 387
     \stemDown g2 \stemDown f2 \stemDown e2 \stemDown d2 | % 388
     \stemUp c2 \stemUp b2 a1 | % 389

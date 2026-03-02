@@ -87,10 +87,10 @@ cantus={
 	g'1 ~ |
 	g' ~ |
 	g' |
-	R1*4/4 |
+	r1*4/4 |
 }
 altus={
-	R1*4/4 |
+	r1*4/4 |
 	r2 d' |
 	e' f'4. e'8 |
 	d'4 c' b2 |
@@ -139,8 +139,8 @@ altus={
 }
 
 tenor={
-	R1*4/4 |
-	R1*4/4 |
+	r1*4/4 |
+	r1*4/4 |
 	r2 a |
 	b4 c' d'2 ~ |
 %5
@@ -160,9 +160,9 @@ tenor={
 	e'4 f'2 e'4 ~ |
 	e' d'8 c' b4 c' |
 	a2 g^\fermata |
-	R1*4/4 |
+	r1*4/4 |
 %20
-	R1*4/4 |
+	r1*4/4 |
 	r2 g |
 	a4 c'2 b4 |
 	c' a g g |
@@ -208,15 +208,15 @@ bassus={
 	r4 d2 e4 |
 	c d e c |
 	d2 g^\fermata |
-	R1*4/4 |
+	r1*4/4 |
 %20
 	r2 g |
 	a4 c'2 b4 |
 	c' a g2 |
 	c r |
-	R1*4/4 |
+	r1*4/4 |
 %25
-	R1*4/4 |
+	r1*4/4 |
 	r4 a bes2 |
 	a f |
 	g4 a4. g8 f e |
@@ -232,7 +232,7 @@ bassus={
 	e4 c g2 |
 	c1 |
 	g |
-	R1*4/4 |
+	r1*4/4 |
 }
 textocantus=\lyricmode{
 Do -- _ _ _ _ _ _ _ _ _ _ _ mi -- ne,
@@ -428,7 +428,7 @@ tenor={
 }
 bassus={
 %40
-	R1*4/4 |
+	r1*4/4 |
 	r4 a2 g8 f |
 	g4 a d2 |
 	g g4 g |
@@ -580,7 +580,7 @@ altus={
 	r4 d' f'4. e'8 |
 	d'4 c' d'4. c'8 |
 	d'4 e' d'2 |
-	R1*4/4 |
+	r1*4/4 |
 %70
 	a'2 bes'4. a'8 |
 	g'4. f'8 e'2 |
@@ -588,7 +588,7 @@ altus={
 }
 
 tenor={
-	R1*4/4 |
+	r1*4/4 |
 %50
 	d'2 b4 c' |
 	d'4.  c'8[ b a] b4 |
@@ -620,9 +620,9 @@ tenor={
 }
 
 bassus={
-	R1*4/4 |
+	r1*4/4 |
 %50
-	R1*4/4 |
+	r1*4/4 |
 	r2 g |
 	e4 f g4. f8 |
 	e4 c f g |

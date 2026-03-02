@@ -59,8 +59,8 @@ cantus=\relative c''{
 }
 
 discantusOne=\relative c''{
-	R1
-	R
+	r1
+	r
 	r4 a a4. g8
 	f4 bes a g ~
 	g8 a fis4 g a
@@ -79,9 +79,9 @@ discantusOne=\relative c''{
   }
 discantusTwo=\relative c'{
 %
-	R1
-	R
-	R
+	r1
+	r
+	r
 	d'4. c8 bes4 a ~
 	a g f4. e8
 	d4 a' a a
@@ -100,9 +100,9 @@ discantusTwo=\relative c'{
   }
 discantusThree=\relative c''{
 %
-	R1
-	R
-	R
+	r1
+	r
+	r
 	r4 a bes4. c8 
 	a4 a g4. g8
 	f4. e8 d2
@@ -121,9 +121,9 @@ discantusThree=\relative c''{
 }
 
 altusOne=\relative d'{
-	R1
-	R
-	R
+	r1
+	r
+	r
 	r2 r4 d
 	d4. c8 bes4 f'
 	d bes a a
@@ -183,8 +183,8 @@ altusThree=\relative d'{
 }
 
 tenorOne=\relative c'{
-	R1
-	R
+	r1
+	r
 	r2 r4 a
 	a4. g8 f4 bes
 	a4 d, g f
@@ -203,9 +203,9 @@ tenorOne=\relative c'{
   }
 tenorTwo=\relative c'{
 %
-	R1
-	R
-	R
+	r1
+	r
+	r
 	r2 d4. c8
 	bes2 a4 a
 	a4. a8 d,4 a'
@@ -224,7 +224,7 @@ tenorTwo=\relative c'{
   }
 tenorThree=\relative c{
 %
-	R1
+	r1
 	r2 r4 e4
 	f4. g8 e2
 	d g 
@@ -265,7 +265,7 @@ bassusOne=\relative c'{
   }
 bassusTwo=\relative c{
 %
-	R1
+	r1
 	r2 a'4. g8 
 	f2 e4 e
 	d2. f4
@@ -286,10 +286,10 @@ bassusTwo=\relative c{
   }
 bassusThree=\relative c'{
 %
-	R1
-	R
-	R
-	R
+	r1
+	r
+	r
+	r
 	r4 a4 bes4. c8
 	a4 a f d
 	a1
@@ -417,7 +417,7 @@ incipitcantus=\markup{
 		{ 
 		\set Staff.instrumentName="Cantus    "
 		\override NoteHead.style = #'neomensural
-		\override Rest.style = #'neomensural
+		\override rest.style = #'neomensural
 		\override Staff.TimeSignature.style = #'neomensural
 		\cadenzaOn 
 		\clef "petrucci-g"
@@ -441,7 +441,7 @@ incipitdiscantus=\markup{
 		{ 
 		\set Staff.instrumentName="Discantus"
 		\override NoteHead.style = #'neomensural 
-		\override Rest.style = #'neomensural
+		\override rest.style = #'neomensural
 		\override Staff.TimeSignature.style = #'neomensural
 		\cadenzaOn 
 		\clef "petrucci-c2"
@@ -465,7 +465,7 @@ incipitaltus=\markup{
 		{ 
 		\set Staff.instrumentName="Altus      "
 		\override NoteHead.style = #'neomensural 
-		\override Rest.style = #'neomensural
+		\override rest.style = #'neomensural
 		\override Staff.TimeSignature.style = #'neomensural
 		\cadenzaOn 
 		\clef "petrucci-c3"
@@ -489,7 +489,7 @@ incipittenor=\markup{
 		{ 
 		\set Staff.instrumentName="Tenor      "
 		\override NoteHead.style = #'neomensural 
-		\override Rest.style = #'neomensural
+		\override rest.style = #'neomensural
 		\override Staff.TimeSignature.style = #'neomensural
 		\cadenzaOn 
 		\clef "petrucci-c4"
@@ -513,7 +513,7 @@ incipitbassus=\markup{
 		{ 
 		\set Staff.instrumentName="Bassus     "
 		\override NoteHead.style = #'neomensural 
-		\override Rest.style = #'neomensural
+		\override rest.style = #'neomensural
 		\override Staff.TimeSignature.style = #'neomensural
 		\cadenzaOn 
 		\clef "petrucci-c5"

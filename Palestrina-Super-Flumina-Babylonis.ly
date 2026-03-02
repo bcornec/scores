@@ -34,10 +34,10 @@ global = {
 
 cantus =  \relative c''
 	{
-	R\breve
-	R\breve
-	R\breve
-	R\breve
+	r\breve
+	r\breve
+	r\breve
+	r\breve
 %5
 	r1 a~ |
 	a1 a
@@ -66,7 +66,7 @@ cantus =  \relative c''
 	a2 g c b |
 	a1 g2 f
 	e1 r
-	R\breve
+	r\breve
 	r2 e g a~
 %30
 	a2 g c1~ |
@@ -75,13 +75,13 @@ cantus =  \relative c''
 	a2 g a1~
 	a\breve
 %35
-	R\breve |
+	r\breve |
 	r2 e g a~
 	a2 g c b
 	a1 g2 f
 	e1 r
 %40
-	R\breve |
+	r\breve |
 	r2 a1 b2
 	c2. c4 c2 b~ |
 	b2 a2. a4 gis2
@@ -100,7 +100,7 @@ cantus =  \relative c''
 	g\breve~
 %55
 	g\breve |
-	R\breve
+	r\breve
 	r1 r2 b
 	c2. b4 a2 b~
 	b4 a g2 a4 g g2~
@@ -109,7 +109,7 @@ cantus =  \relative c''
 	e2 a2. a4 g2
 	a\breve
 	a1 r
-	R\breve
+	r\breve
 %65
 	r1 r2 d |
 	e2. d4 c2 d~
@@ -124,8 +124,8 @@ cantus =  \relative c''
 
 altus =  \relative c'
 	{
-	R\breve
-	R\breve
+	r\breve
+	r\breve
 	e\breve
 	e1 d2. d4
 %5
@@ -215,15 +215,15 @@ altus =  \relative c'
 
 tenor =  \relative c'
 	{
-	R\breve
-	R\breve
-	R\breve
-	R\breve
+	r\breve
+	r\breve
+	r\breve
+	r\breve
 %5
-	R\breve |
-	R\breve
-	R\breve
-	R\breve
+	r\breve |
+	r\breve
+	r\breve
+	r\breve
 	r1 a~
 %10
 	a1 a |
@@ -318,8 +318,8 @@ bassus  =  \relative c
 %10
 	a2. g4 f1 |
 	e1 a,
-	R\breve
-	R\breve
+	r\breve
+	r\breve
 	r2 a1 d2
 %15
 	c1. c2 |
@@ -332,33 +332,33 @@ bassus  =  \relative c
 	g1 e
 	f1. f2
 	e\breve
-	R\breve
+	r\breve
 %25
-	R\breve |
-	R\breve
+	r\breve |
+	r\breve
 	r2 e g a~
 	a2 g c b
 	a1 g2 f
 %30
 	e1 a, |
-	R\breve
-	R\breve
+	r\breve
+	r\breve
 	r1 r2 a
 	c2 d1 c2
 %35
 	b2 a e'1 |
 	c1. a2
 	e'1 r
-	R\breve
+	r\breve
 	r1 a
 %40
 	b2 c2. c4 c2 |
 	b2 a2. a4 gis2
 	a1 e
-	R\breve
-	R\breve
+	r\breve
+	r\breve
 %45
-	R\breve |
+	r\breve |
 	r2 d1 e2
 	f2. f4 f2 e
 	a2. a4 g1
@@ -374,7 +374,7 @@ bassus  =  \relative c
 	f2. e4 d2 e~
 	e4 d c2 b1
 	a1 r
-	R\breve
+	r\breve
 %60
 	r2 d e2. d4 |
 	c2 d2. d4 e2
@@ -384,7 +384,7 @@ bassus  =  \relative c
 %65
 	g4 f e2 d1 |
 	c1 r
-	R\breve
+	r\breve
 	e1 f2. e4
 	d2 a'2. a4 g2
 %70

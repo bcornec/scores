@@ -55,8 +55,8 @@ global = {
 
 PartPOneVoiceOne = \relative c''  {
     \clef "treble" \global
-	R\breve | r1 g ~ | g2 g  bes1 ~| bes c ~ | c  d2 d | d1 d2 d |
-        es d f1 ~ | f d | r2 d d1 | d2 d bes1 ~ | bes2 d c1 | d\breve | R |
+	r\breve | r1 g ~ | g2 g  bes1 ~| bes c ~ | c  d2 d | d1 d2 d |
+        es d f1 ~ | f d | r2 d d1 | d2 d bes1 ~ | bes2 d c1 | d\breve | r |
         f1. f2 | d d e1 | a,
 
     bes2. bes4 | bes2 bes a1 | a r1 | r2 d2. d4 f2 | 
@@ -79,7 +79,7 @@ PartPOneVoiceOneLyricsOne =  \lyricmode {
 
 PartPTwoVoiceOne = \relative c' {
 	\clef "treble" \global
-	R\breve | d1. d2 | bes\breve | g1 r1 | g' bes ~ | bes bes | bes a2 f | 
+	r\breve | d1. d2 | bes\breve | g1 r1 | g' bes ~ | bes bes | bes a2 f | 
         f1 f | a2 a2. a4 a2 | bes a g2. f4 | g a bes2. a8 g a2 |
         bes bes1 bes2 |
 
@@ -104,10 +104,10 @@ PartPThreeVoiceOne =  \relative c' {
     \clef "treble_8" \global
 
 	d1. d2 |  bes1 g  | d'\breve | es1. es2 | c1 g2 d' | d1 d2 d |
-        bes d c bes ~ | bes4 a a g8 a bes4 c d e | f\breve | f1 r1 | R\breve |
+        bes d c bes ~ | bes4 a a g8 a bes4 c d e | f\breve | f1 r1 | r\breve |
         f1. f2 |
 
-    g2 g e1 | d r2 d ~ | d d cis cis | d1 g, | R\breve*2 | r2 f'1 d2 | 
+    g2 g e1 | d r2 d ~ | d d cis cis | d1 g, | r\breve*2 | r2 f'1 d2 | 
         e f e1 | d bes ~ | bes2 bes a g |  c1 a  | g d' ~ | d2 d d b |
         c2. bes4 a1 | g\breve
     \bar "|."
@@ -152,8 +152,8 @@ PartPFourVoiceOneLyricsOne =  \lyricmode {
 
 PartPFiveVoiceOne =  \relative c' {
 	\clef "bass" \global
-	R\breve*2 | g1. g2 | es2. d4 c1 ~ | c g'2 g | bes1 bes2 bes, | es bes f'1 ~|
-        f bes, | R\breve R\breve*2 | r2 bes'1 bes2 | g g a1 | d,\breve ~ | d1 r1 | 
+	r\breve*2 | g1. g2 | es2. d4 c1 ~ | c g'2 g | bes1 bes2 bes, | es bes f'1 ~|
+        f bes, | r\breve r\breve*2 | r2 bes'1 bes2 | g g a1 | d,\breve ~ | d1 r1 | 
         r1 d' ~ | d2 d cis cis |
 
     d2. c4 bes1 | a2 d,1 d2 | cis d a'1 | d, g ~ | g2 g d g |  c,1 d  |

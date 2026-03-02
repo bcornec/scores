@@ -66,7 +66,7 @@ PartPOneVoiceOne =  \relative d'' {
     e4. e8 e4 d4 | % 37
     d2 d2 | % 38
     d1 | % 39
-    R1 \numericTimeSignature\time 6/4 \break | \barNumberCheck #40
+    r1 \numericTimeSignature\time 6/4 \break | \barNumberCheck #40
     r2 r4 r2 d8 c8 | % 41
     b2 g4 g4 b4 a4 | % 42
 	g2 r4 r2 d'8 c8 | % 43
@@ -291,7 +291,7 @@ PartPThreeVoiceOne =  \relative b {
     a4 b8  c8 d4 g,8  fis8 | % 8
     e8  fis8 g4 a4 a4 | % 9
     g1 \break | \barNumberCheck #10
-    \clef "treble_8" R1 | % 11
+    \clef "treble_8" r1 | % 11
     b2 \rest b4 \rest d8 d8 | % 12
     d4 a8 b8 a4 d4 | % 13
     c8  g8 d'4 d4 a4 \break | % 14
@@ -301,8 +301,8 @@ PartPThreeVoiceOne =  \relative b {
     \clef "treble_8" g,2 g4 d'4 | % 18
     g,4 e4 a4 a4 | % 19
     g1 | \barNumberCheck #20
-    R1 \break | % 21
-    \clef "treble_8" R1 | % 22
+    r1 \break | % 21
+    \clef "treble_8" r1 | % 22
     b4 \rest e,4 e8 fis8 gis8 a8 | % 23
     b4 e,4 e'2 ~ \break | % 24
     \clef "treble_8" e4 b4 b8 b8 b8 a8 | % 25
@@ -377,7 +377,7 @@ PartPFourVoiceOne =  \relative g {
     f4 g4 d4 b4 | % 8
     c4 g4 d'4 d4 | % 9
     g,1 \break | \barNumberCheck #10
-    R1 | % 11
+    r1 | % 11
     d'2 \rest d4 \rest g8 g8 | % 12
     g4 fis8 e8 fis4 g4 | % 13
     c,4 d4 g4 d4 \break | % 14

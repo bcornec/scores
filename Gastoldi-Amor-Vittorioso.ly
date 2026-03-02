@@ -173,7 +173,7 @@ PartPThree =  \relative c' {
     g1 \bar ":|." | % 9
     g4 g8 e8 g4 g4 | % 18
     g4 g4 r2 | % 19
-    R1 | \barNumberCheck #20
+    r1 | \barNumberCheck #20
     g4 g4 a4 a4 | % 21
     g2 g2 \break | % 22
     g4 g8 e8 g4 g4 | % 23
@@ -238,7 +238,7 @@ PartPFour =  \relative g {
     c4 e8 f8 g2 | % 7
     r4 c,8 c8 c4 b4 | % 8
     c8 b8 c8 d8 e2 \bar ":|." | % 9
-    R1 | % 18
+    r1 | % 18
     r2 g4 g8 e8 | % 19
     g4 g4 g4 g4 | \barNumberCheck #20
     e4 e4 a4 d,4 | % 21
@@ -247,7 +247,7 @@ PartPFour =  \relative g {
     a2 a2 | % 24
     c4 a8 c8 c4 b4 | % 25
     c2 c2 | % 26
-    R1 \break | % 27
+    r1 \break | % 27
     e8 e8 e8 e8 e4 g4 | % 28
     e1 | % 29
     r4 c8 c8 c2 | \barNumberCheck #30

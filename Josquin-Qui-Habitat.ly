@@ -287,7 +287,7 @@ Alto =  \relative f' {
     r\longa. r1 f,4. \rest f'1 r1 -\markup{ \teeny {.} } -\markup{
         \teeny {.} } -\markup{ \teeny {.} } -\markup{ \teeny {.} } f2 e2
     d2 -. f2 f,4. \rest c'\breve -\markup{ \teeny {.} } c2 ( | % 13
-    f,8 \rest f'1 f,4. \rest c'1 r2 r\longa. -\markup{ \teeny {.} } R1*2
+    f,8 \rest f'1 f,4. \rest c'1 r2 r\longa. -\markup{ \teeny {.} } r1*2
     r2 | % 14
     f,8 \rest f1 -. r1 r\longa. -\markup{ \teeny {.} } r\longa f8 \rest
     -\markup{ \teeny {.} } -\markup{ \teeny {.} } -\markup{ \teeny {.} }
@@ -354,9 +354,9 @@ Tenor =  \relative c' {
     f8 \rest d1 c1 c1 r2 r2 a'2 r\longa. r\breve. f4. \rest a2 a2 c1 f,1
     c'2 -\markup{ \teeny {.} } | % 16
     r1 -\markup{ \teeny {.} } f,8 \rest f'1 -. e1 c2 f,4. \rest r\longa.
-    R1*2 a2 f'2. a,1 e1 c'2. | % 18
+    r1*2 a2 f'2. a,1 e1 c'2. | % 18
     r1 a1 -\markup{ \teeny {.} } -\markup{ \teeny {.} } g1 c1 r1 r\longa.
-    R1*2 r2.. c1. a2 a2. f4 g2 c,2 c1 r1 f2 f2 r1 c'1 c2 c2 c2 c2 g2 c4.
+    r1*2 r2.. c1. a2 a2. f4 g2 c,2 c1 r1 f2 f2 r1 c'1 c2 c2 c2 c2 g2 c4.
     ~ -\markup{ \teeny {1 1 5} } | \barNumberCheck #20
     c8 c4 b4 a2. g4 c2 ~ c2 c,2 g'1 f1 r1 a1 g2 e2 a1 e1 r1. f4. \rest f2.
     c4 c'2 c2 c1 c1 c,1 e1 c2 -. c2 c2 c2 c2 c'2. b4 a4 g4 a1 r1
@@ -400,7 +400,7 @@ Basse =  \relative f' {
     a8 \rest f'1 c1 r2 r2 -\markup{ \teeny {.} } a2 r2 r\longa. r1 a4.
     \rest c'1 d,1 c1 c1 f2 g2 a2 g2 f2 | % 13
     a,8 \rest c1 f,1 -. r2 r1 r\longa. -\markup{ \teeny {.} } -\markup{
-        \teeny {.} } -\markup{ \teeny {.} } R1*2 | % 14
+        \teeny {.} } -\markup{ \teeny {.} } r1*2 | % 14
     a8 \rest c1 r2 r2 r\longa. -\markup{ \teeny {.} } r\breve..
     -\markup{ \teeny {.} } -\markup{ \teeny {.} } -\markup{ \teeny {.} }
     | % 15

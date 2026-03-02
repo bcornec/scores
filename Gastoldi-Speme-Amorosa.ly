@@ -49,7 +49,7 @@ PartPOne =  \relative e'' {
         d8 [ c8 d8 e8 ]
         f4 d4 | % 12
         e2 e2 | % 13
-        R1 | % 14
+        r1 | % 14
         r2 r4 g4 | % 15
         f4. e8 d4 f4 | % 16
         e4. d8 c4 e4 | % 17
@@ -133,7 +133,7 @@ PartPTwo =  \relative g'' {
         b4 ( a8 [ g8 ] a4 ) \stemDown
         b4 | % 12
         c2 c2 | % 13
-        R1 | % 14
+        r1 | % 14
         r2 r4 e4 | % 15
         d8 c8 d8 e8 f4
         d4 | % 16
@@ -307,7 +307,7 @@ PartPFour =  \relative g' {
             c1 }
         } \pageBreak \repeat volta 2 {
         | % 11
-        R1 | % 12
+        r1 | % 12
         r2 r4 g'4 | % 13
         f4 ( e8 [ d8 ] e4 )
         fis4 | % 14
@@ -396,7 +396,7 @@ PartPFive =  \relative c' {
             c,1 }
         } \pageBreak \repeat volta 2 {
         | % 11
-        R1 | % 12
+        r1 | % 12
         r2 r4 c'4 | % 13
         d4 ( c8 [ b8 ] a4 )
         d4 | % 14

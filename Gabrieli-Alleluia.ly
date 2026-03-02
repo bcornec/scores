@@ -119,7 +119,7 @@ PartPThreeVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Al
 
 PartPFourVoiceOne =  \relative d {
     \clef "bass" \time 4/4 \key bes \major | % 1
-    R1*3 | % 4
+    r1*3 | % 4
     d4 \rest bes4 es4 c4 | % 5
     bes8 [ c8 d8 es8 ] f4 c4 \break | % 6
     d4 bes4 c2 | % 7
@@ -127,8 +127,8 @@ PartPFourVoiceOne =  \relative d {
     bes2 d2 \rest | % 9
     d4 \rest d4 bes4 c4 | \barNumberCheck #10
     d2 d2 \rest | % 11
-    R1 \break | % 12
-    R1 | % 13
+    r1 \break | % 12
+    r1 | % 13
     d4 \rest bes4 es4 c4 | % 14
     bes8 [ c8 d8 es8 ] f4 c4 | % 15
     d4 bes4 c2 | % 16

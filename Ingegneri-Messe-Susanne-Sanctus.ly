@@ -73,8 +73,8 @@ PartPOneVoiceOne = \relative c''  {
     \bar "||" \break
 
     \stdTime \breveFromThree
-    R\breve*2 | d\breve | bes1 g | d'\breve | bes1 g | bes2 c d1 ~ | d d2 a |
-        bes1 a2 f' | d bes d e | f1 d | R\breve | r2 c1 a2 ~ | a1 f2 f' | 
+    r\breve*2 | d\breve | bes1 g | d'\breve | bes1 g | bes2 c d1 ~ | d d2 a |
+        bes1 a2 f' | d bes d e | f1 d | r\breve | r2 c1 a2 ~ | a1 f2 f' | 
         d1 c2 f | d bes
 
     r2 d ~ | d bes1 g2 | r2 d'1 bes2 ~ | bes g bes c | d\breve | d1 d2 bes ~|
@@ -83,7 +83,7 @@ PartPOneVoiceOne = \relative c''  {
 
     \bar "||" \break
     s1*0 ^\markup { \italic { à 3 (cantus, altus, tenor) } }
-    R\breve | d1 c2 d ~ | d4 c bes2 a d | c d r d ~ | d c d2. c4 |
+    r\breve | d1 c2 d ~ | d4 c bes2 a d | c d r d ~ | d c d2. c4 |
         bes a g2. a4 bes2 | a g a1 | g2 bes a bes ~ | bes4 a g2 f f' |
 
     e2 f2. e4 d c | bes2 g bes1 | a2. bes4 c a bes2 ~ |
@@ -94,8 +94,8 @@ PartPOneVoiceOne = \relative c''  {
     \bar "|." \break
 
 	% Osanna
-	R\breve*2 | d\breve | bes1 g | d'\breve | bes1 g | bes2 c d1 ~ | d d2 a |
-        bes1 a2 f' | d bes d e | f1 d | R\breve | r2 c1 a2 ~ | a1 f2 f' | 
+	r\breve*2 | d\breve | bes1 g | d'\breve | bes1 g | bes2 c d1 ~ | d d2 a |
+        bes1 a2 f' | d bes d e | f1 d | r\breve | r2 c1 a2 ~ | a1 f2 f' | 
         d1 c2 f | d bes
 
     r2 d ~ | d bes1 g2 | r2 d'1 bes2 ~ | bes g bes c | d\breve | d1 d2 bes ~|
@@ -269,11 +269,11 @@ PartPTwoVoiceOneLyricsOne =  \lyricmode {
 
 PartPThreeVoiceOne =  \relative c'' {
     \clef "treble_8" \global
-	R\breve | r2  g1 es2 ~ | es  c r g' ~ | g4 f es2 d1 | r1 a' |
-        f d | R\breve*2 | d2. d4 e2 f | d g1 f2 | g1 r | bes,2. bes4 c2 d ~|
+	r\breve | r2  g1 es2 ~ | es  c r g' ~ | g4 f es2 d1 | r1 a' |
+        f d | r\breve*2 | d2. d4 e2 f | d g1 f2 | g1 r | bes,2. bes4 c2 d ~|
         d g, bes a |
 
-    g2 d'2. e4 f2 ~ | f g d r | R\breve*2 | d1 d2 d | c g r d' | 
+    g2 d'2. e4 f2 ~ | f g d r | r\breve*2 | d1 d2 d | c g r d' | 
         d1. c4 bes | a2 bes c1 | bes f' | e2 f g1 | e2 g fis g | es1 d2 d |
         f1 bes, |
 
@@ -283,7 +283,7 @@ PartPThreeVoiceOne =  \relative c'' {
 
     g2 es'2. es4 | d2 c1 | b\breve. \bar "||"
     \stdTime \breveFromThree
-    R\breve | r1 d | bes g2 a | bes g2. a4 bes2 ~ | bes g r d' ~ | d bes1 g2 |
+    r\breve | r1 d | bes g2 a | bes g2. a4 bes2 ~ | bes g r d' ~ | d bes1 g2 |
         g2. a4 bes2 a | d\breve | g,1 r2 d' | g\breve | f1 r2 bes, |
         bes a2. g8 a bes2 | a c 
 
@@ -291,7 +291,7 @@ PartPThreeVoiceOne =  \relative c'' {
         r2 g es1 | d r2 d | bes g r d' | bes1 g | bes1. c2 ~ |
         c es2. d4 c2 d\breve \bar "||"
     s1*0 ^\markup { \italic { à 3 (cantus, altus, tenor) } }
-    R\breve | bes1 a2 bes ~ | bes4 c d e f2 d | es d2. e4 f d | 
+    r\breve | bes1 a2 bes ~ | bes4 c d e f2 d | es d2. e4 f d | 
         e2 f2. e4 d2 | g, c bes2. c4 | d2 es d1 | r2 g f g ~ |
         g4 f es2 
 
@@ -301,7 +301,7 @@ PartPThreeVoiceOne =  \relative c'' {
     bes2 ~ | bes4 a8 g f4 g a2 g | d'1 g, | g'1. g2 | f2 bes,2. c4 d e |
         f1. g2 | d\breve
     \bar "|."
-	R\breve | r1 d | bes g2 a | bes g2. a4 bes2 ~ | bes g r d' ~ | d bes1 g2 |
+	r\breve | r1 d | bes g2 a | bes g2. a4 bes2 ~ | bes g r d' ~ | d bes1 g2 |
         g2. a4 bes2 a | d\breve | g,1 r2 d' | g\breve | f1 r2 bes, |
         bes a2. g8 a bes2 | a c 
 
@@ -365,7 +365,7 @@ PartPThreeVoiceOneLyricsOne =  \lyricmode {
 
 PartPFourVoiceOne =  \relative c' {
 	\clef "treble_8" \global
-R\breve*3 |  g1 bes1 ~ | bes2  c d1 | R\breve | d2. d4 e2 f |
+r\breve*3 |  g1 bes1 ~ | bes2  c d1 | r\breve | d2. d4 e2 f |
         d d4 e f g a2 ~ | a4 a d,2 r1 | bes2. bes4 c2 d | g, g'1 f2 |
         d4 d2 d4 e2 g |
 
@@ -388,7 +388,7 @@ R\breve*3 |  g1 bes1 ~ | bes2  c d1 | R\breve | d2. d4 e2 f |
 
     c2 c g'1 | g\breve  \bar "||"
     s1*0 ^\markup { \italic { Tenor 2 tacet } }
-    R\breve*2 | R\breve*5 R\breve*5 R\breve*5 R\breve*5 R\breve
+    r\breve*2 | r\breve*5 r\breve*5 r\breve*5 r\breve*5 r\breve
     \bar "|."
 
 	d1 bes | g a | g2 d'1 d2 | d1 d ~ | 
@@ -448,12 +448,12 @@ PartPFourVoiceOneLyricsOne =  \lyricmode {
 
 PartPFiveVoiceOne =  \relative c' {
 	\clef "bass" \global
-	R\breve*2 | r1 g2. f4 | es2 c g'2. f4 | es1 d2 d' ~|
-        d bes1 g2 | r2 g2. g4 a2 | bes g d'1 ~ | d2 bes a1 | R\breve |
+	r\breve*2 | r1 g2. f4 | es2 c g'2. f4 | es1 d2 d' ~|
+        d bes1 g2 | r2 g2. g4 a2 | bes g d'1 ~ | d2 bes a1 | r\breve |
         bes2. bes4 c2 d ~ | d bes a g |
 
-    d'1 r1 | r2 g,2. g4 a2 | bes g bes a | g1 r1 | R\breve | r2 g d g | c,1 d |
-        bes\breve | f' | bes,1 r1 | R\breve | r2 g' d g | c,1 d | bes\breve | f'|
+    d'1 r1 | r2 g,2. g4 a2 | bes g bes a | g1 r1 | r\breve | r2 g d g | c,1 d |
+        bes\breve | f' | bes,1 r1 | r\breve | r2 g' d g | c,1 d | bes\breve | f'|
         \threeTime bes,2 bes'2. bes4 | c2 d1 | g,2 r r |
 
     bes2. bes4 c2 | d1 g,2 | r2 d2. d4 | e2 f2. d4 | g2 c, f ~ | 
@@ -461,7 +461,7 @@ PartPFiveVoiceOne =  \relative c' {
          g2 c,2.  c4 | g'2 c,1 | g'\breve. \bar "||"
 
     \stdTime \breveFromThree 
-	R\breve | r1 d | g1. fis2 | g2. a4 bes2 g | bes2. c4 d1 |
+	r\breve | r1 d | g1. fis2 | g2. a4 bes2 g | bes2. c4 d1 |
         g,2 g es1 ~ | es2 c g' fis | g1 d | d'1. bes2 ~ | bes g bes c | d1 g, |
         r2 f d bes |
 
@@ -470,10 +470,10 @@ PartPFiveVoiceOne =  \relative c' {
 
     c2 ~ | c c c1 | g'\breve \bar "||"
     s1*0 ^\markup { \italic { Bassus tacet } } 
-    R\breve*2 | R\breve*5 R\breve*5 R\breve*5 R\breve*5 R\breve
+    r\breve*2 | r\breve*5 r\breve*5 r\breve*5 r\breve*5 r\breve
     \bar "|."
 
-	R\breve | r1 d | g1. fis2 | g2. a4 bes2 g | bes2. c4 d1 |
+	r\breve | r1 d | g1. fis2 | g2. a4 bes2 g | bes2. c4 d1 |
         g,2 g es1 ~ | es2 c g' fis | g1 d | d'1. bes2 ~ | bes g bes c | d1 g, |
         r2 f d bes |
 

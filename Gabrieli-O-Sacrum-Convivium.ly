@@ -59,7 +59,7 @@ globalI = {
 
 PartPOneVoiceOne = \relative c''  {
     \clef "treble" \globalI | % 1
-        R\breve
+        r\breve
         c\breve
         a1. f2~
         f2 bes bes2. c4
@@ -74,7 +74,7 @@ PartPOneVoiceOne = \relative c''  {
         r2 c1 c2
         f2 e d d \break \noPageBreak
         e\breve
-        R\breve
+        r\breve
 %15
         r2 g,1 g2 |
         c2. bes4 a2 a~
@@ -84,11 +84,11 @@ PartPOneVoiceOne = \relative c''  {
 %20
         f2 f1 f2 |
         e2 e e1
-        R\breve
-        R\breve
-        R\breve
+        r\breve
+        r\breve
+        r\breve
 %25
-        R\breve |
+        r\breve |
         c1 f
         f2 f1 f2
         e2 e e1
@@ -104,7 +104,7 @@ PartPOneVoiceOne = \relative c''  {
         d1 c2 f~
         f2 e f1~
         f1 r
-        R\breve
+        r\breve
 %40
         r1 c~ |
         c2 c a4 bes c a
@@ -112,7 +112,7 @@ PartPOneVoiceOne = \relative c''  {
         f2 e f1~
         f1 r
 %45
-        R\breve |
+        r\breve |
         r1 d~
         d2 d f1
         e1 d~
@@ -122,8 +122,8 @@ PartPOneVoiceOne = \relative c''  {
 		\PhiThree
         c1 c b
         c\breve.
-        R\breve.
-        R\breve.
+        r\breve.
+        r\breve.
         f1 f e
 %55
         f1 d d |
@@ -134,8 +134,8 @@ PartPOneVoiceOne = \relative c''  {
 %60
         c1 c b |
         c\breve.
-        R\breve.
-        R\breve.
+        r\breve.
+        r\breve.
         f1 f e
 %65
         f1 d d |
@@ -174,8 +174,8 @@ PartPOneVoiceOneLyricsOne =  \lyricmode {
 
 PartPTwoVoiceOne = \relative c' {
 	\clef "treble" \globalI | % 1
-		R\breve
-        R\breve
+		r\breve
+        r\breve
         f\breve
         d1 bes~
 %5
@@ -193,7 +193,7 @@ PartPTwoVoiceOne = \relative c' {
 %15
         d2 d e1~ |
         e1 r
-        R\breve
+        r\breve
         g\breve
         bes1 bes2 bes~
 %20
@@ -341,8 +341,8 @@ PartPThreeVoiceOne =  \relative c' {
         e2 c d bes
 %40
         c2. bes4 a1 |
-        R\breve
-        R\breve
+        r\breve
+        r\breve
         r2 c1 c2
         a4 bes c a d1
 %45
@@ -454,8 +454,8 @@ PartPFourVoiceOne =  \relative c' {
         c2 a bes g
         a1 g
 %35
-        R\breve |
-        R\breve
+        r\breve |
+        r\breve
         r2 c1 c2
         a4 bes c a d1
         c2 f1 e2
@@ -533,7 +533,7 @@ PartPFourVoiceOneLyricsOne =  \lyricmode {
 
 PartPFiveVoiceOne =  \relative c {
 	\clef "bass" \globalI | % 1
-        R\breve
+        r\breve
         r1 f~
         f1 d
         bes1 es
@@ -548,7 +548,7 @@ PartPFiveVoiceOne =  \relative c {
         c2 c f2. e4
         d2 c g' g
         c,\breve
-        R\breve
+        r\breve
 %15
         r1 c~ |
         c2 c f2. e4
@@ -564,9 +564,9 @@ PartPFiveVoiceOne =  \relative c {
 %25
         f\breve~ |
         f1 r
-        R\breve
-        R\breve
-        R\breve
+        r\breve
+        r\breve
+        r\breve
 %30
         r2 c'1 c2 |
         f,1 g
@@ -575,14 +575,14 @@ PartPFiveVoiceOne =  \relative c {
         a2. bes4 c1
 %35
         f\breve |
-        R\breve
+        r\breve
         r1 f~
         f2 f d4 e f g
         a2 a g g
 %40
         f\breve~ |
         f\breve
-        R\breve
+        r\breve
         r1 f~
         f2 f d4 e f g
 %45
@@ -594,8 +594,8 @@ PartPFiveVoiceOne =  \relative c {
 %50
 % Triple time
 		\PhiThree
-        R\breve.
-        R\breve.
+        r\breve.
+        r\breve.
         f1 f g
         f\breve.
         f1 f c
@@ -606,8 +606,8 @@ PartPFiveVoiceOne =  \relative c {
         f1 c c
         f\breve.
 %60
-        R\breve. |
-        R\breve.
+        r\breve. |
+        r\breve.
         f1 f g
         f\breve.
         f1 f c

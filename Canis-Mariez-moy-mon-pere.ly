@@ -30,7 +30,7 @@
 
 PartPOneVoiceOne =  \relative f'' {
     \clef "treble" \time 2/2 \key f \major | % 1
-    R1*3 | % 4
+    r1*3 | % 4
     r2 f4 f8 e8 | % 5
     d4 c4 bes4 a8 [ g8 ]
     \break | % 6
@@ -48,7 +48,7 @@ PartPOneVoiceOne =  \relative f'' {
     bes4 a8 [ g8 ] f4 f'4 ~ | % 17
     f4 e4. d8 d4 ~ | % 18
     d4 cis4 d2 | % 19
-    R1 | \barNumberCheck #20
+    r1 | \barNumberCheck #20
     r4 d4 c4 a4 \break | % 21
     bes4 g4 a4 d4 ~ | % 22
     d8 [ bes8 ] c4 a4 d4 ~ | % 23
@@ -119,7 +119,7 @@ PartPOneVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Ma
 
 PartPTwoVoiceOne =  \relative c'' {
     \clef "treble" \time 2/2 \key f \major | % 1
-    R1 | % 2
+    r1 | % 2
     r2 c4 c8 bes8 | % 3
     a4 g4 f4 e8 [ d8 ] | % 4
     e2 d4 bes'4 ~ | % 5
@@ -130,7 +130,7 @@ PartPTwoVoiceOne =  \relative c'' {
     f4. e8 d4 c4 | \barNumberCheck #10
     d1 ~ \break | % 11
     d2 r2 | % 12
-    R1*2 | % 14
+    r1*2 | % 14
     r2 r4 d4 | % 15
     f4 f4 e4 f4 \pageBreak | % 16
     g4. f8 d8 [ e8 f8 g8 ] | % 17
@@ -138,7 +138,7 @@ PartPTwoVoiceOne =  \relative c'' {
     [ g8 ] | % 18
     a2 bes2 | % 19
     a2 r2 | \barNumberCheck #20
-    R1 \break | % 21
+    r1 \break | % 21
     r2 r4 a4 | % 22
     g4 e4 f4 d4 | % 23
     e2 d4 f4 | % 24
@@ -206,7 +206,7 @@ PartPThreeVoiceOne =  \relative f' {
     d4 cis4 d2 | % 5
     bes4 c4 d4 e4 \break | % 6
     d2 r2 | % 7
-    R1 | % 8
+    r1 | % 8
     r2 f4 f8 e8 | % 9
     d4 c4 bes4 a8 [ g8 ] |
     \barNumberCheck #10
@@ -228,7 +228,7 @@ PartPThreeVoiceOne =  \relative f' {
     g4 g4 f4 d4 | % 22
     e4 c4 d4 bes4 | % 23
     a2 r2 | % 24
-    R1 | % 25
+    r1 | % 25
     r2 d2 \break | % 26
     c4 a4 bes4 g4 | % 27
     a2 g2 | % 28
@@ -293,7 +293,7 @@ PartPThreeVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Ma
 
 PartPFourVoiceOne =  \relative c' {
     \clef "bass" \time 2/2 \key f \major | % 1
-    R1*5 \break | % 6
+    r1*5 \break | % 6
     r2 c4 c8 bes8 | % 7
     a4 g4 f4 e8 [ d8 ] | % 8
     e2 d2 ~ | % 9
@@ -304,14 +304,14 @@ PartPFourVoiceOne =  \relative c' {
     g8 [ a8 ] bes8 [ c8 ] \stemDown
     d4 bes4 | % 14
     a2 g2 | % 15
-    R1 \pageBreak | % 16
+    r1 \pageBreak | % 16
     r4 g4 bes4 bes4 | % 17
     a4. bes8 c4 d4 | % 18
     a2 g4. f8 | % 19
     d4 d'4 c4 a4 | \barNumberCheck #20
     bes4 g4 a2 \break | % 21
     g4. f8 d2 | % 22
-    R1 | % 23
+    r1 | % 23
     r2 r4 d'4 | % 24
     c4 a4 bes4 g4 | % 25
     a2 g4 g4 \break | % 26
@@ -329,7 +329,7 @@ PartPFourVoiceOne =  \relative c' {
     f4 a4. g8 [ f8 e8 ] | % 37
     d4 f4 e2 | % 38
     d1 | % 39
-    R1 | \barNumberCheck #40
+    r1 | \barNumberCheck #40
     r4 a'4 bes4 bes4 | % 41
     a4 g8 [ f8 ] g2 \break | % 42
     f2 r4 bes4 | % 43

@@ -41,7 +41,7 @@ PartPOneVoiceOne = \relative c''  {
 %5
 	f2 d r c \noPageBreak |
 	c2 bes a1 \noPageBreak
-	R\breve
+	r\breve
 	r2 d d d
 	bes2 d c4 bes bes2~ \noPageBreak
 %10
@@ -232,8 +232,8 @@ PartPTwoVoiceOneLyricsOne =  \lyricmode {
 
 PartPThreeVoiceOne =  \relative c' {
     \clef "treble_8" \global
-	R\breve
-	R\breve
+	r\breve
+	r\breve
 	r1 r2 g
 	bes1. c2
 %5
@@ -287,13 +287,13 @@ PartPThreeVoiceOne =  \relative c' {
 %45
 	g2 g bes1 |
 	c1 d
-	R\breve
+	r\breve
 	r1 r2 d
 	d2 d es d
 %50
 	c1 bes~ |
 	bes1 r
-	R\breve
+	r\breve
 	r1 d
 	d2 d c1~
 %55
@@ -323,7 +323,7 @@ PartPThreeVoiceOneLyricsOne =  \lyricmode {
 
 PartPFourVoiceOne =  \relative c' {
 	\clef "treble_8" \global
-	R\breve
+	r\breve
 	r1 r2 g
 	bes1. c2
 	d1 r2 a~
@@ -422,8 +422,8 @@ PartPFourVoiceOneLyricsOne =  \lyricmode {
 
 PartPFiveVoiceOne =  \relative c {
 	\clef "bass" \global
-	R\breve
-	R\breve
+	r\breve
+	r\breve
 	r2 g' es c
 	g'1 r
 %5
@@ -477,13 +477,13 @@ PartPFiveVoiceOne =  \relative c {
 %45
 	c,2 c bes2. bes4 |
 	f'2 es d1
-	R\breve
+	r\breve
 	r1 r2 bes
 	bes2 bes es bes
 %50
 	f'1 bes,~ |
 	bes1 r
-	R\breve
+	r\breve
 	r1 r2 g'
 	bes2 bes f1
 %55

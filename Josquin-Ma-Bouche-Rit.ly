@@ -74,7 +74,7 @@ PartPOneVoiceOne =  \relative a' {
     e1 ~ | % 52
     e1 \bar "|."
     \break | % 53
-    R1*2 - "RESIDUUM" | % 55
+    r1*2 - "RESIDUUM" | % 55
     b'1 | % 56
     c2 c2 | % 57
     d2 d2 | % 58
@@ -140,13 +140,13 @@ PartPTwoVoiceOne =  \relative a {
     f8 [ e8 ] e2 d4 | % 8
     e4 b4 c2 | % 9
     b1 | \barNumberCheck #10
-    R1 | % 11
+    r1 | % 11
     r4 e4 e4 e4 \pageBreak | % 12
     g2 r2 | % 13
     b,4 \rest e4 f4 g4 ~ | % 14
     g8 [ f8 ] e2 d4 | % 15
     e1 | % 16
-    R1 | % 17
+    r1 | % 17
     c2 d4. c8 \break | % 18
     b4 a2 g4 | % 19
     a1 | \barNumberCheck #20
@@ -159,11 +159,11 @@ PartPTwoVoiceOne =  \relative a {
     g2 r4 e'4 | % 27
     e4 e4 g4. f8 | % 28
     e8 [ d8 ] e4 r2 | % 29
-    R1 \break | \barNumberCheck #30
+    r1 \break | \barNumberCheck #30
     r4 e8 f8 g4 a4 ~ | % 31
     a4 g4 a2 ~ | % 32
     a2 r2 | % 33
-    R1*3 \pageBreak | % 36
+    r1*3 \pageBreak | % 36
     r4 e4 c4 d8 [ c8 ] | % 37
     b8 [ a8 ] a2 g4 | % 38
     a1 | % 39
@@ -172,7 +172,7 @@ PartPTwoVoiceOne =  \relative a {
     d4 f2 e4 ~ \break | % 42
     e8 [ d8 ] b4 c4 a4 | % 43
     a4 a4 c2 | % 44
-    R1 | % 45
+    r1 | % 45
     r2 b4 \rest a4 | % 46
     g4 g4 a2 | % 47
     e2 r4 c'4 \pageBreak | % 48
@@ -193,11 +193,11 @@ PartPTwoVoiceOne =  \relative a {
     e8 [ d8 ] c4 b2 | % 61
     a2 r4 a4 | % 62
     a4 a4 c2 | % 63
-    R1*2 \break | % 65
-    R1 | % 66
+    r1*2 \break | % 65
+    r1 | % 66
     r2 r4 e,4 | % 67
     e4 e4 a2 | % 68
-    R1 | % 69
+    r1 | % 69
     r4 a4 a4 a4 | \barNumberCheck #70
     c2 r4 a4 \pageBreak | % 71
     a4 a4 c4. d8 | % 72
@@ -249,7 +249,7 @@ PartPThreeVoiceOne =  \relative a {
     c8 [ b8 ] a8 [ g8 ] a2
     \break | % 6
     e2 r2 | % 7
-    R1 | % 8
+    r1 | % 8
     r4 e'4 e4 e4 | % 9
     g4. f8 e2 | \barNumberCheck #10
     d4 c4 b2 | % 11
@@ -260,8 +260,8 @@ PartPThreeVoiceOne =  \relative a {
     b4 c8 [ b8 ] c8 [ 
     b8 ] e4 ~ | % 16
     e4 d4 e2 | % 17
-    R1 \break | % 18
-    R1 | % 19
+    r1 \break | % 18
+    r1 | % 19
     r2 e2 | \barNumberCheck #20
     e2 e2 | % 21
     g4. f8 e8 [ d8 ] e4
@@ -279,13 +279,13 @@ PartPThreeVoiceOne =  \relative a {
     a4 c2 a4 | % 33
     b4 c4. d8 e4 ~ | % 34
     e4 d4 e2 | % 35
-    R1 \pageBreak | % 36
-    R1*2 | % 38
+    r1 \pageBreak | % 36
+    r1*2 | % 38
     b4 \rest e4 c4 e4 ~ | % 39
     e8 [ d8 ] c4 b2 |
     \barNumberCheck #40
     a2 r2 | % 41
-    R1 \break | % 42
+    r1 \break | % 42
     r2 a4 a4 | % 43
     a4 c4. d8 e8 [ c8 ]
     | % 44
@@ -361,7 +361,7 @@ PartPFourVoiceOne =  \relative a {
     a2 a4 a4 | % 2
     c2 r4 a4 | % 3
     a4 a4 e'2 | % 4
-    R1 | % 5
+    r1 | % 5
     r4 e4 e4 e4 \break | % 6
     g2 g,4 a4 | % 7
     b4 c2 b8 [ a8 ] | % 8
@@ -375,14 +375,14 @@ PartPFourVoiceOne =  \relative a {
     a8 ] | % 14
     b4 c4 a2 | % 15
     g1 | % 16
-    R1*2 \break | % 18
-    R1 | % 19
+    r1*2 \break | % 18
+    r1 | % 19
     r4 a4 a4 a4 | \barNumberCheck #20
     c4. d8 e2 | % 21
     r2 b2 | % 22
     c2. c4 | % 23
     b2 a2 \pageBreak | % 24
-    R1*2 | % 26
+    r1*2 | % 26
     r4 e'4 e4 e4 | % 27
     g4. f8 e8 [ d8 ] e4
     | % 28
@@ -391,11 +391,11 @@ PartPFourVoiceOne =  \relative a {
     f4 e4. d8 c4 | % 31
     b2 a2 ~ | % 32
     a2 r2 | % 33
-    R1 | % 34
+    r1 | % 34
     r2 r4 e'4 | % 35
     f4. e8 d4 c4 \pageBreak | % 36
     b2 a2 | % 37
-    R1 | % 38
+    r1 | % 38
     r2 r4 e'4 | % 39
     e4 e4 g2 | \barNumberCheck #40
     r2 r4 e4 | % 41
@@ -419,7 +419,7 @@ PartPFourVoiceOne =  \relative a {
     g2. f4 | % 58
     e4. d8 c2 \pageBreak | % 59
     b2 r2 | \barNumberCheck #60
-    R1 | % 61
+    r1 | % 61
     r4 a4 a4 a4 | % 62
     c2 r4 a4 | % 63
     a4 a4 c2 | % 64
@@ -436,7 +436,7 @@ PartPFourVoiceOne =  \relative a {
     a2 a2 | % 75
     g2. e4 | % 76
     e1 \break | % 77
-    R1 | % 78
+    r1 | % 78
     r4 a4 a4 a4 | % 79
     c4 a4 a4 a4 | \barNumberCheck #80
     c2 r4 f,4 | % 81
@@ -473,24 +473,24 @@ PartPFiveVoiceOne =  \relative a, {
     e'2 r2 | % 5
     r4 a,4 a4 a4 \break | % 6
     e'2 r2 | % 7
-    R1 | % 8
+    r1 | % 8
     r4 e4 c4 a4 | % 9
     e'2 r2 | \barNumberCheck #10
     r4 a4 e4 e4 | % 11
     a4 a,4 a4 a4 \pageBreak | % 12
     e'2 r2 | % 13
-    R1*2 | % 15
+    r1*2 | % 15
     r4 e4 e4 c4 | % 16
     d2 a2 | % 17
-    R1 \break | % 18
-    R1 | % 19
+    r1 \break | % 18
+    r1 | % 19
     a'4 a4 a4 c4 |
     \barNumberCheck #20
     r4 a,4 a4 a4 | % 21
     e'2 r2 | % 22
     r4 a,4 e'4 a,4 | % 23
     e'2 a,2 \pageBreak | % 24
-    R1*2 | % 26
+    r1*2 | % 26
     e'4 e4 e4 g4 ~ | % 27
     g8 [ f8 ] e8 [ d8 ]
     e2 | % 28
@@ -503,14 +503,14 @@ PartPFiveVoiceOne =  \relative a, {
     a2 g2 | % 35
     r2 r4 a4 \pageBreak | % 36
     e4 e4 a2 | % 37
-    R1 | % 38
+    r1 | % 38
     r2 r4 a,4 | % 39
     e'4 a,4 e'2 | \barNumberCheck #40
     a,2 r2 | % 41
     r4 d4 d4 a4 \break | % 42
     e'2 r4 a,4 | % 43
     a4 a4 a'2 | % 44
-    R1*3 | % 47
+    r1*3 | % 47
     r4 e4 c4 a4 \pageBreak | % 48
     e'2 a,2 | % 49
     r4 e'4 c4 a4 | \barNumberCheck #50
@@ -522,7 +522,7 @@ PartPFiveVoiceOne =  \relative a, {
     a2 a'2 | % 55
     d,4 \rest g4 g4 g4 | % 56
     a2 a,2 | % 57
-    R1 | % 58
+    r1 | % 58
     r2 r4 a'4 \pageBreak | % 59
     e4 e4 a2 | \barNumberCheck #60
     r4 g4 g4 g4 | % 61
@@ -530,16 +530,16 @@ PartPFiveVoiceOne =  \relative a, {
     r2 a2 | % 63
     a2 a2 | % 64
     a'1 \break | % 65
-    R1*3 | % 68
+    r1*3 | % 68
     r4 a4 e4 e4 | % 69
     a2 r2 | \barNumberCheck #70
-    R1 \pageBreak | % 71
+    r1 \pageBreak | % 71
     r4 a,4 a4 a4 | % 72
     a'2 r2 | % 73
-    R1 | % 74
+    r1 | % 74
     r4 d,4 a'4 f4 | % 75
     g4. e8 e2 | % 76
-    R1 \break | % 77
+    r1 \break | % 77
     r2 d4 \rest e4 | % 78
     e4 c4 d2 | % 79
     a2 r4 d4 | \barNumberCheck #80
@@ -568,7 +568,7 @@ PartPFiveVoiceOneLyricsOne =  \lyricmode {\set ignoreMelismata = ##t Ma
 
 PartPSixVoiceOne =  \relative a {
     \clef "bass" \key c \major \time 2/2 | % 1
-    R1*2 | % 3
+    r1*2 | % 3
     a1 | % 4
     e2 e2 | % 5
     a2 a2 \break | % 6
@@ -576,7 +576,7 @@ PartPSixVoiceOne =  \relative a {
     g4 a4 f2 | % 8
     e1 ~ | % 9
     e1 | \barNumberCheck #10
-    R1 | % 11
+    r1 | % 11
     a1 \pageBreak | % 12
     e2 e2 | % 13
     a2 d,4 g4 ~ | % 14
@@ -601,7 +601,7 @@ PartPSixVoiceOne =  \relative a {
     a4 a4 c2 | % 33
     b4 a2 g4 | % 34
     f2 e2 | % 35
-    R1 \pageBreak | % 36
+    r1 \pageBreak | % 36
     r4 e4 f4. e8 | % 37
     d4 c4 b2 | % 38
     a2 a'2 | % 39
@@ -609,7 +609,7 @@ PartPSixVoiceOne =  \relative a {
     a2 r2 | % 41
     r2 r4 a4 \break | % 42
     e4 e4 a2 | % 43
-    R1 | % 44
+    r1 | % 44
     r2 r4 a4 | % 45
     g4 e4 f2 | % 46
     e2 r2 | % 47
@@ -620,11 +620,11 @@ PartPSixVoiceOne =  \relative a {
     e1 ~ | % 52
     e1 \bar "|."
     \break | % 53
-    R1 | % 54
+    r1 | % 54
     a1 | % 55
     e2 e2 | % 56
     a1 | % 57
-    R1*2 \pageBreak | % 59
+    r1*2 \pageBreak | % 59
     r2 a2 | \barNumberCheck #60
     e2 e2 | % 61
     a1 | % 62
@@ -634,7 +634,7 @@ PartPSixVoiceOne =  \relative a {
     r4 b4 a4 g4 | % 66
     f2 e2 ~ | % 67
     e4 a,4 a2 | % 68
-    R1*2 | \barNumberCheck #70
+    r1*2 | \barNumberCheck #70
     r2 a'2 \pageBreak | % 71
     a2 a2 | % 72
     c2. b4 | % 73

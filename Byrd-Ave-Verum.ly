@@ -66,7 +66,7 @@ PartPOneVoiceOne =  \relative g' {
         \stemDown c4 \stemDown bes2 ( \stemUp a8 [ \stemUp g8 ) ] | % 34
         \stemUp a4 \stemUp a4 \stemDown bes4. ( \stemUp a8 | % 35
         \stemUp g2 ) \stemUp fis2 \pageBreak | % 36
-        R1 | % 37
+        r1 | % 37
         r2 \stemUp g4. \stemDown bes8 | % 38
         \stemUp a4 \stemUp g4 \stemUp fis2 | % 39
         \stemUp g4 r4 r2 | \barNumberCheck #40
@@ -190,7 +190,7 @@ PartPThreeVoiceOne =  \relative bes {
     \stemDown c4 \stemDown c4 \stemDown c2 | % 17
     \stemDown c4 \stemDown d2 \stemDown c4 \pageBreak | % 18
     \stemDown bes2 \stemUp a2 | % 19
-    R1 | \barNumberCheck #20
+    r1 | \barNumberCheck #20
     r4 \stemDown c2 \stemDown bes4 | % 21
     \stemUp a8. \stemUp f16 \stemDown bes2 \stemUp a4 | % 22
     \stemDown bes2 r4 \stemDown bes4 | % 23
@@ -280,7 +280,7 @@ PartPFourVoiceOne =  \relative g {
         \stemDown g2 \stemDown f2 | % 34
         \stemDown f2 \stemDown g4. ( \stemDown f8 | % 35
         \stemDown es2 ) \stemDown d2 \pageBreak | % 36
-        R1 | % 37
+        r1 | % 37
         \stemDown d4. \stemDown f8 \stemDown es4. \stemDown d8 | % 38
         \stemUp c2 \stemDown d2 | % 39
         \stemUp g,4 \stemDown d'4 \stemUp c4 \stemUp bes4 |

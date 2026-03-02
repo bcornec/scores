@@ -56,7 +56,7 @@ PartPOneVoiceOne = \relative a'  {
     b2 g2 | % 25
     b2 a2 | % 26
     g2 r2 | % 27
-    R1*2 | % 29
+    r1*2 | % 29
     r2 r4 c4 | \barNumberCheck #30
     b2. c4 | % 31
     d2. c4 | % 32
@@ -155,7 +155,7 @@ PartPTwoVoiceOne = \relative e' {
     g2 g2 | % 21
     g1 ~ | % 22
     g1 | % 23
-    R1*2 | % 25
+    r1*2 | % 25
     r2 r4 c4 | % 26
     b2 g2 | % 27
     b2 a2 ~ | % 28
@@ -174,7 +174,7 @@ PartPTwoVoiceOne = \relative e' {
         | % 38
         r2 d'2 | % 39
         cis2 r2 | \barNumberCheck #40
-        R1 | % 41
+        r1 | % 41
         r2 d,2 | % 42
         a'1 | % 43
         r2 d2 ~ | % 44
@@ -491,14 +491,14 @@ PartPFiveVoiceOne =  \relative a, {
     a2 a2 | % 37
     d1 \repeat volta 2 {
         | % 38
-        R1 | % 39
+        r1 | % 39
         r2 r4 d4 ~ | \barNumberCheck #40
         d8 cis8 d8 cis8 d4
         a4 | % 41
         bes1 | % 42
         a1 | % 43
-        R1 | % 44
-        R1*7 | % 51
+        r1 | % 44
+        r1*7 | % 51
         r4 g4 a4 a4 | % 52
         d4 g4 a2 | % 53
         d,2 g,2 | % 54
@@ -512,7 +512,7 @@ PartPFiveVoiceOne =  \relative a, {
         d2 d2 | % 62
         cis2 d2 | % 63
         a2 r2 | % 64
-        R1*4 | % 68
+        r1*4 | % 68
         r2 r4 a8 a8 | % 69
         d2. d4 | \barNumberCheck #70
         a'1 | % 71

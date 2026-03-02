@@ -56,15 +56,15 @@ global = {
 
 PartPOneVoiceOne = \relative c''  {
     \clef "treble" \global
-	R\breve*3 | g1 bes ~ | bes2 c d1 | c2 a bes1 | a r1 | R\breve | d\breve |
-        f2 e d1 | c2 a a1 | a\breve | R | r2 c1 c2 | bes\breve | a2 g1 f2 |
+	r\breve*3 | g1 bes ~ | bes2 c d1 | c2 a bes1 | a r1 | r\breve | d\breve |
+        f2 e d1 | c2 a a1 | a\breve | r | r2 c1 c2 | bes\breve | a2 g1 f2 |
         g d'1 d2 |
 
     es d c2. c4 | c2 c1 f,2 | g1 a | r2 d2. d4 d2 | d1. d2 |
         c g d' a | b\breve | r2 c1 c2 | c c f1 | d d ~ | d2 d f1 ~ |
         f2 f d d ~ | d4 c
 
-    bes1 a2 | bes1 r1 | R\breve*3 | r2 d1 d2 | cis1 d ~ | d r2 d | bes g d'1 |
+    bes1 a2 | bes1 r1 | r\breve*3 | r2 d1 d2 | cis1 d ~ | d r2 d | bes g d'1 |
         d2 bes bes c | d1 d | d1. d2 | bes d1 c2 ~ |
         c  bes2. a8 g  a2 | bes d1 d2 |
         d2 d 
@@ -79,9 +79,9 @@ PartPOneVoiceOne = \relative c''  {
         d1 bes2 bes | a1 a1
     \bar "||" \break
 
-    R\breve*3 | d\breve | 
+    r\breve*3 | d\breve | 
     d1. d2 | c1 bes | a2 d d1 ~ | d2 c c1 | bes a | fis2. g4 a2 d, | d'1 d |
-        d1. d2 | cis1 r1 | R\breve | r1 r2 d ~ | d c1 b2 | c2. bes4 a1 |
+        d1. d2 | cis1 r1 | r\breve | r1 r2 d ~ | d c1 b2 | c2. bes4 a1 |
         g fis | g\breve \bar "||" \break
 
     s1*0 ^\markup { \italic { Trio } }
@@ -94,7 +94,7 @@ PartPOneVoiceOne = \relative c''  {
         c4 bes8 c d2. c8 bes c2 |
         d2 d1 c2 ~ | c bes1 a2 |  d,1 g ~ | g2  fis fis1 | 
         \break \threeTime
-        R\breve.*4 |\stdTime\breveFromThree
+        r\breve.*4 |\stdTime\breveFromThree
         d'1 e2 f ~ | f d e f4 c |
 
     d4 e f2. e8 d e2 | f1 r1 | r1 d ~ | d\breve | d1 c2 bes ~ |
@@ -113,7 +113,7 @@ PartPOneVoiceOne = \relative c''  {
         bes2 d es d | c2 bes2. a8 g a2 | 
 
     bes2 bes1 bes2 | bes1 a2 g | fis1 g2 g ~ | g g fis g ~ | g g a bes | 
-         g1 d' | b1 r1 | R\breve | d2 d d1 | c bes ~ | bes2 bes a1 | 
+         g1 d' | b1 r1 | r\breve | d2 d d1 | c bes ~ | bes2 bes a1 | 
         bes2 g d'1 | d r1 | r1 r2 f ~ | f f f1 |
 
     e2 e2 d2. d4 | c2 f f f | 
@@ -127,7 +127,7 @@ PartPOneVoiceOne = \relative c''  {
         d2 d es d |
 
     c1 bes2 bes | bes2. bes4 bes2 bes | bes bes c1 | d2 d1 d2 | d d c1 | bes a2 g |
-        c2. bes4 a1 | g r1 | R\breve | f'1. f2 | e1 d ~ | d r1 | r2 d1 d2 |
+        c2. bes4 a1 | g r1 | r\breve | f'1. f2 | e1 d ~ | d r1 | r2 d1 d2 |
         d d c1 ~ | c
 
     % --- page ---
@@ -221,11 +221,11 @@ PartPOneVoiceOneLyricsOne =  \lyricmode {
 PartPTwoVoiceOne = \relative c' {
 	\clef "treble" \global
 	d1 bes2. bes4 | bes2 g  g'1 | es  d2 g, ~ | g g' f f | 
-        g a2. g8 f g2 | a1 r1 | R\breve | d,1 f ~ | f2 g a1 ~ | a  a|
+        g a2. g8 f g2 | a1 r1 | r\breve | d,1 f ~ | f2 g a1 ~ | a  a|
         a,2 d1 c2 | d1 r2 a' |
 
     % --- page ---
-    a2 g1 f2 | e1 a2. a4 | d,1 r1 | R\breve | bes'2. bes4 bes1 | g2 bes1 a2 |
+    a2 g1 f2 | e1 a2. a4 | d,1 r1 | r\breve | bes'2. bes4 bes1 | g2 bes1 a2 |
         a a a bes ~ | bes4 a g1 fis2 | a1 a2 a | bes1 a2 d, | 
         e g1 fis2 |
         g\breve | g1. g2 | a a 
@@ -270,14 +270,14 @@ PartPTwoVoiceOne = \relative c' {
         g\breve
     \bar "||"
     s1*0 ^\markup { \italic { Tutti } }
-    R\breve*2 | g1 bes2. a4 | g1 r2 bes | bes2. a4 g2 d | f g a1 | a2 bes2. a4 g2|
+    r\breve*2 | g1 bes2. a4 | g1 r2 bes | bes2. a4 g2 d | f g a1 | a2 bes2. a4 g2|
         f1 g2 a ~ | a4 g8 f g4 a bes2 a | r2 g g2. g4 | 
 
-    f2 f1 g2 | a\breve | a1 r1 | R\breve | r1 r2 d, ~ | 
+    f2 f1 g2 | a\breve | a1 r1 | r\breve | r1 r2 d, ~ | 
         d4 e f g a bes c a | bes2. bes4 g g2 g4 | f1 r2 bes ~ | bes a bes g ~ |
         g f f1 ~ | f\breve | r1 r2 f ~ | f f bes1 | g1. bes2 |
 
-    a1. g4 a | bes2. a4 g2 f | f\breve | f1 r1 | R\breve R | r1 r2 bes ~ |
+    a1. g4 a | bes2. a4 g2 f | f\breve | f1 r1 | r\breve r | r1 r2 bes ~ |
         bes g fis g | g4 c, g'2. fis8 e fis2 |
         g1 a | a2 a1 g2 ~ | g f1 g2 | a1 d, | 
         d2 g2. fis8 e fis2 |
@@ -298,12 +298,12 @@ PartPTwoVoiceOne = \relative c' {
         g1 r1 | r1 bes ~ | bes2 bes a1 ~ | a2 g bes2. bes4 | bes2 bes a1 | g f2 f |
         bes1 a ~ | a f2 f | f1 d | r2 a' a1 | g2 g f1 | e\breve | 
 
-    R | r2 a bes1 ~ | bes a2 a | 
+    r | r2 a bes1 ~ | bes a2 a | 
          g1  f2.  g4  | a1 g |
         r2 g1  f2  ~ | 
         f4 f f2 f e4 d |
         e f g2. fis8 e fis2 | g2 bes bes1 | 
-        a2 a  g1 | fis  g | R\breve | r1 a ~ | a a | g r2 g |
+        a2 a  g1 | fis  g | r\breve | r1 a ~ | a a | g r2 g |
 
     f1 f2 f ~ | f d e g ~ | g fis4 e fis1 | g\breve 
     \bar "|."
@@ -399,7 +399,7 @@ PartPThreeVoiceOne =  \relative c' {
 	r1 g ~ | g2 bes1 bes2 | bes c d1 | g, r1 | r1 d' | f1. g2 | a d, e f ~|
         f4 e d2. c4 c bes8 a | bes1 a2 a ~ | a c a a' ~ | a4 a f2 
 
-    e1 | d r1 | R\breve*2 | r2 d1 d2 | c bes a2. a4 | g2 g'1 g2 | c, bes f'2. f4|
+    e1 | d r1 | r\breve*2 | r2 d1 d2 | c bes a2. a4 | g2 g'1 g2 | c, bes f'2. f4|
         f2 f1 d2 | es1 d2 d ~ | d d d1 | d2. d4 d2 b | c2. bes4 a2 a |
 
     g2 d'1 d2 | e e e1 | f c | d2 f1 f2 | f1 f ~ | f2 f bes,2. bes4 | a2 d1 c2 |
@@ -423,7 +423,7 @@ PartPThreeVoiceOne =  \relative c' {
     d2 ~ | d4 c bes a8 g d'2 a | b\breve \bar "||"
 
     s1*0 ^\markup { \italic { Trio } }
-    R\breve*2 | g1. a2 | bes1 a2 d ~ | d e f d | es1 d | r1 r2 bes | bes c d bes|
+    r\breve*2 | g1. a2 | bes1 a2 d ~ | d e f d | es1 d | r1 r2 bes | bes c d bes|
         c1 g2 d' |
 
     bes2 g d' a | d2. c4 bes1 | a\breve | r2 bes1 a2 | g1 fis | g es | d\breve
@@ -431,12 +431,12 @@ PartPThreeVoiceOne =  \relative c' {
          d1 e2 f e1 | d1 c2 f1 e2 |
         d2 c2. d4  es  c d1  | 
 
-    \stdTime \breveFromThree g,1 r1 | R\breve | r2 bes1 c2 | d1 bes2 c |
+    \stdTime \breveFromThree g,1 r1 | r\breve | r2 bes1 c2 | d1 bes2 c |
         d2. e4 f d g2 ~ | g4 fis fis e8 fis g1 | d2 bes f g | d' es c1 |
         d\breve | g,\breve \bar "||"
 
     s1*0 ^\markup { \italic { Tutti } }
-    R\breve*2 | r1 r2 d' | d2. c4 bes1 | g bes2. c4 | d1 d2 f ~ | 
+    r\breve*2 | r1 r2 d' | d2. c4 bes1 | g bes2. c4 | d1 d2 f ~ | 
         f4 e d2 f es | d2. c4 bes2 a | r2 bes1 c2 | d1 g, | r2 d'1 e2 |
         f d  f1 | e  
 
@@ -452,16 +452,16 @@ PartPThreeVoiceOne =  \relative c' {
 
     r2 bes1 bes2 | bes bes bes1 | a2 g c2. bes4 | a1 g2 d' | f1. g2 | a1 d,2 d |
         e fis g1 | g, bes ~ | bes2 c d2. d4 | d2 c c2. c4 | bes1 r1 | 
-        R\breve R\breve*2 | bes1
+        r\breve r\breve*2 | bes1
 
     bes2. bes4 | bes2 g c bes | f'1 bes,2 d | d2. d4 d2 d | es d c1 | bes2 bes1 bes2 |
-        bes bes f1 | g d'2 es |  c1 d  | g,\breve | R\breve*2 | 
+        bes bes f1 | g d'2 es |  c1 d  | g,\breve | r\breve*2 | 
         r1 f' ~ | f f2 e ~ | e d1 f2 ~ | f f 
 
     % --- page ---
     f2 f | e1 d2 d ~ | d c bes1 | c\breve | r1 a' | a g | g f ~ | f d2 d |
         d1 c2 c | bes1 a2 f' | f1 es2 es | es1. d2 | c1. g'2 ~ | g4 f es2 d1~|
-        d d | R\breve | r1 d |
+        d d | r\breve | r1 d |
 
     d1 c2 c | bes1 a2 d | d1 c ~ | c2 c bes1 ~ | bes a2 a ~ | a4 a g2 c2. bes4 |
         a\breve | g\breve
@@ -552,11 +552,11 @@ PartPThreeVoiceOneLyricsOne =  \lyricmode {
 
 PartPFourVoiceOne =  \relative c' {
 	\clef "treble_8" \global
-	R\breve*2 | g1 bes2. bes4 | bes2 c d2. c4 | bes2 a r1 | r1 d | f g2 a ~|
+	r\breve*2 | g1 bes2. bes4 | bes2 c d2. c4 | bes2 a r1 | r1 d | f g2 a ~|
         a4 g8 f g2 a1 | d, f2. e8 d | c4 d e2 f1 | a2
 
     a2. g8 f e2 | f f1 f2 | e d c1 ~ | c2 g'1 f2 | g g g f ~ | f d d2. d4 |
-        d1 r1 | R\breve*2 R\breve |
+        d1 r1 | r\breve*2 r\breve |
         fis1 fis2 fis | g2. g4 fis2 g | g es d1 ~ | d r1 | r1
     % --- page ---
     r2 c | c c c f ~ | f d r d | d d1 c2 | c d1 d2 | d1 r1 | d1 bes2 g |
@@ -579,31 +579,31 @@ PartPFourVoiceOne =  \relative c' {
     f2. e4 d2 d | e1 r2 d ~ | d c1 b2 | c2. bes4 a2 a | g1 r1 | r2 g a1 |
         bes a2. a4 | g\breve \bar "||"
     s1*0 ^\markup { \italic { Crucifixus tacet } }
-    R\breve*4 R\breve*5 R\breve*5 R\breve*2 
-        \threeTime R\breve.*3 R\breve. \stdTime 
-        \breveFromThree R\breve*4 R\breve*5 R\breve \bar "||"
+    r\breve*4 r\breve*5 r\breve*5 r\breve*2 
+        \threeTime r\breve.*3 r\breve. \stdTime 
+        \breveFromThree r\breve*4 r\breve*5 r\breve \bar "||"
     s1*0 ^\markup { \italic { Tutti } }
-    R\breve | g'1 g2. f4 | es2 c g'1 ~ | g2 d d1 ~ | d\breve | r2 d f2. e4 |
+    r\breve | g'1 g2. f4 | es2 c g'1 ~ | g2 d d1 ~ | d\breve | r2 d f2. e4 |
         d2 bes1 c2 | d4 c bes a g2 d | g d'2. e4 f2 ~ | f bes,1 c2 | 
         d2. c4 bes a 
 
-    g2 | d'1 a2. bes4 | c d e f g2 f | d1 es ~ | es2 d d1 | R\breve |
+    g2 | d'1 a2. bes4 | c d e f g2 f | d1 es ~ | es2 d d1 | r\breve |
         r2 g,2. a4 bes c | d e f g a f g2 | f1 d2  es ~| es d1  c2 |
         c\breve | bes1. bes2 |
 
-    bes1 g2 g | c1. bes2 | f'\breve | f1 r1 | R\breve | d1. d2 | d1 c2 bes | 
+    bes1 g2 g | c1. bes2 | f'\breve | f1 r1 | r\breve | d1. d2 | d1 c2 bes | 
         a1 g | c2. bes4 a2 bes ~ | bes bes a g | c2. bes4 a1 | g2 d'1 d2 | 
         d1 c | bes1. bes2 | a1 g2 g |
 
-    g4 a bes c d1 | d r1 | R\breve | r1 d ~ | d2 d d1 | c2 c bes2. bes4 |
+    g4 a bes c d1 | d r1 | r\breve | r1 d ~ | d2 d d1 | c2 c bes2. bes4 |
         a2 d1 d2 | c f e1 | d2 a'1 a2 ~ | a4 a f d g4. f8 e2 |
         f d1 d2 | d d
 
-    d1 | d2 d es1 | d\breve | R\breve*2 | r1 r2 g, | bes2 c d2. d4 | d2 f f1 |
-        g a | d,1. f2 ~ | f g a2. a4 | d,1 c | bes a | g r1 | R\breve | 
+    d1 | d2 d es1 | d\breve | r\breve*2 | r1 r2 g, | bes2 c d2. d4 | d2 f f1 |
+        g a | d,1. f2 ~ | f g a2. a4 | d,1 c | bes a | g r1 | r\breve | 
         r1 r2 bes | bes2. bes4 bes2 bes |
 
-    g4 g bes2. a8 g a4 g8 a | bes4 c d e f1 ~ | f\breve | d1 r1 | R\breve |
+    g4 g bes2. a8 g a4 g8 a | bes4 c d e f1 ~ | f\breve | d1 r1 | r\breve |
         r2 d1 d2 | c1 bes ~ | bes r1 | r1 d2. d4 | d2 d c1 ~ | c2 bes d1 ~ |
         d2 bes c1 | c r1 | r1 r2 d | f\breve |
 
@@ -686,45 +686,45 @@ PartPFourVoiceOneLyricsOne =  \lyricmode {
 
 PartPFiveVoiceOne =  \relative c' {
 	\clef "bass" \global
-	R\breve | g1 es2. es4 | es2 c  g'1 | es  bes2 bes' | bes f bes1 |
+	r\breve | g1 es2. es4 | es2 c  g'1 | es  bes2 bes' | bes f bes1 |
         a2 d bes g | d'1 c2 a | bes1 a | r2 g f d | a'1 f2 d |
 
     f2. g4 a1 | d,2 d'1 d2 | c bes a1 | c2. bes4 a2 a | g g1 bes2 | 
-        f g d2. d4 | g1 r1 | R\breve*2 | r1 r2 d ~ | d d d1 | g2. g4 d2 g |
+        f g d2. d4 | g1 r1 | r\breve*2 | r1 r2 d ~ | d d d1 | g2. g4 d2 g |
          c,1 d2.   d4 | g2 g1 g2 |
 
     c2 c c1 | f,\breve | bes1. bes2 | bes1. f2 | f1 g |
          d2. e4  f2 f | bes,1 r1 | 
-        R\breve | d1. f2 ~ | f g a2. a4 | d,\breve | R | d1. d2 | es1 d |
+        r\breve | d1. f2 ~ | f g a2. a4 | d,\breve | r | d1. d2 | es1 d |
         g es2 c | g'1 d | bes'1. bes2 |
 
-    g2 bes f1~ | f\breve | bes, | R | r1 f' | g2 bes2. bes4 a2 | bes1 f | bes, r1 |
+    g2 bes f1~ | f\breve | bes, | r | r1 f' | g2 bes2. bes4 a2 | bes1 f | bes, r1 |
         r2 d' d1 | bes2 g d'2. d4 | g,1 r2 g | es c g'1 | g2 f bes2 a4 g |
         f2. g4 a1 | d, 
 
     % --- page ---
     r1 | r1 r2 g | g1 es2 c | c'1 g | r2 d' d1 | bes2 g bes1 ~ | bes f |
         r2 g g1 | es2 c g'1 ~ | g\breve | d\breve \bar "||"
-    R\breve | g1 g2 g | f1. e2 | d1 g | 
+    r\breve | g1 g2 g | f1. e2 | d1 g | 
 
-    g2 g bes1 | c d | r1 d, | f1. f2 | g1 a | d,\breve ~ | d1 r1 | R\breve |
+    g2 g bes1 | c d | r1 d, | f1. f2 | g1 a | d,\breve ~ | d1 r1 | r\breve |
         r1 d | e2 f  g1 | c,  d | g g | f2 e f2. d4 | g1 d |
         g\breve \bar "||"
     s1*0 ^\markup { \italic { Crucifixus tacet } }
-    R\breve*4 R\breve*5 R\breve*5 R\breve*2 
-        \threeTime R\breve.*3 R\breve. \stdTime 
-        \breveFromThree R\breve*4 R\breve*5 R\breve \bar "||"
+    r\breve*4 r\breve*5 r\breve*5 r\breve*2 
+        \threeTime r\breve.*3 r\breve. \stdTime 
+        \breveFromThree r\breve*4 r\breve*5 r\breve \bar "||"
     s1*0 ^\markup { \italic { Tutti } }
-    R\breve*2 | r1 g ~ | g g2. a4 | bes2 g1 bes2 ~ | bes g d'1 | R\breve |
+    r\breve*2 | r1 g ~ | g g2. a4 | bes2 g1 bes2 ~ | bes g d'1 | r\breve |
         r2 d d2. c4 | bes2 g1 a2 | bes4 a g f es1 | d r1 | r2 d2. e4 f g |
         a bes c a
 
     bes4 c d2 | g, g es1 ~ | es2 bes bes1 | bes' f | r2 bes es,2. es4 | bes1 r1 |
-        R\breve
-        R\breve*5 | f'2 f f1 | bes,2 bes es bes | f'\breve | bes,2 bes'1 bes2 |
+        r\breve
+        r\breve*5 | f'2 f f1 | bes,2 bes es bes | f'\breve | bes,2 bes'1 bes2 |
         bes1 f2 g | d1
 
-    b2 c ~ | c c d g ~ | g g d g |  c,1 d  | g1 r1 | R\breve*4 |
+    b2 c ~ | c c d g ~ | g g d g |  c,1 d  | g1 r1 | r\breve*4 |
         g1. g2 | g1 f2 f | es2. es4 d1 | r2 d2. e4 f g | a bes c2 g bes |
         f d2. e4 f g |
 
@@ -735,11 +735,11 @@ PartPFiveVoiceOne =  \relative c' {
     % --- page ---
     bes1 ~ | bes2 c f,1 | r2 bes g a | bes2. bes4 f1 |  bes1 f  |
          g  d2.   d4 | g1 r1 | 
-        R\breve | r1 r2 bes, | bes2. bes4 bes2 bes | es bes f'1 | bes, r1 |
-        R\breve*2 R\breve | r2 bes'1 bes2 | a1 g | d'2. d4 
+        r\breve | r1 r2 bes, | bes2. bes4 bes2 bes | es bes f'1 | bes, r1 |
+        r\breve*2 r\breve | r2 bes'1 bes2 | a1 g | d'2. d4 
 
     d2 d | c1 bes2 bes, ~ | bes4 c d e f g a bes | c2 g bes bes | bes1 f |
-         a1 bes  | f g | f\breve | R | r2 a c1 | g2 g bes1 | f g |
+         a1 bes  | f g | f\breve | r | r2 a c1 | g2 g bes1 | f g |
         bes f2 f | g1 d2 d |
 
     f1 c2 c | es1. bes2 | f'1. g2 | c,1 d | g2 g bes1 | f2 f g1 | d r2 g |
