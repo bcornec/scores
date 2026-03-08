@@ -3,7 +3,7 @@
 \include "gregorian-bc.ly"
 \include "italiano.ly"
 
-#(define pieceArranger (string-append "Edition: Bruno Cornec (Lilypond " (lilypond-version) ")"))
+#(define pieceArranger (string-append "Edition: Bruno & Béatrice Cornec (Lilypond " (lilypond-version) ")"))
 
 \header {
     title =  "Magnificat primi toni « Susanne ung jour »"
@@ -12,7 +12,7 @@
     composer =  "Roland de Lassus (1532-1594)"
 	%opus = " "
     tagline =  \markup \center-column {
-	  \line {"Copyright © 2026 Bruno Cornec, based on CPDL work from Gerd Eichler"}
+	  \line {"Copyright © 2026 Bruno & Béatrice Cornec, based on CPDL work from Gerd Eichler"}
 	  \line {"CPDL licensed"}
 	}
     copyright = " "
@@ -42,52 +42,53 @@ cantusI =  \relative sib {
     \clef "treble_8" | % 1
      sib4 do re re re2 | % 2
 	 \bar "|"
-     re4 re re do sib do re do do sib \break | % 3
+     re4 re re do sib do re do do sib | % 3
 	 \bar "||"
    }
 
-TcantusI =  \lyricmode {\set ignoreMelismata = ##t 
+TcantusI =  \lyricmode {\set ignoreMelismata = ##t
 Ma -- gni -- \skip1 fi -- cat a -- ni -- ma me -- a Do -- \skip1 mi -- "num." __ \skip1
   }
 
 cantusII = \relative do'' {
-    \clef "treble" 
-	r1 r2 sol2 
-	sib1. do2 
-	re1 re1~ 
-	re1 r1 
-	r2 re2 re2. re4 \break | % 5
+    \clef "treble"
+	r1 r2 sol2
+	sib1. do2
+	re1 re1~
+	re1 r1
+	r2 re2 re2. re4 | % 5
     sib2 la2 re2. re4 | % 6
     sib2 sol4 la sib la sib2~ | % 7
     sib4 la8 sol la2 sib1~ | % 8
-    sib1 r1 | \barNumberCheck #10
-	r\breve
-    r2 re2 re2 re2 \pageBreak | % 11
+    sib1 r1 | 
+	r\breve |
+    r2 re2 re2 re2 | % 11
     do2 sib2 la2 sol2 | % 12
     do2. sib4 la1 | % 13
     sol2 re'2 fa2 re2 | % 14
     r2 re2. re4 si2 | % 15
     do1 r1 | % 16
-    r2 re2 re re \break | % 17
-    do2 sib2 la2 re,2 
+    r2 re2 re re | % 17
+    do2 sib2 la2 re,2
 	r\breve
 	r2 sol2 re'2 re2~
-    re2 re2 mib1 
-	re\longa
+    re2 re2 mib1
+	re\breve~
+	re\breve
 	\bar "."
   }
 
 TcantusII = \lyricmode {\set ignoreMelismata = ##t
-    Et ex -- ul -- ta -- vit __ \skip1 
+    Et ex -- ul -- ta -- vit __ \skip1
     Et ex -- ul -- ta -- vit spi -- ri -- tus me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 us __ \skip1
-	in De -- o sa -- lu -- ta -- ri me --\skip1 \skip1 "o," 
-	in De -- o sa -- lu -- ta -- "ri," 
-	in De -- o sa -- lu -- ra -- ri 
-	sa -- lu -- ta -- \skip1 ri "me o." 
+	in De -- o sa -- lu -- ta -- ri me --\skip1 \skip1 "o,"
+	in De -- o sa -- lu -- ta -- "ri,"
+	in De -- o sa -- lu -- ta -- ri
+	sa -- lu -- ta -- \skip1 ri me -- "o." __\skip1 \skip1
   }
 
 sextusII = \relative do'' {
-    \clef "treble" 
+    \clef "treble"
 	sol1 sib2. do4
 	re do sib la sol2 fa
 	sib1. sol2
@@ -109,15 +110,23 @@ sextusII = \relative do'' {
 	r2 re2. do4 si2
 	do1 r2 la
 	si2 si do do~
-	do si si1
-	si\longa
+	do si si1~
+	si\breve
   }
 
 TsextusII = \lyricmode {\set ignoreMelismata = ##t
+    Et ex -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ul -- ta -- vit 
+    Et ex -- ul -- ta -- vit 
+    Et ex -- ul -- ta -- vit 
+	spi -- \skip1 ri -- tus  __ \skip1 \skip1 me --\skip1 \skip1 \skip1 us
+	in De -- o sa -- \skip1 \skip1  lu -- ta -- ri me -- "o,"
+	in De -- o sa -- \skip1 lu -- ta -- "ri," me -- \skip1 \skip1 "o,"
+	sa -- lu -- ta -- ri
+	me -- \skip1 \skip1 "o." __\skip1 
 }
 
 altusII = \relative do'' {
-    \clef "treble" 
+    \clef "treble"
 	r\breve
 	r2 sol sib la
 	sol1 fa2 re~
@@ -126,7 +135,7 @@ altusII = \relative do'' {
 	sol la sol fad
 	sol do, fa1~
 	fa\breve
-	fa1 sol 
+	fa1 sol
 	fa\breve
 	fa2 fa sib1
 	la2 sol fa sib
@@ -139,18 +148,240 @@ altusII = \relative do'' {
 	la2 sol fad sol
 	la sol2. fad8 mi fad2
 	sol\breve~
-	sol\longa
+	sol\breve~
+	sol\breve
   }
 
 TaltusII = \lyricmode {\set ignoreMelismata = ##t
+	Et ex -- ul -- ta -- "vit," 
+	Et __\skip1 ex -- ul -- ta --\skip1 \skip1 \skip1 \skip1 \skip1 "vit," 
+	spi -- ri -- tus me -- "us," 
+	spi -- \skip1 ri -- tus me -- "us," 
+	in De -- o sa -- lu -- ta -- ri me --\skip1 \skip1 \skip1 "o," 
+	in De -- o sa -- lu -- ta -- ri __\skip1 \skip1 \skip1 me -- "o," 
+	in De -- o __ \skip1 \skip1 \skip1 \skip1 \skip1 sa -- lu -- ta -- ri me --\skip1 \skip1 \skip1 "o." __ \skip1 \skip1 
 }
-    lyricsaltus =  \lyricmode {\set ignoreMelismata =
-        ##t T ex -- Et ex --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ul
-        -- ta -- "vit," Et ex -- ul -- ta -- "vit," Et ex -- ul -- ta --
-        vit ri -- "tus " ____ me --\skip1 \skip1 "us," in De -- o sa
-        --\skip1 \skip1 lu -- ta -- ri me -- "o," in De -- lu -- ta --
-        ri me --\skip1 \skip1 "o," sa -- lu -- ta -- ri me -- "o." Q
-        "3ia" Qui -- a fe -- "cit, " __\skip1 \skip1 __ qui -- a fe --
+ 
+tenorII = \relative do' {
+    \clef "treble_8"
+	r\breve
+	r\breve
+	r\breve
+	r2 re1 fa2~
+	fa sol la1
+	re, r
+	r\breve
+	r1 re~
+	re2 re mib1
+	re do
+	sib\breve
+	r\breve
+	r\breve
+	re1 re2 re
+	do sib la sol
+	do2. sib4 la1
+	sol re'
+	fa2 sol la2. sol4
+	fa mi re2 re1
+	fa2 mib re1~
+	re do
+	re\breve~
+	re\breve
+  }
+
+TtenorII = \lyricmode {\set ignoreMelismata = ##t
+	Et ex -- \skip1 ul -- ta -- vit 
+	spi -- \skip1 ri -- tus me -- \skip1 "us," 
+	in De -- o sa -- lu -- ta -- ri me --\skip1 \skip1 "o," 
+	in De -- o sa -- lu -- ta -- ri me -- "o,"
+}
+
+
+quintusII = \relative do' {
+    \clef "treble_8"
+	r\breve
+	r\breve
+	r1 r2 sol
+	sib1. do2
+	re1 re
+	r2 re1 re2
+	mib1 re
+	do sib
+	r\breve
+	r1 r2 do
+	re2. mi4 fa1~
+	fa2 sol re sol
+	fa do re2. do4
+	sib la sol2 la fa'2
+	fa re re re
+	fa mib re1
+	re r
+	r2 re re re
+	do sib la sol
+	do2. sib4 la1
+	sol\longa~
+	sol\breve
+}
+
+TquintusII = \lyricmode {\set ignoreMelismata = ##t
+	Et ex -- ul -- ta -- vit 
+	spi -- ri -- tus me -- \skip1 "us," 
+	in De -- \skip1 \skip1 \skip1 o sa -- lu -- ta -- ri me --\skip1 \skip1 \skip1 \skip1 "o," 
+	in De -- o sa --\skip1 \skip1 \skip1 \skip1 lu -- ta -- ri me --\skip1 \skip1 "o." __  \skip1 
+	in De -- o sa -- lu -- ta -- ri me --\skip1 \skip1 "o." __ \skip1 \skip1 
+}
+
+bassusII = \relative do' {
+    \clef "bass"
+	r\breve
+	r\breve
+	r2 sol sib2. do4
+	re do sib la sol2 fa
+	re1 re2 re
+	sol fad sol re
+	r do re sib
+	fa'1 sib,
+	sib'2. sib4 mib,1
+	fa\breve
+	sib,\breve
+	r\breve
+	r1 r2 re
+	sol1 re2. mi4
+	fa2 sol re sol
+	fa do re1
+	sol r
+	r2 sol2 re2. mi4
+	fa2 sol re sol
+	fa do re1
+	sol do,
+	sol'\breve~
+	sol\breve
+  }
+
+TbassusII = \lyricmode {\set ignoreMelismata = ##t
+	Et ex -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ul -- ta -- vit 
+	spi -- ri -- tus me -- "us," 
+	spi -- ri -- tus me -- "us," 
+	spi -- ri -- tus me -- "us," 
+	in De -- \skip1 \skip1 \skip1 o sa -- lu -- ta -- ri me -- "o," 
+	in De -- \skip1 \skip1 o sa -- lu -- ta -- ri me --\skip1 \skip1 "o." __  \skip1 
+}
+
+
+cantusIII = \relative sib {
+  \pageBreak
+  \sectionLabel "Versum 2"
+        \clef "treble_8"
+  		\set Score.timing = ##f
+		sib4 do re re re re re re re re re re mib re do re
+	 	\bar "|" \break
+        re4 re re re re re re re re re re re re re re re do sib do re do sib
+	 	\bar "||"
+	  }
+
+TcantusIII =  \lyricmode {\set ignoreMelismata = ##t
+	Qui -- a __ \skip1 re -- spe -- xit hu -- mi -- li -- ta -- tem an -- cil -- lae su -- ae 
+	ec -- ce e -- nim ex hoc be -- a -- tam me di -- cent om -- nes ge -- ne -- ra -- ti -- o -- \skip1 nes. __ \skip1
+    }
+
+cantusIV = \relative do'' {
+  \sectionLabel "Versum 3"
+        \clef "treble"
+		re1 sib2. la4
+		sol2 sib2. la8 sol la2
+		sib2 fa'1 re2
+		sol1 sol
+		r1 r2 re2~
+		re fa sib,2. la8 sol
+		la1 sib1~
+		sib r2 fa'2~
+		fa do fa1
+		fa2 re do sib
+		la re do2. re4
+		mi4 fa sol2. fad8 mi fad2
+		sol2 re do sib
+		la sib r1
+		r\breve
+		r2 la si si
+		do fa, r2 fa'2~
+		fa4 do fa2 fa sol
+		sol mi re1
+		re2 re mib mib
+		mib re do1
+		si\longa
+}
+
+TcantusIV = \lyricmode {\set ignoreMelismata = ##t
+	Qui -- a __\skip1 \skip1 fe --\skip1 \skip1 \skip1 "cit," 
+	qui -- a fe -- cit 
+	mi -- \skip1 hi ma -- \skip1 \skip1 \skip1 "gna," --\skip1
+	Qui __\skip1 po -- tens est et san -- ctum no -- men e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ius 
+	et san -- ctum no -- "men,"
+	et san -- ctum no -- "men,"
+	et __\skip1 \skip1 \skip1 san -- ctum no -- men e "ius."
+	et san -- ctum no -- men e "ius."
+   }
+
+sextusIV = \relative do'' {
+        \clef "treble"
+		r1 sol
+		sib do
+		re2. do8 sib la2 sib
+		re sol,1 sol2
+		r1 r2 sib~
+		sib sib re1
+		re\breve
+		r2 sol, sib sib~
+		sib4 la8 sol la2 sib2. do4
+		re mi fa1 re2
+		do2 sib la sol
+		do2. sib4 la1
+		sol1 r1
+		r\breve
+		r1 r2 sol
+		re1 re
+		r2 re do sib
+		la re do2. re4
+		mi fa sol2. fad8 mi fad2
+		sol1 r2 sol2~
+		sol sol mib1
+		re\longa
+	  }
+
+TsextusIV = \lyricmode {\set ignoreMelismata = ##t
+}
+
+altusIV = \relative do'' {
+        \clef "treble"
+		r2 sol1 mib2~
+		mib4 fa sol2 fa1
+		sib,1 r2 sol'2
+		re mib1 re2
+		fa1. fa2
+		fa1 sol2 sol2~
+		sol4 fa8 mi fa2 sol1~
+		sol fa~
+		fa fa2 fa
+		sib sib la fa
+		r fa2. do4 mi fa
+		sol2 mi r la
+		sib1 la2 r4 fa
+		fa1 fa2 fa~
+		fa mi sol mi
+		r re re sol
+		sol sib la fa
+		r fa2. fa4 mi2
+		sol1 r2 la
+		si si do do
+		sol\breve
+		sol\longa
+	  }
+
+TaltusIV = \lyricmode {\set ignoreMelismata = ##t
+
+}
+   lyricsaltus =  \lyricmode {\set ignoreMelismata = ##t 
+        Qui -- a fe -- "cit, " __\skip1 \skip1 __ qui -- a fe --
         "cit," mi -- ma -- "gna," \skip1 \skip1 \skip1 \skip1 \skip1 san
         -- ctum no -- men e --\skip1 \skip1 "ius," \skip1 san -- "ctum,"
         "&" san -- ctum no -- men e --\skip1 \skip1 \skip1 \skip1 \skip1
@@ -175,20 +406,36 @@ TaltusII = \lyricmode {\set ignoreMelismata = ##t
     rum "A men." --
     }
 
-
-tenorII = \relative do'' {
-    \clef "treble_8" 
+tenorIV = \relative do' {
+    \clef "treble_8"
+	r\breve
+	r\breve
+	r1 re
+	sib2. la4 sol2 sib2~
+	sib4 la8 sol la2 sib1
+	r2 re2. re4 sib2
+	la1 r2 sol
+	sib sib sib1
+	r2 do re re
+	fa\breve
+	r\breve
+	r1 r2 re
+	re2. mi4 fa2 fa
+	r re do sib
+	la sol do2. sib4
+	la1 sol
+	r1 r2 re'
+	do sib la sol
+	do2. sib4 la1
+	sol\breve~
+	sol\breve~
+	sol\longa
   }
 
-TtenorII = \lyricmode {\set ignoreMelismata = ##t
+TtenorIV = \lyricmode {\set ignoreMelismata = ##t
 }
 lyricstenor =  \lyricmode {\set ignoreMelismata =
-    ##t\skip1 T "exultauit " __\skip1 \skip1 __ Et ex -- ul -- ta --
-    "vit," Et ex -- ul -- ta --\skip1 \skip1 \skip1 \skip1 vit spi -- ri
-    -- tus me -- "us," spi -- ri -- tus me -- "us," in o sa -- lu -- ta
-    -- ri me --\skip1 \skip1 \skip1 "o," in De -- o sa -- lu -- ta --
-    "ri " __\skip1 \skip1 __ De -- "o " __\skip1 \skip1 \skip1 \skip1 __
-    sa -- lu -- ta -- ri me --\skip1 \skip1 "o." Qui -- "a " __\skip1 __
+    Qui -- "a " __\skip1 __
     fe -- "cit," qui -- a fe -- cit mi -- "1i" ma --\skip1 tens "est, "
     ____ san -- ctum e --\skip1 \skip1 \skip1 \skip1 "ius," \skip1 san
     -- "ctum," \skip1 san -- no -- men e -- no -- men e -- "ius," no --
@@ -218,171 +465,59 @@ lyricstenor =  \lyricmode {\set ignoreMelismata =
     A --\skip1 \skip1 "men."
     }
 
-
-quintusII = \relative do'' {
-    \clef "treble_8" 
-  }
-
-TquintusII = \lyricmode {\set ignoreMelismata = ##t
-}
-
-bassusII = \relative do'' {
-    \clef "bass" 
-  }
-
-TbassusII = \lyricmode {\set ignoreMelismata = ##t
-}
-
-
-cantusIII = \relative sib {
-  \sectionLabel "Versum 2"
-        \pageBreak | % 18
-        \clef "treble_8"  
-  		\set Score.timing = ##f
-		sib4 do re re re re re re re re re re mib re do re
-	 	\bar "|"
-        re4 re re re re re re re re re re re \break 
-	 	\bar "||"
-	  }
-
-TcantusIII =  \lyricmode {\set ignoreMelismata = ##t
-	Qui -- a an -- re -- spe -- xit "1u" -- mi
-    -- li -- ta -- tem ec -- ce i -- cent e -- nim ex "1oc" "2e" -- a --
-    tam me Qui -- "a " __\skip1 __ fe --\skip1 \skip1 \skip1 "cit," qui
-    -- a fe -- cit mi -- "1i" \skip1 "gna," "4ui" po -- no -- men e
-    --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 "ius," \skip1 san
-    -- ctum no -- "men," ctum no -- "men," \skip1 \skip1 \skip1 san --
-    ctum no -- men e -- "ius," \skip1 san -- ctum no -- men "e ius." --
-    Et mi -- pro -- se -- ri -- cor -- i -- a e -- ius a ti -- men -- ti
-    -- "2us" e um De -- po -- su -- it po -- ten -- e se -- "e," tes et
-    ex -- al -- ta -- vit "1u" les mi --\skip1 \skip1 E Suri --\skip1
-    entes\skip1 E -- su -- ri -- en -- "tes," e -- su -- ri -- en -- tes
-    im -- ple -- vit "2o" -- "nis." im -- ple -- vit\skip1 \skip1 \skip1
-    im -- vit\skip1 nis\skip1 i -- vi -- "tes, " __\skip1 \skip1 \skip1
-    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 __ i -- vi -- tes i
-    -- mi -- sit in a --\skip1 \skip1 "nes," i -- mi -- sit in --
-    "a nes." -- Su -- sce -- pit "8s" -- ra -- el pu -- rum su -- e --
-    re -- cor -- su -- a -- tus mi -- se -- ri -- cor -- i -- ae\skip1
-    \skip1 S "8cutlocutu" \skip1 \skip1 \skip1 "e9t" Si -- cut lo -- cu
-    -- tus "est," si -- cut lo -- cu -- tus est a pa -- tres no --\skip1
-    \skip1 \skip1 pa -- tres no -- "stros," \skip1 \skip1 \skip1 \skip1
-    se -- mi -- ni e -- ius in "s;" -- cu -- "la," \skip1 se -- mi --
-    "ius," "&" se -- mi -- ni e -- ius "in " __\skip1 __ "s;" --
-    "cu la." -- "<lo" -- ri -- a "=a" -- "tri," et "7i" -- li -- "o," et
-        Spi -- ri -- tu -- i San -- "cto." "8cut" Si -- cut e -- "rat,"
-        si -- cut e -- "rat," si --\skip1 \skip1 cut e -- "rat," si --
-        cut e --\skip1 \skip1 \skip1 prin -- ci -- pi -- sem -- "per,"
-        "&" nunc "&" sem -- "per," \skip1 in "s;" -- la "s;" -- cu -- lo
-        -- rum A -- "men," \skip1 \skip1 in la "s;" -- cu -- lo --
-        "rum," "s;" -- cu -- lo -- rum A -- "men," "&" in "s\"
-        " -- cu -- " la " __\skip1 __ in " s;" -- cu -- la "s;" -- cu --
-        lo -- "rum," "s;" -- cu -- lo -- rum A -- "men," "A men."
-        }
- 
-cantusIV = \relative do'' {
-  \sectionLabel "Versum 3"
-        \clef "treble"  
-		re1 sib2. la4
-		sol2 sib2. la8 sol la2
-		sib2 fa1 re2
-		sol1 sol
-		r1 r2 re2~
-		re fa sib2. la8 sol
-		la1 sib1~
-		sib r2 fa'2~
-		fa do fa1
-		fa2 re do sib
-		la re do2. re4
-		mi4 fa sol2. fad8 mi fad2
-		sol2 re do sib
-		la sib r1
-		r\breve
-		r2 la si si
-		do fa, r2 fa'2~
-		fa4 do fa2 fa sol
-		sol mi re1
-		re2 re mib mib 
-		mib re do1
-		si\longa
-}
-
-TcantusIV = \lyricmode {\set ignoreMelismata = ##t
-}
-
-sextusIV = \relative do'' {
-        \clef "treble" 
-		r1 sol
-		sib do
-		re2. do8 sib la2 sib
-		re sol,1 sol2
-		r1 r2 sib~
-		sib sib re1
-		re\breve
-		r2 sol, sib sib~
-		sib4 la8 sol la2 sib2. do4
-		re mi fa1 re2
-		do2 sib la sol
-		do2. sib4 la1
-		sol1 r1
-		r\breve
-		r1 r2 sol
-		re1 re
-		r2 re do sib
-		la re do2. re4
-		mi fa sol2. fad8 mi fad2
-		sol1 r2 sol2~
-		sol sol mib1
-		re\longa
-	  }
-
-TsextusIV = \lyricmode {\set ignoreMelismata = ##t
-}
-
-altusIV = \relative do'' {
-        \clef "treble" 
-		r2 sol1 mib2~
-		mib4 fa sol2 fa1
-		sib,1 r2 sol'2
-		re mib1 re2
-		fa1. fa2
-		fa1 sol2 sol2~
-		sol4 fa8 mi fa2 sol1~
-		sol fa~
-		fa fa2 fa
-		sib sib la fa 
-		r fa2. do4 mi fa
-		sol2 mi r la
-		sib1 la2 r4 fa
-		fa1 fa2 fa~
-		fa mi sol mi
-		r re re sol 
-		sol sib la fa
-		r fa2. fa4 mi2 
-		sol1 r2 la
-		si si do do 
-		sol\breve
-		sol\longa
-	  }
-
-TaltusIV = \lyricmode {\set ignoreMelismata = ##t
-}
-
-tenorIV = \relative do'' {
-    \clef "treble_8" 
-  }
-
-TtenorIV = \lyricmode {\set ignoreMelismata = ##t
-}
-
-quintusIV = \relative do'' {
-    \clef "treble_8" 
+quintusIV = \relative do' {
+    \clef "treble_8"
+	r\breve
+	r\breve
+	r\breve
+	sol1 sib
+	do re~
+	re r2 re~
+	re re re re
+	mib1 re
+	do sib1~
+	sib r2 sib
+	fa'2 sib, fa do'
+	do1 re
+	sol, r2 re'
+	do sib la re
+	do2. re4 mi fa sol2~
+	sol4 fad8 mi fad2 sol r4 re
+	mib2 re fa1
+	fa2 r4 sib, do2 do
+	sol sol re'1
+	re2 re do2. do4
+	do2 si do1
+	re\longa
   }
 
 TquintusIV = \lyricmode {\set ignoreMelismata = ##t
 }
 
-bassusIV = \relative do'' {
-    \clef "bass" 
+bassusIV = \relative do' {
+    \clef "bass"
+	r\breve
+	r\breve
+	r1 r2 sol~
+	sol mib2. fa4 sol2
+	fa1 sib,
+	sib'2. la4 sol2 sol
+	re1 sol2. fa4
+	mib2 mib sib1
+	fa'1 sib,~
+	sib r
+	r\breve
+	r\breve
+	r1 r2 sib'
+	fa sib, fa' sib,
+	fa' do do do
+	re1 sol2 re'
+	do sib fa sib,
+	fa' sib, fa' do
+	do1 re
+	r2 sol do,2. do4
+	do2 sol'2 do,1
+	sol'\longa
   }
 
 TbassusIV = \lyricmode {\set ignoreMelismata = ##t
@@ -392,11 +527,11 @@ TbassusIV = \lyricmode {\set ignoreMelismata = ##t
 cantusV = \relative sib {
   \sectionLabel "Versum 4"
         \pageBreak | % 18
-        \clef "treble_8"  
+        \clef "treble_8"
   		\set Score.timing = ##f
-		sib4 do re re re re re re re re re re re re re mib re do re re re 
+		sib4 do re re re re re re re re re re re re re mib re do re re re
 	 	\bar "|"
-        re4 re do sib do re do sib \break 
+        re4 re do sib do re do sib
 	 	\bar "||"
 	  }
 
@@ -421,7 +556,7 @@ altusVI = \relative do' {
 		sib2 sib la sib2~
 		sib4 la8 sol la2 sol1
 		fa2 sol1 sol2
-		fa2 fa sib,4 do re mi 
+		fa2 fa sib,4 do re mi
 		fa2 sol fa sib
 		la1 sol2 la~
 		la4 sol sol1 fad2
@@ -429,10 +564,10 @@ altusVI = \relative do' {
 	  }
 
 TaltusVI = \lyricmode {\set ignoreMelismata = ##t
-}
+   }
 
 tenorVI = \relative sib {
-        \clef "treble_8"  
+        \clef "treble_8"
 		r1 re~
 		re2 mib1 re2
 		fa mib re1~
@@ -459,7 +594,7 @@ TtenorVI = \lyricmode {\set ignoreMelismata = ##t
 }
 
 quintusVI = \relative sib {
-        \clef "treble_8"  
+        \clef "treble_8"
 		la\breve
 		sib1 sib
 		do2 do la1
@@ -485,8 +620,28 @@ quintusVI = \relative sib {
 TquintusVI = \lyricmode {\set ignoreMelismata = ##t
 }
 
-bassusVI = \relative sib {
-        \clef "bass"  
+bassusVI = \relative do {
+        \clef "bass"
+		re\breve
+		sol2 mib2. fa4 sol2
+		fa do re1
+		r2 re sol4 fa sol la
+		sib2. la4 sol2 sib2
+		fa2 sol re1
+		sol r2 re
+		sib'1 sol
+		sol la
+		re,2 re sol1
+		mib2 mib fa1
+		sib,2 sib'1 sib2
+		sol sol re1
+		fa2 fa sol sib~
+		sib4 la sol fa mib2 mib
+		re sib r sib'~
+		sib sol sib1
+		fa do
+		re\breve
+		sol\longa
 	  }
 
 TbassusVI = \lyricmode {\set ignoreMelismata = ##t
@@ -495,11 +650,11 @@ TbassusVI = \lyricmode {\set ignoreMelismata = ##t
 cantusVII = \relative sib {
   \sectionLabel "Versum 6"
         \pageBreak | % 18
-        \clef "treble_8"  
+        \clef "treble_8"
   		\set Score.timing = ##f
 		sib4 do re re re re mib re2 re4 do re
 	 	\bar "|"
-        re4 re re do sib do re do2 do4 sib \break 
+        re4 re re do sib do re do2 do4 sib
 	 	\bar "||"
 	  }
 
@@ -508,7 +663,7 @@ TcantusVII = \lyricmode {\set ignoreMelismata = ##t
 
 cantusVIII = \relative do'' {
   \sectionLabel "Versum 7"
-        \clef "treble"  
+        \clef "treble"
 		re1 re2 re
 		dod1 re
 		r\breve
@@ -535,10 +690,34 @@ cantusVIII = \relative do'' {
 	  }
 
 TcantusVIII = \lyricmode {\set ignoreMelismata = ##t
-}
+    Et mi -- pro -- se -- ri -- cor -- i -- a e -- ius a ti -- men -- ti
+    -- "2us" e um De -- po -- su -- it po -- ten -- e se -- "e," tes et
+    ex -- al -- ta -- vit "1u" les mi --\skip1 \skip1 E Suri --\skip1
+    entes\skip1 E -- su -- ri -- en -- "tes," e -- su -- ri -- en -- tes
+    im -- ple -- vit "2o" -- "nis." im -- ple -- vit\skip1 \skip1 \skip1
+    im -- vit\skip1 nis\skip1 i -- vi -- "tes, " __\skip1 \skip1 \skip1
+    \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 __ i -- vi -- tes i
+    -- mi -- sit in a --\skip1 \skip1 "nes," i -- mi -- sit in --
+    "a nes." -- Su -- sce -- pit "8s" -- ra -- el pu -- rum su -- e --
+    re -- cor -- su -- a -- tus mi -- se -- ri -- cor -- i -- ae\skip1
+    \skip1 S "8cutlocutu" \skip1 \skip1 \skip1 "e9t" Si -- cut lo -- cu
+    -- tus "est," si -- cut lo -- cu -- tus est a pa -- tres no --\skip1
+    \skip1 \skip1 pa -- tres no -- "stros," \skip1 \skip1 \skip1 \skip1
+    se -- mi -- ni e -- ius in "s;" -- cu -- "la," \skip1 se -- mi --
+    "ius," "&" se -- mi -- ni e -- ius "in " __\skip1 __ "s;" --
+    "cu la." -- "<lo" -- ri -- a "=a" -- "tri," et "7i" -- li -- "o," et
+        Spi -- ri -- tu -- i San -- "cto." "8cut" Si -- cut e -- "rat,"
+        si -- cut e -- "rat," si --\skip1 \skip1 cut e -- "rat," si --
+        cut e --\skip1 \skip1 \skip1 prin -- ci -- pi -- sem -- "per,"
+        "&" nunc "&" sem -- "per," \skip1 in "s;" -- la "s;" -- cu -- lo
+        -- rum A -- "men," \skip1 \skip1 in la "s;" -- cu -- lo --
+        "rum," "s;" -- cu -- lo -- rum A -- "men," "&" in "s\"
+        " -- cu -- " la " __\skip1 __ in " s;" -- cu -- la "s;" -- cu --
+        lo -- "rum," "s;" -- cu -- lo -- rum A -- "men," "A men."
+ }
 
 sextusVIII = \relative do'' {
-        \clef "treble"  
+        \clef "treble"
 		r2 re fa fa
 		mi1 re~
 		re r1
@@ -553,7 +732,7 @@ sextusVIII = \relative do'' {
 		dod2 re mi1
 		fad1 fad2 fad
 		sol2. fa4 mi re mi fa
-		sol2 sol do, do 
+		sol2 sol do, do
 		fa1 re
 		mib2 mib sib sib
 		sib2. la8 sol sib4 la fa'2~
@@ -568,7 +747,7 @@ TsextusVIII = \lyricmode {\set ignoreMelismata = ##t
 }
 
 altusVIII = \relative do'' {
-        \clef "treble"  
+        \clef "treble"
 		r\breve
 		r1 r2 sol
 		sib sib la1
@@ -595,24 +774,93 @@ altusVIII = \relative do'' {
 	  }
 
 TaltusVIII = \lyricmode {\set ignoreMelismata = ##t
-}
+   }
 
-tenorVIII = \relative sib {
-        \clef "treble_8"  
+tenorVIII = \relative do' {
+        \clef "treble_8"
+		r\breve
+		r\breve
+		r1 r2 re
+		re mib re1
+		re r2 sib
+		sib sol la1
+		la2 la sib la
+		la\breve
+		la\breve
+		r2 la la sib
+		la1 la~
+		la r2 la
+		la la re1~
+		re2 re do do
+		do1. do2
+		sib sib sib1~
+		sib\breve
+		r\breve
+		r\breve
+		r2 mib re sib
+		re1 do2. sib4
+		la\breve
+		sol\longa
 	  }
 
 TtenorVIII = \lyricmode {\set ignoreMelismata = ##t
 }
 
-quintusVIII = \relative sib {
-        \clef "treble_8"  
+quintusVIII = \relative do'' {
+        \clef "treble_8"
+		r\breve
+		r1 sol1
+		sol2 sol fad1
+		sol2 sol, sib sib
+		la1 sol
+		r\breve
+		re'\breve
+		mi2 fa mi1
+		re2 re fad re
+		mi1 re~
+		re r2 re
+		mi fa mi1
+		re2. do8 sib la2 la'
+		sol sol sol1~
+		sol2 sol fa fa
+		fa1. fa2
+		mib mib mib1
+		r2 mib re sib
+		do1 re
+		sol,2 do sib2. la8 sol
+		sib4 la fa'1 mib2
+		re1 re
+		re\longa
 	  }
 
 TquintusVIII = \lyricmode {\set ignoreMelismata = ##t
 }
 
-bassusVIII = \relative sib {
-        \clef "bass"  
+bassusVIII = \relative do' {
+        \clef "bass"
+		r\breve
+		r\breve
+		r\breve
+		sol1 sol2 sol
+		fad1 sol
+		r\breve
+		re2. do4 sib do re2
+		dod re la1
+		re r2 re
+		la'2. sol4 fad2 sol
+		re\breve
+		la'\breve
+		re,1 re2 re
+		sol1 do,
+		do2 do fa1
+		sib, sib2 sib
+		mib\breve
+		r\breve
+		r\breve
+		r1 r2 mib
+		re sib do1
+		re\breve
+		sol\longa
 	  }
 
 TbassusVIII = \lyricmode {\set ignoreMelismata = ##t
@@ -621,11 +869,11 @@ TbassusVIII = \lyricmode {\set ignoreMelismata = ##t
 cantusIX = \relative sib {
   \sectionLabel "Versum 8"
         \pageBreak | % 18
-        \clef "treble_8"  
+        \clef "treble_8"
   		\set Score.timing = ##f
 		sib4 do re re re re re mib re2 re4 do re4.
 	 	\bar "|"
-        re4 re re re re re re re do sib do re do sib \break 
+        re4 re re re re re re re do sib do re do sib
 	 	\bar "||"
 	  }
 
@@ -634,7 +882,7 @@ TcantusIX = \lyricmode {\set ignoreMelismata = ##t
 
 cantusX = \relative do'' {
   \sectionLabel "Versum 9"
-        \clef "treble"  
+        \clef "treble"
 	sol1 sib2 la
 	sib do re1~
 	re2 sol, sib la
@@ -661,7 +909,7 @@ TcantusX = \lyricmode {\set ignoreMelismata = ##t
 }
 
 sextusX = \relative do'' {
-        \clef "treble"  
+        \clef "treble"
 		r\breve
 		sol1 sib2 la
 		sib2 do re1
@@ -672,7 +920,7 @@ sextusX = \relative do'' {
 		fa1 fa2 mi~
 		mi4 re re2. dod8 si dod2
 		re1 r2 fa~
-		fa re la mi' 
+		fa re la mi'
 		mi2. mi4 mi2 fa
 		mi sol1 do,2~
 		do do si si
@@ -688,7 +936,7 @@ TsextusX = \lyricmode {\set ignoreMelismata = ##t
 }
 
 altusX = \relative do'' {
-        \clef "treble"  
+        \clef "treble"
 		r2 sol sol fad
 		sol mib re1
 		r2 sol sol fad
@@ -700,11 +948,11 @@ altusX = \relative do'' {
 		fa1 mi
 		re la'~
 		la2 fa fa sol
-		sol2. sol4 la2 fa 
+		sol2. sol4 la2 fa
 		sol re mi1~
 		mi2 fa sol1
 		r2 sol sol2. sol4
-		mi1 fa2 mi 
+		mi1 fa2 mi
 		r2 la sib sol
 		sol sol1 fad2
 		la sol1 fad2
@@ -712,38 +960,44 @@ altusX = \relative do'' {
 	  }
 
 TaltusX = \lyricmode {\set ignoreMelismata = ##t
-}
+   }
 
-tenorX = \relative sib {
-        \clef "treble_8"  
+tenorX = \relative do'' {
+        \clef "treble_8"
+		r\breve
+		r2 sol sol fad
+		sol mib re1
+		r1 r2 sib
+		fa'1 do
+		re mib
+		re r2 sol,
+		re'2. mi4 fa2 do
+		re1 la
+		r2 fa'1 re2
+		re1 r2 do
+		do2. do4 la2 re
+		do si do2. sib4
+		la2 la sol1~
+		sol r2 do
+		do2. do4 la1
+		re2. do4 sib2 do
+		sol1 re'1~
+		re re
+		sol,\longa
 	  }
 
 TtenorX = \lyricmode {\set ignoreMelismata = ##t
-}
-
-quintusX = \relative sib {
-        \clef "treble_8"  
-	  }
-
-TquintusX = \lyricmode {\set ignoreMelismata = ##t
-}
-
-bassusX = \relative sib {
-        \clef "bass"  
-	  }
-
-TbassusX = \lyricmode {\set ignoreMelismata = ##t
 }
 
 
 cantusXI = \relative sib {
   \sectionLabel "Versum 10"
         \pageBreak | % 18
-        \clef "treble_8"  
+        \clef "treble_8"
   		\set Score.timing = ##f
 		sib4 do re re mib re re do re re
 	 	\bar "|"
-        re4 re re do sib do re do sib \break 
+        re4 re re do sib do re do sib
 	 	\bar "||"
 	  }
 
@@ -752,7 +1006,7 @@ TcantusXI = \lyricmode {\set ignoreMelismata = ##t
 
 cantusXII = \relative do'' {
   \sectionLabel "Versum 11"
-        \clef "treble"  
+        \clef "treble"
 		r\breve
 		r2 sol sib1~
 		sib2 do re sib
@@ -767,7 +1021,7 @@ cantusXII = \relative do'' {
 		r1 r2 sib
 		do sib sol fa
 		r1 r2 re'~
-		re re re re 
+		re re re re
 		do sib la sol
 		do1 la
 		re\breve
@@ -776,7 +1030,7 @@ cantusXII = \relative do'' {
 		la1 sib
 		la sib2. sib4
 		do2 do4 re mib1~
-		mib re2 fa4 mi 
+		mib re2 fa4 mi
 		re2 si do do
 		r la4 la sib sib sib2
 		la la4 la si2 si
@@ -791,7 +1045,7 @@ TcantusXII = \lyricmode {\set ignoreMelismata = ##t
 }
 
 sextusXII = \relative do'' {
-        \clef "treble"  
+        \clef "treble"
 		r\breve
 		r\breve
 		r1 r2 re
@@ -830,7 +1084,7 @@ TsextusXII = \lyricmode {\set ignoreMelismata = ##t
 }
 
 altusXII = \relative do'' {
-        \clef "treble"  
+        \clef "treble"
 		r1 r2 sol
 		mib do sol'1~
 		sol sol
@@ -840,7 +1094,7 @@ altusXII = \relative do'' {
 		mi re fa sol
 		la1 re,
 		mib1 re2 sol~
-		sol4 fad8 mi fad2 sol fa 
+		sol4 fad8 mi fad2 sol fa
 		sib1 sol2 fa
 		mib1 re2 fa
 		sol fa r1
@@ -848,7 +1102,7 @@ altusXII = \relative do'' {
 		fa2. fa4 sol2 re
 		mi sol fad sol~
 		sol4 sol sol2. fad8 mi fad2
-		sol1 fad2. fad4 
+		sol1 fad2. fad4
 		sol2 sol la re,~
 		re4 re sib'2 la4 sol sol2~
 		sol fad sol1
@@ -866,57 +1120,155 @@ altusXII = \relative do'' {
 	  }
 
 TaltusXII = \lyricmode {\set ignoreMelismata = ##t
-}
+   }
 
 tenorXII = \relative sib {
-        \clef "treble_8"  
+        \clef "treble_8"
+		sol'1 mib2 do
+		sol' mib1 re2
+		mib1 re
+		r\breve
+		fa1 do2 sib
+		la la' fa re
+		la'4 sol fa mi re1~
+		re si
+		do re2. re4
+		re1 r2 re
+		mib re do4 sib sib2~
+		sib4 la8 sol la2 sib1
+		r2 re mib re
+		do1 sib
+		sib2. sib4 sol2 sib
+		la sol re' mib
+		do1 re
+		sol,2 re'1 re2
+		re re do sib
+		la sol do1
+		la sol2 re'~
+		re re re re
+		do\breve
+		sib\breve
+		la2 sol do1
+		la1 sol2 re'~
+		re re re re
+		do\breve
+		sib\breve
+		la2 sol do1
+		la\breve
+		sol\longa
 	  }
 
 TtenorXII = \lyricmode {\set ignoreMelismata = ##t
 }
 
 quintusXII = \relative sib {
-        \clef "treble_8"  
+        \clef "treble_8"
+		r\breve
+		r\breve
+		r2 sol sib1~
+		sib2 do re1
+		do r2 sol'
+		fa mi re la
+		la1 sib
+		la r
+		sol1. sib2
+		la1 sol2 re
+		r\breve
+		r2 do' fa re
+		do fa, r sib
+		do4 fa, fa'2 re sib
+		fa1 r
+		r\breve
+		r1 r2 re'~
+		re sol, la2. la4
+		sib do re mi fa mi sol2
+		fa sib, mib1
+		re1 re2 sol,
+		la1 r4 sol sol'2
+		mi4 fa sol2 sol2. fa4
+		mib2 mib r re4 mi
+		fad2 sol sol sol,
+		re'2. re4 re2 sol,
+		la la r4 sol sol'2
+		mi4 fa sol2 sol2. fa4
+		mib2 mib r re4 mi
+		fad2 sol sol sol,
+		re'\breve
+		re\longa
 	  }
 
 TquintusXII = \lyricmode {\set ignoreMelismata = ##t
 }
 
 bassusXII = \relative sib {
-        \clef "bass"  
+        \clef "bass"
+		r\breve
+		r1 r2 sol
+		mib do sol'1
+		r1 r2 re
+		fa1. sol2
+		fa1 re
+		r2 re sib sol
+		re'1 sol
+		do,1 sol'2. sol4
+		re1 r
+		r2 re mib re 
+		do1 sib
+		r2 sib mib sib
+		fa'1 sib,~
+		sib r1 
+		r\breve
+		r\breve
+		r1 re2. re4
+		sol2 sib la sol
+		re mib do1
+		re sol
+		re2. re4 sol2 sol
+		do,1 r2 do4 re
+		mib2 mib r sib4 do
+		re2 sol do,1
+		re sol
+		re2. re4 sol2 sol
+		do,1 r2 do4 re
+		mib2 mib r sib4 do
+		re2 sol do,1
+		re re
+		sol\longa
 	  }
 
 TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 }
+
+\markup \vspace #1 % change this value accordingly
 
 \score {
 <<
 \new GregorianTranscriptionStaff <<
 	\global
 	\set GregorianTranscriptionStaff.instrumentName = "Solo"
-  \context Staff << 
+  \context Staff <<
 	\context GregorianTranscriptionVoice = "greg1" {  \cantusI }
 		\new GregorianTranscriptionLyrics \lyricsto "greg1" { \TcantusI }
 	>>
   >>
 >>
-\layout{ 
+\layout{
   	papersize = "a4"
+	ragged-last = ##f %dernière ligne justifiée sur toute la largeur
 	%ragged-right = ##f
-	ragged-last = ##f
 }
 \midi {\tempo 4 = 160 }
 }
 \markup \vspace #1 % change this value accordingly
 
-
-\score {  
+\score {
     \transpose do do {
 	\new ChoirStaff \with { \override StaffGrouper.staff-staff-spacing.basic-distance = #12 }
 	<<
 	\new Staff << \global
 	\new Voice="v1" {
 		\set Staff.instrumentName="Cantus"
+		\set Staff.shortInstrumentName = "C"
 		\set Staff.midiInstrument = "reed organ"
 		\cantusII }
 	\new Lyrics \lyricsto "v1" {\TcantusII }
@@ -924,6 +1276,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v2" {
 		\set Staff.instrumentName="Sextus"
+		\set Staff.shortInstrumentName = "S"
 		\set Staff.midiInstrument = "reed organ"
 		\sextusII }
 	\new Lyrics \lyricsto "v2" {\TsextusII }
@@ -931,6 +1284,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v3" {
 		\set Staff.instrumentName="Altus"
+		\set Staff.shortInstrumentName = "A"
 		\set Staff.midiInstrument = "reed organ"
 		\altusII}
 	\new Lyrics \lyricsto "v3" {\TaltusII }
@@ -938,6 +1292,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v4" {
 		\set Staff.instrumentName="Tenor"
+		\set Staff.shortInstrumentName = "T"
 		\set Staff.midiInstrument = "reed organ"
 		\tenorII }
 	\new Lyrics \lyricsto "v4" {\TtenorII }
@@ -945,6 +1300,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v5" {
 		\set Staff.instrumentName="Quintus"
+		\set Staff.shortInstrumentName = "Q"
 		\set Staff.midiInstrument = "reed organ"
 		\quintusII}
 	\new Lyrics \lyricsto "v5" {\TquintusII }
@@ -952,8 +1308,9 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v6" {
 		\set Staff.instrumentName="Bassus"
+		\set Staff.shortInstrumentName = "B"
 		\set Staff.midiInstrument = "reed organ"
-		\clef bass 
+		\clef bass
 		\bassusII }
 	\new Lyrics \lyricsto "v6" {\TbassusII}
 	>>
@@ -969,26 +1326,27 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\context { \Staff \consists "Ambitus_engraver" }
 	\context { \Score \override BarNumber.padding = #2 }
 	\context { \Voice \override NoteHead.style = #'baroque }
+  	papersize = "a4"
+	ragged-last = ##f %dernière ligne justifiée sur toute la largeur
 	}
 
-\midi
-	{    	
-	}
+\midi {\tempo 4 = 160 }
 
 }
 
+\markup \vspace #1 % change this value accordingly
 \score {
 <<
 \new GregorianTranscriptionStaff <<
 	\global
 	\set GregorianTranscriptionStaff.instrumentName = "Solo"
-  \context Staff << 
+  \context Staff <<
 	\context GregorianTranscriptionVoice = "greg3" {  \cantusIII }
 		\new GregorianTranscriptionLyrics \lyricsto "greg3" { \TcantusIII }
 	>>
   >>
 >>
-\layout{ 
+\layout{
   	papersize = "a4"
 	%ragged-right = ##f
 	ragged-last = ##f
@@ -999,13 +1357,14 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 
 
 \score
-{  
+{
     \transpose do do {
 	\new ChoirStaff \with { \override StaffGrouper.staff-staff-spacing.basic-distance = #12 }
 	<<
 	\new Staff << \global
 	\new Voice="v1" {
 		\set Staff.instrumentName="Cantus"
+		\set Staff.shortInstrumentName = "C"
 		\set Staff.midiInstrument = "reed organ"
 		\cantusIV }
 	\new Lyrics \lyricsto "v1" {\TcantusIV }
@@ -1013,6 +1372,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v2" {
 		\set Staff.instrumentName="Sextus"
+		\set Staff.shortInstrumentName = "S"
 		\set Staff.midiInstrument = "reed organ"
 		\sextusIV }
 	\new Lyrics \lyricsto "v2" {\TsextusIV }
@@ -1020,6 +1380,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v3" {
 		\set Staff.instrumentName="Altus"
+		\set Staff.shortInstrumentName = "A"
 		\set Staff.midiInstrument = "reed organ"
 		\altusIV}
 	\new Lyrics \lyricsto "v3" {\TaltusIV }
@@ -1027,6 +1388,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v4" {
 		\set Staff.instrumentName="Tenor"
+		\set Staff.shortInstrumentName = "T"
 		\set Staff.midiInstrument = "reed organ"
 		\tenorIV }
 	\new Lyrics \lyricsto "v4" {\TtenorIV }
@@ -1034,6 +1396,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v5" {
 		\set Staff.instrumentName="Quintus"
+		\set Staff.shortInstrumentName = "Q"
 		\set Staff.midiInstrument = "reed organ"
 		\quintusIV}
 	\new Lyrics \lyricsto "v5" {\TquintusIV }
@@ -1041,8 +1404,9 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v6" {
 		\set Staff.instrumentName="Bassus"
+		\set Staff.shortInstrumentName = "B"
 		\set Staff.midiInstrument = "reed organ"
-		\clef bass 
+		\clef bass
 		\bassusIV }
 	\new Lyrics \lyricsto "v6" {\TbassusIV}
 	>>
@@ -1058,11 +1422,11 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\context { \Staff \consists "Ambitus_engraver" }
 	\context { \Score \override BarNumber.padding = #2 }
 	\context { \Voice \override NoteHead.style = #'baroque }
+  	papersize = "a4"
+	ragged-last = ##f %dernière ligne justifiée sur toute la largeur
 	}
 
-\midi
-	{    	
-	}
+\midi {\tempo 4 = 160 }
 
 }
 
@@ -1072,13 +1436,13 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 \new GregorianTranscriptionStaff <<
 	\global
 	\set GregorianTranscriptionStaff.instrumentName = "Solo"
-  \context Staff << 
+  \context Staff <<
 	\context GregorianTranscriptionVoice = "greg5" {  \cantusV }
 		\new GregorianTranscriptionLyrics \lyricsto "greg5" { \TcantusV }
 	>>
   >>
 >>
-\layout{ 
+\layout{
   	papersize = "a4"
 	%ragged-right = ##f
 	ragged-last = ##f
@@ -1089,13 +1453,14 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 
 
 \score
-{  
+{
     \transpose do do {
 	\new ChoirStaff \with { \override StaffGrouper.staff-staff-spacing.basic-distance = #12 }
 	<<
 	\new Staff << \global
 	\new Voice="v3" {
 		\set Staff.instrumentName="Altus"
+		\set Staff.shortInstrumentName = "A"
 		\set Staff.midiInstrument = "reed organ"
 		\altusVI}
 	\new Lyrics \lyricsto "v3" {\TaltusVI }
@@ -1103,6 +1468,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v4" {
 		\set Staff.instrumentName="Tenor"
+		\set Staff.shortInstrumentName = "T"
 		\set Staff.midiInstrument = "reed organ"
 		\tenorVI }
 	\new Lyrics \lyricsto "v4" {\TtenorVI }
@@ -1110,6 +1476,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v5" {
 		\set Staff.instrumentName="Quintus"
+		\set Staff.shortInstrumentName = "Q"
 		\set Staff.midiInstrument = "reed organ"
 		\quintusVI}
 	\new Lyrics \lyricsto "v5" {\TquintusVI }
@@ -1117,8 +1484,9 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v6" {
 		\set Staff.instrumentName="Bassus"
+		\set Staff.shortInstrumentName = "B"
 		\set Staff.midiInstrument = "reed organ"
-		\clef bass 
+		\clef bass
 		\bassusVI }
 	\new Lyrics \lyricsto "v6" {\TbassusVI}
 	>>
@@ -1134,12 +1502,11 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\context { \Staff \consists "Ambitus_engraver" }
 	\context { \Score \override BarNumber.padding = #2 }
 	\context { \Voice \override NoteHead.style = #'baroque }
+  	papersize = "a4"
+	ragged-last = ##f %dernière ligne justifiée sur toute la largeur
 	}
 
-\midi
-	{    	
-	}
-
+\midi {\tempo 4 = 160 }
 }
 
 \score {
@@ -1147,13 +1514,13 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 \new GregorianTranscriptionStaff <<
 	\global
 	\set GregorianTranscriptionStaff.instrumentName = "Solo"
-  \context Staff << 
+  \context Staff <<
 	\context GregorianTranscriptionVoice = "greg7" {  \cantusVII }
 		\new GregorianTranscriptionLyrics \lyricsto "greg7" { \TcantusVII }
 	>>
   >>
 >>
-\layout{ 
+\layout{
   	papersize = "a4"
 	%ragged-right = ##f
 	ragged-last = ##f
@@ -1164,13 +1531,14 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 
 
 \score
-{  
+{
     \transpose do do {
 	\new ChoirStaff \with { \override StaffGrouper.staff-staff-spacing.basic-distance = #12 }
 	<<
 	\new Staff << \global
 	\new Voice="v1" {
 		\set Staff.instrumentName="Cantus"
+		\set Staff.shortInstrumentName = "C"
 		\set Staff.midiInstrument = "reed organ"
 		\cantusVIII }
 	\new Lyrics \lyricsto "v1" {\TcantusVIII }
@@ -1178,6 +1546,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v2" {
 		\set Staff.instrumentName="Sextus"
+		\set Staff.shortInstrumentName = "S"
 		\set Staff.midiInstrument = "reed organ"
 		\sextusVIII }
 	\new Lyrics \lyricsto "v2" {\TsextusVIII }
@@ -1185,6 +1554,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v3" {
 		\set Staff.instrumentName="Altus"
+		\set Staff.shortInstrumentName = "A"
 		\set Staff.midiInstrument = "reed organ"
 		\altusVIII}
 	\new Lyrics \lyricsto "v3" {\TaltusVIII }
@@ -1192,6 +1562,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v4" {
 		\set Staff.instrumentName="Tenor"
+		\set Staff.shortInstrumentName = "T"
 		\set Staff.midiInstrument = "reed organ"
 		\tenorVIII }
 	\new Lyrics \lyricsto "v4" {\TtenorVIII }
@@ -1199,6 +1570,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v5" {
 		\set Staff.instrumentName="Quintus"
+		\set Staff.shortInstrumentName = "Q"
 		\set Staff.midiInstrument = "reed organ"
 		\quintusVIII}
 	\new Lyrics \lyricsto "v5" {\TquintusVIII }
@@ -1206,8 +1578,9 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v6" {
 		\set Staff.instrumentName="Bassus"
+		\set Staff.shortInstrumentName = "B"
 		\set Staff.midiInstrument = "reed organ"
-		\clef bass 
+		\clef bass
 		\bassusVIII }
 	\new Lyrics \lyricsto "v6" {\TbassusVIII}
 	>>
@@ -1223,11 +1596,11 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\context { \Staff \consists "Ambitus_engraver" }
 	\context { \Score \override BarNumber.padding = #2 }
 	\context { \Voice \override NoteHead.style = #'baroque }
+  	papersize = "a4"
+	ragged-last = ##f %dernière ligne justifiée sur toute la largeur
 	}
 
-\midi
-	{    	
-	}
+\midi {\tempo 4 = 160 }
 
 }
 
@@ -1236,13 +1609,13 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 \new GregorianTranscriptionStaff <<
 	\global
 	\set GregorianTranscriptionStaff.instrumentName = "Solo"
-  \context Staff << 
+  \context Staff <<
 	\context GregorianTranscriptionVoice = "greg9" {  \cantusIX }
 		\new GregorianTranscriptionLyrics \lyricsto "greg9" { \TcantusIX }
 	>>
   >>
 >>
-\layout{ 
+\layout{
   	papersize = "a4"
 	%ragged-right = ##f
 	ragged-last = ##f
@@ -1253,13 +1626,14 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 
 
 \score
-{  
+{
     \transpose do do {
 	\new ChoirStaff \with { \override StaffGrouper.staff-staff-spacing.basic-distance = #12 }
 	<<
 	\new Staff << \global
 	\new Voice="v1" {
 		\set Staff.instrumentName="Cantus"
+		\set Staff.shortInstrumentName = "C"
 		\set Staff.midiInstrument = "reed organ"
 		\cantusX }
 	\new Lyrics \lyricsto "v1" {\TcantusX }
@@ -1267,6 +1641,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v2" {
 		\set Staff.instrumentName="Sextus"
+		\set Staff.shortInstrumentName = "S"
 		\set Staff.midiInstrument = "reed organ"
 		\sextusX }
 	\new Lyrics \lyricsto "v2" {\TsextusX }
@@ -1274,6 +1649,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v3" {
 		\set Staff.instrumentName="Altus"
+		\set Staff.shortInstrumentName = "A"
 		\set Staff.midiInstrument = "reed organ"
 		\altusX}
 	\new Lyrics \lyricsto "v3" {\TaltusX }
@@ -1281,24 +1657,10 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v4" {
 		\set Staff.instrumentName="Tenor"
+		\set Staff.shortInstrumentName = "T"
 		\set Staff.midiInstrument = "reed organ"
 		\tenorX }
 	\new Lyrics \lyricsto "v4" {\TtenorX }
-	>>
-	\new Staff << \global
-	\new Voice="v5" {
-		\set Staff.instrumentName="Quintus"
-		\set Staff.midiInstrument = "reed organ"
-		\quintusX}
-	\new Lyrics \lyricsto "v5" {\TquintusX }
-	>>
-	\new Staff << \global
-	\new Voice="v6" {
-		\set Staff.instrumentName="Bassus"
-		\set Staff.midiInstrument = "reed organ"
-		\clef bass 
-		\bassusX }
-	\new Lyrics \lyricsto "v6" {\TbassusX}
 	>>
 	>>
 	} % transpose
@@ -1312,11 +1674,11 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\context { \Staff \consists "Ambitus_engraver" }
 	\context { \Score \override BarNumber.padding = #2 }
 	\context { \Voice \override NoteHead.style = #'baroque }
+  	papersize = "a4"
+	ragged-last = ##f %dernière ligne justifiée sur toute la largeur
 	}
 
-\midi
-	{    	
-	}
+\midi {\tempo 4 = 160 }
 
 }
 
@@ -1325,13 +1687,13 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 \new GregorianTranscriptionStaff <<
 	\global
 	\set GregorianTranscriptionStaff.instrumentName = "Solo"
-  \context Staff << 
+  \context Staff <<
 	\context GregorianTranscriptionVoice = "greg11" {  \cantusXI }
 		\new GregorianTranscriptionLyrics \lyricsto "greg9" { \TcantusXI }
 	>>
   >>
 >>
-\layout{ 
+\layout{
   	papersize = "a4"
 	%ragged-right = ##f
 	ragged-last = ##f
@@ -1342,13 +1704,14 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 
 
 \score
-{  
+{
     \transpose do do {
 	\new ChoirStaff \with { \override StaffGrouper.staff-staff-spacing.basic-distance = #12 }
 	<<
 	\new Staff << \global
 	\new Voice="v1" {
 		\set Staff.instrumentName="Cantus"
+		\set Staff.shortInstrumentName = "C"
 		\set Staff.midiInstrument = "reed organ"
 		\cantusXII }
 	\new Lyrics \lyricsto "v1" {\TcantusXII }
@@ -1356,6 +1719,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v2" {
 		\set Staff.instrumentName="Sextus"
+		\set Staff.shortInstrumentName = "S"
 		\set Staff.midiInstrument = "reed organ"
 		\sextusXII }
 	\new Lyrics \lyricsto "v2" {\TsextusXII }
@@ -1363,6 +1727,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v3" {
 		\set Staff.instrumentName="Altus"
+		\set Staff.shortInstrumentName = "A"
 		\set Staff.midiInstrument = "reed organ"
 		\altusXII}
 	\new Lyrics \lyricsto "v3" {\TaltusXII }
@@ -1370,6 +1735,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v4" {
 		\set Staff.instrumentName="Tenor"
+		\set Staff.shortInstrumentName = "T"
 		\set Staff.midiInstrument = "reed organ"
 		\tenorXII }
 	\new Lyrics \lyricsto "v4" {\TtenorXII }
@@ -1377,6 +1743,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v5" {
 		\set Staff.instrumentName="Quintus"
+		\set Staff.shortInstrumentName = "Q"
 		\set Staff.midiInstrument = "reed organ"
 		\quintusXII}
 	\new Lyrics \lyricsto "v5" {\TquintusXII }
@@ -1384,8 +1751,9 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\new Staff << \global
 	\new Voice="v6" {
 		\set Staff.instrumentName="Bassus"
+		\set Staff.shortInstrumentName = "B"
 		\set Staff.midiInstrument = "reed organ"
-		\clef bass 
+		\clef bass
 		\bassusXII }
 	\new Lyrics \lyricsto "v6" {\TbassusXII}
 	>>
@@ -1401,13 +1769,16 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 	\context { \Staff \consists "Ambitus_engraver" }
 	\context { \Score \override BarNumber.padding = #2 }
 	\context { \Voice \override NoteHead.style = #'baroque }
+  	papersize = "a4"
+	ragged-last = ##f %dernière ligne justifiée sur toute la largeur
 	}
 
-\midi
-	{    	
-	}
-
+\midi {\tempo 4 = 160 }
 }
-
-
-
+\markup {\tiny {Source: ADRIANI VVILLAERT Musicorum sex vocum, liber primus, Antoine Gardane, Venise, 1542}}
+\markup {\tiny {Voir l'original conservé sur}}
+\markup {\tiny {https://stimmbuecher.digitale-sammlungen.de//view?id=bsbes00074422}}
+\markup {\tiny {Altérations d'origine respectées, barres de mesure ajoutées, durée des notes préservée, paroles légèrement adaptées sur des mélismes finaux, des permutations entre Soprano et Sextus, Tenor et Quintus pour faciliter les tessitures.}}
+  \markup \vspace #1 % change this value accordingly
+\markup {\bold \tiny {TRADUCTION:}}
+\markup {\tiny{"           "} \tiny{Notre Père, qui êtes aux cieux}}
