@@ -7,7 +7,7 @@
 
 \header {
     title =  "Magnificat primi toni « Susanne ung jour »"
-    subtitle = "(1583)"
+    subtitle = "(1581)"
     poet = \pieceArranger
     composer =  "Roland de Lassus (1532-1594)"
 	%opus = " "
@@ -53,6 +53,43 @@ Ma -- gni -- \skip1 fi -- cat a -- ni -- ma me -- a Do -- \skip1 mi -- "num." __
 cantusII = \relative do'' {
   \sectionLabel "Versum 1 (suite)"
     \clef "treble"
+	sol1 sib2. do4
+	re do sib la sol2 fa
+	sib1. sol2
+	fa sib1 la2
+	sib1 la2 re
+	re2. re4 sib2 la
+	r\breve
+	r1 r2 fa'~
+	fa4 fa sib,1 do2~
+	do sib2. la8 sol la2
+	sib1 r2 fa'
+	fa re re2. mi4
+	fa2 mib re1
+	re2 sib la1
+	r\breve
+	r1 r2 la
+	sib1 la2 fa'2~
+	fa4 fa re2 re1
+	r2 re2. do4 si2
+	do1 r2 la
+	si2 si do do~
+	do si si1~
+	si\breve
+  }
+
+TcantusII = \lyricmode {\set ignoreMelismata = ##t
+    Et ex -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ul -- ta -- vit,
+    Et ex -- ul -- ta -- vit,
+    Et ex -- ul -- ta -- vit 
+	spi -- \skip1 ri -- tus  me --\skip1 \skip1 \skip1 \skip1 \skip1 us
+	in De -- o sa -- \skip1 \skip1  lu -- ta -- ri me -- "o,"
+	in De -- o sa -- \skip1 lu -- ta -- "ri," me -- \skip1 \skip1 "o,"
+	sa -- lu -- ta -- ri me -- \skip1 \skip1 "o." __\skip1 
+}
+
+sextusII = \relative do'' {
+    \clef "treble"
 	r1 r2 sol2
 	sib1. do2
 	re1 re1~
@@ -79,7 +116,7 @@ cantusII = \relative do'' {
 	\bar "."
   }
 
-TcantusII = \lyricmode {\set ignoreMelismata = ##t
+TsextusII = \lyricmode {\set ignoreMelismata = ##t
     Et ex -- ul -- ta -- vit, __ \skip1
     Et ex -- ul -- ta -- vit spi -- ri -- tus me --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 us __ \skip1
 	in De -- o sa -- lu -- ta -- ri me --\skip1 \skip1 "o,"
@@ -87,44 +124,6 @@ TcantusII = \lyricmode {\set ignoreMelismata = ##t
 	in De -- o sa -- lu -- ta -- ri,
 	sa -- lu -- ta -- \skip1 ri me -- "o." __\skip1 \skip1
   }
-
-sextusII = \relative do'' {
-    \clef "treble"
-	sol1 sib2. do4
-	re do sib la sol2 fa
-	sib1. sol2
-	fa sib1 la2
-	sib1 la2 re
-	re2. re4 sib2 la
-	r\breve
-	r1 r2 fa'~
-	fa4 fa sib,1 do2~
-	do sib2. la8 sol la2
-	sib1 r2 fa'
-	fa re re2. mi4
-	fa2 mib re1
-	re2 sib la1
-	r\breve
-	r1 r2 la
-	sib1 la2 fa'2~
-	fa4 fa re2 re1
-	r2 re2. do4 si2
-	do1 r2 la
-	si2 si do do~
-	do si si1~
-	si\breve
-  }
-
-TsextusII = \lyricmode {\set ignoreMelismata = ##t
-    Et ex -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ul -- ta -- vit,
-    Et ex -- ul -- ta -- vit,
-    Et ex -- ul -- ta -- vit 
-	spi -- \skip1 ri -- tus  me --\skip1 \skip1 \skip1 \skip1 \skip1 us
-	in De -- o sa -- \skip1 \skip1  lu -- ta -- ri me -- "o,"
-	in De -- o sa -- \skip1 lu -- ta -- "ri," me -- \skip1 \skip1 "o,"
-	sa -- lu -- ta -- ri me -- \skip1 \skip1 "o." __\skip1 
-}
-
 altusII = \relative do'' {
     \clef "treble"
 	r\breve
