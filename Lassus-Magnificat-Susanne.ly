@@ -1924,9 +1924,17 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 \midi {\tempo 4 = 160 }
 }
 \markup \vspace #2 % change this value accordingly
+\markup {\tiny {Voir les différents originaux conservés :}}
 \markup {\tiny {Source: Augsburg : Benediktinerkloster Ss. Ulrich und Afra, 1583}}
-\markup {\tiny {Voir l'original conservé sur}}
 \markup {\tiny {https://www.digitale-sammlungen.de/en/view/bsb00134756_00388_u001?page=%2C1}}
+\markup {\tiny {Assez différente de la suivante utilisée comme base}}
+\markup {\tiny {Source: Iubilus beatae virginis, hoc est centum Magnificat, . Heinrich, München, 1619}}
+\markup {\tiny {https://www.digitale-sammlungen.de/en/view/bsb00090929?page=152%2C153}}
+\markup {\tiny {https://www.digitale-sammlungen.de/en/view/bsb00090929?page=420%2C421}}
+\markup {\tiny {https://www.digitale-sammlungen.de/en/view/bsb00090929?page=670%2C671}}
+\markup {\tiny {https://www.digitale-sammlungen.de/en/view/bsb00090929?page=894%2C895}}
+\markup {\tiny {https://www.digitale-sammlungen.de/en/view/bsb00090929?page=1072%2C1073}}
+\markup {\tiny {https://www.digitale-sammlungen.de/en/view/bsb00090929?page=1190%2C1192}}
 \markup {\tiny {Altérations d'origine respectées, barres de mesure ajoutées, durée des notes préservée, paroles légèrement adaptées sur des mélismes finaux,}}
 \markup {\tiny {des permutations entre Soprano et Sextus, Tenor et Quintus pour faciliter les tessitures.}}
   \markup \vspace #1 % change this value accordingly
