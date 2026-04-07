@@ -76,8 +76,9 @@ cantusII = \relative do'' {
     sib2 re2. mi4 fa2~
     fa4 mi8 re mi2 re fa
     sol re mib do
-    re1 mi2. mi4
-    do2 mi re1
+    % mib au lieu de mi pour accord
+    re1 mib2. mib4
+    do2 mib re1
     si\longa
     \bar "||"
   }
@@ -116,7 +117,9 @@ altusII = \relative do'' {
 	do2 sol r2 sib~
 	sib4 sol sib1 la2
 	sib fa sol2. fa4
-	mi fa sol2. fa8 mi fad2
+    	% premier mib au lieu de mi pour accord
+    	% premier fad au lieu de fa pour facilité de balancement
+	mib fa sol2. fad8 mi fad2
 	sol\longa
   }
 
@@ -155,7 +158,8 @@ tenorII = \relative do' {
 	sol r1
 	sol' sol2 fa
 	sib,1 r2 fa'2~
-	fa4 mi4 re do sib2 do
+    	% mib au lieu de mi pour accord
+	fa4 mib4 re do sib2 do
 	sol sol re'1
 	re\longa
   }
@@ -229,7 +233,8 @@ bassusII = \relative do' {
 	r2 re'1 re2
 	do1 sib2. la4
 	sol2. fa4 mib2 fa
-	sib, sib mi do~
+    	% mib au lieu de mi pour accord
+	sib, sib mib do~
 	do do re1
 	sol\longa
 
@@ -267,7 +272,8 @@ cantusIV = \relative do'' {
 	r1 sol
 	sib do 
 	re r2 re
-	re re mi re
+	% mib au lieu de mi car thème chanson
+	re re mib re
 	do1 sib2 re~
 	re4 do sib la sol la sib2~
 	\break
@@ -312,12 +318,14 @@ altusIV = \relative do'' {
 	sib sol sib2 fa sol
 	fa sib sib4 sol sib2~
 	sib4 la8 sol la2 sib2 sib, 
-	re re mi re 
+	% mib au lieu de mi car thème chanson
+	re re mib re 
 	do1 sib
 	r2 sib'2~sib4 sol4 sib2~
 	sib la sib fa
 	fa fa sol fa
-	mi1 re2 fa
+	% mib au lieu de mi car thème chanson transposé
+	mib1 re2 fa
 	re mi fa4 sol la sib 
 	do2. do4 fa,2 fa
 	sib4 la sol fa sol la sib la8 sol 
@@ -330,7 +338,7 @@ altusIV = \relative do'' {
 	la4 la sol2~sol fa~
 	fa mi~mi re~
 	re sol mi4 fa sol2~
-	sol fa4 mi fa sol2 fa4
+	sol fad4 mi fad sol2 fad4
 	sol\longa
 	  }
 
@@ -356,13 +364,15 @@ tenorIV = \relative do' {
     mib fa sol fa
     sib,4 la sol fa do'2 sib
     fa1 r2 re'
-    re re mi re do1
+    % mib au lieu de mi car thème chanson
+    re re mib re do1
     sib2. do4 re1
     r2 sib sol la 
     sib4 do re mi fa2 sol 
     re2. do8 sib
     la1 sib
-    r2 mi2~mi4 re8 do sib do re mi 
+    % mib au lieu de mi pour accord
+    r2 mib2~mib4 re8 do sib do re mi 
     fa4 sol2 fad4 sol2 r4 sol 
     sol2. sol4 fa1
     fa,2 sol4 la sib do re2
@@ -406,14 +416,16 @@ et Spi -- ri -- tu -- i San -- \skip1 cto. __\skip1 \skip1 \skip1
 cantusVI = \relative do'' {
   \sectionLabel "Versum 4"
         \clef "treble"
-	re1 mi~
-	mi2 mi re1
+    	% mib au lieu de mi pour accord
+	re1 mib~
+	mib2 mib re1
 	si2. do4 re2 re
 	do sol re'1 
 	r2 sib2~sib2 sib2 
 	la1 sib1~
 	\break
-	sib2 re2 mi1 
+    	% mib au lieu de mi pour accord
+	sib2 re2 mib1 
 	do2. do4 re1
 	sol1. fad2
 	sol do, fa4 mi re do
@@ -431,7 +443,8 @@ cantusVI = \relative do'' {
 	fa2 fa sol2. fa4
 	mib1 re
 	r2 sol fa fa
-	sib, mi re1~
+    	% mib au lieu de mi pour accord
+	sib, mib re1~
 	re r1 
 	\break
 	la2. la4 fa'2 re 
@@ -486,7 +499,8 @@ sextusVI = \relative do'' {
 	re2 do mib2. fa4
 	sol2 do, r re~
 	re re re do4 re 
-	mib fa sol2~sol fa
+	% fad à la place de fa pour balancement
+	mib fa sol2~sol fad
 	sol1 r1
 	re2. re4 re2 re
 	dod1 r2 re~
@@ -538,7 +552,7 @@ altusVI = \relative do' {
 	sol2. sol4 sol2 sol
 	fad1 r2 sib2~
 	sib4 sib fa2 sib  sol2~
-	sol4 sol, sol'2. fa8 mi fad2 
+	sol4 sol, sol'2. fad8 mi fad2 
 	sol sib~sib la2 
 	sol do la1 
 	sol2 sol sol4 sol2 sol4 
@@ -571,7 +585,7 @@ sæ -- cu -- lo -- rum, A -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 men __\sk
 tenorVI = \relative sib {
         \clef "treble_8"
 	r2 sol do do4 re 
-	mib fa sol2. fa8 mi fad2
+	mib fa sol2. fad8 mi fad2
 	sol\breve
 	r1 re~
 	re sol,
@@ -634,7 +648,8 @@ quintusVI = \relative sib {
 	sib do re1
 	sol, r
 	r2 fa fa'2. mi4
-	re1 mi2 re 
+    	% mib au lieu de mi pour accord
+	re1 mib2 re 
 	do1 sib
 	r1 re
 	sol mib2 mib 
