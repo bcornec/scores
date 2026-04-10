@@ -52,7 +52,7 @@ se -- cun -- dum ver -- bum tu -- um in pa -- \skip1 ce. __\skip1 \skip1 \skip1
   }
 
 cantusII = \relative do'' {
-  \sectionLabel "Versum 1 (suite)"
+  \sectionLabel "Versum 2"
     \clef "treble"
     r\breve
     r2 sol sib1~
@@ -151,12 +151,13 @@ tenorII = \relative do' {
 	fa la sol sol,4 la
 	sib do re mi fa2 sol
 	mi fa re re
-	re1 r
-	re re
-	do sib2. la4
-	sol la sib2 la1
-	sol r1
-	sol' sol2 fa
+	% Permutation T et Q pour diminuer la hauteur de tessiture du Q
+	la la'1 fad2
+	sol sol,4 la sib do
+	re mi fa1. fa2
+	sol re mi fa
+	sol sol fa1
+	sol sol2 fa
 	sib,1 r2 fa'2~
     	% mib au lieu de mi pour accord
 	fa4 mib4 re do sib2 do
@@ -169,7 +170,8 @@ Qui -- a vi -- de -- \skip1 \skip1 runt o -- \skip1 cu -- li me -- i, __\skip1
 Qui -- a vi -- de -- runt o -- cu -- li me -- \skip1 \skip1 \skip1 i
 sa -- lu -- ta -- \skip1 re tu -- um, __\skip1 \skip1 \skip1 \skip1 \skip1 \skip1
 sa -- lu -- ta -- re tu -- um,
-sa -- lu -- ta -- re __\skip1 \skip1 \skip1 \skip1 tu -- um,
+sa -- lu -- ta -- re __\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 tu -- um,
+sa -- lu -- ta -- re tu -- um,
 sa -- lu -- ta -- re,
 sa -- \skip1 \skip1 \skip1 \skip1 \skip1 lu -- ta -- re tu -- um.
 }
@@ -190,12 +192,12 @@ quintusII = \relative do' {
 	r1 re~
 	re re
 	do sib2 sib
-	la la'1 fad2
-	sol sol,4 la sib do
-	re mi fa1. fa2
-	sol re mi fa
-	sol sol fa1
-	r1 r2 re~
+	re1 r
+	re re
+	do sib2. la4
+	sol la sib2 la1
+	sol r1
+	r1 r2 re'~
 	re re do1
 	sib2. la4 sol1
 	do2. sib4 la1
@@ -206,8 +208,7 @@ TquintusII = \lyricmode {\set ignoreMelismata = ##t
 Qui -- a __\skip1 vi -- de -- runt o -- \skip1 cu -- li me -- i
 o -- cu -- li me -- \skip1 \skip1 \skip1 i __\skip1 \skip1 \skip1
 sa -- \skip1 lu -- ta -- re tu -- um,
-sa -- lu -- ta -- re __\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 tu -- um,
-sa -- lu -- ta -- re tu -- um,
+sa -- lu -- ta -- re __\skip1 \skip1 \skip1 \skip1 tu -- um,
 sa -- \skip1 lu -- ta -- re __\skip1 \skip1 tu -- \skip1 \skip1 um.
 }
 
@@ -252,7 +253,7 @@ sa -- lu -- ta -- \skip1 re tu -- um.
 
 cantusIII = \relative sib {
   \pageBreak
-  \sectionLabel "Versum 2"
+  \sectionLabel "Versum 2 (suite)"
   \clef "treble_8"
   \set Score.timing = ##f
 	re4 fa re re do do re
@@ -398,7 +399,7 @@ et glo -- ri -- am ple -- bis tu -- \skip1 ae Is -- ra -- ël.
 }
 
 cantusV = \relative sib {
-  \sectionLabel "Versum 3 (suite)"
+  \sectionLabel "Doxologie"
         \pageBreak | % 18
         \clef "treble_8"
 	\set Score.timing = ##f
@@ -414,14 +415,15 @@ et Spi -- ri -- tu -- i San -- \skip1 cto. __\skip1 \skip1 \skip1
 }
 
 cantusVI = \relative do'' {
-  \sectionLabel "Versum 4"
+  \sectionLabel "Doxologie (suite)"
         \clef "treble"
     	% mib au lieu de mi pour accord
 	re1 mib~
 	mib2 mib re1
-	si2. do4 re2 re
-	do sol re'1 
-	r2 sib2~sib2 sib2 
+	% Permutation avec S pour tessiture
+	si2. do4 re2 sol~
+	sol sol fad1
+	sol sib,2 sib2 
 	la1 sib1~
 	\break
     	% mib au lieu de mi pour accord
@@ -434,7 +436,63 @@ cantusVI = \relative do'' {
 	\break
 	fa2 sol~sol fa~
 	fa do re1 
-	r2 re~re re
+	% permutation avec C pour tessiture
+	r1 r2 sol~
+	sol sol sol sol
+	fad fad~fad fad
+	sol1. do,2
+	re1 fa2. mi4 
+	re2 do mib2. fa4
+	sol2 do, r re~
+	re re re do4 re 
+	% fad à la place de fa pour balancement
+	mib fa sol2~sol fad
+	sol1 r1
+	\break
+	la,2. la4 fa'2 re 
+	mi1 la,2. la4 
+	sib2 re sol2. do,4 
+	re2 fa fa1 
+	r2 re do sol 
+	re'1 la
+	si\breve~
+	si\breve
+      }
+TcantusVI = \lyricmode {\set ignoreMelismata = ##t
+Si -- \skip1 \skip1 cut e -- rat, __\skip1 \skip1
+si -- \skip1 cut e -- rat,
+si -- cut e -- rat __\skip1
+in prin -- ci -- pi -- o, 
+in prin -- ci -- pi -- o, __\skip1 \skip1 \skip1 \skip1
+in prin -- ci -- pi -- o
+et nunc, __\skip1  et  __\skip1 sem -- per, 
+et __\skip1 in sæ -- cu -- la sæ -- \skip1 cu -- lo -- rum,
+A -- \skip1 \skip1 \skip1 men, A __\skip1 \skip1 men
+sæ -- \skip1 cu -- lo -- rum, __\skip1 \skip1 \skip1 \skip1 \skip1
+A -- men,
+et in sæ -- cu -- la sæ -- cu -- lo -- rum,
+et in sæ -- cu -- la sæ -- cu -- lo -- rum
+A -- men. __\skip1
+}
+
+sextusVI = \relative do'' {
+  \sectionLabel "Versum 4"
+        \clef "treble"
+	si1 do~
+	do la
+	re r2 re
+	do sol re'1 
+	r1 r1
+	r2 mi re fa
+	sol\breve
+	r2 fa fa1
+	re2 re re1
+	r\breve
+	sol,2. la4 sib2 la 
+	sib do re re 
+	re4 do sib la sol2 sib~
+	sib la sib1~
+	sib2 re~re re
 	re re do1
 	re2. re4 re1
 	re r
@@ -446,62 +504,6 @@ cantusVI = \relative do'' {
     	% mib au lieu de mi pour accord
 	sib, mib re1~
 	re r1 
-	\break
-	la2. la4 fa'2 re 
-	mi1 la,2. la4 
-	sib2 re sol2. do,4 
-	re2 fa fa1 
-	r2 re do sol 
-	re'1 la
-	si\breve~
-	si\breve
-      }
-TcantusVI = \lyricmode {\set ignoreMelismata = ##t
-Si -- \skip1 \skip1 cut e -- rat, __\skip1 \skip1
-si -- cut e -- rat,
-si -- \skip1 cut e -- rat __\skip1
-in prin -- ci -- pi -- o, 
-in prin -- ci -- pi -- o, __\skip1 \skip1 \skip1 \skip1
-in prin -- ci -- pi -- o
-et nunc, __\skip1  et  __\skip1 sem -- per, 
-et __\skip1 in sæ -- cu -- la sæ -- cu -- lo -- rum,
-sæ -- cu -- lo -- \skip1 \skip1 \skip1 \skip1 rum
-A -- \skip1 \skip1 men.
-sæ -- cu -- lo -- rum
-A -- men. __\skip1
-et in sæ -- cu -- la sæ -- cu -- lo -- rum,
-et in sæ -- cu -- la sæ -- cu -- lo -- rum
-A -- men. __\skip1
-}
-
-sextusVI = \relative do'' {
-  \sectionLabel "Versum 4"
-        \clef "treble"
-	si1 do~
-	do la
-	re r2 sol~
-	sol sol fad1
-	sol r
-	r2 mi re fa
-	sol\breve
-	r2 fa fa1
-	re2 re re1
-	r\breve
-	sol,2. la4 sib2 la 
-	sib do re re 
-	re4 do sib la sol2 sib~
-	sib la sib1~
-	sib r2 sol'~
-	sol sol sol sol
-	fad fad~fad fad
-	sol1. do,2
-	re1 fa2. mi4 
-	re2 do mib2. fa4
-	sol2 do, r re~
-	re re re do4 re 
-	% fad à la place de fa pour balancement
-	mib fa sol2~sol fad
-	sol1 r1
 	re2. re4 re2 re
 	dod1 r2 re~
 	re sib do1
@@ -514,15 +516,16 @@ sextusVI = \relative do'' {
 
 TsextusVI = \lyricmode {\set ignoreMelismata = ##t
 Si -- cut __\skip1 e -- rat,
-si -- \skip1 cut e -- rat,
+si -- cut e -- rat,
 si -- cut e -- rat
 in prin -- ci -- pi -- o, 
 in __\skip1 \skip1 prin -- ci -- pi -- o,
 et nunc, __\skip1 \skip1 \skip1 \skip1 et  __\skip1 sem -- per, __\skip1
-et __\skip1 in sæ -- cu -- la sæ -- \skip1 cu -- lo -- rum,
-A -- \skip1 \skip1 \skip1 men, A __\skip1 \skip1 men
-sæ -- \skip1 cu -- lo -- rum, __\skip1 \skip1 \skip1 \skip1 \skip1
-A -- men,
+et __\skip1 in sæ -- cu -- la sæ -- cu -- lo -- rum,
+sæ -- cu -- lo -- \skip1 \skip1 \skip1 \skip1 rum
+A -- \skip1 \skip1 men.
+sæ -- cu -- lo -- rum
+A -- men. __\skip1
 et in sæ -- cu -- la sæ -- \skip1 cu -- lo -- rum,
 A -- \skip1 \skip1 \skip1 \skip1\skip1  men,
 sæ -- cu -- lo -- rum,
@@ -599,7 +602,7 @@ tenorVI = \relative sib {
 	fa2 sib, sib sib
 	do fa,2. fa4 fa'2~
 	fa fa sol2. fa8 mi
-	re4 do sib2 re1
+	re4 do sib2 do1
 	r2 re~re re 
 	re re do1
 	r sib~
