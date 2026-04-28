@@ -7,7 +7,7 @@
 
 \header {
     title =  "Magnificat primi toni « Susanne ung jour »"
-    subtitle = "(1581)"
+    subtitle = "(1581) (édition de 1619)"
     poet = \pieceArranger
     composer =  "Roland de Lassus (1532-1594)"
 	%opus = " "
@@ -53,6 +53,7 @@ Ma -- gni -- \skip1 fi -- cat a -- ni -- ma me -- a Do -- \skip1 mi -- "num." __
 cantusII = \relative do'' {
   \sectionLabel "Versum 1 (suite)"
     \clef "treble"
+	% Référencée comme Sextus 
 	sol1 sib2. do4
 	re do sib la sol2 fa
 	sib1. sol2
@@ -91,6 +92,7 @@ TcantusII = \lyricmode {\set ignoreMelismata = ##t
 sextusII = \relative do'' {
     \clef "treble"
 	r1 r2 sol2
+	% Référencée comme Cantus 
 	sib1. do2
 	re1 re1~
 	re1 r1
@@ -138,14 +140,14 @@ altusII = \relative do'' {
 	fa\breve
 	fa2 fa sib1
 	la2 sol fa sib
-	la sol2. fa8 mi fa2
+	la sol2. fad8 mi fad2
 	sol1 r2 la
 	la sol fad sol
-	la sol2. fa8 mi fa2
+	la sol2. fad8 mi fad2
 	sol1 fa2 la
 	la sol2. fa8 mi fa4 sol
 	la2 sol fad sol
-	la sol2. fa8 mi fa2
+	la sol2. fad8 mi fad2
 	sol\breve~
 	sol\breve~
 	sol\breve
@@ -168,6 +170,7 @@ tenorII = \relative do' {
 	r\breve
 	r2 re1 fa2~
 	fa sol la1
+	% reprise Quintus d'origine jusqu'à la fin
 	re,2 re1 re2
 	mib1 re
 	do sib
@@ -182,7 +185,7 @@ tenorII = \relative do' {
 	re re
 	fa2 sol la2. sol4
 	fa mi re2 re1
-	fa2 mi re1~
+	fa2 mib re1~
 	re do
 	re\breve~
 	re\breve
@@ -204,6 +207,7 @@ quintusII = \relative do' {
 	r1 r2 sol
 	sib1. do2
 	re1 re
+	% reprise Tenor d'origine jusqu'à la fin
 	r\breve
 	r\breve
 	r1 re~
@@ -292,35 +296,51 @@ cantusIV = \relative do'' {
 		sib2 fa'1 re2
 		sol1 sol
 		r1 r2 re2~
-		re fa sib,2. la8 sol
-		la1 sib1~
-		sib r2 fa'2~
+		re2 fa sib,2. la8 sol
+		la1 sib~
+		sib r2 fa'~
 		fa do fa1
 		fa2 re do sib
 		la re do2. re4
-		mi4 fa sol2. fad8 mi fad2
-		sol2 re do sib
+		mi fa sol2~sol4 fad8 mi fad2
+		sol re do sib
 		la sib r1
 		r\breve
 		r2 la si si
-		do fa, r2 fa'2~
-		fa4 do fa2 fa sol
-		sol mi re1
-		re2 re mib mib
+		do fa, r fa'~
+		fa4 do fa2 fa sol 
+		sol mi re1 
+		re2 re mib mib 
 		mib re do1
 		si\longa
+		% De l'autre version
+		% re sib2 sol~
+		% sol4 fa8 mi fa2 sol sib2~
+		% sib sib sib4 do re mi 
+		% fa\breve
+		% r2 re do sib 
+		% la sol do2. sib4
+		% la sol sol2. fa8 mi 
+		% fa2 sol1 r1
+		% r\breve
+		% r2 sol re' la sib
+		% sib do re
+		% r\breve
+		% r1 re
+		% re mib 
+		% re\longa
 }
 
 TcantusIV = \lyricmode {\set ignoreMelismata = ##t
 	Qui -- a __\skip1 \skip1 fe --\skip1 \skip1 \skip1 "cit," 
 	qui -- a fe -- cit 
-	mi -- \skip1 hi ma -- \skip1 \skip1 \skip1 gna __\skip1
-	Qui __\skip1 po -- tens est 
-	et san -- ctum no -- men e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ius,
+	mi -- \skip1 hi ma -- \skip1 \skip1 \skip1 gna __\skip1 
+	Qui __\skip1 po -- tens est
+	et san -- ctum no -- men e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ius,
 	et san -- ctum no -- men,
 	et san -- ctum no -- men,
-	et __\skip1 \skip1 \skip1 san -- ctum no -- men e "ius,"
-	et san -- ctum no -- men e -- "ius."
+	et \skip1 \skip1 san -- ctum no -- men e -- ius,
+	et san -- ctum no -- men e -- \skip1 ius.
    }
 
 sextusIV = \relative do'' {
@@ -340,13 +360,22 @@ sextusIV = \relative do'' {
 		sol1 r1
 		r\breve
 		r1 r2 sol
-		re'1 re
-		r2 re do sib
+		re'1 re1
+		r2 re do sib 
 		la re do2. re4
-		mi fa sol2. fad8 mi fad2
-		sol1 r2 sol2~
+		mi fa sol2~sol4 fad8 mi fad2
+		sol1 r2 sol~
 		sol sol mib1
 		re\longa
+		% Autre manuscript
+		% re' do sib
+		% la sol do2. sib4
+		% la sol sol2. fa8 mi fa2 
+		% sol1 r
+		% r2 re' do sib
+		% la sol2. fa8 mi fa2
+		% sol\breve
+		% sol\longa
 	  }
 
 TsextusIV = \lyricmode {\set ignoreMelismata = ##t
@@ -356,8 +385,8 @@ TsextusIV = \lyricmode {\set ignoreMelismata = ##t
 	qui po -- tens __\skip1 \skip1 \skip1 \skip1 est __\skip1 \skip1 \skip1 \skip1 
 	et san -- ctum no -- men e -- \skip1 \skip1 ius,
 	et san -- ctum,
-	et san -- ctum no -- "men," e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ius,
-	no -- \skip1 men e -- "ius."
+	et san -- ctum no -- men e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 ius,
+	e -- \skip1 \skip1 \skip1 "ius."
 }
 
 altusIV = \relative do'' {
@@ -365,37 +394,55 @@ altusIV = \relative do'' {
 		r2 sol1 mib2~
 		mib4 fa sol2 fa1
 		sib,1 r2 sol'2
-		re mib1 re2
+		re mib~mib re
 		fa1. fa2
-		fa1 sol2 sol2~
+		fa1 sol2 sol~
 		sol4 fa8 mi fa2 sol1~
 		sol fa~
 		fa fa2 fa
 		sib sib la fa
-		r fa2. do4 mi fa
+		r fa~fa4 do mi fa 
 		sol2 mi r la
 		sib1 la2 r4 fa
 		fa1 fa2 fa~
 		fa mi sol mi
 		r re re sol
 		sol sib la fa
-		r fa2. fa4 mi2
+		r fa~ fa4 fa mi2
 		sol1 r2 la
-		si si do do
+		si si do do 
 		sol\breve
 		sol\longa
+		% \breve
+		% sol\breve
+		% 2 premières notes sont la dans manuscript. 
+		% Sans doute une erreur remplacé par sol
+		% sol2 sol sib sol
+		% sol1 fa
+		% fa2 fa fa fa
+		% sib sib la fa~
+		% fa4 mi re mi fa2 mi 
+		% mi1 r2 la 
+		% sib2 sib la fa 
+		% r1 do1~
+		% do2 sol2 r2 re' 
+		% re1 sol2 sib 
+		% la sol la re, 
+		% fa mi la1 
+		% re, do 
+		% re\longa
 	  }
 
 TaltusIV = \lyricmode {\set ignoreMelismata = ##t
 	Qui -- a __\skip1 \skip1 \skip1 fe -- "cit,"
-	qui -- a fe -- cit 
+	qui -- a fe -- \skip1 cit 
 	mi -- hi ma -- gna
-	qui __\skip1 \skip1 \skip1 \skip1 po -- \skip1 tens __\skip1 est
-	et san -- ctum no -- men e -- \skip1 \skip1 \skip1 \skip1 ius,
+	qui \skip1 \skip1 \skip1 \skip1 po -- \skip1 tens __\skip1 est
+	et san -- ctum no -- men  e -- \skip1 \skip1 \skip1 \skip1 \skip1 ius,
 	et san -- ctum,
 	et san -- ctum no -- \skip1 men e -- ius,
-	et san -- ctum no -- men e -- ius,
-	no -- men e -- ius,
+	et san -- ctum no -- men e -- ius.
+	no -- \skip1 men e -- ius.
 	et san -- ctum no -- men e -- ius.
 }
 
@@ -407,22 +454,37 @@ tenorIV = \relative do' {
 	sib2. la4 sol2 sib2~
 	sib4 la8 sol la2 sib1
 	r2 re2. re4 sib2
-	la1 r2 sol
-	sib sib sib1
-	r2 do re re
+	la1 r2 sol 
+	sib sib sib1 
+	r2 do re re 
 	fa\breve
 	r\breve
 	r1 r2 re
 	re2. mi4 fa2 fa
-	r re do sib
+	r2 re do sib 
 	la sol do2. sib4
 	la1 sol
 	r1 r2 re'
 	do sib la sol
 	do2. sib4 la1
 	sol\breve~
-	sol\breve~
+	sol
 	sol\longa
+	% re sib sib
+	% sib\breve
+	% r2 do re re
+	% fa\breve
+	% r\breve
+	% r1 r2 re
+	% re2. mi4 fa2 fa
+	% fa4 mi re mi fa2 mi 
+	% mi1 re
+	% r2 sol mi fa
+	% fa re4 mi fa re sol2
+	% r sol, re' re~
+	% re sol~ sol do,~
+	% do si si1~
+	% si\longa
   }
 
 TtenorIV = \lyricmode {\set ignoreMelismata = ##t
@@ -447,18 +509,27 @@ quintusIV = \relative do' {
 	mib1 re
 	do sib1~
 	sib r2 sib
-	fa'2 sib, fa do'
+	fa' sib, fa do'
 	do1 re
 	sol, r2 re'
 	do sib la re
 	do2. re4 mi fa sol2~
 	sol4 fad8 mi fad2 sol r4 re
 	mib2 re fa1
-	fa2 r4 sib, do2 do
+	fa2 r4 sib, do2 do 
 	sol sol re'1
 	re2 re do2. do4
 	do2 si do1
 	re\longa
+	% fa sol fa do'
+	% do1 re
+	% sol, r2 re'
+	% do sib la sol
+	% do2. sib4 la1 
+	% sol r2 re'
+	% do sib la sol
+	% do2. sib4 la1
+	% sol\longa
   }
 
 TquintusIV = \lyricmode {\set ignoreMelismata = ##t
@@ -466,10 +537,10 @@ TquintusIV = \lyricmode {\set ignoreMelismata = ##t
 	mi -- \skip1 hi ma -- gna
 	qui po -- tens est __\skip1
 	et san -- ctum no -- men e -- \skip1 ius,
-	et san -- ctum no -- men e -- \skip1 \skip1  \skip1 \skip1  \skip1 \skip1  \skip1 \skip1 ius,
+	et san -- ctum no -- men e -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1  ius,
 	et san -- ctum no -- men,
-	et san -- ctum no -- men e --ius,
-	et san -- ctum no -- men e --ius.
+	et san -- ctum no -- men e -- ius,
+	et san -- ctum no -- men e -- ius,
 }
 
 bassusIV = \relative do' {
@@ -482,26 +553,33 @@ bassusIV = \relative do' {
 	sib'2. la4 sol2 sol
 	re1 sol2. fa4
 	mib2 mib sib1
-	fa'1 sib,~
-	sib r
+	fa' sib,1~
+	sib1 r
 	r\breve
 	r\breve
 	r1 r2 sib'
 	fa sib, fa' sib,
-	fa' do do do
+	fa' do do do 
 	re1 sol2 re'
 	do sib fa sib,
 	fa' sib, fa' do
 	do1 re
 	r2 sol do,2. do4
-	do2 sol'2 do,1
+	do2 sol' do,1
 	sol'\longa
+	%sol fa do
+	% do1 re
+	% r2 re' do sib
+	% fa sol r sol
+	% fa do re1
+	% si do
+	% sol'\longa
   }
 
 TbassusIV = \lyricmode {\set ignoreMelismata = ##t
 	Qui -- \skip1 a __\skip1 \skip1 fe -- cit
-	mi -- \skip1 \skip1 hi ma -- gna __\skip1 \skip1
-	qui po -- tens est __\skip1
+	mi -- \skip1 \skip1 hi ma -- gna __\skip1 \skip1 
+	qui po -- tens est, __\skip1
 	et san -- ctum no -- men e -- ius,
 	no -- men e -- ius,
 	et san -- ctum no -- men e -- ius,
@@ -530,70 +608,70 @@ altusVI = \relative do' {
   \sectionLabel "Versum 4"
         \clef "treble"
 		fad\breve
-		sol2 sol2. la4 sib2
+		sol2 sol2~sol4 la sib2
 		la2 sol fad1~
 		fad1 r2 sol
 		sol4 fa sol la sib1
 		la2 sol fa1
 		mi2 mi la1
 		fa2 r4 re sol1
-		sol2 sol fa re
+		sol2 sol fa mi
 		r2 re sib'1
 		sol2 sol fa1
 		fa1 r2 sib2~
 		sib2 sib la sib2~
 		sib4 la8 sol la2 sol1
-		fa2 sol1 sol2
+		fa2 sol2~sol sol
 		fa2 fa sib,4 do re mi
 		fa2 sol fa sib
 		la1 sol2 la~
-		la4 sol sol1 fad2
+		la4 sol sol2~sol fad
 		sol\longa
 	  }
 
 TaltusVI = \lyricmode {\set ignoreMelismata = ##t
-	Fe -- cit po -- \skip1 \skip1 ten -- ti -- am __\skip1
+	Fe -- cit po -- \skip1 \skip1 \skip1 ten -- ti -- am __\skip1
 	in bra -- \skip1 \skip1 \skip1 \skip1 chi -- o  su -- o,
 	dis -- per -- sit,
 	dis -- per -- sit su -- per -- bos
 	dis -- per -- sit su -- per -- bos
 	men -- \skip1 te cor -- dis __\skip1 \skip1 \skip1 \skip1 su -- i,
-	men -- te cor -- dis su -- \skip1 \skip1 \skip1 \skip1 i,
-	men -- te cor -- dis su -- \skip1 \skip1 \skip1 \skip1 i,
+	men -- \skip1 te cor -- dis su -- \skip1 \skip1 \skip1 \skip1 i,
+	men -- te cor -- dis su -- \skip1 \skip1 \skip1 \skip1 \skip1 i,
 
    }
 
 tenorVI = \relative sib {
         \clef "treble_8"
 		r1 re~
-		re2 mib1 re2
+		re2 mib~mib re
 		fa mib re1~
 		re\breve
 		r2 sol,2 sol' fa
-		fa re2. la4 re2~
+		fa re2~re4 la re2~
 		re4 dod8 si dod2 re1
 		r2 sol, mib'1
 		re1 r2 la
 		fa'1 re2 re
-		do4 sib sib2. la8 sol la2
+		do4 sib sib2~sib4 la8 sol la2
 		sib2. do4 re mi fa2
 		sol2. sol4 fa1~
 		fa re2 re2~
 		re4 do sib la sol2. la4
 		sib la sib2 fa'1
-		r2 sib,1 fa'2
-		fa fa2. mi8 re mi2
+		r2 sib,2~sib fa'
+		fa fa~fa4 mi8 re mi2
 		re\breve
 		si\longa
 	  }
 
 TtenorVI = \lyricmode {\set ignoreMelismata = ##t
-	Fe -- \skip1 cit po -- ten -- ti -- am __\skip1
-	in bra -- chi -- o  su -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 o,
+	Fe -- \skip1 cit __\skip1 po -- ten -- ti -- am __\skip1
+	in bra -- chi -- o  su -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 o,
 	dis -- per -- sit,
-	dis -- per -- sit su -- per -- \skip1 \skip1 \skip1 \skip1 bos __ \skip1 \skip1 \skip1 \skip1 \skip1
+	dis -- per -- sit su -- per -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 bos __ \skip1 \skip1 \skip1 \skip1
 	men -- te cor -- \skip1 dis su -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 i,
-	men -- te cor -- dis __\skip1 \skip1 \skip1 su -- i,
+	men -- \skip1 te cor -- dis __\skip1 \skip1 \skip1 \skip1 su -- i,
 }
 
 quintusVI = \relative sib {
@@ -602,17 +680,17 @@ quintusVI = \relative sib {
 		sib1 sib
 		do2 do la1
 		r2 la sib4 la sib do
-		re1. re2
+		re1~re2 re
 		do sib la1
 		r2 la fa'1
-		re2 re1 do2~
+		re2 re~re do~
 		do4 si8 la si2 do1
 		la1 r2 sol
 		mib'1 do2 do
 		re1 sol,2 re'~
 		re re re1
 		do1 sib2 sol4 la
-		sib do re2. do8 sib do2
+		sib do re2~re4 do8 sib do2
 		re1 re1~
 		re2 re re1
 		do\breve
@@ -622,22 +700,22 @@ quintusVI = \relative sib {
 
 TquintusVI = \lyricmode {\set ignoreMelismata = ##t
 	Fe -- cit po -- ten -- ti -- am
-	in bra --\skip1 \skip1 \skip1 \skip1 chi -- o  su -- o,
-	dis -- per -- sit su -- \skip1 \skip1 \skip1 \skip1 \skip1 per -- bos,
+	in bra --\skip1 \skip1 \skip1 \skip1 \skip1 chi -- o  su -- o,
+	dis -- per -- sit su -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 per -- bos,
 	dis -- per -- sit su -- per -- bos,
-	men -- \skip1 te cor -- \skip1 dis su -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 i,
+	men -- \skip1 te cor -- \skip1 dis su -- \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 \skip1 i,
 	men -- \skip1 te cor -- dis su -- \skip1 i,
 }
 
 bassusVI = \relative do {
         \clef "bass"
 		re\breve
-		sol2 mib2. fa4 sol2
+		sol2 mib2~mib4 fa sol2
 		fa do re1
 		r2 re sol4 fa sol la
-		sib2. la4 sol2 sib2
-		fa2 sol re1
-		sol r2 re
+		sib2. la4 sol2 sib
+		fa sol re1
+		la r2 re
 		sib'1 sol
 		sol la
 		re,2 re sol1
@@ -654,7 +732,7 @@ bassusVI = \relative do {
 	  }
 
 TbassusVI = \lyricmode {\set ignoreMelismata = ##t
-	Fe -- cit po -- \skip1 \skip1 ten -- ti -- am
+	Fe -- cit po -- \skip1 \skip1 \skip1 ten -- ti -- am
 	in bra --\skip1 \skip1 \skip1 \skip1 \skip1 \skip1 chi -- o  su -- o, __\skip1
 	dis -- per -- sit su -- per -- bos,
 	dis -- per -- sit su -- per -- bos,
@@ -1927,7 +2005,7 @@ TbassusXII = \lyricmode {\set ignoreMelismata = ##t
 \markup {\tiny {Voir les différents originaux conservés :}}
 \markup {\tiny {Source: Augsburg : Benediktinerkloster Ss. Ulrich und Afra, 1583}}
 \markup {\tiny {https://www.digitale-sammlungen.de/en/view/bsb00134756_00388_u001?page=%2C1}}
-\markup {\tiny {Assez différente de la suivante utilisée comme base}}
+\markup {\tiny {Assez différente (comportant un Alto décalé) de la suivante utilisée comme base}}
 \markup {\tiny {Source: Iubilus beatae virginis, hoc est centum Magnificat, . Heinrich, München, 1619}}
 \markup {\tiny {https://www.digitale-sammlungen.de/en/view/bsb00090929?page=152%2C153}}
 \markup {\tiny {https://www.digitale-sammlungen.de/en/view/bsb00090929?page=420%2C421}}
