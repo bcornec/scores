@@ -1,4 +1,4 @@
-\version "2.24.4"
+\version "2.24.3"
 \pointAndClickOff
 #(define pieceArranger (string-append "Edition: Bruno Cornec (Lilypond " (lilypond-version) ")"))
 
@@ -1239,9 +1239,6 @@ lyricsbassus = \lyricmode {
 \markup {\tiny{"           "} \tiny{A ceux qui nous ont offensés}}
 \markup {\tiny{"           "} \tiny{Et ne nous laissez pas entrer en tentation}}
 \markup {\tiny{"           "} \tiny{Mais délivrez-nous du mal}}
-\markup {\tiny{"           "} \tiny{Car c'est à Vous qu'appartiennent}}
-\markup {\tiny{"           "} \tiny{Le règne, la puissance et la gloire}}
-\markup {\tiny{"           "} \tiny{Pour les siècles des siècles. Amen}}
 
 
 % EOF
